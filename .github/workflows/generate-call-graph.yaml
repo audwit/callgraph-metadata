@@ -3,14 +3,18 @@ name: Generate Call Graph
 on:
   workflow_dispatch:
     inputs:
-      input-repo:
+      repository:
         required: true
         type: string
         description: Repository to analyze in the format owner/repo (e.g., apache/logging-log4j2)
-      input-tag:
+      tag:
         required: true
         type: string
         description: Tag or branch to analyze (e.g., rel/2.25.2)
+      relative_path:
+        required: false
+        type: string
+        description: Relative path within the repository to the project root (e.g., subproject/module). Leave empty if the project is at the repository root.
       artifact:
         required: true
         type: string
@@ -52,7 +56,14 @@ jobs:
         shell: bash
         env:
           ARTIFACT: ${{ inputs.artifact }}
+          RELATIVE_PATH: ${{ inputs.relative_path }}
         run: |
+          # Prepare source code directory
+          if [ -n "$RELATIVE_PATH" ]; then
+             INPUT_DIR="source/$RELATIVE_PATH"
+          else
+             INPUT_DIR="source"
+          fi
           # Directory for call graph output
           mkdir -p result
           dest_dir="metadata/metadata/${ARTIFACT//:/\/}"
@@ -62,7 +73,7 @@ jobs:
           IMAGE="ghcr.io/vex-generation-toolset/java-callgraph:latest"
           docker pull $IMAGE
           docker run --rm \
-            -v "${GITHUB_WORKSPACE}/source:/workspace/source" \
+            -v "${GITHUB_WORKSPACE}/${INPUT_DIR}:/workspace/source" \
             -v "${GITHUB_WORKSPACE}/result:/workspace/result" \
             $IMAGE
           
