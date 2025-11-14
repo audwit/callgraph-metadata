@@ -1,0 +1,6 @@
+# SPDX-License-Identifier: Apache-2.0
+
+cyclonedx-python-lib==11.5.0
+dulwich==0.24.10
+packageurl-python==0.17.5
+requests==2.32.5
