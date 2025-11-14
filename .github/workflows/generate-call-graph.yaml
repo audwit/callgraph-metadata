@@ -35,8 +35,8 @@ jobs:
       - name: Checkout Source Repository
         uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # 5.0.0
         with:
-          repository: ${{ inputs.input-repo }}
-          ref: ${{ inputs.input-tag }}
+          repository: ${{ inputs.repository }}
+          ref: ${{ inputs.tag }}
           path: source
 
       - name: Checkout Metadata Repository
