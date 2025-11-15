@@ -20,7 +20,7 @@
       "bom-ref" : "pkg:maven/org.apache.solr/solr-packaging@9.10.0?project_path=%3Asolr%3Apackaging",
       "group" : "org.apache.solr",
       "name" : "packaging",
-      "version" : "9.10.1-SNAPSHOT",
+      "version" : "9.10.0",
       "purl" : "pkg:maven/org.apache.solr/solr-packaging@9.10.0?project_path=%3Asolr%3Apackaging",
       "modified" : false
     }
@@ -16883,7 +16883,7 @@
       "bom-ref" : "pkg:maven/org.apache.solr/solr-analysis-extras@9.10.0?project_path=%3Asolr%3Amodules%3Aanalysis-extras",
       "group" : "org.apache.solr",
       "name" : "analysis-extras",
-      "version" : "9.10.1-SNAPSHOT",
+      "version" : "9.10.0",
       "hashes" : [
         {
           "alg" : "MD5",
@@ -16932,7 +16932,7 @@
       "bom-ref" : "pkg:maven/org.apache.solr/solr-analytics@9.10.0?project_path=%3Asolr%3Amodules%3Aanalytics",
       "group" : "org.apache.solr",
       "name" : "analytics",
-      "version" : "9.10.1-SNAPSHOT",
+      "version" : "9.10.0",
       "hashes" : [
         {
           "alg" : "MD5",
@@ -16981,7 +16981,7 @@
       "bom-ref" : "pkg:maven/org.apache.solr/solr-api@9.10.0?project_path=%3Asolr%3Aapi",
       "group" : "org.apache.solr",
       "name" : "api",
-      "version" : "9.10.1-SNAPSHOT",
+      "version" : "9.10.0",
       "hashes" : [
         {
           "alg" : "MD5",
@@ -17030,7 +17030,7 @@
       "bom-ref" : "pkg:maven/org.apache.solr/solr-clustering@9.10.0?project_path=%3Asolr%3Amodules%3Aclustering",
       "group" : "org.apache.solr",
       "name" : "clustering",
-      "version" : "9.10.1-SNAPSHOT",
+      "version" : "9.10.0",
       "hashes" : [
         {
           "alg" : "MD5",
@@ -17079,7 +17079,7 @@
       "bom-ref" : "pkg:maven/org.apache.solr/solr-core@9.10.0?project_path=%3Asolr%3Acore",
       "group" : "org.apache.solr",
       "name" : "core",
-      "version" : "9.10.1-SNAPSHOT",
+      "version" : "9.10.0",
       "hashes" : [
         {
           "alg" : "MD5",
@@ -17128,7 +17128,7 @@
       "bom-ref" : "pkg:maven/org.apache.solr/solr-cross-dc-manager@9.10.0?project_path=%3Asolr%3Across-dc-manager",
       "group" : "org.apache.solr",
       "name" : "cross-dc-manager",
-      "version" : "9.10.1-SNAPSHOT",
+      "version" : "9.10.0",
       "hashes" : [
         {
           "alg" : "MD5",
@@ -17177,7 +17177,7 @@
       "bom-ref" : "pkg:maven/org.apache.solr/solr-cross-dc@9.10.0?project_path=%3Asolr%3Amodules%3Across-dc",
       "group" : "org.apache.solr",
       "name" : "cross-dc",
-      "version" : "9.10.1-SNAPSHOT",
+      "version" : "9.10.0",
       "hashes" : [
         {
           "alg" : "MD5",
@@ -17226,7 +17226,7 @@
       "bom-ref" : "pkg:maven/org.apache.solr/solr-extraction@9.10.0?project_path=%3Asolr%3Amodules%3Aextraction",
       "group" : "org.apache.solr",
       "name" : "extraction",
-      "version" : "9.10.1-SNAPSHOT",
+      "version" : "9.10.0",
       "hashes" : [
         {
           "alg" : "MD5",
@@ -17275,7 +17275,7 @@
       "bom-ref" : "pkg:maven/org.apache.solr/solr-gcs-repository@9.10.0?project_path=%3Asolr%3Amodules%3Agcs-repository",
       "group" : "org.apache.solr",
       "name" : "gcs-repository",
-      "version" : "9.10.1-SNAPSHOT",
+      "version" : "9.10.0",
       "hashes" : [
         {
           "alg" : "MD5",
@@ -17324,7 +17324,7 @@
       "bom-ref" : "pkg:maven/org.apache.solr/solr-hadoop-auth@9.10.0?project_path=%3Asolr%3Amodules%3Ahadoop-auth",
       "group" : "org.apache.solr",
       "name" : "hadoop-auth",
-      "version" : "9.10.1-SNAPSHOT",
+      "version" : "9.10.0",
       "hashes" : [
         {
           "alg" : "MD5",
@@ -17373,7 +17373,7 @@
       "bom-ref" : "pkg:maven/org.apache.solr/solr-hdfs@9.10.0?project_path=%3Asolr%3Amodules%3Ahdfs",
       "group" : "org.apache.solr",
       "name" : "hdfs",
-      "version" : "9.10.1-SNAPSHOT",
+      "version" : "9.10.0",
       "hashes" : [
         {
           "alg" : "MD5",
@@ -17422,7 +17422,7 @@
       "bom-ref" : "pkg:maven/org.apache.solr/solr-jaegertracer-configurator@9.10.0?project_path=%3Asolr%3Amodules%3Ajaegertracer-configurator",
       "group" : "org.apache.solr",
       "name" : "jaegertracer-configurator",
-      "version" : "9.10.1-SNAPSHOT",
+      "version" : "9.10.0",
       "hashes" : [
         {
           "alg" : "MD5",
@@ -17471,7 +17471,7 @@
       "bom-ref" : "pkg:maven/org.apache.solr/solr-jwt-auth@9.10.0?project_path=%3Asolr%3Amodules%3Ajwt-auth",
       "group" : "org.apache.solr",
       "name" : "jwt-auth",
-      "version" : "9.10.1-SNAPSHOT",
+      "version" : "9.10.0",
       "hashes" : [
         {
           "alg" : "MD5",
@@ -17520,7 +17520,7 @@
       "bom-ref" : "pkg:maven/org.apache.solr/solr-langid@9.10.0?project_path=%3Asolr%3Amodules%3Alangid",
       "group" : "org.apache.solr",
       "name" : "langid",
-      "version" : "9.10.1-SNAPSHOT",
+      "version" : "9.10.0",
       "hashes" : [
         {
           "alg" : "MD5",
@@ -17569,7 +17569,7 @@
       "bom-ref" : "pkg:maven/org.apache.solr/solr-llm@9.10.0?project_path=%3Asolr%3Amodules%3Allm",
       "group" : "org.apache.solr",
       "name" : "llm",
-      "version" : "9.10.1-SNAPSHOT",
+      "version" : "9.10.0",
       "hashes" : [
         {
           "alg" : "MD5",
@@ -17618,7 +17618,7 @@
       "bom-ref" : "pkg:maven/org.apache.solr/solr-ltr@9.10.0?project_path=%3Asolr%3Amodules%3Altr",
       "group" : "org.apache.solr",
       "name" : "ltr",
-      "version" : "9.10.1-SNAPSHOT",
+      "version" : "9.10.0",
       "hashes" : [
         {
           "alg" : "MD5",
@@ -17667,7 +17667,7 @@
       "bom-ref" : "pkg:maven/org.apache.solr/solr-opentelemetry@9.10.0?project_path=%3Asolr%3Amodules%3Aopentelemetry",
       "group" : "org.apache.solr",
       "name" : "opentelemetry",
-      "version" : "9.10.1-SNAPSHOT",
+      "version" : "9.10.0",
       "hashes" : [
         {
           "alg" : "MD5",
@@ -17716,7 +17716,7 @@
       "bom-ref" : "pkg:maven/org.apache.solr/solr-prometheus-exporter@9.10.0?project_path=%3Asolr%3Aprometheus-exporter",
       "group" : "org.apache.solr",
       "name" : "prometheus-exporter",
-      "version" : "9.10.1-SNAPSHOT",
+      "version" : "9.10.0",
       "hashes" : [
         {
           "alg" : "MD5",
@@ -17765,7 +17765,7 @@
       "bom-ref" : "pkg:maven/org.apache.solr/solr-s3-repository@9.10.0?project_path=%3Asolr%3Amodules%3As3-repository",
       "group" : "org.apache.solr",
       "name" : "s3-repository",
-      "version" : "9.10.1-SNAPSHOT",
+      "version" : "9.10.0",
       "hashes" : [
         {
           "alg" : "MD5",
@@ -17814,7 +17814,7 @@
       "bom-ref" : "pkg:maven/org.apache.solr/solr-scripting@9.10.0?project_path=%3Asolr%3Amodules%3Ascripting",
       "group" : "org.apache.solr",
       "name" : "scripting",
-      "version" : "9.10.1-SNAPSHOT",
+      "version" : "9.10.0",
       "hashes" : [
         {
           "alg" : "MD5",
@@ -17863,7 +17863,7 @@
       "bom-ref" : "pkg:maven/org.apache.solr/solr-server@9.10.0?project_path=%3Asolr%3Aserver",
       "group" : "org.apache.solr",
       "name" : "server",
-      "version" : "9.10.1-SNAPSHOT",
+      "version" : "9.10.0",
       "purl" : "pkg:maven/org.apache.solr/solr-server@9.10.0?project_path=%3Asolr%3Aserver",
       "modified" : false,
       "properties" : [
@@ -17878,7 +17878,7 @@
       "bom-ref" : "pkg:maven/org.apache.solr/solr-solrj-streaming@9.10.0?project_path=%3Asolr%3Asolrj-streaming",
       "group" : "org.apache.solr",
       "name" : "solrj-streaming",
-      "version" : "9.10.1-SNAPSHOT",
+      "version" : "9.10.0",
       "hashes" : [
         {
           "alg" : "MD5",
@@ -17927,7 +17927,7 @@
       "bom-ref" : "pkg:maven/org.apache.solr/solr-solrj-zookeeper@9.10.0?project_path=%3Asolr%3Asolrj-zookeeper",
       "group" : "org.apache.solr",
       "name" : "solrj-zookeeper",
-      "version" : "9.10.1-SNAPSHOT",
+      "version" : "9.10.0",
       "hashes" : [
         {
           "alg" : "MD5",
@@ -17976,7 +17976,7 @@
       "bom-ref" : "pkg:maven/org.apache.solr/solr-solrj@9.10.0?project_path=%3Asolr%3Asolrj",
       "group" : "org.apache.solr",
       "name" : "solrj",
-      "version" : "9.10.1-SNAPSHOT",
+      "version" : "9.10.0",
       "hashes" : [
         {
           "alg" : "MD5",
@@ -18025,7 +18025,7 @@
       "bom-ref" : "pkg:maven/org.apache.solr/solr-sql@9.10.0?project_path=%3Asolr%3Amodules%3Asql",
       "group" : "org.apache.solr",
       "name" : "sql",
-      "version" : "9.10.1-SNAPSHOT",
+      "version" : "9.10.0",
       "hashes" : [
         {
           "alg" : "MD5",
@@ -18074,7 +18074,7 @@
       "bom-ref" : "pkg:maven/org.apache.solr/solr-webapp@9.10.0?project_path=%3Asolr%3Awebapp",
       "group" : "org.apache.solr",
       "name" : "webapp",
-      "version" : "9.10.1-SNAPSHOT",
+      "version" : "9.10.0",
       "hashes" : [
         {
           "alg" : "MD5",
@@ -18468,11 +18468,11 @@
     },
     {
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache/solr-root@9.10.1-SNAPSHOT?project_path=%3A",
+      "bom-ref" : "pkg:maven/org.apache/solr-root@9.10.0?project_path=%3A",
       "group" : "org.apache",
       "name" : "solr-root",
-      "version" : "9.10.1-SNAPSHOT",
-      "purl" : "pkg:maven/org.apache/solr-root@9.10.1-SNAPSHOT?project_path=%3A",
+      "version" : "9.10.0",
+      "purl" : "pkg:maven/org.apache/solr-root@9.10.0?project_path=%3A",
       "modified" : false,
       "properties" : [
         {
@@ -27659,7 +27659,7 @@
       "dependsOn" : [
         "pkg:maven/org.apache.lucene/lucene-analysis-opennlp@9.12.3?type=jar",
         "pkg:maven/org.apache.lucene/lucene-analysis-morfologik@9.12.3?type=jar",
-        "pkg:maven/org.apache/solr-root@9.10.1-SNAPSHOT?project_path=%3A",
+        "pkg:maven/org.apache/solr-root@9.10.0?project_path=%3A",
         "pkg:maven/org.apache.lucene/lucene-core@9.12.3?type=jar",
         "pkg:maven/org.apache.lucene/lucene-analysis-smartcn@9.12.3?type=jar",
         "pkg:maven/org.apache.solr/solr-solrj@9.10.0?project_path=%3Asolr%3Asolrj",
@@ -27675,7 +27675,7 @@
       "ref" : "pkg:maven/org.apache.solr/solr-analytics@9.10.0?project_path=%3Asolr%3Amodules%3Aanalytics",
       "dependsOn" : [
         "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.18.0?type=jar",
-        "pkg:maven/org.apache/solr-root@9.10.1-SNAPSHOT?project_path=%3A",
+        "pkg:maven/org.apache/solr-root@9.10.0?project_path=%3A",
         "pkg:maven/org.apache.lucene/lucene-core@9.12.3?type=jar",
         "pkg:maven/org.apache.solr/solr-solrj@9.10.0?project_path=%3Asolr%3Asolrj",
         "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.18.0?type=jar",
@@ -27696,7 +27696,7 @@
     {
       "ref" : "pkg:maven/org.apache.solr/solr-clustering@9.10.0?project_path=%3Asolr%3Amodules%3Aclustering",
       "dependsOn" : [
-        "pkg:maven/org.apache/solr-root@9.10.1-SNAPSHOT?project_path=%3A",
+        "pkg:maven/org.apache/solr-root@9.10.0?project_path=%3A",
         "pkg:maven/org.apache.lucene/lucene-core@9.12.3?type=jar",
         "pkg:maven/org.apache.solr/solr-solrj@9.10.0?project_path=%3Asolr%3Asolrj",
         "pkg:maven/org.carrot2/carrot2-core@4.5.1?type=jar",
@@ -27787,7 +27787,7 @@
         "pkg:maven/io.dropwizard.metrics/metrics-servlets@4.2.26?type=jar",
         "pkg:maven/com.lmax/disruptor@3.4.4?type=jar",
         "pkg:maven/org.apache.kafka/kafka_2.13@3.9.1?type=jar",
-        "pkg:maven/org.apache/solr-root@9.10.1-SNAPSHOT?project_path=%3A",
+        "pkg:maven/org.apache/solr-root@9.10.0?project_path=%3A",
         "pkg:maven/com.google.protobuf/protobuf-java-util@3.25.8?type=jar",
         "pkg:maven/org.apache.logging.log4j/log4j-slf4j2-impl@2.21.0?type=jar",
         "pkg:maven/org.apache.kafka/kafka-clients@3.9.1?type=jar",
@@ -27808,7 +27808,7 @@
       "ref" : "pkg:maven/org.apache.solr/solr-cross-dc@9.10.0?project_path=%3Asolr%3Amodules%3Across-dc",
       "dependsOn" : [
         "pkg:maven/org.apache.zookeeper/zookeeper-jute@3.9.4?type=jar",
-        "pkg:maven/org.apache/solr-root@9.10.1-SNAPSHOT?project_path=%3A",
+        "pkg:maven/org.apache/solr-root@9.10.0?project_path=%3A",
         "pkg:maven/org.apache.kafka/kafka-clients@3.9.1?type=jar",
         "pkg:maven/org.apache.solr/solr-solrj@9.10.0?project_path=%3Asolr%3Asolrj",
         "pkg:maven/org.apache.zookeeper/zookeeper@3.9.4?type=jar",
@@ -27822,7 +27822,7 @@
       "ref" : "pkg:maven/org.apache.solr/solr-extraction@9.10.0?project_path=%3Asolr%3Amodules%3Aextraction",
       "dependsOn" : [
         "pkg:maven/org.apache.poi/poi@5.2.2?type=jar",
-        "pkg:maven/org.apache/solr-root@9.10.1-SNAPSHOT?project_path=%3A",
+        "pkg:maven/org.apache/solr-root@9.10.0?project_path=%3A",
         "pkg:maven/org.apache.lucene/lucene-core@9.12.3?type=jar",
         "pkg:maven/org.apache.solr/solr-solrj@9.10.0?project_path=%3Asolr%3Asolrj",
         "pkg:maven/org.apache.tika/tika-parsers@1.28.5?type=jar",
@@ -27840,7 +27840,7 @@
       "ref" : "pkg:maven/org.apache.solr/solr-gcs-repository@9.10.0?project_path=%3Asolr%3Amodules%3Agcs-repository",
       "dependsOn" : [
         "pkg:maven/com.google.cloud/google-cloud-storage@2.40.1?type=jar",
-        "pkg:maven/org.apache/solr-root@9.10.1-SNAPSHOT?project_path=%3A",
+        "pkg:maven/org.apache/solr-root@9.10.0?project_path=%3A",
         "pkg:maven/org.apache.lucene/lucene-core@9.12.3?type=jar",
         "pkg:maven/org.apache.solr/solr-solrj@9.10.0?project_path=%3Asolr%3Asolrj",
         "pkg:maven/com.google.cloud/google-cloud-core-http@2.40.0?type=jar",
@@ -27858,7 +27858,7 @@
       "ref" : "pkg:maven/org.apache.solr/solr-hadoop-auth@9.10.0?project_path=%3Asolr%3Amodules%3Ahadoop-auth",
       "dependsOn" : [
         "pkg:maven/org.apache.httpcomponents/httpcore@4.4.16?type=jar",
-        "pkg:maven/org.apache/solr-root@9.10.1-SNAPSHOT?project_path=%3A",
+        "pkg:maven/org.apache/solr-root@9.10.0?project_path=%3A",
         "pkg:maven/org.apache.solr/solr-solrj@9.10.0?project_path=%3Asolr%3Asolrj",
         "pkg:maven/org.xerial.snappy/snappy-java@1.1.10.8?type=jar",
         "pkg:maven/org.apache.hadoop/hadoop-auth@3.4.1?type=jar",
@@ -27889,7 +27889,7 @@
       "ref" : "pkg:maven/org.apache.solr/solr-hdfs@9.10.0?project_path=%3Asolr%3Amodules%3Ahdfs",
       "dependsOn" : [
         "pkg:maven/org.apache.hadoop/hadoop-client-api@3.4.1?type=jar",
-        "pkg:maven/org.apache/solr-root@9.10.1-SNAPSHOT?project_path=%3A",
+        "pkg:maven/org.apache/solr-root@9.10.0?project_path=%3A",
         "pkg:maven/org.apache.lucene/lucene-core@9.12.3?type=jar",
         "pkg:maven/org.apache.solr/solr-solrj@9.10.0?project_path=%3Asolr%3Asolrj",
         "pkg:maven/com.github.ben-manes.caffeine/caffeine@3.1.8?type=jar",
@@ -27903,7 +27903,7 @@
     {
       "ref" : "pkg:maven/org.apache.solr/solr-jaegertracer-configurator@9.10.0?project_path=%3Asolr%3Amodules%3Ajaegertracer-configurator",
       "dependsOn" : [
-        "pkg:maven/org.apache/solr-root@9.10.1-SNAPSHOT?project_path=%3A",
+        "pkg:maven/org.apache/solr-root@9.10.0?project_path=%3A",
         "pkg:maven/io.jaegertracing/jaeger-core@1.8.1?type=jar",
         "pkg:maven/org.apache.solr/solr-core@9.10.0?project_path=%3Asolr%3Acore",
         "pkg:maven/io.jaegertracing/jaeger-thrift@1.8.1?type=jar",
@@ -27915,7 +27915,7 @@
       "dependsOn" : [
         "pkg:maven/org.eclipse.jetty/jetty-client@10.0.26?type=jar",
         "pkg:maven/org.apache.httpcomponents/httpcore@4.4.16?type=jar",
-        "pkg:maven/org.apache/solr-root@9.10.1-SNAPSHOT?project_path=%3A",
+        "pkg:maven/org.apache/solr-root@9.10.0?project_path=%3A",
         "pkg:maven/com.fasterxml.jackson/jackson-bom@2.18.0?type=pom",
         "pkg:maven/org.apache.solr/solr-solrj@9.10.0?project_path=%3Asolr%3Asolrj",
         "pkg:maven/org.eclipse.jetty.toolchain/jetty-servlet-api@4.0.6?type=jar",
@@ -27931,7 +27931,7 @@
       "ref" : "pkg:maven/org.apache.solr/solr-langid@9.10.0?project_path=%3Asolr%3Amodules%3Alangid",
       "dependsOn" : [
         "pkg:maven/commons-io/commons-io@2.20.0?type=jar",
-        "pkg:maven/org.apache/solr-root@9.10.1-SNAPSHOT?project_path=%3A",
+        "pkg:maven/org.apache/solr-root@9.10.0?project_path=%3A",
         "pkg:maven/org.apache.solr/solr-solrj@9.10.0?project_path=%3Asolr%3Asolrj",
         "pkg:maven/org.apache.solr/solr-core@9.10.0?project_path=%3Asolr%3Acore",
         "pkg:maven/org.slf4j/slf4j-api@2.0.17?type=jar",
@@ -27944,7 +27944,7 @@
       "ref" : "pkg:maven/org.apache.solr/solr-llm@9.10.0?project_path=%3Asolr%3Amodules%3Allm",
       "dependsOn" : [
         "pkg:maven/dev.langchain4j/langchain4j-open-ai@0.35.0?type=jar",
-        "pkg:maven/org.apache/solr-root@9.10.1-SNAPSHOT?project_path=%3A",
+        "pkg:maven/org.apache/solr-root@9.10.0?project_path=%3A",
         "pkg:maven/org.apache.lucene/lucene-core@9.12.3?type=jar",
         "pkg:maven/org.apache.solr/solr-solrj@9.10.0?project_path=%3Asolr%3Asolrj",
         "pkg:maven/dev.langchain4j/langchain4j-cohere@0.35.0?type=jar",
@@ -27958,7 +27958,7 @@
     {
       "ref" : "pkg:maven/org.apache.solr/solr-ltr@9.10.0?project_path=%3Asolr%3Amodules%3Altr",
       "dependsOn" : [
-        "pkg:maven/org.apache/solr-root@9.10.1-SNAPSHOT?project_path=%3A",
+        "pkg:maven/org.apache/solr-root@9.10.0?project_path=%3A",
         "pkg:maven/org.apache.lucene/lucene-core@9.12.3?type=jar",
         "pkg:maven/org.apache.solr/solr-solrj@9.10.0?project_path=%3Asolr%3Asolrj",
         "pkg:maven/org.apache.solr/solr-core@9.10.0?project_path=%3Asolr%3Acore",
@@ -27968,7 +27968,7 @@
     {
       "ref" : "pkg:maven/org.apache.solr/solr-opentelemetry@9.10.0?project_path=%3Asolr%3Amodules%3Aopentelemetry",
       "dependsOn" : [
-        "pkg:maven/org.apache/solr-root@9.10.1-SNAPSHOT?project_path=%3A",
+        "pkg:maven/org.apache/solr-root@9.10.0?project_path=%3A",
         "pkg:maven/org.apache.solr/solr-solrj@9.10.0?project_path=%3Asolr%3Asolrj",
         "pkg:maven/io.opentelemetry/opentelemetry-sdk-common@1.53.0?type=jar",
         "pkg:maven/io.opentelemetry/opentelemetry-sdk-trace@1.53.0?type=jar",
@@ -27992,7 +27992,7 @@
       "ref" : "pkg:maven/org.apache.solr/solr-packaging@9.10.0?project_path=%3Asolr%3Apackaging",
       "dependsOn" : [
         "pkg:maven/org.apache.solr/solr-prometheus-exporter@9.10.0?project_path=%3Asolr%3Aprometheus-exporter",
-        "pkg:maven/org.apache/solr-root@9.10.1-SNAPSHOT?project_path=%3A",
+        "pkg:maven/org.apache/solr-root@9.10.0?project_path=%3A",
         "pkg:maven/org.apache.solr/solr-sql@9.10.0?project_path=%3Asolr%3Amodules%3Asql",
         "pkg:maven/org.apache.solr/solr-ltr@9.10.0?project_path=%3Asolr%3Amodules%3Altr",
         "pkg:maven/org.apache.solr/solr-clustering@9.10.0?project_path=%3Asolr%3Amodules%3Aclustering",
@@ -28018,7 +28018,7 @@
       "ref" : "pkg:maven/org.apache.solr/solr-prometheus-exporter@9.10.0?project_path=%3Asolr%3Aprometheus-exporter",
       "dependsOn" : [
         "pkg:maven/com.lmax/disruptor@3.4.4?type=jar",
-        "pkg:maven/org.apache/solr-root@9.10.1-SNAPSHOT?project_path=%3A",
+        "pkg:maven/org.apache/solr-root@9.10.0?project_path=%3A",
         "pkg:maven/org.apache.logging.log4j/log4j-slf4j2-impl@2.21.0?type=jar",
         "pkg:maven/org.apache.solr/solr-solrj@9.10.0?project_path=%3Asolr%3Asolrj",
         "pkg:maven/org.apache.solr/solr-solrj-zookeeper@9.10.0?project_path=%3Asolr%3Asolrj-zookeeper",
@@ -28039,7 +28039,7 @@
       "ref" : "pkg:maven/org.apache.solr/solr-s3-repository@9.10.0?project_path=%3Asolr%3Amodules%3As3-repository",
       "dependsOn" : [
         "pkg:maven/software.amazon.awssdk/aws-core@2.31.77?type=jar",
-        "pkg:maven/org.apache/solr-root@9.10.1-SNAPSHOT?project_path=%3A",
+        "pkg:maven/org.apache/solr-root@9.10.0?project_path=%3A",
         "pkg:maven/org.apache.lucene/lucene-core@9.12.3?type=jar",
         "pkg:maven/org.apache.solr/solr-solrj@9.10.0?project_path=%3Asolr%3Asolrj",
         "pkg:maven/com.fasterxml.woodstox/woodstox-core@7.0.0?type=jar",
@@ -28061,7 +28061,7 @@
       "ref" : "pkg:maven/org.apache.solr/solr-scripting@9.10.0?project_path=%3Asolr%3Amodules%3Ascripting",
       "dependsOn" : [
         "pkg:maven/commons-io/commons-io@2.20.0?type=jar",
-        "pkg:maven/org.apache/solr-root@9.10.1-SNAPSHOT?project_path=%3A",
+        "pkg:maven/org.apache/solr-root@9.10.0?project_path=%3A",
         "pkg:maven/org.apache.lucene/lucene-core@9.12.3?type=jar",
         "pkg:maven/org.apache.solr/solr-solrj@9.10.0?project_path=%3Asolr%3Asolrj",
         "pkg:maven/org.apache.solr/solr-core@9.10.0?project_path=%3Asolr%3Acore",
@@ -28074,7 +28074,7 @@
         "pkg:maven/com.lmax/disruptor@3.4.4?type=jar",
         "pkg:maven/io.dropwizard.metrics/metrics-jmx@4.2.26?type=jar",
         "pkg:maven/org.apache.solr/solr-webapp@9.10.0?project_path=%3Asolr%3Awebapp",
-        "pkg:maven/org.apache/solr-root@9.10.1-SNAPSHOT?project_path=%3A",
+        "pkg:maven/org.apache/solr-root@9.10.0?project_path=%3A",
         "pkg:maven/org.apache.logging.log4j/log4j-slf4j2-impl@2.21.0?type=jar",
         "pkg:maven/org.apache.logging.log4j/log4j-layout-template-json@2.21.0?type=jar",
         "pkg:maven/org.eclipse.jetty/jetty-start@10.0.26?type=jar",
@@ -28139,7 +28139,7 @@
       "dependsOn" : [
         "pkg:maven/org.apache.calcite.avatica/avatica-core@1.25.0?type=jar",
         "pkg:maven/org.apache.solr/solr-solrj-streaming@9.10.0?project_path=%3Asolr%3Asolrj-streaming",
-        "pkg:maven/org.apache/solr-root@9.10.1-SNAPSHOT?project_path=%3A",
+        "pkg:maven/org.apache/solr-root@9.10.0?project_path=%3A",
         "pkg:maven/org.apache.solr/solr-solrj@9.10.0?project_path=%3Asolr%3Asolrj",
         "pkg:maven/org.apache.solr/solr-core@9.10.0?project_path=%3Asolr%3Acore",
         "pkg:maven/org.apache.calcite/calcite-core@1.37.0?type=jar",
@@ -28151,7 +28151,7 @@
     {
       "ref" : "pkg:maven/org.apache.solr/solr-webapp@9.10.0?project_path=%3Asolr%3Awebapp",
       "dependsOn" : [
-        "pkg:maven/org.apache/solr-root@9.10.1-SNAPSHOT?project_path=%3A"
+        "pkg:maven/org.apache/solr-root@9.10.0?project_path=%3A"
       ]
     },
     {
@@ -28263,7 +28263,7 @@
       ]
     },
     {
-      "ref" : "pkg:maven/org.apache/solr-root@9.10.1-SNAPSHOT?project_path=%3A",
+      "ref" : "pkg:maven/org.apache/solr-root@9.10.0?project_path=%3A",
       "dependsOn" : [ ]
     },
     {
