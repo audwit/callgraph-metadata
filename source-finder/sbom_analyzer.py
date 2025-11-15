@@ -32,12 +32,12 @@ def parse_bom(path: str) -> Bom:
     return bom
 
 
-def is_maven_purl(purl_str: str) -> bool:
+def is_jar(purl_str: str) -> bool:
     try:
         p = PackageURL.from_string(purl_str)
     except ValueError:
         return False
-    return p.type == "maven"
+    return p.type == "maven" and isinstance(p.qualifiers, dict) and p.qualifiers.get("type") == "jar"
 
 
 def spdx_connection_to_github_repo(connection: str) -> str | None:
@@ -52,7 +52,8 @@ def spdx_connection_to_github_repo(connection: str) -> str | None:
         "git@github.com:",
         "git://github.com/",
         "ssh://github.com/",
-        "https://github.com/"
+        "https://github.com/",
+        "https://gitbox.apache.org/repos/asf/"
     ]
     for prefix in prefixes:
         if connection.startswith(prefix):
@@ -87,8 +88,8 @@ def process_bom(path: str):
             # No PURL -> skip
             continue
 
-        if not is_maven_purl(raw_purl):
-            # Only handling Maven PURLs in this script
+        if not is_jar(raw_purl):
+            # Only handling JARs
             continue
 
         artifact = purl_to_maven_coords(raw_purl)
