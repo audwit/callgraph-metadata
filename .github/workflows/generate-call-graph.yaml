@@ -95,7 +95,7 @@ jobs:
           # Move generated call graph to metadata repository
           mv result/*.json "$dest_dir/callgraph.json"
 
-      - name: Commit and Push Call Graph
+      - name: Create Pull Request
         shell: bash
         env:
           ARTIFACT: ${{ inputs.artifact }}
@@ -116,7 +116,7 @@ jobs:
                 --title "Add call graph for ${ARTIFACT}" \
                 --body "This PR adds the generated call graph for the artifact ${ARTIFACT}." \
                 --head "$BRANCH_NAME" \
-                --base main || echo "Pull request already exists"
+                --base main
           else
-            echo "No changes to commit; skipping push and PR creation"
+            echo "No changes to commit; skipping PR creation"
           fi
