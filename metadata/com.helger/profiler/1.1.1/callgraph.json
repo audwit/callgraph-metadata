@@ -1,0 +1,2273 @@
+{
+    "functions": [
+        {
+            "parameterTypes": [
+                "Duration",
+                "int",
+                "State"
+            ],
+            "templateArguments": [],
+            "function": "recordInThread",
+            "name": "com.papertrail.profiler.CpuProfile.recordInThread(Duration,int,State)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CpuProfile",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Duration",
+                "int",
+                "State"
+            ],
+            "templateArguments": [],
+            "function": "record",
+            "name": "com.papertrail.profiler.CpuProfile.record(Duration,int,State)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CpuProfile",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "FutureTask<CpuProfile>",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "Thread",
+            "name": "java.lang.Thread#Thread(FutureTask,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.Thread",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Callable<CpuProfile>"],
+            "templateArguments": [],
+            "function": "FutureTask",
+            "name": "java.util.concurrent.FutureTask#FutureTask(Callable)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.concurrent.FutureTask",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "start",
+            "name": "java.lang.Thread#start()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.Thread",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "createBuffer",
+            "name": "com.papertrail.profiler.CpuProfile.Word.createBuffer()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CpuProfile.Word",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["ByteOrder"],
+            "templateArguments": [],
+            "function": "order",
+            "name": "java.nio.ByteBuffer#order(ByteOrder)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.nio.ByteBuffer",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "allocate",
+            "name": "java.nio.ByteBuffer.allocate(int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.nio.ByteBuffer",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["StackTraceElement"],
+            "templateArguments": [],
+            "function": "isRunnable",
+            "name": "com.papertrail.profiler.CpuProfile.isRunnable(StackTraceElement)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CpuProfile",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getClassName",
+            "name": "java.lang.StackTraceElement#getClassName()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.StackTraceElement",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["StringPair"],
+            "templateArguments": [],
+            "function": "contains",
+            "name": "java.util.Set#contains(StringPair)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Set",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "StringPair",
+            "name": "com.papertrail.profiler.CpuProfile.StringPair#StringPair(String,String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CpuProfile.StringPair",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getMethodName",
+            "name": "java.lang.StackTraceElement#getMethodName()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.StackTraceElement",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "com.papertrail.profiler.CpuProfile.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CpuProfile",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "putString",
+            "name": "com.papertrail.profiler.CpuProfile.Word#putString(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CpuProfile.Word",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["byte[]"],
+            "templateArguments": [],
+            "function": "write",
+            "name": "java.io.OutputStream#write(byte[])",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.OutputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "hashCode",
+            "name": "com.papertrail.profiler.CpuProfile.StringPair#hashCode()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CpuProfile.StringPair",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "hash",
+            "name": "java.util.Objects.hash(String,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Objects",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "int",
+                "int",
+                "State"
+            ],
+            "templateArguments": [],
+            "function": "doProfile",
+            "name": "com.papertrail.profiler.jaxrs.CpuProfileResource#doProfile(int,int,State)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "CpuProfileResource",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "unlock",
+            "name": "java.util.concurrent.locks.Lock#unlock()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.concurrent.locks.Lock",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "ofSeconds",
+            "name": "java.time.Duration.ofSeconds(int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.time.Duration",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "RuntimeException",
+            "name": "java.lang.RuntimeException#RuntimeException(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.RuntimeException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toByteArray",
+            "name": "java.io.ByteArrayOutputStream#toByteArray()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.ByteArrayOutputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["OutputStream"],
+            "templateArguments": [],
+            "function": "writeGoogleProfile",
+            "name": "com.papertrail.profiler.CpuProfile#writeGoogleProfile(OutputStream)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CpuProfile",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "tryLock",
+            "name": "java.util.concurrent.locks.Lock#tryLock()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.concurrent.locks.Lock",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "java.io.ByteArrayOutputStream.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.ByteArrayOutputStream",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "ByteArrayOutputStream",
+            "name": "java.io.ByteArrayOutputStream#ByteArrayOutputStream()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.ByteArrayOutputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "currentThread",
+            "name": "java.lang.Thread.currentThread()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.Thread",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toEpochMilli",
+            "name": "java.time.Instant#toEpochMilli()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.time.Instant",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "List<StackTraceElement>",
+                "Long"
+            ],
+            "templateArguments": [],
+            "function": "put",
+            "name": "java.util.Map#put(List,Long)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Instant",
+                "Instant"
+            ],
+            "templateArguments": [],
+            "function": "between",
+            "name": "java.time.Duration.between(Instant,Instant)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.time.Duration",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Instant"],
+            "templateArguments": [],
+            "function": "isBefore",
+            "name": "Instant#isBefore(Instant)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "Instant",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Instant"],
+            "templateArguments": [],
+            "function": "isBefore",
+            "name": "java.time.Instant#isBefore(Instant)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.time.Instant",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "now",
+            "name": "java.time.Instant.now()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.time.Instant",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "get",
+            "name": "java.util.List#get(int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.List",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["StackTraceElement[]"],
+            "templateArguments": [],
+            "function": "asList",
+            "name": "java.util.Arrays.asList(StackTraceElement[])",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Arrays",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getThreadId",
+            "name": "java.lang.management.ThreadInfo#getThreadId()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.management.ThreadInfo",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["List<StackTraceElement>"],
+            "templateArguments": [],
+            "function": "get",
+            "name": "java.util.Map#get(List)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "boolean",
+                "boolean"
+            ],
+            "templateArguments": [],
+            "function": "dumpAllThreads",
+            "name": "java.lang.management.ThreadMXBean#dumpAllThreads(boolean,boolean)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.management.ThreadMXBean",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getId",
+            "name": "Thread#getId()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "Thread",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Map<List<StackTraceElement>, Long>",
+                "Duration",
+                "long",
+                "long"
+            ],
+            "templateArguments": [],
+            "function": "CpuProfile",
+            "name": "com.papertrail.profiler.CpuProfile#CpuProfile(Map,Duration,long,long)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CpuProfile",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "java.util.HashMap.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.HashMap",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "HashMap",
+            "name": "java.util.HashMap#HashMap()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.HashMap",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getThreadMXBean",
+            "name": "java.lang.management.ManagementFactory.getThreadMXBean()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.management.ManagementFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "plusMillis",
+            "name": "java.time.Instant#plusMillis(int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.time.Instant",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "long",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "max",
+            "name": "java.lang.Math.max(long,int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.Math",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "isEmpty",
+            "name": "java.util.List#isEmpty()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.List",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getThreadState",
+            "name": "java.lang.management.ThreadInfo#getThreadState()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.management.ThreadInfo",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getStackTrace",
+            "name": "java.lang.management.ThreadInfo#getStackTrace()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.management.ThreadInfo",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toEpochMilli",
+            "name": "Instant#toEpochMilli()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "Instant",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["long"],
+            "templateArguments": [],
+            "function": "sleep",
+            "name": "java.lang.Thread.sleep(long)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.Thread",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "print",
+            "name": "java.io.PrintStream#print(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.PrintStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Duration"],
+            "templateArguments": [],
+            "function": "plus",
+            "name": "java.time.Instant#plus(Duration)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.time.Instant",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "interrupt",
+            "name": "Thread#interrupt()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "Thread",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["OutputStream"],
+            "templateArguments": [],
+            "function": "Word",
+            "name": "com.papertrail.profiler.CpuProfile.Word#Word(OutputStream)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CpuProfile.Word",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "ByteBuffer",
+                "OutputStream"
+            ],
+            "templateArguments": [],
+            "function": "Word",
+            "name": "com.papertrail.profiler.CpuProfile.Word#Word(ByteBuffer,OutputStream)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CpuProfile.Word",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Duration",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "recordInThread",
+            "name": "com.papertrail.profiler.CpuProfile.recordInThread(Duration,int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CpuProfile",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "com.papertrail.profiler.CpuProfile.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CpuProfile",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "com.papertrail.profiler.CpuProfile.Word.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CpuProfile.Word",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "com.papertrail.profiler.jaxrs.CpuProfileResource.<init>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "CpuProfileResource",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "java.util.concurrent.locks.ReentrantLock.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.concurrent.locks.ReentrantLock",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "ReentrantLock",
+            "name": "java.util.concurrent.locks.ReentrantLock#ReentrantLock()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.concurrent.locks.ReentrantLock",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Integer",
+                "Integer"
+            ],
+            "templateArguments": [],
+            "function": "contention",
+            "name": "com.papertrail.profiler.jaxrs.CpuProfileResource#contention(Integer,Integer)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "CpuProfileResource",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "com.papertrail.profiler.CpuProfile.StringPair.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CpuProfile.StringPair",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "java.util.HashSet.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.HashSet",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "HashSet",
+            "name": "java.util.HashSet#HashSet()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.HashSet",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["StringPair"],
+            "templateArguments": [],
+            "function": "add",
+            "name": "java.util.Set#add(StringPair)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Set",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["long"],
+            "templateArguments": [],
+            "function": "putWord",
+            "name": "com.papertrail.profiler.CpuProfile.Word#putWord(long)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CpuProfile.Word",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "entrySet",
+            "name": "java.util.Map#entrySet()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "size",
+            "name": "java.util.List#size()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.List",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["StackTraceElement"],
+            "templateArguments": [],
+            "function": "containsKey",
+            "name": "java.util.Map#containsKey(StackTraceElement)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "flush",
+            "name": "com.papertrail.profiler.CpuProfile.Word#flush()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CpuProfile.Word",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toString",
+            "name": "java.lang.StackTraceElement#toString()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.StackTraceElement",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getValue",
+            "name": "java.util.Map.Entry#getValue()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map.Entry",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["StackTraceElement"],
+            "templateArguments": [],
+            "function": "get",
+            "name": "java.util.Map#get(StackTraceElement)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "mainClassName",
+            "name": "com.papertrail.profiler.CpuProfile.mainClassName()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CpuProfile",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getKey",
+            "name": "java.util.Map.Entry#getKey()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map.Entry",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "StackTraceElement",
+                "Integer"
+            ],
+            "templateArguments": [],
+            "function": "put",
+            "name": "java.util.Map#put(StackTraceElement,Integer)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Duration",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "record",
+            "name": "com.papertrail.profiler.CpuProfile#record(Duration,int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CpuProfile",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "entrySet",
+            "name": "Map#entrySet()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getAllStackTraces",
+            "name": "java.lang.Thread.getAllStackTraces()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.Thread",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getName",
+            "name": "java.lang.Thread#getName()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.Thread",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Integer",
+                "Integer"
+            ],
+            "templateArguments": [],
+            "function": "profile",
+            "name": "com.papertrail.profiler.jaxrs.CpuProfileResource#profile(Integer,Integer)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "CpuProfileResource",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "equals",
+            "name": "com.papertrail.profiler.CpuProfile.StringPair#equals(Object)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CpuProfile.StringPair",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getClass",
+            "name": "java.lang.Object#getClass()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.Object",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "equals",
+            "name": "java.util.Objects.equals(String,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Objects",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "flush",
+            "name": "java.io.OutputStream#flush()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.OutputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "clear",
+            "name": "java.nio.ByteBuffer#clear()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.nio.ByteBuffer",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "array",
+            "name": "java.nio.ByteBuffer#array()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.nio.ByteBuffer",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["long"],
+            "templateArguments": [],
+            "function": "putLong",
+            "name": "java.nio.ByteBuffer#putLong(long)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.nio.ByteBuffer",
+            "properties": []
+        }
+    ],
+    "calls": [
+        {
+            "callSite": {
+                "filename": "CpuProfile.java",
+                "line": 312,
+                "column": 70,
+                "directory": "src/main/java/com/papertrail/profiler"
+            },
+            "caller": 0,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfile.java",
+                "line": 313,
+                "column": 22,
+                "directory": "src/main/java/com/papertrail/profiler"
+            },
+            "caller": 0,
+            "callee": 2
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfile.java",
+                "line": 312,
+                "column": 44,
+                "directory": "src/main/java/com/papertrail/profiler"
+            },
+            "caller": 0,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfile.java",
+                "line": 314,
+                "column": 5,
+                "directory": "src/main/java/com/papertrail/profiler"
+            },
+            "caller": 0,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfile.java",
+                "line": 74,
+                "column": 7,
+                "directory": "src/main/java/com/papertrail/profiler"
+            },
+            "caller": 5,
+            "callee": 6
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfile.java",
+                "line": 73,
+                "column": 30,
+                "directory": "src/main/java/com/papertrail/profiler"
+            },
+            "caller": 5,
+            "callee": 7
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfile.java",
+                "line": 193,
+                "column": 58,
+                "directory": "src/main/java/com/papertrail/profiler"
+            },
+            "caller": 8,
+            "callee": 9
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfile.java",
+                "line": 193,
+                "column": 13,
+                "directory": "src/main/java/com/papertrail/profiler"
+            },
+            "caller": 8,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfile.java",
+                "line": 193,
+                "column": 42,
+                "directory": "src/main/java/com/papertrail/profiler"
+            },
+            "caller": 8,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfile.java",
+                "line": 193,
+                "column": 80,
+                "directory": "src/main/java/com/papertrail/profiler"
+            },
+            "caller": 8,
+            "callee": 12
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfile.java",
+                "line": 181,
+                "column": 3,
+                "directory": "src/main/java/com/papertrail/profiler"
+            },
+            "caller": 8,
+            "callee": 13
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfile.java",
+                "line": 68,
+                "column": 7,
+                "directory": "src/main/java/com/papertrail/profiler"
+            },
+            "caller": 14,
+            "callee": 15
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfile.java",
+                "line": 162,
+                "column": 14,
+                "directory": "src/main/java/com/papertrail/profiler"
+            },
+            "caller": 16,
+            "callee": 17
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfileResource.java",
+                "line": 56,
+                "column": 9,
+                "directory": "src/main/java/com/papertrail/profiler/jaxrs"
+            },
+            "caller": 18,
+            "callee": 19
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfileResource.java",
+                "line": 46,
+                "column": 55,
+                "directory": "src/main/java/com/papertrail/profiler/jaxrs"
+            },
+            "caller": 18,
+            "callee": 20
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfileResource.java",
+                "line": 49,
+                "column": 17,
+                "directory": "src/main/java/com/papertrail/profiler/jaxrs"
+            },
+            "caller": 18,
+            "callee": 21
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfileResource.java",
+                "line": 52,
+                "column": 16,
+                "directory": "src/main/java/com/papertrail/profiler/jaxrs"
+            },
+            "caller": 18,
+            "callee": 22
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfileResource.java",
+                "line": 59,
+                "column": 11,
+                "directory": "src/main/java/com/papertrail/profiler/jaxrs"
+            },
+            "caller": 18,
+            "callee": 21
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfileResource.java",
+                "line": 51,
+                "column": 9,
+                "directory": "src/main/java/com/papertrail/profiler/jaxrs"
+            },
+            "caller": 18,
+            "callee": 23
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfileResource.java",
+                "line": 42,
+                "column": 9,
+                "directory": "src/main/java/com/papertrail/profiler/jaxrs"
+            },
+            "caller": 18,
+            "callee": 24
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfileResource.java",
+                "line": 44,
+                "column": 49,
+                "directory": "src/main/java/com/papertrail/profiler/jaxrs"
+            },
+            "caller": 18,
+            "callee": 25
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfileResource.java",
+                "line": 44,
+                "column": 49,
+                "directory": "src/main/java/com/papertrail/profiler/jaxrs"
+            },
+            "caller": 18,
+            "callee": 26
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfileResource.java",
+                "line": 46,
+                "column": 36,
+                "directory": "src/main/java/com/papertrail/profiler/jaxrs"
+            },
+            "caller": 18,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfile.java",
+                "line": 283,
+                "column": 9,
+                "directory": "src/main/java/com/papertrail/profiler"
+            },
+            "caller": 1,
+            "callee": 27
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfile.java",
+                "line": 275,
+                "column": 37,
+                "directory": "src/main/java/com/papertrail/profiler"
+            },
+            "caller": 1,
+            "callee": 28
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfile.java",
+                "line": 256,
+                "column": 17,
+                "directory": "src/main/java/com/papertrail/profiler"
+            },
+            "caller": 1,
+            "callee": 29
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfile.java",
+                "line": 288,
+                "column": 36,
+                "directory": "src/main/java/com/papertrail/profiler"
+            },
+            "caller": 1,
+            "callee": 30
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfile.java",
+                "line": 241,
+                "column": 12,
+                "directory": "src/main/java/com/papertrail/profiler"
+            },
+            "caller": 1,
+            "callee": 31
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfile.java",
+                "line": 269,
+                "column": 14,
+                "directory": "src/main/java/com/papertrail/profiler"
+            },
+            "caller": 1,
+            "callee": 32
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfile.java",
+                "line": 232,
+                "column": 27,
+                "directory": "src/main/java/com/papertrail/profiler"
+            },
+            "caller": 1,
+            "callee": 33
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfile.java",
+                "line": 250,
+                "column": 83,
+                "directory": "src/main/java/com/papertrail/profiler"
+            },
+            "caller": 1,
+            "callee": 34
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfile.java",
+                "line": 288,
+                "column": 61,
+                "directory": "src/main/java/com/papertrail/profiler"
+            },
+            "caller": 1,
+            "callee": 33
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfile.java",
+                "line": 247,
+                "column": 46,
+                "directory": "src/main/java/com/papertrail/profiler"
+            },
+            "caller": 1,
+            "callee": 35
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfile.java",
+                "line": 245,
+                "column": 50,
+                "directory": "src/main/java/com/papertrail/profiler"
+            },
+            "caller": 1,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfile.java",
+                "line": 241,
+                "column": 12,
+                "directory": "src/main/java/com/papertrail/profiler"
+            },
+            "caller": 1,
+            "callee": 33
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfile.java",
+                "line": 250,
+                "column": 71,
+                "directory": "src/main/java/com/papertrail/profiler"
+            },
+            "caller": 1,
+            "callee": 8
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfile.java",
+                "line": 253,
+                "column": 34,
+                "directory": "src/main/java/com/papertrail/profiler"
+            },
+            "caller": 1,
+            "callee": 37
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfile.java",
+                "line": 243,
+                "column": 38,
+                "directory": "src/main/java/com/papertrail/profiler"
+            },
+            "caller": 1,
+            "callee": 38
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfile.java",
+                "line": 235,
+                "column": 23,
+                "directory": "src/main/java/com/papertrail/profiler"
+            },
+            "caller": 1,
+            "callee": 39
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfile.java",
+                "line": 288,
+                "column": 12,
+                "directory": "src/main/java/com/papertrail/profiler"
+            },
+            "caller": 1,
+            "callee": 40
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfile.java",
+                "line": 230,
+                "column": 57,
+                "directory": "src/main/java/com/papertrail/profiler"
+            },
+            "caller": 1,
+            "callee": 41
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfile.java",
+                "line": 230,
+                "column": 57,
+                "directory": "src/main/java/com/papertrail/profiler"
+            },
+            "caller": 1,
+            "callee": 42
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfile.java",
+                "line": 231,
+                "column": 31,
+                "directory": "src/main/java/com/papertrail/profiler"
+            },
+            "caller": 1,
+            "callee": 43
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfile.java",
+                "line": 275,
+                "column": 60,
+                "directory": "src/main/java/com/papertrail/profiler"
+            },
+            "caller": 1,
+            "callee": 33
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfile.java",
+                "line": 236,
+                "column": 20,
+                "directory": "src/main/java/com/papertrail/profiler"
+            },
+            "caller": 1,
+            "callee": 33
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfile.java",
+                "line": 272,
+                "column": 16,
+                "directory": "src/main/java/com/papertrail/profiler"
+            },
+            "caller": 1,
+            "callee": 44
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfile.java",
+                "line": 275,
+                "column": 26,
+                "directory": "src/main/java/com/papertrail/profiler"
+            },
+            "caller": 1,
+            "callee": 45
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfile.java",
+                "line": 269,
+                "column": 29,
+                "directory": "src/main/java/com/papertrail/profiler"
+            },
+            "caller": 1,
+            "callee": 33
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfile.java",
+                "line": 248,
+                "column": 16,
+                "directory": "src/main/java/com/papertrail/profiler"
+            },
+            "caller": 1,
+            "callee": 46
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfile.java",
+                "line": 245,
+                "column": 13,
+                "directory": "src/main/java/com/papertrail/profiler"
+            },
+            "caller": 1,
+            "callee": 47
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfile.java",
+                "line": 224,
+                "column": 13,
+                "directory": "src/main/java/com/papertrail/profiler"
+            },
+            "caller": 1,
+            "callee": 21
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfile.java",
+                "line": 269,
+                "column": 48,
+                "directory": "src/main/java/com/papertrail/profiler"
+            },
+            "caller": 1,
+            "callee": 32
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfile.java",
+                "line": 260,
+                "column": 17,
+                "directory": "src/main/java/com/papertrail/profiler"
+            },
+            "caller": 1,
+            "callee": 29
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfile.java",
+                "line": 247,
+                "column": 61,
+                "directory": "src/main/java/com/papertrail/profiler"
+            },
+            "caller": 1,
+            "callee": 48
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfile.java",
+                "line": 235,
+                "column": 23,
+                "directory": "src/main/java/com/papertrail/profiler"
+            },
+            "caller": 1,
+            "callee": 27
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfile.java",
+                "line": 275,
+                "column": 60,
+                "directory": "src/main/java/com/papertrail/profiler"
+            },
+            "caller": 1,
+            "callee": 49
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfile.java",
+                "line": 278,
+                "column": 9,
+                "directory": "src/main/java/com/papertrail/profiler"
+            },
+            "caller": 1,
+            "callee": 50
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfile.java",
+                "line": 282,
+                "column": 9,
+                "directory": "src/main/java/com/papertrail/profiler"
+            },
+            "caller": 1,
+            "callee": 51
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfile.java",
+                "line": 267,
+                "column": 14,
+                "directory": "src/main/java/com/papertrail/profiler"
+            },
+            "caller": 1,
+            "callee": 44
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfile.java",
+                "line": 233,
+                "column": 25,
+                "directory": "src/main/java/com/papertrail/profiler"
+            },
+            "caller": 1,
+            "callee": 52
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfile.java",
+                "line": 283,
+                "column": 9,
+                "directory": "src/main/java/com/papertrail/profiler"
+            },
+            "caller": 1,
+            "callee": 53
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfile.java",
+                "line": 50,
+                "column": 7,
+                "directory": "src/main/java/com/papertrail/profiler"
+            },
+            "caller": 54,
+            "callee": 55
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfile.java",
+                "line": 50,
+                "column": 13,
+                "directory": "src/main/java/com/papertrail/profiler"
+            },
+            "caller": 54,
+            "callee": 5
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfile.java",
+                "line": 320,
+                "column": 12,
+                "directory": "src/main/java/com/papertrail/profiler"
+            },
+            "caller": 56,
+            "callee": 0
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfile.java",
+                "line": 32,
+                "column": 3,
+                "directory": "src/main/java/com/papertrail/profiler"
+            },
+            "caller": 40,
+            "callee": 57
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfile.java",
+                "line": 53,
+                "column": 5,
+                "directory": "src/main/java/com/papertrail/profiler"
+            },
+            "caller": 55,
+            "callee": 58
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfileResource.java",
+                "line": 20,
+                "column": 29,
+                "directory": "src/main/java/com/papertrail/profiler/jaxrs"
+            },
+            "caller": 59,
+            "callee": 60
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfileResource.java",
+                "line": 20,
+                "column": 29,
+                "directory": "src/main/java/com/papertrail/profiler/jaxrs"
+            },
+            "caller": 59,
+            "callee": 61
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfileResource.java",
+                "line": 37,
+                "column": 12,
+                "directory": "src/main/java/com/papertrail/profiler/jaxrs"
+            },
+            "caller": 62,
+            "callee": 18
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfile.java",
+                "line": 142,
+                "column": 5,
+                "directory": "src/main/java/com/papertrail/profiler"
+            },
+            "caller": 11,
+            "callee": 63
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfile.java",
+                "line": 175,
+                "column": 29,
+                "directory": "src/main/java/com/papertrail/profiler"
+            },
+            "caller": 13,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfile.java",
+                "line": 168,
+                "column": 62,
+                "directory": "src/main/java/com/papertrail/profiler"
+            },
+            "caller": 13,
+            "callee": 64
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfile.java",
+                "line": 168,
+                "column": 62,
+                "directory": "src/main/java/com/papertrail/profiler"
+            },
+            "caller": 13,
+            "callee": 65
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfile.java",
+                "line": 177,
+                "column": 29,
+                "directory": "src/main/java/com/papertrail/profiler"
+            },
+            "caller": 13,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfile.java",
+                "line": 176,
+                "column": 29,
+                "directory": "src/main/java/com/papertrail/profiler"
+            },
+            "caller": 13,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfile.java",
+                "line": 173,
+                "column": 5,
+                "directory": "src/main/java/com/papertrail/profiler"
+            },
+            "caller": 13,
+            "callee": 66
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfile.java",
+                "line": 174,
+                "column": 29,
+                "directory": "src/main/java/com/papertrail/profiler"
+            },
+            "caller": 13,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfile.java",
+                "line": 178,
+                "column": 5,
+                "directory": "src/main/java/com/papertrail/profiler"
+            },
+            "caller": 13,
+            "callee": 66
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfile.java",
+                "line": 172,
+                "column": 5,
+                "directory": "src/main/java/com/papertrail/profiler"
+            },
+            "caller": 13,
+            "callee": 66
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfile.java",
+                "line": 175,
+                "column": 5,
+                "directory": "src/main/java/com/papertrail/profiler"
+            },
+            "caller": 13,
+            "callee": 66
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfile.java",
+                "line": 173,
+                "column": 29,
+                "directory": "src/main/java/com/papertrail/profiler"
+            },
+            "caller": 13,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfile.java",
+                "line": 177,
+                "column": 5,
+                "directory": "src/main/java/com/papertrail/profiler"
+            },
+            "caller": 13,
+            "callee": 66
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfile.java",
+                "line": 176,
+                "column": 5,
+                "directory": "src/main/java/com/papertrail/profiler"
+            },
+            "caller": 13,
+            "callee": 66
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfile.java",
+                "line": 174,
+                "column": 5,
+                "directory": "src/main/java/com/papertrail/profiler"
+            },
+            "caller": 13,
+            "callee": 66
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfile.java",
+                "line": 178,
+                "column": 29,
+                "directory": "src/main/java/com/papertrail/profiler"
+            },
+            "caller": 13,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfile.java",
+                "line": 172,
+                "column": 29,
+                "directory": "src/main/java/com/papertrail/profiler"
+            },
+            "caller": 13,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfile.java",
+                "line": 99,
+                "column": 5,
+                "directory": "src/main/java/com/papertrail/profiler"
+            },
+            "caller": 23,
+            "callee": 14
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfile.java",
+                "line": 97,
+                "column": 51,
+                "directory": "src/main/java/com/papertrail/profiler"
+            },
+            "caller": 23,
+            "callee": 42
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfile.java",
+                "line": 97,
+                "column": 51,
+                "directory": "src/main/java/com/papertrail/profiler"
+            },
+            "caller": 23,
+            "callee": 41
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfile.java",
+                "line": 132,
+                "column": 5,
+                "directory": "src/main/java/com/papertrail/profiler"
+            },
+            "caller": 23,
+            "callee": 67
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfile.java",
+                "line": 106,
+                "column": 11,
+                "directory": "src/main/java/com/papertrail/profiler"
+            },
+            "caller": 23,
+            "callee": 14
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfile.java",
+                "line": 98,
+                "column": 23,
+                "directory": "src/main/java/com/papertrail/profiler"
+            },
+            "caller": 23,
+            "callee": 54
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfile.java",
+                "line": 131,
+                "column": 5,
+                "directory": "src/main/java/com/papertrail/profiler"
+            },
+            "caller": 23,
+            "callee": 67
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfile.java",
+                "line": 100,
+                "column": 67,
+                "directory": "src/main/java/com/papertrail/profiler"
+            },
+            "caller": 23,
+            "callee": 68
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfile.java",
+                "line": 123,
+                "column": 9,
+                "directory": "src/main/java/com/papertrail/profiler"
+            },
+            "caller": 23,
+            "callee": 67
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfile.java",
+                "line": 117,
+                "column": 67,
+                "directory": "src/main/java/com/papertrail/profiler"
+            },
+            "caller": 23,
+            "callee": 68
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfile.java",
+                "line": 121,
+                "column": 12,
+                "directory": "src/main/java/com/papertrail/profiler"
+            },
+            "caller": 23,
+            "callee": 46
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfile.java",
+                "line": 112,
+                "column": 5,
+                "directory": "src/main/java/com/papertrail/profiler"
+            },
+            "caller": 23,
+            "callee": 14
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfile.java",
+                "line": 115,
+                "column": 7,
+                "directory": "src/main/java/com/papertrail/profiler"
+            },
+            "caller": 23,
+            "callee": 67
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfile.java",
+                "line": 124,
+                "column": 23,
+                "directory": "src/main/java/com/papertrail/profiler"
+            },
+            "caller": 23,
+            "callee": 69
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfile.java",
+                "line": 104,
+                "column": 14,
+                "directory": "src/main/java/com/papertrail/profiler"
+            },
+            "caller": 23,
+            "callee": 70
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfile.java",
+                "line": 128,
+                "column": 9,
+                "directory": "src/main/java/com/papertrail/profiler"
+            },
+            "caller": 23,
+            "callee": 67
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfile.java",
+                "line": 134,
+                "column": 5,
+                "directory": "src/main/java/com/papertrail/profiler"
+            },
+            "caller": 23,
+            "callee": 71
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfile.java",
+                "line": 106,
+                "column": 82,
+                "directory": "src/main/java/com/papertrail/profiler"
+            },
+            "caller": 23,
+            "callee": 72
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfile.java",
+                "line": 120,
+                "column": 22,
+                "directory": "src/main/java/com/papertrail/profiler"
+            },
+            "caller": 23,
+            "callee": 73
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfile.java",
+                "line": 128,
+                "column": 23,
+                "directory": "src/main/java/com/papertrail/profiler"
+            },
+            "caller": 23,
+            "callee": 74
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfile.java",
+                "line": 99,
+                "column": 63,
+                "directory": "src/main/java/com/papertrail/profiler"
+            },
+            "caller": 23,
+            "callee": 75
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfile.java",
+                "line": 133,
+                "column": 5,
+                "directory": "src/main/java/com/papertrail/profiler"
+            },
+            "caller": 23,
+            "callee": 67
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfile.java",
+                "line": 124,
+                "column": 9,
+                "directory": "src/main/java/com/papertrail/profiler"
+            },
+            "caller": 23,
+            "callee": 67
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfile.java",
+                "line": 119,
+                "column": 46,
+                "directory": "src/main/java/com/papertrail/profiler"
+            },
+            "caller": 23,
+            "callee": 76
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfile.java",
+                "line": 102,
+                "column": 44,
+                "directory": "src/main/java/com/papertrail/profiler"
+            },
+            "caller": 23,
+            "callee": 76
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfile.java",
+                "line": 107,
+                "column": 11,
+                "directory": "src/main/java/com/papertrail/profiler"
+            },
+            "caller": 23,
+            "callee": 77
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfile.java",
+                "line": 293,
+                "column": 12,
+                "directory": "src/main/java/com/papertrail/profiler"
+            },
+            "caller": 78,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfile.java",
+                "line": 345,
+                "column": 20,
+                "directory": "src/main/java/com/papertrail/profiler"
+            },
+            "caller": 75,
+            "callee": 9
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfile.java",
+                "line": 334,
+                "column": 65,
+                "directory": "src/main/java/com/papertrail/profiler"
+            },
+            "caller": 75,
+            "callee": 79
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfile.java",
+                "line": 336,
+                "column": 24,
+                "directory": "src/main/java/com/papertrail/profiler"
+            },
+            "caller": 75,
+            "callee": 76
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfile.java",
+                "line": 343,
+                "column": 16,
+                "directory": "src/main/java/com/papertrail/profiler"
+            },
+            "caller": 75,
+            "callee": 9
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfile.java",
+                "line": 334,
+                "column": 65,
+                "directory": "src/main/java/com/papertrail/profiler"
+            },
+            "caller": 75,
+            "callee": 80
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfile.java",
+                "line": 338,
+                "column": 26,
+                "directory": "src/main/java/com/papertrail/profiler"
+            },
+            "caller": 75,
+            "callee": 81
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfile.java",
+                "line": 337,
+                "column": 45,
+                "directory": "src/main/java/com/papertrail/profiler"
+            },
+            "caller": 75,
+            "callee": 73
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfileResource.java",
+                "line": 28,
+                "column": 12,
+                "directory": "src/main/java/com/papertrail/profiler/jaxrs"
+            },
+            "caller": 82,
+            "callee": 18
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfile.java",
+                "line": 153,
+                "column": 39,
+                "directory": "src/main/java/com/papertrail/profiler"
+            },
+            "caller": 83,
+            "callee": 84
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfile.java",
+                "line": 156,
+                "column": 48,
+                "directory": "src/main/java/com/papertrail/profiler"
+            },
+            "caller": 83,
+            "callee": 85
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfile.java",
+                "line": 156,
+                "column": 14,
+                "directory": "src/main/java/com/papertrail/profiler"
+            },
+            "caller": 83,
+            "callee": 85
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfile.java",
+                "line": 80,
+                "column": 7,
+                "directory": "src/main/java/com/papertrail/profiler"
+            },
+            "caller": 71,
+            "callee": 86
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfile.java",
+                "line": 61,
+                "column": 7,
+                "directory": "src/main/java/com/papertrail/profiler"
+            },
+            "caller": 67,
+            "callee": 87
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfile.java",
+                "line": 63,
+                "column": 19,
+                "directory": "src/main/java/com/papertrail/profiler"
+            },
+            "caller": 67,
+            "callee": 88
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfile.java",
+                "line": 62,
+                "column": 7,
+                "directory": "src/main/java/com/papertrail/profiler"
+            },
+            "caller": 67,
+            "callee": 89
+        },
+        {
+            "callSite": {
+                "filename": "CpuProfile.java",
+                "line": 63,
+                "column": 7,
+                "directory": "src/main/java/com/papertrail/profiler"
+            },
+            "caller": 67,
+            "callee": 15
+        }
+    ],
+    "language": "java",
+    "packages": [
+        {
+            "path": "com.papertrail.profiler",
+            "isRoot": false,
+            "module": -1,
+            "name": "profiler",
+            "isStandardLibrary": false
+        },
+        {
+            "path": "com.papertrail.profiler.jaxrs",
+            "isRoot": false,
+            "module": -1,
+            "name": "jaxrs",
+            "isStandardLibrary": false
+        }
+    ],
+    "modules": []
+}
