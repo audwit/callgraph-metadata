@@ -24,6 +24,26 @@
             "properties": []
         },
         {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "com.fasterxml.jackson.datatype.jdk8.OptionalLongSerializer.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OptionalLongSerializer",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "OptionalLongSerializer",
+            "name": "com.fasterxml.jackson.datatype.jdk8.OptionalLongSerializer#OptionalLongSerializer()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OptionalLongSerializer",
+            "properties": []
+        },
+        {
             "parameterTypes": [
                 "ReferenceType",
                 "DeserializationConfig",
@@ -128,26 +148,6 @@
         {
             "parameterTypes": [],
             "templateArguments": [],
-            "function": "<staticinit>",
-            "name": "com.fasterxml.jackson.datatype.jdk8.OptionalLongSerializer.<staticinit>()",
-            "packageIndex": 0,
-            "language": "java",
-            "type": "OptionalLongSerializer",
-            "properties": ["static initializer"]
-        },
-        {
-            "parameterTypes": [],
-            "templateArguments": [],
-            "function": "OptionalLongSerializer",
-            "name": "com.fasterxml.jackson.datatype.jdk8.OptionalLongSerializer#OptionalLongSerializer()",
-            "packageIndex": 0,
-            "language": "java",
-            "type": "OptionalLongSerializer",
-            "properties": []
-        },
-        {
-            "parameterTypes": [],
-            "templateArguments": [],
             "function": "OptionalDoubleSerializer",
             "name": "com.fasterxml.jackson.datatype.jdk8.OptionalDoubleSerializer#OptionalDoubleSerializer()",
             "packageIndex": 0,
@@ -173,6 +173,26 @@
             "packageIndex": -1,
             "language": "java",
             "type": "com.fasterxml.jackson.databind.ser.std.StdScalarSerializer",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "com.fasterxml.jackson.datatype.jdk8.LongStreamSerializer.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "LongStreamSerializer",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "LongStreamSerializer",
+            "name": "com.fasterxml.jackson.datatype.jdk8.LongStreamSerializer#LongStreamSerializer()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "LongStreamSerializer",
             "properties": []
         },
         {
@@ -216,26 +236,6 @@
             "packageIndex": -1,
             "language": "java",
             "type": "java.util.OptionalDouble",
-            "properties": []
-        },
-        {
-            "parameterTypes": [],
-            "templateArguments": [],
-            "function": "<staticinit>",
-            "name": "com.fasterxml.jackson.datatype.jdk8.LongStreamSerializer.<staticinit>()",
-            "packageIndex": 0,
-            "language": "java",
-            "type": "LongStreamSerializer",
-            "properties": ["static initializer"]
-        },
-        {
-            "parameterTypes": [],
-            "templateArguments": [],
-            "function": "LongStreamSerializer",
-            "name": "com.fasterxml.jackson.datatype.jdk8.LongStreamSerializer#LongStreamSerializer()",
-            "packageIndex": 0,
-            "language": "java",
-            "type": "LongStreamSerializer",
             "properties": []
         },
         {
@@ -430,29 +430,6 @@
             "properties": []
         },
         {
-            "parameterTypes": [
-                "Jdk8OptionalBeanPropertyWriter",
-                "PropertyName"
-            ],
-            "templateArguments": [],
-            "function": "BeanPropertyWriter",
-            "name": "com.fasterxml.jackson.databind.ser.BeanPropertyWriter#BeanPropertyWriter(Jdk8OptionalBeanPropertyWriter,PropertyName)",
-            "packageIndex": -1,
-            "language": "java",
-            "type": "com.fasterxml.jackson.databind.ser.BeanPropertyWriter",
-            "properties": []
-        },
-        {
-            "parameterTypes": [],
-            "templateArguments": [],
-            "function": "<init>",
-            "name": "com.fasterxml.jackson.datatype.jdk8.Jdk8OptionalBeanPropertyWriter.<init>()",
-            "packageIndex": 0,
-            "language": "java",
-            "type": "Jdk8OptionalBeanPropertyWriter",
-            "properties": ["default constructor"]
-        },
-        {
             "parameterTypes": ["NameTransformer"],
             "templateArguments": [],
             "function": "unwrappingWriter",
@@ -475,6 +452,29 @@
             "language": "java",
             "type": "Jdk8UnwrappingOptionalBeanPropertyWriter",
             "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Jdk8OptionalBeanPropertyWriter",
+                "PropertyName"
+            ],
+            "templateArguments": [],
+            "function": "BeanPropertyWriter",
+            "name": "com.fasterxml.jackson.databind.ser.BeanPropertyWriter#BeanPropertyWriter(Jdk8OptionalBeanPropertyWriter,PropertyName)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.fasterxml.jackson.databind.ser.BeanPropertyWriter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "com.fasterxml.jackson.datatype.jdk8.Jdk8OptionalBeanPropertyWriter.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Jdk8OptionalBeanPropertyWriter",
+            "properties": ["default constructor"]
         },
         {
             "parameterTypes": [
@@ -583,26 +583,6 @@
             "parameterTypes": [],
             "templateArguments": [],
             "function": "<init>",
-            "name": "com.fasterxml.jackson.datatype.jdk8.BaseScalarOptionalDeserializer.<init>()",
-            "packageIndex": 0,
-            "language": "java",
-            "type": "BaseScalarOptionalDeserializer",
-            "properties": ["default constructor"]
-        },
-        {
-            "parameterTypes": ["Class<T>"],
-            "templateArguments": [],
-            "function": "StdScalarDeserializer",
-            "name": "com.fasterxml.jackson.databind.deser.std.StdScalarDeserializer#StdScalarDeserializer(Class)",
-            "packageIndex": -1,
-            "language": "java",
-            "type": "com.fasterxml.jackson.databind.deser.std.StdScalarDeserializer",
-            "properties": []
-        },
-        {
-            "parameterTypes": [],
-            "templateArguments": [],
-            "function": "<init>",
             "name": "com.fasterxml.jackson.datatype.jdk8.DoubleStreamSerializer.<init>()",
             "packageIndex": 0,
             "language": "java",
@@ -617,6 +597,26 @@
             "packageIndex": -1,
             "language": "java",
             "type": "com.fasterxml.jackson.databind.ser.std.StdSerializer",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "com.fasterxml.jackson.datatype.jdk8.BaseScalarOptionalDeserializer.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "BaseScalarOptionalDeserializer",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["Class<T>"],
+            "templateArguments": [],
+            "function": "StdScalarDeserializer",
+            "name": "com.fasterxml.jackson.databind.deser.std.StdScalarDeserializer#StdScalarDeserializer(Class)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.fasterxml.jackson.databind.deser.std.StdScalarDeserializer",
             "properties": []
         },
         {
@@ -707,36 +707,6 @@
             "properties": []
         },
         {
-            "parameterTypes": [],
-            "templateArguments": [],
-            "function": "OptionalLongDeserializer",
-            "name": "com.fasterxml.jackson.datatype.jdk8.OptionalLongDeserializer#OptionalLongDeserializer()",
-            "packageIndex": 0,
-            "language": "java",
-            "type": "OptionalLongDeserializer",
-            "properties": []
-        },
-        {
-            "parameterTypes": [],
-            "templateArguments": [],
-            "function": "empty",
-            "name": "java.util.OptionalLong.empty()",
-            "packageIndex": -1,
-            "language": "java",
-            "type": "java.util.OptionalLong",
-            "properties": []
-        },
-        {
-            "parameterTypes": [],
-            "templateArguments": [],
-            "function": "<init>",
-            "name": "com.fasterxml.jackson.datatype.jdk8.OptionalLongDeserializer.<init>()",
-            "packageIndex": 0,
-            "language": "java",
-            "type": "OptionalLongDeserializer",
-            "properties": ["default constructor"]
-        },
-        {
             "parameterTypes": [
                 "JsonFormatVisitorWrapper",
                 "JavaType"
@@ -768,6 +738,36 @@
             "language": "java",
             "type": "com.fasterxml.jackson.databind.jsonFormatVisitors.JsonNumberFormatVisitor",
             "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "OptionalLongDeserializer",
+            "name": "com.fasterxml.jackson.datatype.jdk8.OptionalLongDeserializer#OptionalLongDeserializer()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OptionalLongDeserializer",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "empty",
+            "name": "java.util.OptionalLong.empty()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.OptionalLong",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "com.fasterxml.jackson.datatype.jdk8.OptionalLongDeserializer.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OptionalLongDeserializer",
+            "properties": ["default constructor"]
         },
         {
             "parameterTypes": ["DeserializationContext"],
@@ -1355,29 +1355,6 @@
         },
         {
             "parameterTypes": [
-                "Optional<?>",
-                "Object"
-            ],
-            "templateArguments": [],
-            "function": "updateReference",
-            "name": "com.fasterxml.jackson.datatype.jdk8.OptionalDeserializer#updateReference(Optional,Object)",
-            "packageIndex": 0,
-            "language": "java",
-            "type": "OptionalDeserializer",
-            "properties": []
-        },
-        {
-            "parameterTypes": ["Object"],
-            "templateArguments": [],
-            "function": "ofNullable",
-            "name": "java.util.Optional.ofNullable(Object)",
-            "packageIndex": -1,
-            "language": "java",
-            "type": "java.util.Optional",
-            "properties": []
-        },
-        {
-            "parameterTypes": [
                 "SerializerProvider",
                 "OptionalDouble"
             ],
@@ -1397,6 +1374,29 @@
             "packageIndex": -1,
             "language": "java",
             "type": "java.util.OptionalDouble",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Optional<?>",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "updateReference",
+            "name": "com.fasterxml.jackson.datatype.jdk8.OptionalDeserializer#updateReference(Optional,Object)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OptionalDeserializer",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "ofNullable",
+            "name": "java.util.Optional.ofNullable(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Optional",
             "properties": []
         },
         {
@@ -1599,19 +1599,6 @@
             "properties": []
         },
         {
-            "parameterTypes": [
-                "SerializerProvider",
-                "OptionalInt"
-            ],
-            "templateArguments": [],
-            "function": "isEmpty",
-            "name": "com.fasterxml.jackson.datatype.jdk8.OptionalIntSerializer#isEmpty(SerializerProvider,OptionalInt)",
-            "packageIndex": 0,
-            "language": "java",
-            "type": "OptionalIntSerializer",
-            "properties": []
-        },
-        {
             "parameterTypes": ["IOException"],
             "templateArguments": [],
             "function": "RuntimeException",
@@ -1630,6 +1617,19 @@
             "language": "java",
             "type": "WrappedIOException",
             "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "SerializerProvider",
+                "OptionalInt"
+            ],
+            "templateArguments": [],
+            "function": "isEmpty",
+            "name": "com.fasterxml.jackson.datatype.jdk8.OptionalIntSerializer#isEmpty(SerializerProvider,OptionalInt)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OptionalIntSerializer",
+            "properties": []
         },
         {
             "parameterTypes": ["DeserializationContext"],
@@ -2081,34 +2081,6 @@
             "properties": []
         },
         {
-            "parameterTypes": [],
-            "templateArguments": [],
-            "function": "Jdk8Deserializers",
-            "name": "com.fasterxml.jackson.datatype.jdk8.Jdk8Deserializers#Jdk8Deserializers()",
-            "packageIndex": 0,
-            "language": "java",
-            "type": "Jdk8Deserializers",
-            "properties": []
-        },
-        {
-            "parameterTypes": [
-                "OptionalSerializer",
-                "BeanProperty",
-                "TypeSerializer",
-                "JsonSerializer<?>",
-                "NameTransformer",
-                "Object",
-                "boolean"
-            ],
-            "templateArguments": [],
-            "function": "ReferenceTypeSerializer",
-            "name": "com.fasterxml.jackson.databind.ser.std.ReferenceTypeSerializer#ReferenceTypeSerializer(OptionalSerializer,BeanProperty,TypeSerializer,JsonSerializer,NameTransformer,Object,boolean)",
-            "packageIndex": -1,
-            "language": "java",
-            "type": "com.fasterxml.jackson.databind.ser.std.ReferenceTypeSerializer",
-            "properties": []
-        },
-        {
             "parameterTypes": [
                 "Stream<?>",
                 "JsonGenerator",
@@ -2160,6 +2132,34 @@
             "properties": []
         },
         {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "Jdk8Deserializers",
+            "name": "com.fasterxml.jackson.datatype.jdk8.Jdk8Deserializers#Jdk8Deserializers()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Jdk8Deserializers",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "OptionalSerializer",
+                "BeanProperty",
+                "TypeSerializer",
+                "JsonSerializer<?>",
+                "NameTransformer",
+                "Object",
+                "boolean"
+            ],
+            "templateArguments": [],
+            "function": "ReferenceTypeSerializer",
+            "name": "com.fasterxml.jackson.databind.ser.std.ReferenceTypeSerializer#ReferenceTypeSerializer(OptionalSerializer,BeanProperty,TypeSerializer,JsonSerializer,NameTransformer,Object,boolean)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.fasterxml.jackson.databind.ser.std.ReferenceTypeSerializer",
+            "properties": []
+        },
+        {
             "parameterTypes": ["Optional<?>"],
             "templateArguments": [],
             "function": "getReferenced",
@@ -2193,9 +2193,9 @@
         },
         {
             "callSite": {
-                "filename": "Jdk8Deserializers.java",
-                "line": 35,
-                "column": 13,
+                "filename": "OptionalLongSerializer.java",
+                "line": 19,
+                "column": 52,
                 "directory": "src/main/java/com/fasterxml/jackson/datatype/jdk8"
             },
             "caller": 2,
@@ -2204,21 +2204,11 @@
         {
             "callSite": {
                 "filename": "Jdk8Deserializers.java",
-                "line": 30,
-                "column": 5,
+                "line": 35,
+                "column": 13,
                 "directory": "src/main/java/com/fasterxml/jackson/datatype/jdk8"
             },
-            "caller": 2,
-            "callee": 4
-        },
-        {
-            "callSite": {
-                "filename": "Jdk8Deserializers.java",
-                "line": 30,
-                "column": 5,
-                "directory": "src/main/java/com/fasterxml/jackson/datatype/jdk8"
-            },
-            "caller": 2,
+            "caller": 4,
             "callee": 5
         },
         {
@@ -2228,8 +2218,28 @@
                 "column": 5,
                 "directory": "src/main/java/com/fasterxml/jackson/datatype/jdk8"
             },
-            "caller": 2,
+            "caller": 4,
             "callee": 6
+        },
+        {
+            "callSite": {
+                "filename": "Jdk8Deserializers.java",
+                "line": 30,
+                "column": 5,
+                "directory": "src/main/java/com/fasterxml/jackson/datatype/jdk8"
+            },
+            "caller": 4,
+            "callee": 7
+        },
+        {
+            "callSite": {
+                "filename": "Jdk8Deserializers.java",
+                "line": 30,
+                "column": 5,
+                "directory": "src/main/java/com/fasterxml/jackson/datatype/jdk8"
+            },
+            "caller": 4,
+            "callee": 8
         },
         {
             "callSite": {
@@ -2238,8 +2248,8 @@
                 "column": 13,
                 "directory": "src/main/java/com/fasterxml/jackson/datatype/jdk8"
             },
-            "caller": 2,
-            "callee": 7
+            "caller": 4,
+            "callee": 9
         },
         {
             "callSite": {
@@ -2248,8 +2258,8 @@
                 "column": 13,
                 "directory": "src/main/java/com/fasterxml/jackson/datatype/jdk8"
             },
-            "caller": 2,
-            "callee": 8
+            "caller": 4,
+            "callee": 10
         },
         {
             "callSite": {
@@ -2258,8 +2268,8 @@
                 "column": 20,
                 "directory": "src/main/java/com/fasterxml/jackson/datatype/jdk8"
             },
-            "caller": 2,
-            "callee": 9
+            "caller": 4,
+            "callee": 11
         },
         {
             "callSite": {
@@ -2268,17 +2278,7 @@
                 "column": 13,
                 "directory": "src/main/java/com/fasterxml/jackson/datatype/jdk8"
             },
-            "caller": 2,
-            "callee": 10
-        },
-        {
-            "callSite": {
-                "filename": "OptionalLongSerializer.java",
-                "line": 19,
-                "column": 52,
-                "directory": "src/main/java/com/fasterxml/jackson/datatype/jdk8"
-            },
-            "caller": 11,
+            "caller": 4,
             "callee": 12
         },
         {
@@ -2303,9 +2303,9 @@
         },
         {
             "callSite": {
-                "filename": "OptionalDoubleDeserializer.java",
-                "line": 20,
-                "column": 9,
+                "filename": "LongStreamSerializer.java",
+                "line": 23,
+                "column": 57,
                 "directory": "src/main/java/com/fasterxml/jackson/datatype/jdk8"
             },
             "caller": 16,
@@ -2314,12 +2314,22 @@
         {
             "callSite": {
                 "filename": "OptionalDoubleDeserializer.java",
+                "line": 20,
+                "column": 9,
+                "directory": "src/main/java/com/fasterxml/jackson/datatype/jdk8"
+            },
+            "caller": 18,
+            "callee": 19
+        },
+        {
+            "callSite": {
+                "filename": "OptionalDoubleDeserializer.java",
                 "line": 19,
                 "column": 5,
                 "directory": "src/main/java/com/fasterxml/jackson/datatype/jdk8"
             },
-            "caller": 16,
-            "callee": 18
+            "caller": 18,
+            "callee": 20
         },
         {
             "callSite": {
@@ -2328,17 +2338,7 @@
                 "column": 37,
                 "directory": "src/main/java/com/fasterxml/jackson/datatype/jdk8"
             },
-            "caller": 16,
-            "callee": 19
-        },
-        {
-            "callSite": {
-                "filename": "LongStreamSerializer.java",
-                "line": 23,
-                "column": 57,
-                "directory": "src/main/java/com/fasterxml/jackson/datatype/jdk8"
-            },
-            "caller": 20,
+            "caller": 18,
             "callee": 21
         },
         {
@@ -2489,7 +2489,7 @@
                 "directory": "src/main/java/com/fasterxml/jackson/datatype/jdk8"
             },
             "caller": 29,
-            "callee": 20
+            "callee": 16
         },
         {
             "callSite": {
@@ -2544,12 +2544,22 @@
         {
             "callSite": {
                 "filename": "Jdk8OptionalBeanPropertyWriter.java",
+                "line": 38,
+                "column": 16,
+                "directory": "src/main/java/com/fasterxml/jackson/datatype/jdk8"
+            },
+            "caller": 40,
+            "callee": 41
+        },
+        {
+            "callSite": {
+                "filename": "Jdk8OptionalBeanPropertyWriter.java",
                 "line": 27,
                 "column": 9,
                 "directory": "src/main/java/com/fasterxml/jackson/datatype/jdk8"
             },
             "caller": 1,
-            "callee": 40
+            "callee": 42
         },
         {
             "callSite": {
@@ -2559,16 +2569,6 @@
                 "directory": "src/main/java/com/fasterxml/jackson/datatype/jdk8"
             },
             "caller": 1,
-            "callee": 41
-        },
-        {
-            "callSite": {
-                "filename": "Jdk8OptionalBeanPropertyWriter.java",
-                "line": 38,
-                "column": 16,
-                "directory": "src/main/java/com/fasterxml/jackson/datatype/jdk8"
-            },
-            "caller": 42,
             "callee": 43
         },
         {
@@ -2649,27 +2649,7 @@
                 "directory": "src/main/java/com/fasterxml/jackson/datatype/jdk8"
             },
             "caller": 51,
-            "callee": 41
-        },
-        {
-            "callSite": {
-                "filename": "BaseScalarOptionalDeserializer.java",
-                "line": 12,
-                "column": 5,
-                "directory": "src/main/java/com/fasterxml/jackson/datatype/jdk8"
-            },
-            "caller": 17,
-            "callee": 53
-        },
-        {
-            "callSite": {
-                "filename": "BaseScalarOptionalDeserializer.java",
-                "line": 13,
-                "column": 9,
-                "directory": "src/main/java/com/fasterxml/jackson/datatype/jdk8"
-            },
-            "caller": 17,
-            "callee": 54
+            "callee": 43
         },
         {
             "callSite": {
@@ -2679,7 +2659,7 @@
                 "directory": "src/main/java/com/fasterxml/jackson/datatype/jdk8"
             },
             "caller": 39,
-            "callee": 55
+            "callee": 53
         },
         {
             "callSite": {
@@ -2689,6 +2669,26 @@
                 "directory": "src/main/java/com/fasterxml/jackson/datatype/jdk8"
             },
             "caller": 39,
+            "callee": 54
+        },
+        {
+            "callSite": {
+                "filename": "BaseScalarOptionalDeserializer.java",
+                "line": 12,
+                "column": 5,
+                "directory": "src/main/java/com/fasterxml/jackson/datatype/jdk8"
+            },
+            "caller": 19,
+            "callee": 55
+        },
+        {
+            "callSite": {
+                "filename": "BaseScalarOptionalDeserializer.java",
+                "line": 13,
+                "column": 9,
+                "directory": "src/main/java/com/fasterxml/jackson/datatype/jdk8"
+            },
+            "caller": 19,
             "callee": 56
         },
         {
@@ -2719,7 +2719,7 @@
                 "directory": "src/main/java/com/fasterxml/jackson/datatype/jdk8"
             },
             "caller": 57,
-            "callee": 17
+            "callee": 19
         },
         {
             "callSite": {
@@ -2788,7 +2788,7 @@
                 "column": 5,
                 "directory": "src/main/java/com/fasterxml/jackson/datatype/jdk8"
             },
-            "caller": 43,
+            "caller": 41,
             "callee": 63
         },
         {
@@ -2798,14 +2798,14 @@
                 "column": 9,
                 "directory": "src/main/java/com/fasterxml/jackson/datatype/jdk8"
             },
-            "caller": 43,
+            "caller": 41,
             "callee": 64
         },
         {
             "callSite": {
-                "filename": "OptionalLongDeserializer.java",
-                "line": 21,
-                "column": 35,
+                "filename": "OptionalDoubleSerializer.java",
+                "line": 33,
+                "column": 38,
                 "directory": "src/main/java/com/fasterxml/jackson/datatype/jdk8"
             },
             "caller": 65,
@@ -2813,9 +2813,9 @@
         },
         {
             "callSite": {
-                "filename": "OptionalLongDeserializer.java",
-                "line": 20,
-                "column": 5,
+                "filename": "OptionalDoubleSerializer.java",
+                "line": 35,
+                "column": 13,
                 "directory": "src/main/java/com/fasterxml/jackson/datatype/jdk8"
             },
             "caller": 65,
@@ -2825,17 +2825,7 @@
             "callSite": {
                 "filename": "OptionalLongDeserializer.java",
                 "line": 21,
-                "column": 9,
-                "directory": "src/main/java/com/fasterxml/jackson/datatype/jdk8"
-            },
-            "caller": 65,
-            "callee": 17
-        },
-        {
-            "callSite": {
-                "filename": "OptionalDoubleSerializer.java",
-                "line": 33,
-                "column": 38,
+                "column": 35,
                 "directory": "src/main/java/com/fasterxml/jackson/datatype/jdk8"
             },
             "caller": 68,
@@ -2843,13 +2833,23 @@
         },
         {
             "callSite": {
-                "filename": "OptionalDoubleSerializer.java",
-                "line": 35,
-                "column": 13,
+                "filename": "OptionalLongDeserializer.java",
+                "line": 20,
+                "column": 5,
                 "directory": "src/main/java/com/fasterxml/jackson/datatype/jdk8"
             },
             "caller": 68,
             "callee": 70
+        },
+        {
+            "callSite": {
+                "filename": "OptionalLongDeserializer.java",
+                "line": 21,
+                "column": 9,
+                "directory": "src/main/java/com/fasterxml/jackson/datatype/jdk8"
+            },
+            "caller": 68,
+            "callee": 19
         },
         {
             "callSite": {
@@ -3078,8 +3078,8 @@
                 "column": 54,
                 "directory": "src/main/java/com/fasterxml/jackson/datatype/jdk8"
             },
-            "caller": 6,
-            "callee": 65
+            "caller": 8,
+            "callee": 68
         },
         {
             "callSite": {
@@ -3088,7 +3088,7 @@
                 "column": 5,
                 "directory": "src/main/java/com/fasterxml/jackson/datatype/jdk8"
             },
-            "caller": 12,
+            "caller": 3,
             "callee": 87
         },
         {
@@ -3098,7 +3098,7 @@
                 "column": 9,
                 "directory": "src/main/java/com/fasterxml/jackson/datatype/jdk8"
             },
-            "caller": 12,
+            "caller": 3,
             "callee": 88
         },
         {
@@ -3208,7 +3208,7 @@
                 "column": 5,
                 "directory": "src/main/java/com/fasterxml/jackson/datatype/jdk8"
             },
-            "caller": 9,
+            "caller": 11,
             "callee": 95
         },
         {
@@ -3218,7 +3218,7 @@
                 "column": 9,
                 "directory": "src/main/java/com/fasterxml/jackson/datatype/jdk8"
             },
-            "caller": 9,
+            "caller": 11,
             "callee": 96
         },
         {
@@ -3269,7 +3269,7 @@
                 "directory": "src/main/java/com/fasterxml/jackson/datatype/jdk8"
             },
             "caller": 97,
-            "callee": 19
+            "callee": 21
         },
         {
             "callSite": {
@@ -3329,7 +3329,7 @@
                 "directory": "src/main/java/com/fasterxml/jackson/datatype/jdk8"
             },
             "caller": 97,
-            "callee": 66
+            "callee": 69
         },
         {
             "callSite": {
@@ -3489,7 +3489,7 @@
                 "directory": "src/main/java/com/fasterxml/jackson/datatype/jdk8"
             },
             "caller": 112,
-            "callee": 11
+            "callee": 2
         },
         {
             "callSite": {
@@ -3528,8 +3528,8 @@
                 "column": 56,
                 "directory": "src/main/java/com/fasterxml/jackson/datatype/jdk8"
             },
-            "caller": 4,
-            "callee": 16
+            "caller": 6,
+            "callee": 18
         },
         {
             "callSite": {
@@ -3538,7 +3538,7 @@
                 "column": 53,
                 "directory": "src/main/java/com/fasterxml/jackson/datatype/jdk8"
             },
-            "caller": 5,
+            "caller": 7,
             "callee": 57
         },
         {
@@ -3603,9 +3603,9 @@
         },
         {
             "callSite": {
-                "filename": "OptionalDeserializer.java",
-                "line": 101,
-                "column": 16,
+                "filename": "OptionalDoubleSerializer.java",
+                "line": 27,
+                "column": 36,
                 "directory": "src/main/java/com/fasterxml/jackson/datatype/jdk8"
             },
             "caller": 124,
@@ -3613,9 +3613,9 @@
         },
         {
             "callSite": {
-                "filename": "OptionalDoubleSerializer.java",
-                "line": 27,
-                "column": 36,
+                "filename": "OptionalDeserializer.java",
+                "line": 101,
+                "column": 16,
                 "directory": "src/main/java/com/fasterxml/jackson/datatype/jdk8"
             },
             "caller": 126,
@@ -3789,7 +3789,7 @@
                 "directory": "src/main/java/com/fasterxml/jackson/datatype/jdk8"
             },
             "caller": 144,
-            "callee": 127
+            "callee": 125
         },
         {
             "callSite": {
@@ -3813,23 +3813,13 @@
         },
         {
             "callSite": {
-                "filename": "OptionalIntSerializer.java",
-                "line": 27,
-                "column": 36,
-                "directory": "src/main/java/com/fasterxml/jackson/datatype/jdk8"
-            },
-            "caller": 146,
-            "callee": 121
-        },
-        {
-            "callSite": {
                 "filename": "WrappedIOException.java",
                 "line": 21,
                 "column": 9,
                 "directory": "src/main/java/com/fasterxml/jackson/datatype/jdk8"
             },
             "caller": 26,
-            "callee": 147
+            "callee": 146
         },
         {
             "callSite": {
@@ -3839,7 +3829,17 @@
                 "directory": "src/main/java/com/fasterxml/jackson/datatype/jdk8"
             },
             "caller": 26,
-            "callee": 148
+            "callee": 147
+        },
+        {
+            "callSite": {
+                "filename": "OptionalIntSerializer.java",
+                "line": 27,
+                "column": 36,
+                "directory": "src/main/java/com/fasterxml/jackson/datatype/jdk8"
+            },
+            "caller": 148,
+            "callee": 121
         },
         {
             "callSite": {
@@ -3849,7 +3849,7 @@
                 "directory": "src/main/java/com/fasterxml/jackson/datatype/jdk8"
             },
             "caller": 72,
-            "callee": 125
+            "callee": 127
         },
         {
             "callSite": {
@@ -3969,7 +3969,7 @@
                 "directory": "src/main/java/com/fasterxml/jackson/datatype/jdk8"
             },
             "caller": 162,
-            "callee": 9
+            "callee": 11
         },
         {
             "callSite": {
@@ -3993,16 +3993,6 @@
         },
         {
             "callSite": {
-                "filename": "OptionalSerializer.java",
-                "line": 41,
-                "column": 16,
-                "directory": "src/main/java/com/fasterxml/jackson/datatype/jdk8"
-            },
-            "caller": 164,
-            "callee": 165
-        },
-        {
-            "callSite": {
                 "filename": "OptionalDoubleSerializer.java",
                 "line": 19,
                 "column": 54,
@@ -4010,6 +4000,16 @@
             },
             "caller": 115,
             "callee": 13
+        },
+        {
+            "callSite": {
+                "filename": "OptionalSerializer.java",
+                "line": 41,
+                "column": 16,
+                "directory": "src/main/java/com/fasterxml/jackson/datatype/jdk8"
+            },
+            "caller": 164,
+            "callee": 165
         },
         {
             "callSite": {
@@ -4039,7 +4039,7 @@
                 "directory": "src/main/java/com/fasterxml/jackson/datatype/jdk8"
             },
             "caller": 168,
-            "callee": 9
+            "callee": 11
         },
         {
             "callSite": {
@@ -4049,7 +4049,7 @@
                 "directory": "src/main/java/com/fasterxml/jackson/datatype/jdk8"
             },
             "caller": 169,
-            "callee": 125
+            "callee": 127
         },
         {
             "callSite": {
@@ -4228,7 +4228,7 @@
                 "column": 5,
                 "directory": "src/main/java/com/fasterxml/jackson/datatype/jdk8"
             },
-            "caller": 21,
+            "caller": 17,
             "callee": 186
         },
         {
@@ -4238,7 +4238,7 @@
                 "column": 9,
                 "directory": "src/main/java/com/fasterxml/jackson/datatype/jdk8"
             },
-            "caller": 21,
+            "caller": 17,
             "callee": 187
         },
         {
@@ -4253,12 +4253,82 @@
         },
         {
             "callSite": {
+                "filename": "StreamSerializer.java",
+                "line": 83,
+                "column": 13,
+                "directory": "src/main/java/com/fasterxml/jackson/datatype/jdk8"
+            },
+            "caller": 188,
+            "callee": 28
+        },
+        {
+            "callSite": {
+                "filename": "StreamSerializer.java",
+                "line": 71,
+                "column": 13,
+                "directory": "src/main/java/com/fasterxml/jackson/datatype/jdk8"
+            },
+            "caller": 188,
+            "callee": 189
+        },
+        {
+            "callSite": {
+                "filename": "StreamSerializer.java",
+                "line": 85,
+                "column": 19,
+                "directory": "src/main/java/com/fasterxml/jackson/datatype/jdk8"
+            },
+            "caller": 188,
+            "callee": 25
+        },
+        {
+            "callSite": {
+                "filename": "StreamSerializer.java",
+                "line": 74,
+                "column": 25,
+                "directory": "src/main/java/com/fasterxml/jackson/datatype/jdk8"
+            },
+            "caller": 188,
+            "callee": 190
+        },
+        {
+            "callSite": {
+                "filename": "StreamSerializer.java",
+                "line": 76,
+                "column": 25,
+                "directory": "src/main/java/com/fasterxml/jackson/datatype/jdk8"
+            },
+            "caller": 188,
+            "callee": 191
+        },
+        {
+            "callSite": {
+                "filename": "StreamSerializer.java",
+                "line": 79,
+                "column": 27,
+                "directory": "src/main/java/com/fasterxml/jackson/datatype/jdk8"
+            },
+            "caller": 188,
+            "callee": 26
+        },
+        {
+            "callSite": {
+                "filename": "StreamSerializer.java",
+                "line": 69,
+                "column": 13,
+                "directory": "src/main/java/com/fasterxml/jackson/datatype/jdk8"
+            },
+            "caller": 188,
+            "callee": 27
+        },
+        {
+            "callSite": {
                 "filename": "Jdk8Deserializers.java",
                 "line": 21,
                 "column": 5,
                 "directory": "src/main/java/com/fasterxml/jackson/datatype/jdk8"
             },
-            "caller": 188,
+            "caller": 192,
             "callee": 38
         },
         {
@@ -4268,7 +4338,7 @@
                 "column": 9,
                 "directory": "src/main/java/com/fasterxml/jackson/datatype/jdk8"
             },
-            "caller": 188,
+            "caller": 192,
             "callee": 93
         },
         {
@@ -4279,7 +4349,7 @@
                 "directory": "src/main/java/com/fasterxml/jackson/datatype/jdk8"
             },
             "caller": 111,
-            "callee": 189
+            "callee": 193
         },
         {
             "callSite": {
@@ -4290,76 +4360,6 @@
             },
             "caller": 111,
             "callee": 167
-        },
-        {
-            "callSite": {
-                "filename": "StreamSerializer.java",
-                "line": 83,
-                "column": 13,
-                "directory": "src/main/java/com/fasterxml/jackson/datatype/jdk8"
-            },
-            "caller": 190,
-            "callee": 28
-        },
-        {
-            "callSite": {
-                "filename": "StreamSerializer.java",
-                "line": 71,
-                "column": 13,
-                "directory": "src/main/java/com/fasterxml/jackson/datatype/jdk8"
-            },
-            "caller": 190,
-            "callee": 191
-        },
-        {
-            "callSite": {
-                "filename": "StreamSerializer.java",
-                "line": 85,
-                "column": 19,
-                "directory": "src/main/java/com/fasterxml/jackson/datatype/jdk8"
-            },
-            "caller": 190,
-            "callee": 25
-        },
-        {
-            "callSite": {
-                "filename": "StreamSerializer.java",
-                "line": 74,
-                "column": 25,
-                "directory": "src/main/java/com/fasterxml/jackson/datatype/jdk8"
-            },
-            "caller": 190,
-            "callee": 192
-        },
-        {
-            "callSite": {
-                "filename": "StreamSerializer.java",
-                "line": 76,
-                "column": 25,
-                "directory": "src/main/java/com/fasterxml/jackson/datatype/jdk8"
-            },
-            "caller": 190,
-            "callee": 193
-        },
-        {
-            "callSite": {
-                "filename": "StreamSerializer.java",
-                "line": 79,
-                "column": 27,
-                "directory": "src/main/java/com/fasterxml/jackson/datatype/jdk8"
-            },
-            "caller": 190,
-            "callee": 26
-        },
-        {
-            "callSite": {
-                "filename": "StreamSerializer.java",
-                "line": 69,
-                "column": 13,
-                "directory": "src/main/java/com/fasterxml/jackson/datatype/jdk8"
-            },
-            "caller": 190,
-            "callee": 27
         },
         {
             "callSite": {
