@@ -18,6 +18,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+      pull-requests: write
       packages: read
     steps:
       - name: Checkout Metadata Repository
@@ -100,9 +101,21 @@ jobs:
           ARTIFACT: ${{ inputs.artifact }}
         run: |
           cd metadata
+          # Create PR branch name
+          BRANCH_NAME="callgraph/${ARTIFACT//:/-}"
+          git checkout -b "$BRANCH_NAME"
+          # Commit changes
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add .
-          git commit -m "Add call graph for ${ARTIFACT}" || echo "No changes to commit"
-          git pull --rebase origin main
-          git push origin HEAD:main
+          if git commit -m "Add call graph for ${ARTIFACT}"; then
+            git push origin "$BRANCH_NAME"
+            # Create Pull Request
+            gh pr create \
+                --title "Add call graph for ${ARTIFACT}" \
+                --body "This PR adds the generated call graph for the artifact ${ARTIFACT}." \
+                --head "$BRANCH_NAME" \
+                --base main || echo "Pull request already exists"
+          else
+            echo "No changes to commit; skipping push and PR creation"
+          fi
