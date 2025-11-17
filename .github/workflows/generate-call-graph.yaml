@@ -44,6 +44,11 @@ jobs:
           REPOSITORY=$(jq -r .repository "$METADATA_FILE")
           TAG=$(printf "$(jq -r .tag "$METADATA_FILE")" "$VERSION")
           RELATIVE_PATH=$(jq -r .relative_path "$METADATA_FILE")
+          # Debug output
+          echo "Source repository: $REPOSITORY"
+          echo "Source tag: $TAG"
+          echo "Relative path: $RELATIVE_PATH"
+          # Set environment variables for later steps
           echo "REPOSITORY=$REPOSITORY" >> $GITHUB_ENV
           echo "TAG=$TAG" >> $GITHUB_ENV
           echo "RELATIVE_PATH=$RELATIVE_PATH" >> $GITHUB_ENV
