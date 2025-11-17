@@ -1,0 +1,4023 @@
+{
+    "functions": [
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "hashCode",
+            "name": "com.codahale.metrics.health.HealthCheck.Result#hashCode()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HealthCheck.Result",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "com.codahale.metrics.health.HealthCheck.Result.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HealthCheck.Result",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "hashCode",
+            "name": "java.lang.Throwable#hashCode()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.Throwable",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "ResultBuilder",
+            "name": "com.codahale.metrics.health.HealthCheck.ResultBuilder#ResultBuilder()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HealthCheck.ResultBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "defaultClock",
+            "name": "com.codahale.metrics.Clock.defaultClock()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.codahale.metrics.Clock",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "LinkedHashMap",
+            "name": "java.util.LinkedHashMap#LinkedHashMap()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.LinkedHashMap",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "java.util.LinkedHashMap.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.LinkedHashMap",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "com.codahale.metrics.health.HealthCheck.ResultBuilder.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HealthCheck.ResultBuilder",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "runHealthCheck",
+            "name": "com.codahale.metrics.health.HealthCheckRegistry#runHealthCheck(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HealthCheckRegistry",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "execute",
+            "name": "com.codahale.metrics.health.HealthCheck#execute()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HealthCheck",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "get",
+            "name": "java.util.concurrent.ConcurrentMap#get(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.concurrent.ConcurrentMap",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "NoSuchElementException",
+            "name": "java.util.NoSuchElementException#NoSuchElementException(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.NoSuchElementException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "com.codahale.metrics.health.SharedHealthCheckRegistries.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SharedHealthCheckRegistries",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "AtomicReference",
+            "name": "java.util.concurrent.atomic.AtomicReference#AtomicReference()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.concurrent.atomic.AtomicReference",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "java.util.concurrent.atomic.AtomicReference.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.concurrent.atomic.AtomicReference",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "java.util.concurrent.ConcurrentHashMap.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.concurrent.ConcurrentHashMap",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "ConcurrentHashMap",
+            "name": "java.util.concurrent.ConcurrentHashMap#ConcurrentHashMap()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.concurrent.ConcurrentHashMap",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "HealthCheckRegistry"
+            ],
+            "templateArguments": [],
+            "function": "setDefault",
+            "name": "com.codahale.metrics.health.SharedHealthCheckRegistries.setDefault(String,HealthCheckRegistry)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SharedHealthCheckRegistries",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "HealthCheckRegistry"
+            ],
+            "templateArguments": [],
+            "function": "add",
+            "name": "com.codahale.metrics.health.SharedHealthCheckRegistries.add(String,HealthCheckRegistry)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SharedHealthCheckRegistries",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "IllegalStateException",
+            "name": "org.springframework.jms.IllegalStateException#IllegalStateException(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.springframework.jms.IllegalStateException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "null",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "compareAndSet",
+            "name": "java.util.concurrent.atomic.AtomicReference#compareAndSet(null,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.concurrent.atomic.AtomicReference",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Throwable"],
+            "templateArguments": [],
+            "function": "unhealthy",
+            "name": "com.codahale.metrics.health.HealthCheck.Result.unhealthy(Throwable)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HealthCheck.Result",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getMessage",
+            "name": "java.lang.Throwable#getMessage()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.Throwable",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "boolean",
+                "String",
+                "Throwable"
+            ],
+            "templateArguments": [],
+            "function": "Result",
+            "name": "com.codahale.metrics.health.HealthCheck.Result#Result(boolean,String,Throwable)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HealthCheck.Result",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["ExecutorService"],
+            "templateArguments": [],
+            "function": "runHealthChecks",
+            "name": "com.codahale.metrics.health.HealthCheckRegistry#runHealthChecks(ExecutorService)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HealthCheckRegistry",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "ExecutorService",
+                "HealthCheckFilter"
+            ],
+            "templateArguments": [],
+            "function": "runHealthChecks",
+            "name": "com.codahale.metrics.health.HealthCheckRegistry#runHealthChecks(ExecutorService,HealthCheckFilter)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HealthCheckRegistry",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "com.codahale.metrics.health.HealthCheckFilter.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HealthCheckFilter",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": ["HealthCheckFilter"],
+            "templateArguments": [],
+            "function": "runHealthChecks",
+            "name": "com.codahale.metrics.health.HealthCheckRegistry#runHealthChecks(HealthCheckFilter)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HealthCheckRegistry",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "entrySet",
+            "name": "java.util.concurrent.ConcurrentMap#entrySet()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.concurrent.ConcurrentMap",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getValue",
+            "name": "java.util.Map.Entry#getValue()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map.Entry",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["SortedMap<String, Result>"],
+            "templateArguments": [],
+            "function": "unmodifiableSortedMap",
+            "name": "java.util.Collections.unmodifiableSortedMap(SortedMap)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Collections",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getKey",
+            "name": "java.util.Map.Entry#getKey()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map.Entry",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "java.util.TreeMap.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.TreeMap",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "TreeMap",
+            "name": "java.util.TreeMap#TreeMap()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.TreeMap",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Object",
+                "Result"
+            ],
+            "templateArguments": [],
+            "function": "put",
+            "name": "java.util.SortedMap#put(Object,Result)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.SortedMap",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["HealthCheckRegistryListener"],
+            "templateArguments": [],
+            "function": "removeListener",
+            "name": "com.codahale.metrics.health.HealthCheckRegistry#removeListener(HealthCheckRegistryListener)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HealthCheckRegistry",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["HealthCheckRegistryListener"],
+            "templateArguments": [],
+            "function": "remove",
+            "name": "java.util.List#remove(HealthCheckRegistryListener)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.List",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "SharedHealthCheckRegistries",
+            "name": "com.codahale.metrics.health.SharedHealthCheckRegistries#SharedHealthCheckRegistries()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SharedHealthCheckRegistries",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "com.codahale.metrics.health.SharedHealthCheckRegistries.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SharedHealthCheckRegistries",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "com.codahale.metrics.health.HealthCheckRegistry.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HealthCheckRegistry",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "java.lang.Object.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.Object",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "Object",
+            "name": "java.lang.Object#Object()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.Object",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "builder",
+            "name": "com.codahale.metrics.health.HealthCheck.Result.builder()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HealthCheck.Result",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "HealthCheckRegistry",
+            "name": "com.codahale.metrics.health.HealthCheckRegistry#HealthCheckRegistry(int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HealthCheckRegistry",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["ScheduledExecutorService"],
+            "templateArguments": [],
+            "function": "HealthCheckRegistry",
+            "name": "com.codahale.metrics.health.HealthCheckRegistry#HealthCheckRegistry(ScheduledExecutorService)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HealthCheckRegistry",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "createExecutorService",
+            "name": "com.codahale.metrics.health.HealthCheckRegistry.createExecutorService(int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HealthCheckRegistry",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "build",
+            "name": "com.codahale.metrics.health.HealthCheck.ResultBuilder#build()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HealthCheck.ResultBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["ResultBuilder"],
+            "templateArguments": [],
+            "function": "Result",
+            "name": "com.codahale.metrics.health.HealthCheck.Result#Result(ResultBuilder)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HealthCheck.Result",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Runnable"],
+            "templateArguments": [],
+            "function": "newThread",
+            "name": "com.codahale.metrics.health.HealthCheckRegistry.NamedThreadFactory#newThread(Runnable)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HealthCheckRegistry.NamedThreadFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getPriority",
+            "name": "java.lang.Thread#getPriority()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.Thread",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getAndIncrement",
+            "name": "java.util.concurrent.atomic.AtomicInteger#getAndIncrement()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.concurrent.atomic.AtomicInteger",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["boolean"],
+            "templateArguments": [],
+            "function": "setDaemon",
+            "name": "java.lang.Thread#setDaemon(boolean)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.Thread",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "setPriority",
+            "name": "java.lang.Thread#setPriority(int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.Thread",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "ThreadGroup",
+                "Runnable",
+                "String",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "Thread",
+            "name": "java.lang.Thread#Thread(ThreadGroup,Runnable,String,int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.Thread",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "getOrCreate",
+            "name": "com.codahale.metrics.health.SharedHealthCheckRegistries.getOrCreate(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SharedHealthCheckRegistries",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "HealthCheckRegistry",
+            "name": "com.codahale.metrics.health.HealthCheckRegistry#HealthCheckRegistry()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HealthCheckRegistry",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["AtomicReference<String>"],
+            "templateArguments": [],
+            "function": "setDefaultRegistryName",
+            "name": "com.codahale.metrics.health.SharedHealthCheckRegistries.setDefaultRegistryName(AtomicReference)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SharedHealthCheckRegistries",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "tearDown",
+            "name": "com.codahale.metrics.health.AsyncHealthCheckDecorator#tearDown()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "AsyncHealthCheckDecorator",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["boolean"],
+            "templateArguments": [],
+            "function": "cancel",
+            "name": "java.util.concurrent.ScheduledFuture#cancel(boolean)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.concurrent.ScheduledFuture",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "clear",
+            "name": "com.codahale.metrics.health.SharedHealthCheckRegistries.clear()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SharedHealthCheckRegistries",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "clear",
+            "name": "java.util.concurrent.ConcurrentMap#clear()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.concurrent.ConcurrentMap",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "shutdown",
+            "name": "com.codahale.metrics.health.HealthCheckRegistry#shutdown()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HealthCheckRegistry",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "interrupt",
+            "name": "Thread#interrupt()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "Thread",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "shutdownNow",
+            "name": "java.util.concurrent.ScheduledExecutorService#shutdownNow()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.concurrent.ScheduledExecutorService",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "int",
+                "TimeUnit"
+            ],
+            "templateArguments": [],
+            "function": "awaitTermination",
+            "name": "java.util.concurrent.ScheduledExecutorService#awaitTermination(int,TimeUnit)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.concurrent.ScheduledExecutorService",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "currentThread",
+            "name": "java.lang.Thread.currentThread()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.Thread",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "shutdown",
+            "name": "java.util.concurrent.ScheduledExecutorService#shutdown()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.concurrent.ScheduledExecutorService",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Object[]..."
+            ],
+            "templateArguments": [],
+            "function": "healthy",
+            "name": "com.codahale.metrics.health.HealthCheck.Result.healthy(String,Object[]...)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HealthCheck.Result",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "healthy",
+            "name": "com.codahale.metrics.health.HealthCheck.Result.healthy(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HealthCheck.Result",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "int",
+                "NamedThreadFactory"
+            ],
+            "templateArguments": [],
+            "function": "ScheduledThreadPoolExecutor",
+            "name": "java.util.concurrent.ScheduledThreadPoolExecutor#ScheduledThreadPoolExecutor(int,NamedThreadFactory)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.concurrent.ScheduledThreadPoolExecutor",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["boolean"],
+            "templateArguments": [],
+            "function": "setRemoveOnCancelPolicy",
+            "name": "java.util.concurrent.ScheduledThreadPoolExecutor#setRemoveOnCancelPolicy(boolean)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.concurrent.ScheduledThreadPoolExecutor",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "NamedThreadFactory",
+            "name": "com.codahale.metrics.health.HealthCheckRegistry.NamedThreadFactory#NamedThreadFactory(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HealthCheckRegistry.NamedThreadFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "HealthCheck",
+                "ScheduledExecutorService"
+            ],
+            "templateArguments": [],
+            "function": "AsyncHealthCheckDecorator",
+            "name": "com.codahale.metrics.health.AsyncHealthCheckDecorator#AsyncHealthCheckDecorator(HealthCheck,ScheduledExecutorService)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "AsyncHealthCheckDecorator",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "HealthCheck",
+                "ScheduledExecutorService",
+                "Clock"
+            ],
+            "templateArguments": [],
+            "function": "AsyncHealthCheckDecorator",
+            "name": "com.codahale.metrics.health.AsyncHealthCheckDecorator#AsyncHealthCheckDecorator(HealthCheck,ScheduledExecutorService,Clock)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "AsyncHealthCheckDecorator",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "com.codahale.metrics.health.HealthCheckRegistry.NamedThreadFactory.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HealthCheckRegistry.NamedThreadFactory",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "AtomicInteger",
+            "name": "java.util.concurrent.atomic.AtomicInteger#AtomicInteger(int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.concurrent.atomic.AtomicInteger",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "HealthCheckRegistry"
+            ],
+            "templateArguments": [],
+            "function": "putIfAbsent",
+            "name": "java.util.concurrent.ConcurrentMap#putIfAbsent(String,HealthCheckRegistry)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.concurrent.ConcurrentMap",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "boolean",
+                "String",
+                "Throwable",
+                "Map<String, Object>",
+                "Clock"
+            ],
+            "templateArguments": [],
+            "function": "Result",
+            "name": "com.codahale.metrics.health.HealthCheck.Result#Result(boolean,String,Throwable,Map,Clock)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HealthCheck.Result",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getTime",
+            "name": "com.codahale.metrics.Clock#getTime()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.codahale.metrics.Clock",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Map<String, Object>"],
+            "templateArguments": [],
+            "function": "unmodifiableMap",
+            "name": "java.util.Collections.unmodifiableMap(Map)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Collections",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "com.codahale.metrics.health.HealthCheck.Result.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HealthCheck.Result",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "boolean",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "check",
+            "name": "com.codahale.metrics.health.AsyncHealthCheckDecorator.check(boolean,String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "AsyncHealthCheckDecorator",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "IllegalArgumentException",
+            "name": "java.lang.IllegalArgumentException#IllegalArgumentException(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.IllegalArgumentException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "ThreadDeadlockHealthCheck",
+            "name": "com.codahale.metrics.health.jvm.ThreadDeadlockHealthCheck#ThreadDeadlockHealthCheck()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "ThreadDeadlockHealthCheck",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "com.codahale.metrics.jvm.ThreadDeadlockDetector.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.codahale.metrics.jvm.ThreadDeadlockDetector",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "ThreadDeadlockDetector",
+            "name": "com.codahale.metrics.jvm.ThreadDeadlockDetector#ThreadDeadlockDetector()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.codahale.metrics.jvm.ThreadDeadlockDetector",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["ThreadDeadlockDetector"],
+            "templateArguments": [],
+            "function": "ThreadDeadlockHealthCheck",
+            "name": "com.codahale.metrics.health.jvm.ThreadDeadlockHealthCheck#ThreadDeadlockHealthCheck(ThreadDeadlockDetector)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "ThreadDeadlockHealthCheck",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getDefault",
+            "name": "com.codahale.metrics.health.SharedHealthCheckRegistries.getDefault()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SharedHealthCheckRegistries",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "tryGetDefault",
+            "name": "com.codahale.metrics.health.SharedHealthCheckRegistries.tryGetDefault()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SharedHealthCheckRegistries",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "unregister",
+            "name": "com.codahale.metrics.health.HealthCheckRegistry#unregister(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HealthCheckRegistry",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "remove",
+            "name": "java.util.concurrent.ConcurrentMap#remove(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.concurrent.ConcurrentMap",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "HealthCheck"
+            ],
+            "templateArguments": [],
+            "function": "onHealthCheckRemoved",
+            "name": "com.codahale.metrics.health.HealthCheckRegistry#onHealthCheckRemoved(String,HealthCheck)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HealthCheckRegistry",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "com.codahale.metrics.health.jvm.ThreadDeadlockHealthCheck.<init>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "ThreadDeadlockHealthCheck",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "com.codahale.metrics.health.HealthCheck.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HealthCheck",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "com.codahale.metrics.health.HealthCheckRegistry.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HealthCheckRegistry",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": ["Class<HealthCheckRegistry>"],
+            "templateArguments": [],
+            "function": "getLogger",
+            "name": "org.slf4j.LoggerFactory.getLogger(Class)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.slf4j.LoggerFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "check",
+            "name": "com.codahale.metrics.health.AsyncHealthCheckDecorator#check()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "AsyncHealthCheckDecorator",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "isHealthy",
+            "name": "com.codahale.metrics.health.HealthCheck.Result#isHealthy()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HealthCheck.Result",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Clock"],
+            "templateArguments": [],
+            "function": "usingClock",
+            "name": "com.codahale.metrics.health.HealthCheck.ResultBuilder#usingClock(Clock)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HealthCheck.ResultBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Object[]..."
+            ],
+            "templateArguments": [],
+            "function": "withMessage",
+            "name": "com.codahale.metrics.health.HealthCheck.ResultBuilder#withMessage(String,Object[]...)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HealthCheck.ResultBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getTime",
+            "name": "com.codahale.metrics.health.HealthCheck.Result#getTime()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HealthCheck.Result",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "unhealthy",
+            "name": "com.codahale.metrics.health.HealthCheck.ResultBuilder#unhealthy()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HealthCheck.ResultBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "names",
+            "name": "com.codahale.metrics.health.SharedHealthCheckRegistries.names()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SharedHealthCheckRegistries",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "keySet",
+            "name": "java.util.concurrent.ConcurrentMap#keySet()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.concurrent.ConcurrentMap",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "setDefault",
+            "name": "com.codahale.metrics.health.SharedHealthCheckRegistries.setDefault(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SharedHealthCheckRegistries",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "run",
+            "name": "com.codahale.metrics.health.AsyncHealthCheckDecorator#run()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "AsyncHealthCheckDecorator",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getTimestamp",
+            "name": "com.codahale.metrics.health.HealthCheck.Result#getTimestamp()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HealthCheck.Result",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "systemDefault",
+            "name": "java.time.ZoneId.systemDefault()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.time.ZoneId",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Instant",
+                "ZoneId"
+            ],
+            "templateArguments": [],
+            "function": "ofInstant",
+            "name": "java.time.ZonedDateTime.ofInstant(Instant,ZoneId)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.time.ZonedDateTime",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["ZonedDateTime"],
+            "templateArguments": [],
+            "function": "format",
+            "name": "java.time.format.DateTimeFormatter#format(ZonedDateTime)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.time.format.DateTimeFormatter",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["long"],
+            "templateArguments": [],
+            "function": "ofEpochMilli",
+            "name": "java.time.Instant.ofEpochMilli(long)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.time.Instant",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "check",
+            "name": "com.codahale.metrics.health.jvm.ThreadDeadlockHealthCheck#check()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "ThreadDeadlockHealthCheck",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getDeadlockedThreads",
+            "name": "com.codahale.metrics.jvm.ThreadDeadlockDetector#getDeadlockedThreads()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.codahale.metrics.jvm.ThreadDeadlockDetector",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "healthy",
+            "name": "com.codahale.metrics.health.HealthCheck.Result.healthy()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HealthCheck.Result",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "unhealthy",
+            "name": "com.codahale.metrics.health.HealthCheck.Result.unhealthy(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HealthCheck.Result",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "isEmpty",
+            "name": "java.util.Set#isEmpty()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Set",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toString",
+            "name": "java.util.Set#toString()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Set",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "withMessage",
+            "name": "com.codahale.metrics.health.HealthCheck.ResultBuilder#withMessage(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HealthCheck.ResultBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "com.codahale.metrics.health.annotation.InitialState.<staticinit>()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "InitialState",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "com.codahale.metrics.health.annotation.ScheduleType.<staticinit>()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "ScheduleType",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "com.codahale.metrics.health.AsyncHealthCheckDecorator.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "AsyncHealthCheckDecorator",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "com.codahale.metrics.health.AsyncHealthCheckDecorator.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "AsyncHealthCheckDecorator",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [
+                "AsyncHealthCheckDecorator",
+                "Object",
+                "Object",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "scheduleWithFixedDelay",
+            "name": "java.util.concurrent.ScheduledExecutorService#scheduleWithFixedDelay(AsyncHealthCheckDecorator,Object,Object,Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.concurrent.ScheduledExecutorService",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "AsyncHealthCheckDecorator",
+                "Object",
+                "Object",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "scheduleAtFixedRate",
+            "name": "java.util.concurrent.ScheduledExecutorService#scheduleAtFixedRate(AsyncHealthCheckDecorator,Object,Object,Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.concurrent.ScheduledExecutorService",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "ofPattern",
+            "name": "java.time.format.DateTimeFormatter.ofPattern(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.time.format.DateTimeFormatter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "entrySet",
+            "name": "java.util.Map#entrySet()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Object",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "put",
+            "name": "java.util.SortedMap#put(Object,Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.SortedMap",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Callable<Result>"],
+            "templateArguments": [],
+            "function": "submit",
+            "name": "java.util.concurrent.ExecutorService#submit(Callable)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.concurrent.ExecutorService",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Future<Result>"
+            ],
+            "templateArguments": [],
+            "function": "put",
+            "name": "java.util.Map#put(String,Future)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Object",
+                "Exception"
+            ],
+            "templateArguments": [],
+            "function": "warn",
+            "name": "org.slf4j.Logger#warn(String,Object,Exception)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.slf4j.Logger",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "java.util.HashMap.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.HashMap",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "HashMap",
+            "name": "java.util.HashMap#HashMap()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.HashMap",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "equals",
+            "name": "com.codahale.metrics.health.HealthCheck.Result#equals(Object)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HealthCheck.Result",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getClass",
+            "name": "java.lang.Object#getClass()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.Object",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Throwable"],
+            "templateArguments": [],
+            "function": "equals",
+            "name": "java.lang.Throwable#equals(Throwable)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.Throwable",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "withDetail",
+            "name": "com.codahale.metrics.health.HealthCheck.ResultBuilder#withDetail(String,Object)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HealthCheck.ResultBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "put",
+            "name": "java.util.Map#put(String,Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "HealthCheck"
+            ],
+            "templateArguments": [],
+            "function": "register",
+            "name": "com.codahale.metrics.health.HealthCheckRegistry#register(String,HealthCheck)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HealthCheckRegistry",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "HealthCheck"
+            ],
+            "templateArguments": [],
+            "function": "onHealthCheckAdded",
+            "name": "com.codahale.metrics.health.HealthCheckRegistry#onHealthCheckAdded(String,HealthCheck)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HealthCheckRegistry",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "containsKey",
+            "name": "java.util.concurrent.ConcurrentMap#containsKey(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.concurrent.ConcurrentMap",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "HealthCheck"
+            ],
+            "templateArguments": [],
+            "function": "put",
+            "name": "java.util.concurrent.ConcurrentMap#put(String,HealthCheck)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.concurrent.ConcurrentMap",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["HealthCheckRegistryListener"],
+            "templateArguments": [],
+            "function": "addListener",
+            "name": "com.codahale.metrics.health.HealthCheckRegistry#addListener(HealthCheckRegistryListener)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HealthCheckRegistry",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["HealthCheckRegistryListener"],
+            "templateArguments": [],
+            "function": "add",
+            "name": "java.util.List#add(HealthCheckRegistryListener)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.List",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "long",
+                "TimeUnit"
+            ],
+            "templateArguments": [],
+            "function": "convert",
+            "name": "TimeUnit#convert(long,TimeUnit)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "TimeUnit",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "clock",
+            "name": "com.codahale.metrics.health.HealthCheck#clock()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HealthCheck",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getTick",
+            "name": "com.codahale.metrics.Clock#getTick()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.codahale.metrics.Clock",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["long"],
+            "templateArguments": [],
+            "function": "setDuration",
+            "name": "com.codahale.metrics.health.HealthCheck.Result#setDuration(long)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HealthCheck.Result",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getThreadGroup",
+            "name": "Thread#getThreadGroup()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "Thread",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getThreadGroup",
+            "name": "java.lang.SecurityManager#getThreadGroup()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.SecurityManager",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getSecurityManager",
+            "name": "java.lang.System.getSecurityManager()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.System",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "runHealthChecks",
+            "name": "com.codahale.metrics.health.HealthCheckRegistry#runHealthChecks()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HealthCheckRegistry",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "remove",
+            "name": "com.codahale.metrics.health.SharedHealthCheckRegistries.remove(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SharedHealthCheckRegistries",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Throwable"],
+            "templateArguments": [],
+            "function": "unhealthy",
+            "name": "com.codahale.metrics.health.HealthCheck.ResultBuilder#unhealthy(Throwable)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HealthCheck.ResultBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "getHealthCheck",
+            "name": "com.codahale.metrics.health.HealthCheckRegistry#getHealthCheck(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HealthCheckRegistry",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "CopyOnWriteArrayList",
+            "name": "java.util.concurrent.CopyOnWriteArrayList#CopyOnWriteArrayList()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.concurrent.CopyOnWriteArrayList",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "java.util.concurrent.CopyOnWriteArrayList.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.concurrent.CopyOnWriteArrayList",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toString",
+            "name": "com.codahale.metrics.health.HealthCheck.Result#toString()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HealthCheck.Result",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["boolean"],
+            "templateArguments": [],
+            "function": "append",
+            "name": "java.lang.StringBuilder#append(boolean)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.StringBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["long"],
+            "templateArguments": [],
+            "function": "append",
+            "name": "StringBuilder#append(long)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "StringBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "append",
+            "name": "java.lang.StringBuilder#append(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.StringBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "append",
+            "name": "java.lang.StringBuilder#append(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.StringBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "append",
+            "name": "StringBuilder#append(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "StringBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toString",
+            "name": "java.lang.StringBuilder#toString()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.StringBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "StringBuilder",
+            "name": "java.lang.StringBuilder#StringBuilder(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.StringBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["char"],
+            "templateArguments": [],
+            "function": "append",
+            "name": "java.lang.StringBuilder#append(char)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.StringBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Throwable"],
+            "templateArguments": [],
+            "function": "append",
+            "name": "StringBuilder#append(Throwable)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "StringBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getNames",
+            "name": "com.codahale.metrics.health.HealthCheckRegistry#getNames()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HealthCheckRegistry",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "TreeSet",
+            "name": "java.util.TreeSet#TreeSet(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.TreeSet",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["TreeSet<Object>"],
+            "templateArguments": [],
+            "function": "unmodifiableSortedSet",
+            "name": "java.util.Collections.unmodifiableSortedSet(TreeSet)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Collections",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Object[]..."
+            ],
+            "templateArguments": [],
+            "function": "unhealthy",
+            "name": "com.codahale.metrics.health.HealthCheck.Result.unhealthy(String,Object[]...)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HealthCheck.Result",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "get",
+            "name": "java.util.concurrent.atomic.AtomicReference#get()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.concurrent.atomic.AtomicReference",
+            "properties": []
+        }
+    ],
+    "calls": [
+        {
+            "callSite": {
+                "filename": "HealthCheck.java",
+                "line": 215,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 0,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheck.java",
+                "line": 219,
+                "column": 56,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 0,
+            "callee": 2
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheck.java",
+                "line": 263,
+                "column": 26,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 3,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheck.java",
+                "line": 262,
+                "column": 28,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 3,
+            "callee": 5
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheck.java",
+                "line": 262,
+                "column": 28,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 3,
+            "callee": 6
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheck.java",
+                "line": 260,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 3,
+            "callee": 7
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheckRegistry.java",
+                "line": 160,
+                "column": 16,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 8,
+            "callee": 9
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheckRegistry.java",
+                "line": 156,
+                "column": 41,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 8,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheckRegistry.java",
+                "line": 158,
+                "column": 19,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 8,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "SharedHealthCheckRegistries.java",
+                "line": 15,
+                "column": 66,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 12,
+            "callee": 13
+        },
+        {
+            "callSite": {
+                "filename": "SharedHealthCheckRegistries.java",
+                "line": 15,
+                "column": 66,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 12,
+            "callee": 14
+        },
+        {
+            "callSite": {
+                "filename": "SharedHealthCheckRegistries.java",
+                "line": 13,
+                "column": 13,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 12,
+            "callee": 15
+        },
+        {
+            "callSite": {
+                "filename": "SharedHealthCheckRegistries.java",
+                "line": 13,
+                "column": 13,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 12,
+            "callee": 16
+        },
+        {
+            "callSite": {
+                "filename": "SharedHealthCheckRegistries.java",
+                "line": 65,
+                "column": 5,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 17,
+            "callee": 12
+        },
+        {
+            "callSite": {
+                "filename": "SharedHealthCheckRegistries.java",
+                "line": 74,
+                "column": 13,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 17,
+            "callee": 18
+        },
+        {
+            "callSite": {
+                "filename": "SharedHealthCheckRegistries.java",
+                "line": 77,
+                "column": 15,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 17,
+            "callee": 19
+        },
+        {
+            "callSite": {
+                "filename": "SharedHealthCheckRegistries.java",
+                "line": 73,
+                "column": 13,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 17,
+            "callee": 20
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheck.java",
+                "line": 92,
+                "column": 38,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 21,
+            "callee": 22
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheck.java",
+                "line": 92,
+                "column": 20,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 21,
+            "callee": 23
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheckRegistry.java",
+                "line": 198,
+                "column": 16,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 24,
+            "callee": 25
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheckRegistry.java",
+                "line": 191,
+                "column": 5,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 24,
+            "callee": 26
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheckRegistry.java",
+                "line": 180,
+                "column": 53,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 27,
+            "callee": 28
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheckRegistry.java",
+                "line": 182,
+                "column": 45,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 27,
+            "callee": 29
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheckRegistry.java",
+                "line": 184,
+                "column": 39,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 27,
+            "callee": 29
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheckRegistry.java",
+                "line": 188,
+                "column": 16,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 27,
+            "callee": 30
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheckRegistry.java",
+                "line": 185,
+                "column": 29,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 27,
+            "callee": 31
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheckRegistry.java",
+                "line": 179,
+                "column": 63,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 27,
+            "callee": 32
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheckRegistry.java",
+                "line": 179,
+                "column": 63,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 27,
+            "callee": 33
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheckRegistry.java",
+                "line": 185,
+                "column": 17,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 27,
+            "callee": 34
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheckRegistry.java",
+                "line": 181,
+                "column": 33,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 27,
+            "callee": 31
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheckRegistry.java",
+                "line": 88,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 35,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "SharedHealthCheckRegistries.java",
+                "line": 22,
+                "column": 5,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 37,
+            "callee": 38
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheckRegistry.java",
+                "line": 39,
+                "column": 33,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 39,
+            "callee": 40
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheckRegistry.java",
+                "line": 39,
+                "column": 33,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 39,
+            "callee": 41
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheck.java",
+                "line": 102,
+                "column": 20,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 42,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheckRegistry.java",
+                "line": 54,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 43,
+            "callee": 44
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheckRegistry.java",
+                "line": 54,
+                "column": 14,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 43,
+            "callee": 45
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheck.java",
+                "line": 350,
+                "column": 20,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 46,
+            "callee": 47
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheckRegistry.java",
+                "line": 283,
+                "column": 17,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 48,
+            "callee": 49
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheckRegistry.java",
+                "line": 281,
+                "column": 58,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 48,
+            "callee": 50
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheckRegistry.java",
+                "line": 282,
+                "column": 13,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 48,
+            "callee": 51
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheckRegistry.java",
+                "line": 284,
+                "column": 17,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 48,
+            "callee": 52
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheckRegistry.java",
+                "line": 281,
+                "column": 24,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 48,
+            "callee": 53
+        },
+        {
+            "callSite": {
+                "filename": "SharedHealthCheckRegistries.java",
+                "line": 43,
+                "column": 49,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 54,
+            "callee": 55
+        },
+        {
+            "callSite": {
+                "filename": "SharedHealthCheckRegistries.java",
+                "line": 44,
+                "column": 47,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 54,
+            "callee": 18
+        },
+        {
+            "callSite": {
+                "filename": "SharedHealthCheckRegistries.java",
+                "line": 41,
+                "column": 46,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 54,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "SharedHealthCheckRegistries.java",
+                "line": 40,
+                "column": 5,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 54,
+            "callee": 12
+        },
+        {
+            "callSite": {
+                "filename": "SharedHealthCheckRegistries.java",
+                "line": 17,
+                "column": 5,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 56,
+            "callee": 12
+        },
+        {
+            "callSite": {
+                "filename": "AsyncHealthCheckDecorator.java",
+                "line": 68,
+                "column": 16,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 57,
+            "callee": 58
+        },
+        {
+            "callSite": {
+                "filename": "SharedHealthCheckRegistries.java",
+                "line": 24,
+                "column": 5,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 59,
+            "callee": 12
+        },
+        {
+            "callSite": {
+                "filename": "SharedHealthCheckRegistries.java",
+                "line": 25,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 59,
+            "callee": 60
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheckRegistry.java",
+                "line": 256,
+                "column": 13,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 61,
+            "callee": 62
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheckRegistry.java",
+                "line": 255,
+                "column": 13,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 61,
+            "callee": 63
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheckRegistry.java",
+                "line": 251,
+                "column": 18,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 61,
+            "callee": 64
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheckRegistry.java",
+                "line": 256,
+                "column": 13,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 61,
+            "callee": 65
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheckRegistry.java",
+                "line": 248,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 61,
+            "callee": 66
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheckRegistry.java",
+                "line": 252,
+                "column": 17,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 61,
+            "callee": 63
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheck.java",
+                "line": 58,
+                "column": 20,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 67,
+            "callee": 68
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheckRegistry.java",
+                "line": 261,
+                "column": 66,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 45,
+            "callee": 69
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheckRegistry.java",
+                "line": 263,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 45,
+            "callee": 70
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheckRegistry.java",
+                "line": 262,
+                "column": 17,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 45,
+            "callee": 71
+        },
+        {
+            "callSite": {
+                "filename": "AsyncHealthCheckDecorator.java",
+                "line": 43,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 72,
+            "callee": 73
+        },
+        {
+            "callSite": {
+                "filename": "AsyncHealthCheckDecorator.java",
+                "line": 43,
+                "column": 44,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 72,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheckRegistry.java",
+                "line": 270,
+                "column": 52,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 74,
+            "callee": 75
+        },
+        {
+            "callSite": {
+                "filename": "SharedHealthCheckRegistries.java",
+                "line": 37,
+                "column": 16,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 18,
+            "callee": 76
+        },
+        {
+            "callSite": {
+                "filename": "SharedHealthCheckRegistries.java",
+                "line": 36,
+                "column": 5,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 18,
+            "callee": 12
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheck.java",
+                "line": 126,
+                "column": 25,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 77,
+            "callee": 78
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheck.java",
+                "line": 125,
+                "column": 53,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 77,
+            "callee": 79
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheck.java",
+                "line": 121,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 77,
+            "callee": 80
+        },
+        {
+            "callSite": {
+                "filename": "AsyncHealthCheckDecorator.java",
+                "line": 77,
+                "column": 19,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 81,
+            "callee": 82
+        },
+        {
+            "callSite": {
+                "filename": "ThreadDeadlockHealthCheck.java",
+                "line": 18,
+                "column": 14,
+                "directory": "src/main/java/com/codahale/metrics/health/jvm"
+            },
+            "caller": 83,
+            "callee": 84
+        },
+        {
+            "callSite": {
+                "filename": "ThreadDeadlockHealthCheck.java",
+                "line": 18,
+                "column": 14,
+                "directory": "src/main/java/com/codahale/metrics/health/jvm"
+            },
+            "caller": 83,
+            "callee": 85
+        },
+        {
+            "callSite": {
+                "filename": "ThreadDeadlockHealthCheck.java",
+                "line": 18,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/health/jvm"
+            },
+            "caller": 83,
+            "callee": 86
+        },
+        {
+            "callSite": {
+                "filename": "SharedHealthCheckRegistries.java",
+                "line": 87,
+                "column": 57,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 87,
+            "callee": 88
+        },
+        {
+            "callSite": {
+                "filename": "SharedHealthCheckRegistries.java",
+                "line": 91,
+                "column": 15,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 87,
+            "callee": 19
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheckRegistry.java",
+                "line": 122,
+                "column": 17,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 89,
+            "callee": 57
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheckRegistry.java",
+                "line": 120,
+                "column": 27,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 89,
+            "callee": 90
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheckRegistry.java",
+                "line": 126,
+                "column": 13,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 89,
+            "callee": 91
+        },
+        {
+            "callSite": {
+                "filename": "ThreadDeadlockHealthCheck.java",
+                "line": 21,
+                "column": 5,
+                "directory": "src/main/java/com/codahale/metrics/health/jvm"
+            },
+            "caller": 86,
+            "callee": 92
+        },
+        {
+            "callSite": {
+                "filename": "ThreadDeadlockHealthCheck.java",
+                "line": 8,
+                "column": 1,
+                "directory": "src/main/java/com/codahale/metrics/health/jvm"
+            },
+            "caller": 86,
+            "callee": 93
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheckRegistry.java",
+                "line": 33,
+                "column": 42,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 94,
+            "callee": 95
+        },
+        {
+            "callSite": {
+                "filename": "AsyncHealthCheckDecorator.java",
+                "line": 59,
+                "column": 29,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 96,
+            "callee": 97
+        },
+        {
+            "callSite": {
+                "filename": "AsyncHealthCheckDecorator.java",
+                "line": 55,
+                "column": 20,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 96,
+            "callee": 98
+        },
+        {
+            "callSite": {
+                "filename": "AsyncHealthCheckDecorator.java",
+                "line": 55,
+                "column": 20,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 96,
+            "callee": 46
+        },
+        {
+            "callSite": {
+                "filename": "AsyncHealthCheckDecorator.java",
+                "line": 55,
+                "column": 20,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 96,
+            "callee": 99
+        },
+        {
+            "callSite": {
+                "filename": "AsyncHealthCheckDecorator.java",
+                "line": 55,
+                "column": 20,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 96,
+            "callee": 42
+        },
+        {
+            "callSite": {
+                "filename": "AsyncHealthCheckDecorator.java",
+                "line": 53,
+                "column": 45,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 96,
+            "callee": 100
+        },
+        {
+            "callSite": {
+                "filename": "AsyncHealthCheckDecorator.java",
+                "line": 55,
+                "column": 20,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 96,
+            "callee": 101
+        },
+        {
+            "callSite": {
+                "filename": "AsyncHealthCheckDecorator.java",
+                "line": 53,
+                "column": 27,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 96,
+            "callee": 78
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheck.java",
+                "line": 118,
+                "column": 13,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 47,
+            "callee": 77
+        },
+        {
+            "callSite": {
+                "filename": "SharedHealthCheckRegistries.java",
+                "line": 28,
+                "column": 5,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 102,
+            "callee": 12
+        },
+        {
+            "callSite": {
+                "filename": "SharedHealthCheckRegistries.java",
+                "line": 29,
+                "column": 16,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 102,
+            "callee": 103
+        },
+        {
+            "callSite": {
+                "filename": "SharedHealthCheckRegistries.java",
+                "line": 61,
+                "column": 46,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 104,
+            "callee": 54
+        },
+        {
+            "callSite": {
+                "filename": "SharedHealthCheckRegistries.java",
+                "line": 62,
+                "column": 16,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 104,
+            "callee": 17
+        },
+        {
+            "callSite": {
+                "filename": "AsyncHealthCheckDecorator.java",
+                "line": 48,
+                "column": 18,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 105,
+            "callee": 9
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheck.java",
+                "line": 165,
+                "column": 83,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 106,
+            "callee": 107
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheck.java",
+                "line": 165,
+                "column": 43,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 106,
+            "callee": 108
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheck.java",
+                "line": 158,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 106,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheck.java",
+                "line": 166,
+                "column": 20,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 106,
+            "callee": 109
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheck.java",
+                "line": 164,
+                "column": 38,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 106,
+            "callee": 110
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheck.java",
+                "line": 44,
+                "column": 20,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 68,
+            "callee": 23
+        },
+        {
+            "callSite": {
+                "filename": "ThreadDeadlockHealthCheck.java",
+                "line": 32,
+                "column": 37,
+                "directory": "src/main/java/com/codahale/metrics/health/jvm"
+            },
+            "caller": 111,
+            "callee": 112
+        },
+        {
+            "callSite": {
+                "filename": "ThreadDeadlockHealthCheck.java",
+                "line": 34,
+                "column": 20,
+                "directory": "src/main/java/com/codahale/metrics/health/jvm"
+            },
+            "caller": 111,
+            "callee": 113
+        },
+        {
+            "callSite": {
+                "filename": "ThreadDeadlockHealthCheck.java",
+                "line": 36,
+                "column": 16,
+                "directory": "src/main/java/com/codahale/metrics/health/jvm"
+            },
+            "caller": 111,
+            "callee": 114
+        },
+        {
+            "callSite": {
+                "filename": "ThreadDeadlockHealthCheck.java",
+                "line": 33,
+                "column": 13,
+                "directory": "src/main/java/com/codahale/metrics/health/jvm"
+            },
+            "caller": 111,
+            "callee": 115
+        },
+        {
+            "callSite": {
+                "filename": "ThreadDeadlockHealthCheck.java",
+                "line": 36,
+                "column": 33,
+                "directory": "src/main/java/com/codahale/metrics/health/jvm"
+            },
+            "caller": 111,
+            "callee": 116
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheck.java",
+                "line": 319,
+                "column": 20,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 99,
+            "callee": 117
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheck.java",
+                "line": 68,
+                "column": 20,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 114,
+            "callee": 23
+        },
+        {
+            "callSite": {
+                "filename": "AsyncHealthCheckDecorator.java",
+                "line": 33,
+                "column": 17,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 73,
+            "callee": 114
+        },
+        {
+            "callSite": {
+                "filename": "AsyncHealthCheckDecorator.java",
+                "line": 22,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 73,
+            "callee": 81
+        },
+        {
+            "callSite": {
+                "filename": "AsyncHealthCheckDecorator.java",
+                "line": 32,
+                "column": 76,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 73,
+            "callee": 68
+        },
+        {
+            "callSite": {
+                "filename": "AsyncHealthCheckDecorator.java",
+                "line": 9,
+                "column": 1,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 73,
+            "callee": 93
+        },
+        {
+            "callSite": {
+                "filename": "AsyncHealthCheckDecorator.java",
+                "line": 26,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 73,
+            "callee": 81
+        },
+        {
+            "callSite": {
+                "filename": "AsyncHealthCheckDecorator.java",
+                "line": 25,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 73,
+            "callee": 81
+        },
+        {
+            "callSite": {
+                "filename": "AsyncHealthCheckDecorator.java",
+                "line": 21,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 73,
+            "callee": 81
+        },
+        {
+            "callSite": {
+                "filename": "AsyncHealthCheckDecorator.java",
+                "line": 20,
+                "column": 5,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 73,
+            "callee": 118
+        },
+        {
+            "callSite": {
+                "filename": "AsyncHealthCheckDecorator.java",
+                "line": 20,
+                "column": 5,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 73,
+            "callee": 119
+        },
+        {
+            "callSite": {
+                "filename": "AsyncHealthCheckDecorator.java",
+                "line": 20,
+                "column": 5,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 73,
+            "callee": 120
+        },
+        {
+            "callSite": {
+                "filename": "AsyncHealthCheckDecorator.java",
+                "line": 20,
+                "column": 5,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 73,
+            "callee": 121
+        },
+        {
+            "callSite": {
+                "filename": "AsyncHealthCheckDecorator.java",
+                "line": 37,
+                "column": 22,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 73,
+            "callee": 122
+        },
+        {
+            "callSite": {
+                "filename": "AsyncHealthCheckDecorator.java",
+                "line": 35,
+                "column": 22,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 73,
+            "callee": 123
+        },
+        {
+            "callSite": {
+                "filename": "AsyncHealthCheckDecorator.java",
+                "line": 24,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 73,
+            "callee": 81
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheck.java",
+                "line": 25,
+                "column": 17,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 1,
+            "callee": 124
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheckRegistry.java",
+                "line": 221,
+                "column": 29,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 25,
+            "callee": 31
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheckRegistry.java",
+                "line": 214,
+                "column": 57,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 25,
+            "callee": 9
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheckRegistry.java",
+                "line": 224,
+                "column": 45,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 25,
+            "callee": 21
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheckRegistry.java",
+                "line": 224,
+                "column": 29,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 25,
+            "callee": 31
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheckRegistry.java",
+                "line": 201,
+                "column": 5,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 25,
+            "callee": 94
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheckRegistry.java",
+                "line": 228,
+                "column": 16,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 25,
+            "callee": 30
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheckRegistry.java",
+                "line": 219,
+                "column": 56,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 25,
+            "callee": 125
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheckRegistry.java",
+                "line": 218,
+                "column": 63,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 25,
+            "callee": 32
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheckRegistry.java",
+                "line": 218,
+                "column": 63,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 25,
+            "callee": 33
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheckRegistry.java",
+                "line": 221,
+                "column": 17,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 25,
+            "callee": 126
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheckRegistry.java",
+                "line": 214,
+                "column": 35,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 25,
+            "callee": 127
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheckRegistry.java",
+                "line": 221,
+                "column": 45,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 25,
+            "callee": 29
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheckRegistry.java",
+                "line": 214,
+                "column": 17,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 25,
+            "callee": 128
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheckRegistry.java",
+                "line": 223,
+                "column": 64,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 25,
+            "callee": 31
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheckRegistry.java",
+                "line": 211,
+                "column": 33,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 25,
+            "callee": 31
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheckRegistry.java",
+                "line": 223,
+                "column": 17,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 25,
+            "callee": 129
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheckRegistry.java",
+                "line": 210,
+                "column": 59,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 25,
+            "callee": 28
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheckRegistry.java",
+                "line": 212,
+                "column": 45,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 25,
+            "callee": 29
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheckRegistry.java",
+                "line": 209,
+                "column": 65,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 25,
+            "callee": 130
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheckRegistry.java",
+                "line": 209,
+                "column": 65,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 25,
+            "callee": 131
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheckRegistry.java",
+                "line": 224,
+                "column": 17,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 25,
+            "callee": 34
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheck.java",
+                "line": 205,
+                "column": 44,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 132,
+            "callee": 133
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheck.java",
+                "line": 210,
+                "column": 40,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 132,
+            "callee": 134
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheck.java",
+                "line": 34,
+                "column": 20,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 113,
+            "callee": 23
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheck.java",
+                "line": 333,
+                "column": 13,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 135,
+            "callee": 136
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheck.java",
+                "line": 331,
+                "column": 32,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 135,
+            "callee": 5
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheck.java",
+                "line": 331,
+                "column": 32,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 135,
+            "callee": 6
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheckRegistry.java",
+                "line": 101,
+                "column": 23,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 137,
+            "callee": 82
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheckRegistry.java",
+                "line": 105,
+                "column": 30,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 137,
+            "callee": 72
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheckRegistry.java",
+                "line": 109,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 137,
+            "callee": 138
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheckRegistry.java",
+                "line": 100,
+                "column": 17,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 137,
+            "callee": 139
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheckRegistry.java",
+                "line": 107,
+                "column": 13,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 137,
+            "callee": 140
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheckRegistry.java",
+                "line": 77,
+                "column": 53,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 141,
+            "callee": 28
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheckRegistry.java",
+                "line": 78,
+                "column": 41,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 141,
+            "callee": 31
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheckRegistry.java",
+                "line": 78,
+                "column": 57,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 141,
+            "callee": 29
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheckRegistry.java",
+                "line": 76,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 141,
+            "callee": 142
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheck.java",
+                "line": 378,
+                "column": 28,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 9,
+            "callee": 143
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheck.java",
+                "line": 374,
+                "column": 22,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 9,
+            "callee": 111
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheck.java",
+                "line": 374,
+                "column": 22,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 9,
+            "callee": 96
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheck.java",
+                "line": 371,
+                "column": 22,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 9,
+            "callee": 144
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheck.java",
+                "line": 376,
+                "column": 22,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 9,
+            "callee": 21
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheck.java",
+                "line": 378,
+                "column": 58,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 9,
+            "callee": 144
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheck.java",
+                "line": 371,
+                "column": 22,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 9,
+            "callee": 145
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheck.java",
+                "line": 378,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 9,
+            "callee": 146
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheck.java",
+                "line": 378,
+                "column": 58,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 9,
+            "callee": 145
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheckRegistry.java",
+                "line": 41,
+                "column": 5,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 55,
+            "callee": 94
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheckRegistry.java",
+                "line": 45,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 55,
+            "callee": 43
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheckRegistry.java",
+                "line": 273,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 71,
+            "callee": 74
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheckRegistry.java",
+                "line": 275,
+                "column": 56,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 71,
+            "callee": 65
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheckRegistry.java",
+                "line": 275,
+                "column": 56,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 71,
+            "callee": 147
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheckRegistry.java",
+                "line": 275,
+                "column": 35,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 71,
+            "callee": 148
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheckRegistry.java",
+                "line": 274,
+                "column": 33,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 71,
+            "callee": 149
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheckRegistry.java",
+                "line": 163,
+                "column": 5,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 150,
+            "callee": 26
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheckRegistry.java",
+                "line": 169,
+                "column": 16,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 150,
+            "callee": 27
+        },
+        {
+            "callSite": {
+                "filename": "SharedHealthCheckRegistries.java",
+                "line": 33,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 151,
+            "callee": 90
+        },
+        {
+            "callSite": {
+                "filename": "SharedHealthCheckRegistries.java",
+                "line": 32,
+                "column": 5,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 151,
+            "callee": 12
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheck.java",
+                "line": 294,
+                "column": 20,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 152,
+            "callee": 101
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheck.java",
+                "line": 294,
+                "column": 20,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 152,
+            "callee": 117
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheck.java",
+                "line": 294,
+                "column": 49,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 152,
+            "callee": 22
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheck.java",
+                "line": 114,
+                "column": 51,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 23,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheck.java",
+                "line": 114,
+                "column": 13,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 23,
+            "callee": 77
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheckRegistry.java",
+                "line": 145,
+                "column": 16,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 153,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheckRegistry.java",
+                "line": 63,
+                "column": 29,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 44,
+            "callee": 16
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheckRegistry.java",
+                "line": 63,
+                "column": 29,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 44,
+            "callee": 15
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheckRegistry.java",
+                "line": 64,
+                "column": 26,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 44,
+            "callee": 154
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheckRegistry.java",
+                "line": 64,
+                "column": 26,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 44,
+            "callee": 155
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheckRegistry.java",
+                "line": 57,
+                "column": 5,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 44,
+            "callee": 39
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheck.java",
+                "line": 227,
+                "column": 13,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 156,
+            "callee": 157
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheck.java",
+                "line": 234,
+                "column": 13,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 156,
+            "callee": 158
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheck.java",
+                "line": 239,
+                "column": 21,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 156,
+            "callee": 159
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheck.java",
+                "line": 234,
+                "column": 13,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 156,
+            "callee": 160
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheck.java",
+                "line": 229,
+                "column": 17,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 156,
+            "callee": 161
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheck.java",
+                "line": 245,
+                "column": 20,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 156,
+            "callee": 162
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheck.java",
+                "line": 241,
+                "column": 52,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 156,
+            "callee": 29
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheck.java",
+                "line": 235,
+                "column": 13,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 156,
+            "callee": 161
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheck.java",
+                "line": 226,
+                "column": 43,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 156,
+            "callee": 163
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheck.java",
+                "line": 235,
+                "column": 13,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 156,
+            "callee": 160
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheck.java",
+                "line": 244,
+                "column": 13,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 156,
+            "callee": 164
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheck.java",
+                "line": 238,
+                "column": 21,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 156,
+            "callee": 160
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheck.java",
+                "line": 239,
+                "column": 36,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 156,
+            "callee": 31
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheck.java",
+                "line": 232,
+                "column": 17,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 156,
+            "callee": 160
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheck.java",
+                "line": 235,
+                "column": 51,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 156,
+            "callee": 106
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheck.java",
+                "line": 232,
+                "column": 17,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 156,
+            "callee": 165
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheck.java",
+                "line": 229,
+                "column": 17,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 156,
+            "callee": 160
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheck.java",
+                "line": 239,
+                "column": 21,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 156,
+            "callee": 161
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheck.java",
+                "line": 237,
+                "column": 52,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 156,
+            "callee": 125
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheck.java",
+                "line": 239,
+                "column": 21,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 156,
+            "callee": 161
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheck.java",
+                "line": 383,
+                "column": 16,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 144,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheckRegistry.java",
+                "line": 136,
+                "column": 50,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 166,
+            "callee": 167
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheckRegistry.java",
+                "line": 136,
+                "column": 64,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 166,
+            "callee": 103
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheckRegistry.java",
+                "line": 136,
+                "column": 16,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 166,
+            "callee": 168
+        },
+        {
+            "callSite": {
+                "filename": "HealthCheck.java",
+                "line": 82,
+                "column": 20,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 169,
+            "callee": 114
+        },
+        {
+            "callSite": {
+                "filename": "SharedHealthCheckRegistries.java",
+                "line": 100,
+                "column": 29,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 88,
+            "callee": 170
+        },
+        {
+            "callSite": {
+                "filename": "SharedHealthCheckRegistries.java",
+                "line": 102,
+                "column": 20,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 88,
+            "callee": 54
+        },
+        {
+            "callSite": {
+                "filename": "SharedHealthCheckRegistries.java",
+                "line": 94,
+                "column": 5,
+                "directory": "src/main/java/com/codahale/metrics/health"
+            },
+            "caller": 88,
+            "callee": 12
+        }
+    ],
+    "language": "java",
+    "packages": [
+        {
+            "path": "com.codahale.metrics.health",
+            "isRoot": false,
+            "module": -1,
+            "name": "health",
+            "isStandardLibrary": false
+        },
+        {
+            "path": "com.codahale.metrics.health.jvm",
+            "isRoot": false,
+            "module": -1,
+            "name": "jvm",
+            "isStandardLibrary": false
+        },
+        {
+            "path": "com.codahale.metrics.health.annotation",
+            "isRoot": false,
+            "module": -1,
+            "name": "annotation",
+            "isStandardLibrary": false
+        }
+    ],
+    "modules": []
+}
