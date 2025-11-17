@@ -1,0 +1,5 @@
+{
+  "repository": "google/gson",
+  "tag": "refs/tags/gson-parent-%s",
+  "relative_path": "gson"
+}

@@ -2,6 +2,7 @@
 import json
 import os
 import sys
+from pathlib import Path
 
 from cyclonedx.model.bom import Bom
 from packageurl import PackageURL
@@ -109,15 +110,41 @@ def process_bom(path: str):
         print(f"Location tag: {location.tag or '<none>'}", file=sys.stderr)
 
         repository = spdx_connection_to_github_repo(location.connection)
-        if not repository or not location.tag:
+        if not repository:
+            print(f"Could not convert SCM connection to GitHub repo: {location.connection!r}", file=sys.stderr)
             continue
 
-        print("{")
-        print(f"  \"repository\": \"{repository}\",")
-        print(f"  \"tag\": \"{location.tag or ''}\",")
-        print(f"  \"path\": \"\",")
-        print(f"  \"artifact\": \"{artifact.group_id}:{artifact.artifact_id}:{artifact.version}\"")
-        print("},")
+        if not location.tag:
+            print("No tag found in SCM location", file=sys.stderr)
+            continue
+
+        # Only include artifacts when the tag contains the artifact version
+        if artifact.version not in location.tag:
+            print(f"Tag {location.tag!r} does not contain version {artifact.version!r}", file=sys.stderr)
+            continue
+
+        tag_template = location.tag.replace(artifact.version, "%s")
+        print(f"Tag template: {tag_template}", file=sys.stderr)
+
+        location_meta_dir = f"metadata/{artifact.group_id}/{artifact.artifact_id}"
+        try:
+            Path(location_meta_dir).mkdir(parents=True, exist_ok=True)
+        except Exception:
+            print(f"Unable to create metadata directory {location_meta_dir}", file=sys.stderr)
+
+        location_meta_file = f"{location_meta_dir}/location.json"
+        if os.path.isfile(location_meta_file):
+            print(f"Metadata file {location_meta_file} already exists, skipping", file=sys.stderr)
+            continue
+
+        location_data = {
+            "repository": repository,
+            "tag": f"refs/tags/{tag_template}",
+            "relative_path": ""
+        }
+        with open(location_meta_file, "w", encoding="utf-8") as f:
+            json.dump(location_data, f, indent=2)
+            print(f"Wrote metadata to {location_meta_file}", file=sys.stderr)
 
     print("]")
 

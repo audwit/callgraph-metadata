@@ -1,0 +1,5 @@
+{
+  "repository": "opentracing/opentracing-java",
+  "tag": "refs/tags/%s",
+  "relative_path": "opentracing-util"
+}

@@ -1,0 +1,5 @@
+{
+  "repository": "apache/curator",
+  "tag": "refs/tags/apache-curator-%s",
+  "relative_path": "curator-recipes"
+}

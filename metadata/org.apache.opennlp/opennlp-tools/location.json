@@ -1,0 +1,5 @@
+{
+  "repository": "apache/opennlp",
+  "tag": "refs/tags/opennlp-%s",
+  "relative_path": "opennlp-tools"
+}

@@ -1,0 +1,5 @@
+{
+  "repository": "FasterXML/jackson-modules-base",
+  "tag": "refs/tags/jackson-modules-base-%s",
+  "relative_path": "jakarta-xmlbind"
+}

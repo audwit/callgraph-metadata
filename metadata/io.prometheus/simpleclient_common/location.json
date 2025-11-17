@@ -1,0 +1,5 @@
+{
+  "repository": "prometheus/client_java",
+  "tag": "refs/tags/parent-%s",
+  "relative_path": "simpleclient_common"
+}

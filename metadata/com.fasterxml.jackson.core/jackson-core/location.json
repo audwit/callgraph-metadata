@@ -1,5 +1,5 @@
 {
   "repository": "FasterXML/jackson-core",
-  "tag": "jackson-core-%s",
+  "tag": "refs/tags/jackson-core-%s",
   "relative_path": ""
 }

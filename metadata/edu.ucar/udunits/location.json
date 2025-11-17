@@ -1,0 +1,5 @@
+{
+  "repository": "Unidata/thredds",
+  "tag": "refs/tags/v%s",
+  "relative_path": "udunits"
+}

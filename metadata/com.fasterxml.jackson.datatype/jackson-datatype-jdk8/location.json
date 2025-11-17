@@ -1,0 +1,5 @@
+{
+  "repository": "FasterXML/jackson-modules-java8",
+  "tag": "refs/tags/jackson-modules-java8-%s",
+  "relative_path": "datatypes"
+}

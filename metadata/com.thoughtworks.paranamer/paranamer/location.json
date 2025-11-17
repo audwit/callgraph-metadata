@@ -1,0 +1,5 @@
+{
+  "repository": "paul-hammant/paranamer",
+  "tag": "refs/tags/paranamer-parent-%s",
+  "relative_path": "paranamer"
+}

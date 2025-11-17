@@ -1,0 +1,5 @@
+{
+  "repository": "apache/httpcomponents-core",
+  "tag": "refs/tags/rel/v%s",
+  "relative_path": "httpcore5-h2"
+}

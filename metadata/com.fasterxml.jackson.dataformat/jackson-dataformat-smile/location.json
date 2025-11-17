@@ -1,0 +1,5 @@
+{
+  "repository": "FasterXML/jackson-dataformats-binary",
+  "tag": "refs/tags/jackson-dataformats-binary-%s",
+  "relative_path": "smile"
+}

@@ -1,0 +1,5 @@
+{
+  "repository": "apache/commons-io",
+  "tag": "refs/tags/rel/commons-io-%s",
+  "relative_path": ""
+}

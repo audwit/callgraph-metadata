@@ -1,0 +1,5 @@
+{
+  "repository": "prometheus/client_java",
+  "tag": "refs/tags/v%s",
+  "relative_path": "prometheus-metrics-model"
+}

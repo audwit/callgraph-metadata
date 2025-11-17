@@ -1,0 +1,5 @@
+{
+  "repository": "apache/tika",
+  "tag": "refs/tags/%s",
+  "relative_path": "tika-core"
+}

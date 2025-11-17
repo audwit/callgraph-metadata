@@ -1,0 +1,5 @@
+{
+  "repository": "apache/httpcomponents-client",
+  "tag": "refs/tags/rel/v%s",
+  "relative_path": "httpclient5"
+}

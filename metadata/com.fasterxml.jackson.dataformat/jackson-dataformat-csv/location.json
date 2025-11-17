@@ -1,0 +1,5 @@
+{
+  "repository": "FasterXML/jackson-dataformats-text",
+  "tag": "refs/tags/jackson-dataformats-text-%s",
+  "relative_path": "csv"
+}
