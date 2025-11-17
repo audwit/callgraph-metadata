@@ -21,7 +21,6 @@ jq -r '.components[].purl' "$SBOM" | while read -r purl; do
     location_file="metadata/$groupId/$artifactId/location.json"
     if [ -f "$location_file" ]; then
         gh workflow run generate-call-graph.yaml -f artifact="$groupId:$artifactId:$version"
-        exit 0
     else
         echo "Missing location file for: $groupId:$artifactId:$version" >&2
     fi
