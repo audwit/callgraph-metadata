@@ -32,18 +32,18 @@ jobs:
         run: |
           echo "Artifact to analyze: $ARTIFACT"
           GAV_PARTS=(${ARTIFACT//:/ })
-          VERSION=${GAV_PARTS[2]}
+          VERSION="${GAV_PARTS[2]}"
           echo "Version extracted: $VERSION"
           # Find location metadata file
-          METADATA_FILE="metadata/metadata/${GAV_PARTS[0]/${GAV_PARTS[1]}/location.json"
+          METADATA_FILE="metadata/metadata/${GAV_PARTS[0]}/${GAV_PARTS[1]}/location.json"
           if [ ! -f "$METADATA_FILE" ]; then
             echo "Metadata file not found: $METADATA_FILE"
             exit 1
           fi
           # Extract metadata to environment variables
-          REPOSITORY=$(jq -r .repository "$METADATA_FILE")
-          TAG=$(printf "$(jq -r .tag "$METADATA_FILE")" "$VERSION")
-          RELATIVE_PATH=$(jq -r .relative_path "$METADATA_FILE")
+          REPOSITORY="$(jq -r .repository "$METADATA_FILE")"
+          TAG="$(printf "$(jq -r .tag "$METADATA_FILE")" "$VERSION")"
+          RELATIVE_PATH="$(jq -r .relative_path "$METADATA_FILE")"
           # Debug output
           echo "Source repository: $REPOSITORY"
           echo "Source tag: $TAG"
