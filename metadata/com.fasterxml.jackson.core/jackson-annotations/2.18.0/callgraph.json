@@ -705,6 +705,16 @@
             "properties": []
         },
         {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "hashCode",
+            "name": "com.fasterxml.jackson.annotation.Value#hashCode()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Value",
+            "properties": []
+        },
+        {
             "parameterTypes": ["Object"],
             "templateArguments": [],
             "function": "newForDeserialization",
@@ -722,16 +732,6 @@
             "packageIndex": 0,
             "language": "java",
             "type": "SimpleObjectIdResolver",
-            "properties": []
-        },
-        {
-            "parameterTypes": [],
-            "templateArguments": [],
-            "function": "hashCode",
-            "name": "com.fasterxml.jackson.annotation.Value#hashCode()",
-            "packageIndex": 0,
-            "language": "java",
-            "type": "Value",
             "properties": []
         },
         {
@@ -1987,16 +1987,6 @@
             "properties": []
         },
         {
-            "parameterTypes": ["b432076227715f399723d041efb25f45b6b5b31b"],
-            "templateArguments": [],
-            "function": "from",
-            "name": "com.fasterxml.jackson.annotation.Value.from(b432076227715f399723d041efb25f45b6b5b31b)",
-            "packageIndex": 0,
-            "language": "java",
-            "type": "Value",
-            "properties": []
-        },
-        {
             "parameterTypes": [],
             "templateArguments": [],
             "function": "<init>",
@@ -2005,6 +1995,16 @@
             "language": "java",
             "type": "ObjectIdGenerators.IntSequenceGenerator",
             "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["b432076227715f399723d041efb25f45b6b5b31b"],
+            "templateArguments": [],
+            "function": "from",
+            "name": "com.fasterxml.jackson.annotation.Value.from(b432076227715f399723d041efb25f45b6b5b31b)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Value",
+            "properties": []
         },
         {
             "parameterTypes": ["boolean"],
@@ -3002,23 +3002,23 @@
         },
         {
             "callSite": {
-                "filename": "SimpleObjectIdResolver.java",
-                "line": 51,
-                "column": 16,
-                "directory": "src/main/java/com/fasterxml/jackson/annotation"
-            },
-            "caller": 63,
-            "callee": 64
-        },
-        {
-            "callSite": {
                 "filename": "JsonIgnoreProperties.java",
                 "line": 387,
                 "column": 21,
                 "directory": "src/main/java/com/fasterxml/jackson/annotation"
             },
-            "caller": 65,
+            "caller": 63,
             "callee": 52
+        },
+        {
+            "callSite": {
+                "filename": "SimpleObjectIdResolver.java",
+                "line": 51,
+                "column": 16,
+                "directory": "src/main/java/com/fasterxml/jackson/annotation"
+            },
+            "caller": 64,
+            "callee": 65
         },
         {
             "callSite": {
@@ -3917,7 +3917,7 @@
                 "column": 5,
                 "directory": "src/main/java/com/fasterxml/jackson/annotation"
             },
-            "caller": 64,
+            "caller": 65,
             "callee": 131
         },
         {
@@ -4157,7 +4157,7 @@
                 "column": 22,
                 "directory": "src/main/java/com/fasterxml/jackson/annotation"
             },
-            "caller": 65,
+            "caller": 63,
             "callee": 96
         },
         {
@@ -4177,7 +4177,7 @@
                 "column": 46,
                 "directory": "src/main/java/com/fasterxml/jackson/annotation"
             },
-            "caller": 65,
+            "caller": 63,
             "callee": 52
         },
         {
@@ -4397,7 +4397,7 @@
                 "column": 22,
                 "directory": "src/main/java/com/fasterxml/jackson/annotation"
             },
-            "caller": 65,
+            "caller": 63,
             "callee": 158
         },
         {
@@ -4407,7 +4407,7 @@
                 "column": 26,
                 "directory": "src/main/java/com/fasterxml/jackson/annotation"
             },
-            "caller": 65,
+            "caller": 63,
             "callee": 159
         },
         {
@@ -4557,7 +4557,7 @@
                 "column": 64,
                 "directory": "src/main/java/com/fasterxml/jackson/annotation"
             },
-            "caller": 65,
+            "caller": 63,
             "callee": 165
         },
         {
@@ -4852,16 +4852,6 @@
         },
         {
             "callSite": {
-                "filename": "JsonTypeInfo.java",
-                "line": 426,
-                "column": 20,
-                "directory": "src/main/java/com/fasterxml/jackson/annotation"
-            },
-            "caller": 184,
-            "callee": 102
-        },
-        {
-            "callSite": {
                 "filename": "ObjectIdGenerators.java",
                 "line": 90,
                 "column": 13,
@@ -4878,7 +4868,17 @@
                 "directory": "src/main/java/com/fasterxml/jackson/annotation"
             },
             "caller": 1,
-            "callee": 185
+            "callee": 184
+        },
+        {
+            "callSite": {
+                "filename": "JsonTypeInfo.java",
+                "line": 426,
+                "column": 20,
+                "directory": "src/main/java/com/fasterxml/jackson/annotation"
+            },
+            "caller": 185,
+            "callee": 102
         },
         {
             "callSite": {
