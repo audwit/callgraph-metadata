@@ -99,6 +99,7 @@ jobs:
         shell: bash
         env:
           ARTIFACT: ${{ inputs.artifact }}
+          GH_TOKEN: ${{ github.token }}
         run: |
           cd metadata
           # Create PR branch name
