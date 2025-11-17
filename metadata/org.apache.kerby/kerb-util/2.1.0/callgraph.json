@@ -1,0 +1,5715 @@
+{
+    "functions": [
+        {
+            "parameterTypes": ["Credential"],
+            "templateArguments": [],
+            "function": "removeCredential",
+            "name": "org.apache.kerby.kerberos.kerb.ccache.CredentialCache#removeCredential(Credential)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CredentialCache",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Credential"],
+            "templateArguments": [],
+            "function": "remove",
+            "name": "java.util.List#remove(Credential)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.List",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["KeytabInputStream"],
+            "templateArguments": [],
+            "function": "readEntries",
+            "name": "org.apache.kerby.kerberos.kerb.keytab.Keytab#readEntries(KeytabInputStream)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "Keytab",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "KeytabInputStream",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "readEntry",
+            "name": "org.apache.kerby.kerberos.kerb.keytab.Keytab#readEntry(KeytabInputStream,int)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "Keytab",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "IOException",
+            "name": "java.io.IOException#IOException(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.IOException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "ArrayList",
+            "name": "java.util.ArrayList#ArrayList()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.ArrayList",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "java.util.ArrayList.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.ArrayList",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["KeytabEntry"],
+            "templateArguments": [],
+            "function": "add",
+            "name": "java.util.List#add(KeytabEntry)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.List",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "readKey",
+            "name": "org.apache.kerby.kerberos.kerb.ccache.CredCacheInputStream#readKey(int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CredCacheInputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "readKey",
+            "name": "org.apache.kerby.kerberos.kerb.KrbInputStream#readKey()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "KrbInputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "org.apache.kerby.kerberos.kerb.ccache.CredentialCache.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CredentialCache",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "readTimes",
+            "name": "org.apache.kerby.kerberos.kerb.ccache.CredCacheInputStream#readTimes()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CredCacheInputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "readTime",
+            "name": "org.apache.kerby.kerberos.kerb.keytab.KeytabInputStream#readTime()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "KeytabInputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "readTime",
+            "name": "org.apache.kerby.kerberos.kerb.KrbInputStream#readTime()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "KrbInputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["InputStream"],
+            "templateArguments": [],
+            "function": "CredCacheInputStream",
+            "name": "org.apache.kerby.kerberos.kerb.ccache.CredCacheInputStream#CredCacheInputStream(InputStream)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CredCacheInputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["InputStream"],
+            "templateArguments": [],
+            "function": "KrbInputStream",
+            "name": "org.apache.kerby.kerberos.kerb.KrbInputStream#KrbInputStream(InputStream)",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "KrbInputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.kerby.kerberos.kerb.ccache.CredCacheInputStream.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CredCacheInputStream",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["HostAddresses"],
+            "templateArguments": [],
+            "function": "writeAddresses",
+            "name": "org.apache.kerby.kerberos.kerb.ccache.CredCacheOutputStream#writeAddresses(HostAddresses)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CredCacheOutputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getElements",
+            "name": "org.apache.kerby.kerberos.kerb.type.base.HostAddresses#getElements()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.kerby.kerberos.kerb.type.base.HostAddresses",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["HostAddress"],
+            "templateArguments": [],
+            "function": "writeAddress",
+            "name": "org.apache.kerby.kerberos.kerb.ccache.CredCacheOutputStream#writeAddress(HostAddress)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CredCacheOutputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "size",
+            "name": "java.util.List#size()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.List",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["AuthorizationData"],
+            "templateArguments": [],
+            "function": "writeAuthzData",
+            "name": "org.apache.kerby.kerberos.kerb.ccache.CredCacheOutputStream#writeAuthzData(AuthorizationData)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CredCacheOutputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getAuthzData",
+            "name": "org.apache.kerby.kerberos.kerb.type.ad.AuthorizationDataEntry#getAuthzData()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.kerby.kerberos.kerb.type.ad.AuthorizationDataEntry",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getElements",
+            "name": "org.apache.kerby.kerberos.kerb.type.ad.AuthorizationData#getElements()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.kerby.kerberos.kerb.type.ad.AuthorizationData",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getAuthzType",
+            "name": "org.apache.kerby.kerberos.kerb.type.ad.AuthorizationDataEntry#getAuthzType()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.kerby.kerberos.kerb.type.ad.AuthorizationDataEntry",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["TicketFlags"],
+            "templateArguments": [],
+            "function": "writeTicketFlags",
+            "name": "org.apache.kerby.kerberos.kerb.ccache.CredCacheOutputStream#writeTicketFlags(TicketFlags)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CredCacheOutputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getFlags",
+            "name": "org.apache.kerby.kerberos.kerb.type.ticket.TicketFlags#getFlags()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.kerby.kerberos.kerb.type.ticket.TicketFlags",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "readAddr",
+            "name": "org.apache.kerby.kerberos.kerb.ccache.CredCacheInputStream#readAddr()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CredCacheInputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.kerby.kerberos.kerb.type.base.HostAddresses.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.kerby.kerberos.kerb.type.base.HostAddresses",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "HostAddresses",
+            "name": "org.apache.kerby.kerberos.kerb.type.base.HostAddresses#HostAddresses()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.kerby.kerberos.kerb.type.base.HostAddresses",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "readAddress",
+            "name": "org.apache.kerby.kerberos.kerb.ccache.CredCacheInputStream#readAddress()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CredCacheInputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["HostAddress[]"],
+            "templateArguments": [],
+            "function": "addElements",
+            "name": "org.apache.kerby.kerberos.kerb.type.base.HostAddresses#addElements(HostAddress[])",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.kerby.kerberos.kerb.type.base.HostAddresses",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["CredCacheInputStream"],
+            "templateArguments": [],
+            "function": "doLoad",
+            "name": "org.apache.kerby.kerberos.kerb.ccache.CredentialCache#doLoad(CredCacheInputStream)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CredentialCache",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "readPrincipal",
+            "name": "org.apache.kerby.kerberos.kerb.ccache.CredCacheInputStream#readPrincipal(int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CredCacheInputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["CredCacheInputStream"],
+            "templateArguments": [],
+            "function": "readVersion",
+            "name": "org.apache.kerby.kerberos.kerb.ccache.CredentialCache#readVersion(CredCacheInputStream)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CredentialCache",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["CredCacheInputStream"],
+            "templateArguments": [],
+            "function": "readCredentials",
+            "name": "org.apache.kerby.kerberos.kerb.ccache.CredentialCache#readCredentials(CredCacheInputStream)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CredentialCache",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["List<Credential>"],
+            "templateArguments": [],
+            "function": "addAll",
+            "name": "java.util.List#addAll(List)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.List",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["CredCacheInputStream"],
+            "templateArguments": [],
+            "function": "readTags",
+            "name": "org.apache.kerby.kerberos.kerb.ccache.CredentialCache#readTags(CredCacheInputStream)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CredentialCache",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["PrincipalName"],
+            "templateArguments": [],
+            "function": "removeKeytabEntries",
+            "name": "org.apache.kerby.kerberos.kerb.keytab.Keytab#removeKeytabEntries(PrincipalName)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "Keytab",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["PrincipalName"],
+            "templateArguments": [],
+            "function": "remove",
+            "name": "java.util.Map#remove(PrincipalName)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "readCountedString",
+            "name": "org.apache.kerby.kerberos.kerb.KrbInputStream#readCountedString()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "KrbInputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "byte[]",
+                "Charset"
+            ],
+            "templateArguments": [],
+            "function": "String",
+            "name": "java.lang.String#String(byte[],Charset)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.String",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "readCountedOctets",
+            "name": "org.apache.kerby.kerberos.kerb.KrbInputStream#readCountedOctets()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "KrbInputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["OutputStream"],
+            "templateArguments": [],
+            "function": "CredCacheOutputStream",
+            "name": "org.apache.kerby.kerberos.kerb.ccache.CredCacheOutputStream#CredCacheOutputStream(OutputStream)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CredCacheOutputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.kerby.kerberos.kerb.ccache.CredCacheOutputStream.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CredCacheOutputStream",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["OutputStream"],
+            "templateArguments": [],
+            "function": "KrbOutputStream",
+            "name": "org.apache.kerby.kerberos.kerb.KrbOutputStream#KrbOutputStream(OutputStream)",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "KrbOutputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "fromValue",
+            "name": "org.apache.kerby.kerberos.kerb.type.base.EncryptionType.fromValue(int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.kerby.kerberos.kerb.type.base.EncryptionType",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "EncryptionType",
+                "byte[]"
+            ],
+            "templateArguments": [],
+            "function": "EncryptionKey",
+            "name": "org.apache.kerby.kerberos.kerb.type.base.EncryptionKey#EncryptionKey(EncryptionType,byte[])",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.kerby.kerberos.kerb.type.base.EncryptionKey",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["KeytabOutputStream"],
+            "templateArguments": [],
+            "function": "writeVersion",
+            "name": "org.apache.kerby.kerberos.kerb.keytab.Keytab#writeVersion(KeytabOutputStream)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "Keytab",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "org.apache.kerby.kerberos.kerb.keytab.Keytab.<staticinit>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "Keytab",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [
+                "PrincipalName",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "writePrincipal",
+            "name": "org.apache.kerby.kerberos.kerb.ccache.CredCacheOutputStream#writePrincipal(PrincipalName,int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CredCacheOutputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "writeRealm",
+            "name": "org.apache.kerby.kerberos.kerb.KrbOutputStream#writeRealm(String)",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "KrbOutputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getNameType",
+            "name": "org.apache.kerby.kerberos.kerb.type.base.PrincipalName#getNameType()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.kerby.kerberos.kerb.type.base.PrincipalName",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "writeCountedString",
+            "name": "org.apache.kerby.kerberos.kerb.KrbOutputStream#writeCountedString(String)",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "KrbOutputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getRealm",
+            "name": "org.apache.kerby.kerberos.kerb.type.base.PrincipalName#getRealm()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.kerby.kerberos.kerb.type.base.PrincipalName",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getNameStrings",
+            "name": "org.apache.kerby.kerberos.kerb.type.base.PrincipalName#getNameStrings()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.kerby.kerberos.kerb.type.base.PrincipalName",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["File"],
+            "templateArguments": [],
+            "function": "store",
+            "name": "org.apache.kerby.kerberos.kerb.ccache.CredentialCache#store(File)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CredentialCache",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["OutputStream"],
+            "templateArguments": [],
+            "function": "store",
+            "name": "org.apache.kerby.kerberos.kerb.ccache.CredentialCache#store(OutputStream)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CredentialCache",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Path"],
+            "templateArguments": [],
+            "function": "newOutputStream",
+            "name": "java.nio.file.Files.newOutputStream(Path)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.nio.file.Files",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toPath",
+            "name": "java.io.File#toPath()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.File",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "KrbTicket",
+                "PrincipalName"
+            ],
+            "templateArguments": [],
+            "function": "Credential",
+            "name": "org.apache.kerby.kerberos.kerb.ccache.Credential#Credential(KrbTicket,PrincipalName)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Credential",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "KrbTicket",
+                "PrincipalName"
+            ],
+            "templateArguments": [],
+            "function": "init",
+            "name": "org.apache.kerby.kerberos.kerb.ccache.Credential#init(KrbTicket,PrincipalName)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Credential",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.kerby.kerberos.kerb.ccache.Credential.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Credential",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "add",
+            "name": "java.util.List#add(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.List",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "setRealm",
+            "name": "org.apache.kerby.kerberos.kerb.type.base.PrincipalName#setRealm(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.kerby.kerberos.kerb.type.base.PrincipalName",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "List<String>",
+                "NameType"
+            ],
+            "templateArguments": [],
+            "function": "PrincipalName",
+            "name": "org.apache.kerby.kerberos.kerb.type.base.PrincipalName#PrincipalName(List,NameType)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.kerby.kerberos.kerb.type.base.PrincipalName",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "fromValue",
+            "name": "org.apache.kerby.kerberos.kerb.type.base.NameType.fromValue(int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.kerby.kerberos.kerb.type.base.NameType",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["InputStream"],
+            "templateArguments": [],
+            "function": "loadKeytab",
+            "name": "org.apache.kerby.kerberos.kerb.keytab.Keytab.loadKeytab(InputStream)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "Keytab",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "Keytab",
+            "name": "org.apache.kerby.kerberos.kerb.keytab.Keytab#Keytab()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "Keytab",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["InputStream"],
+            "templateArguments": [],
+            "function": "load",
+            "name": "org.apache.kerby.kerberos.kerb.keytab.Keytab#load(InputStream)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "Keytab",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "readTicketFlags",
+            "name": "org.apache.kerby.kerberos.kerb.ccache.CredCacheInputStream#readTicketFlags()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CredCacheInputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "TicketFlags",
+            "name": "org.apache.kerby.kerberos.kerb.type.ticket.TicketFlags#TicketFlags(int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.kerby.kerberos.kerb.type.ticket.TicketFlags",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["KeytabEntry"],
+            "templateArguments": [],
+            "function": "addEntry",
+            "name": "org.apache.kerby.kerberos.kerb.keytab.Keytab#addEntry(KeytabEntry)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "Keytab",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getPrincipal",
+            "name": "org.apache.kerby.kerberos.kerb.keytab.KeytabEntry#getPrincipal()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "KeytabEntry",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["PrincipalName"],
+            "templateArguments": [],
+            "function": "get",
+            "name": "java.util.Map#get(PrincipalName)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "PrincipalName",
+                "List<KeytabEntry>"
+            ],
+            "templateArguments": [],
+            "function": "put",
+            "name": "java.util.Map#put(PrincipalName,List)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getCaddr",
+            "name": "org.apache.kerby.kerberos.kerb.type.kdc.EncKdcRepPart#getCaddr()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.kerby.kerberos.kerb.type.kdc.EncKdcRepPart",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getKey",
+            "name": "org.apache.kerby.kerberos.kerb.type.kdc.EncKdcRepPart#getKey()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.kerby.kerberos.kerb.type.kdc.EncKdcRepPart",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getRenewTill",
+            "name": "org.apache.kerby.kerberos.kerb.type.kdc.EncKdcRepPart#getRenewTill()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.kerby.kerberos.kerb.type.kdc.EncKdcRepPart",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getEncKdcRepPart",
+            "name": "org.apache.kerby.kerberos.kerb.type.ticket.KrbTicket#getEncKdcRepPart()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.kerby.kerberos.kerb.type.ticket.KrbTicket",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getEndTime",
+            "name": "org.apache.kerby.kerberos.kerb.type.kdc.EncKdcRepPart#getEndTime()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.kerby.kerberos.kerb.type.kdc.EncKdcRepPart",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getAuthTime",
+            "name": "org.apache.kerby.kerberos.kerb.type.kdc.EncKdcRepPart#getAuthTime()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.kerby.kerberos.kerb.type.kdc.EncKdcRepPart",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getSrealm",
+            "name": "org.apache.kerby.kerberos.kerb.type.kdc.EncKdcRepPart#getSrealm()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.kerby.kerberos.kerb.type.kdc.EncKdcRepPart",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getFlags",
+            "name": "org.apache.kerby.kerberos.kerb.type.kdc.EncKdcRepPart#getFlags()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.kerby.kerberos.kerb.type.kdc.EncKdcRepPart",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getStartTime",
+            "name": "org.apache.kerby.kerberos.kerb.type.kdc.EncKdcRepPart#getStartTime()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.kerby.kerberos.kerb.type.kdc.EncKdcRepPart",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getTicket",
+            "name": "org.apache.kerby.kerberos.kerb.type.ticket.KrbTicket#getTicket()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.kerby.kerberos.kerb.type.ticket.KrbTicket",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getSname",
+            "name": "org.apache.kerby.kerberos.kerb.type.kdc.EncKdcRepPart#getSname()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.kerby.kerberos.kerb.type.kdc.EncKdcRepPart",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["byte[]"],
+            "templateArguments": [],
+            "function": "writeCountedOctets",
+            "name": "org.apache.kerby.kerberos.kerb.KrbOutputStream#writeCountedOctets(byte[])",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "KrbOutputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["byte[]"],
+            "templateArguments": [],
+            "function": "writeCountedOctets",
+            "name": "org.apache.kerby.kerberos.kerb.keytab.KeytabOutputStream#writeCountedOctets(byte[])",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "KeytabOutputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getEType",
+            "name": "org.apache.kerby.kerberos.kerb.ccache.Credential#getEType()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Credential",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getKeyType",
+            "name": "org.apache.kerby.kerberos.kerb.type.base.EncryptionKey#getKeyType()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.kerby.kerberos.kerb.type.base.EncryptionKey",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["TgtTicket"],
+            "templateArguments": [],
+            "function": "CredentialCache",
+            "name": "org.apache.kerby.kerberos.kerb.ccache.CredentialCache#CredentialCache(TgtTicket)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CredentialCache",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["PrincipalName"],
+            "templateArguments": [],
+            "function": "setPrimaryPrincipal",
+            "name": "org.apache.kerby.kerberos.kerb.ccache.CredentialCache#setPrimaryPrincipal(PrincipalName)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CredentialCache",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Credential"],
+            "templateArguments": [],
+            "function": "addCredential",
+            "name": "org.apache.kerby.kerberos.kerb.ccache.CredentialCache#addCredential(Credential)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CredentialCache",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["TgtTicket"],
+            "templateArguments": [],
+            "function": "Credential",
+            "name": "org.apache.kerby.kerberos.kerb.ccache.Credential#Credential(TgtTicket)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Credential",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "CredentialCache",
+            "name": "org.apache.kerby.kerberos.kerb.ccache.CredentialCache#CredentialCache()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CredentialCache",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getClientPrincipal",
+            "name": "org.apache.kerby.kerberos.kerb.type.ticket.TgtTicket#getClientPrincipal()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.kerby.kerberos.kerb.type.ticket.TgtTicket",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["OutputStream"],
+            "templateArguments": [],
+            "function": "store",
+            "name": "org.apache.kerby.kerberos.kerb.keytab.Keytab#store(OutputStream)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "Keytab",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["OutputStream"],
+            "templateArguments": [],
+            "function": "KeytabOutputStream",
+            "name": "org.apache.kerby.kerberos.kerb.keytab.KeytabOutputStream#KeytabOutputStream(OutputStream)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "KeytabOutputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["KeytabOutputStream"],
+            "templateArguments": [],
+            "function": "writeEntries",
+            "name": "org.apache.kerby.kerberos.kerb.keytab.Keytab#writeEntries(KeytabOutputStream)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "Keytab",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "IllegalArgumentException",
+            "name": "java.lang.IllegalArgumentException#IllegalArgumentException(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.IllegalArgumentException",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Tag"],
+            "templateArguments": [],
+            "function": "add",
+            "name": "java.util.List#add(Tag)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.List",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "int",
+                "int",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "Tag",
+            "name": "org.apache.kerby.kerberos.kerb.ccache.Tag#Tag(int,int,int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Tag",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "IOException",
+            "name": "java.io.IOException#IOException()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.IOException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "java.io.IOException.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.IOException",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "EncryptionKey",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "writeKey",
+            "name": "org.apache.kerby.kerberos.kerb.ccache.CredCacheOutputStream#writeKey(EncryptionKey,int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CredCacheOutputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getKeyData",
+            "name": "org.apache.kerby.kerberos.kerb.type.base.EncryptionKey#getKeyData()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.kerby.kerberos.kerb.type.base.EncryptionKey",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "CredCacheInputStream",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "load",
+            "name": "org.apache.kerby.kerberos.kerb.ccache.Credential#load(CredCacheInputStream,int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Credential",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "org.apache.kerby.kerberos.kerb.ccache.Credential.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Credential",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "readTicket",
+            "name": "org.apache.kerby.kerberos.kerb.ccache.CredCacheInputStream#readTicket()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CredCacheInputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "readIsSkey",
+            "name": "org.apache.kerby.kerberos.kerb.ccache.CredCacheInputStream#readIsSkey()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CredCacheInputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "readAuthzData",
+            "name": "org.apache.kerby.kerberos.kerb.ccache.CredCacheInputStream#readAuthzData()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CredCacheInputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "PrincipalName",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "removeKeytabEntries",
+            "name": "org.apache.kerby.kerberos.kerb.keytab.Keytab#removeKeytabEntries(PrincipalName,int)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "Keytab",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["PrincipalName"],
+            "templateArguments": [],
+            "function": "getKeytabEntries",
+            "name": "org.apache.kerby.kerberos.kerb.keytab.Keytab#getKeytabEntries(PrincipalName)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "Keytab",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["KeytabEntry"],
+            "templateArguments": [],
+            "function": "removeKeytabEntry",
+            "name": "org.apache.kerby.kerberos.kerb.keytab.Keytab#removeKeytabEntry(KeytabEntry)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "Keytab",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getKvno",
+            "name": "org.apache.kerby.kerberos.kerb.keytab.KeytabEntry#getKvno()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "KeytabEntry",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.kerby.kerberos.kerb.keytab.Keytab.<init>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "Keytab",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.kerby.kerberos.kerb.ccache.CredentialCache.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CredentialCache",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getServerName",
+            "name": "org.apache.kerby.kerberos.kerb.ccache.Credential#getServerName()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Credential",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getName",
+            "name": "org.apache.kerby.kerberos.kerb.type.base.PrincipalName#getName()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.kerby.kerberos.kerb.type.base.PrincipalName",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Credential"],
+            "templateArguments": [],
+            "function": "add",
+            "name": "java.util.List#add(Credential)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.List",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["CredCacheOutputStream"],
+            "templateArguments": [],
+            "function": "doStore",
+            "name": "org.apache.kerby.kerberos.kerb.ccache.CredentialCache#doStore(CredCacheOutputStream)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CredentialCache",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["CredCacheOutputStream"],
+            "templateArguments": [],
+            "function": "writeTags",
+            "name": "org.apache.kerby.kerberos.kerb.ccache.CredentialCache#writeTags(CredCacheOutputStream)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CredentialCache",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "CredCacheOutputStream",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "store",
+            "name": "org.apache.kerby.kerberos.kerb.ccache.Credential#store(CredCacheOutputStream,int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Credential",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["CredCacheOutputStream"],
+            "templateArguments": [],
+            "function": "writeVersion",
+            "name": "org.apache.kerby.kerberos.kerb.ccache.CredentialCache#writeVersion(CredCacheOutputStream)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CredentialCache",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["InputStream"],
+            "templateArguments": [],
+            "function": "DataInputStream",
+            "name": "java.io.DataInputStream#DataInputStream(InputStream)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.DataInputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.kerby.kerberos.kerb.KrbInputStream.<init>()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "KrbInputStream",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.kerby.kerberos.kerb.keytab.KeytabOutputStream.<init>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "KeytabOutputStream",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "ArrayList",
+            "name": "java.util.ArrayList#ArrayList(int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.ArrayList",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "Credential",
+            "name": "org.apache.kerby.kerberos.kerb.ccache.Credential#Credential()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Credential",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["KeytabInputStream"],
+            "templateArguments": [],
+            "function": "doLoad",
+            "name": "org.apache.kerby.kerberos.kerb.keytab.Keytab#doLoad(KeytabInputStream)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "Keytab",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["KeytabInputStream"],
+            "templateArguments": [],
+            "function": "readVersion",
+            "name": "org.apache.kerby.kerberos.kerb.keytab.Keytab#readVersion(KeytabInputStream)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "Keytab",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["List<KeytabEntry>"],
+            "templateArguments": [],
+            "function": "addKeytabEntries",
+            "name": "org.apache.kerby.kerberos.kerb.keytab.Keytab#addKeytabEntries(List)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "Keytab",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "CredCacheOutputStream",
+                "Tag"
+            ],
+            "templateArguments": [],
+            "function": "writeTag",
+            "name": "org.apache.kerby.kerberos.kerb.ccache.CredentialCache#writeTag(CredCacheOutputStream,Tag)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CredentialCache",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "KeytabEntry",
+            "name": "org.apache.kerby.kerberos.kerb.keytab.KeytabEntry#KeytabEntry()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "KeytabEntry",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.kerby.kerberos.kerb.keytab.KeytabEntry.<init>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "KeytabEntry",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["Ticket"],
+            "templateArguments": [],
+            "function": "writeTicket",
+            "name": "org.apache.kerby.kerberos.kerb.ccache.CredCacheOutputStream#writeTicket(Ticket)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CredCacheOutputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "encode",
+            "name": "org.apache.kerby.kerberos.kerb.type.ticket.Ticket#encode()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.kerby.kerberos.kerb.type.ticket.Ticket",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getAddress",
+            "name": "org.apache.kerby.kerberos.kerb.type.base.HostAddress#getAddress()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.kerby.kerberos.kerb.type.base.HostAddress",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getAddrType",
+            "name": "org.apache.kerby.kerberos.kerb.type.base.HostAddress#getAddrType()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.kerby.kerberos.kerb.type.base.HostAddress",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["boolean"],
+            "templateArguments": [],
+            "function": "writeIsSkey",
+            "name": "org.apache.kerby.kerberos.kerb.ccache.CredCacheOutputStream#writeIsSkey(boolean)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CredCacheOutputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["KerberosTime[]"],
+            "templateArguments": [],
+            "function": "writeTimes",
+            "name": "org.apache.kerby.kerberos.kerb.ccache.CredCacheOutputStream#writeTimes(KerberosTime[])",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CredCacheOutputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "Ticket",
+            "name": "org.apache.kerby.kerberos.kerb.type.ticket.Ticket#Ticket()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.kerby.kerberos.kerb.type.ticket.Ticket",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.kerby.kerberos.kerb.type.ticket.Ticket.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.kerby.kerberos.kerb.type.ticket.Ticket",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["byte[]"],
+            "templateArguments": [],
+            "function": "decode",
+            "name": "org.apache.kerby.kerberos.kerb.type.ticket.Ticket#decode(byte[])",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.kerby.kerberos.kerb.type.ticket.Ticket",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["KerberosTime"],
+            "templateArguments": [],
+            "function": "writeTime",
+            "name": "org.apache.kerby.kerberos.kerb.KrbOutputStream#writeTime(KerberosTime)",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "KrbOutputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getValue",
+            "name": "org.apache.kerby.kerberos.kerb.type.KerberosTime#getValue()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.kerby.kerberos.kerb.type.KerberosTime",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "KeytabInputStream",
+                "int",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "load",
+            "name": "org.apache.kerby.kerberos.kerb.keytab.KeytabEntry#load(KeytabInputStream,int,int)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "KeytabEntry",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "readPrincipal",
+            "name": "org.apache.kerby.kerberos.kerb.keytab.KeytabInputStream#readPrincipal(int)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "KeytabInputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["AuthorizationDataEntry[]"],
+            "templateArguments": [],
+            "function": "addElements",
+            "name": "org.apache.kerby.kerberos.kerb.type.ad.AuthorizationData#addElements(AuthorizationDataEntry[])",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.kerby.kerberos.kerb.type.ad.AuthorizationData",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "AuthorizationData",
+            "name": "org.apache.kerby.kerberos.kerb.type.ad.AuthorizationData#AuthorizationData()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.kerby.kerberos.kerb.type.ad.AuthorizationData",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.kerby.kerberos.kerb.type.ad.AuthorizationData.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.kerby.kerberos.kerb.type.ad.AuthorizationData",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "readAuthzDataEntry",
+            "name": "org.apache.kerby.kerberos.kerb.ccache.CredCacheInputStream#readAuthzDataEntry()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CredCacheInputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "java.util.HashMap.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.HashMap",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "HashMap",
+            "name": "java.util.HashMap#HashMap()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.HashMap",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "PrincipalName",
+                "KerberosTime",
+                "int",
+                "EncryptionKey"
+            ],
+            "templateArguments": [],
+            "function": "KeytabEntry",
+            "name": "org.apache.kerby.kerberos.kerb.keytab.KeytabEntry#KeytabEntry(PrincipalName,KerberosTime,int,EncryptionKey)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "KeytabEntry",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["SgtTicket"],
+            "templateArguments": [],
+            "function": "CredentialCache",
+            "name": "org.apache.kerby.kerberos.kerb.ccache.CredentialCache#CredentialCache(SgtTicket)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CredentialCache",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getClientPrincipal",
+            "name": "org.apache.kerby.kerberos.kerb.type.ticket.SgtTicket#getClientPrincipal()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.kerby.kerberos.kerb.type.ticket.SgtTicket",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "PrincipalName",
+                "EncryptionType"
+            ],
+            "templateArguments": [],
+            "function": "getKey",
+            "name": "org.apache.kerby.kerberos.kerb.keytab.Keytab#getKey(PrincipalName,EncryptionType)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "Keytab",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getKey",
+            "name": "org.apache.kerby.kerberos.kerb.keytab.KeytabEntry#getKey()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "KeytabEntry",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getValue",
+            "name": "org.apache.kerby.kerberos.kerb.type.base.EncryptionType#getValue()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.kerby.kerberos.kerb.type.base.EncryptionType",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "KeytabOutputStream",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "writeBody",
+            "name": "org.apache.kerby.kerberos.kerb.keytab.KeytabEntry#writeBody(KeytabOutputStream,int)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "KeytabEntry",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "PrincipalName",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "writePrincipal",
+            "name": "org.apache.kerby.kerberos.kerb.keytab.KeytabOutputStream#writePrincipal(PrincipalName,int)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "KeytabOutputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "EncryptionKey",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "writeKey",
+            "name": "org.apache.kerby.kerberos.kerb.keytab.KeytabOutputStream#writeKey(EncryptionKey,int)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "KeytabOutputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "next",
+            "name": "java.util.Iterator#next()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Iterator",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "iterator",
+            "name": "java.util.List#iterator()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.List",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "equals",
+            "name": "org.apache.kerby.kerberos.kerb.keytab.KeytabEntry#equals(Object)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "KeytabEntry",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "hasNext",
+            "name": "java.util.Iterator#hasNext()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Iterator",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "remove",
+            "name": "java.util.Iterator#remove()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Iterator",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["InputStream"],
+            "templateArguments": [],
+            "function": "KeytabInputStream",
+            "name": "org.apache.kerby.kerberos.kerb.keytab.KeytabInputStream#KeytabInputStream(InputStream)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "KeytabInputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.kerby.kerberos.kerb.ccache.Tag.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Tag",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "KerberosTime",
+            "name": "org.apache.kerby.kerberos.kerb.type.KerberosTime#KerberosTime(int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.kerby.kerberos.kerb.type.KerberosTime",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "setRealm",
+            "name": "org.apache.kerby.kerberos.kerb.type.base.PrincipalName#setRealm(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.kerby.kerberos.kerb.type.base.PrincipalName",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getRealm",
+            "name": "org.apache.kerby.kerberos.kerb.type.ticket.TgtTicket#getRealm()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.kerby.kerberos.kerb.type.ticket.TgtTicket",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["List<Credential>"],
+            "templateArguments": [],
+            "function": "removeCredentials",
+            "name": "org.apache.kerby.kerberos.kerb.ccache.CredentialCache#removeCredentials(List)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CredentialCache",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["File"],
+            "templateArguments": [],
+            "function": "store",
+            "name": "org.apache.kerby.kerberos.kerb.keytab.Keytab#store(File)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "Keytab",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "fromValue",
+            "name": "org.apache.kerby.kerberos.kerb.type.ad.AuthorizationType.fromValue(int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.kerby.kerberos.kerb.type.ad.AuthorizationType",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.kerby.kerberos.kerb.type.ad.AuthorizationDataEntry.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.kerby.kerberos.kerb.type.ad.AuthorizationDataEntry",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "AuthorizationDataEntry",
+            "name": "org.apache.kerby.kerberos.kerb.type.ad.AuthorizationDataEntry#AuthorizationDataEntry()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.kerby.kerberos.kerb.type.ad.AuthorizationDataEntry",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["AuthorizationType"],
+            "templateArguments": [],
+            "function": "setAuthzType",
+            "name": "org.apache.kerby.kerberos.kerb.type.ad.AuthorizationDataEntry#setAuthzType(AuthorizationType)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.kerby.kerberos.kerb.type.ad.AuthorizationDataEntry",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["byte[]"],
+            "templateArguments": [],
+            "function": "setAuthzData",
+            "name": "org.apache.kerby.kerberos.kerb.type.ad.AuthorizationDataEntry#setAuthzData(byte[])",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.kerby.kerberos.kerb.type.ad.AuthorizationDataEntry",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["InputStream"],
+            "templateArguments": [],
+            "function": "load",
+            "name": "org.apache.kerby.kerberos.kerb.ccache.CredentialCache#load(InputStream)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CredentialCache",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "hashCode",
+            "name": "org.apache.kerby.kerberos.kerb.keytab.KeytabEntry#hashCode()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "KeytabEntry",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "hashCode",
+            "name": "org.apache.kerby.kerberos.kerb.type.base.EncryptionKey#hashCode()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.kerby.kerberos.kerb.type.base.EncryptionKey",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "hashCode",
+            "name": "org.apache.kerby.kerberos.kerb.type.KerberosTime#hashCode()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.kerby.kerberos.kerb.type.KerberosTime",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "hashCode",
+            "name": "org.apache.kerby.kerberos.kerb.type.base.PrincipalName#hashCode()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.kerby.kerberos.kerb.type.base.PrincipalName",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["byte[]"],
+            "templateArguments": [],
+            "function": "setAddress",
+            "name": "org.apache.kerby.kerberos.kerb.type.base.HostAddress#setAddress(byte[])",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.kerby.kerberos.kerb.type.base.HostAddress",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["HostAddrType"],
+            "templateArguments": [],
+            "function": "setAddrType",
+            "name": "org.apache.kerby.kerberos.kerb.type.base.HostAddress#setAddrType(HostAddrType)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.kerby.kerberos.kerb.type.base.HostAddress",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "fromValue",
+            "name": "org.apache.kerby.kerberos.kerb.type.base.HostAddrType.fromValue(int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.kerby.kerberos.kerb.type.base.HostAddrType",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.kerby.kerberos.kerb.type.base.HostAddress.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.kerby.kerberos.kerb.type.base.HostAddress",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "HostAddress",
+            "name": "org.apache.kerby.kerberos.kerb.type.base.HostAddress#HostAddress()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.kerby.kerberos.kerb.type.base.HostAddress",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["KeytabOutputStream"],
+            "templateArguments": [],
+            "function": "store",
+            "name": "org.apache.kerby.kerberos.kerb.keytab.KeytabEntry#store(KeytabOutputStream)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "KeytabEntry",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "ByteArrayOutputStream",
+            "name": "java.io.ByteArrayOutputStream#ByteArrayOutputStream()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.ByteArrayOutputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "java.io.ByteArrayOutputStream.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.ByteArrayOutputStream",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toByteArray",
+            "name": "java.io.ByteArrayOutputStream#toByteArray()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.ByteArrayOutputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["File"],
+            "templateArguments": [],
+            "function": "loadKeytab",
+            "name": "org.apache.kerby.kerberos.kerb.keytab.Keytab.loadKeytab(File)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "Keytab",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["File"],
+            "templateArguments": [],
+            "function": "load",
+            "name": "org.apache.kerby.kerberos.kerb.keytab.Keytab#load(File)",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "Keytab",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String[]"],
+            "templateArguments": [],
+            "function": "main",
+            "name": "org.apache.kerby.kerberos.kerb.ccache.CredentialCache.main(String[])",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CredentialCache",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "println",
+            "name": "java.io.PrintStream#println(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.PrintStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "exit",
+            "name": "java.lang.System.exit(int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.System",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getClientName",
+            "name": "org.apache.kerby.kerberos.kerb.ccache.Credential#getClientName()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Credential",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "File",
+            "name": "java.io.File#File(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.File",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getSname",
+            "name": "org.apache.kerby.kerberos.kerb.type.ticket.Ticket#getSname()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.kerby.kerberos.kerb.type.ticket.Ticket",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getCredentials",
+            "name": "org.apache.kerby.kerberos.kerb.ccache.CredentialCache#getCredentials()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CredentialCache",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getTicket",
+            "name": "org.apache.kerby.kerberos.kerb.ccache.Credential#getTicket()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Credential",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["File"],
+            "templateArguments": [],
+            "function": "load",
+            "name": "org.apache.kerby.kerberos.kerb.ccache.CredentialCache#load(File)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CredentialCache",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getEncryptedEncPart",
+            "name": "org.apache.kerby.kerberos.kerb.type.ticket.Ticket#getEncryptedEncPart()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.kerby.kerberos.kerb.type.ticket.Ticket",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getPrincipals",
+            "name": "org.apache.kerby.kerberos.kerb.keytab.Keytab#getPrincipals()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "Keytab",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Set<PrincipalName>"],
+            "templateArguments": [],
+            "function": "ArrayList",
+            "name": "java.util.ArrayList#ArrayList(Set)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.ArrayList",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "keySet",
+            "name": "java.util.Map#keySet()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.kerby.kerberos.kerb.KrbOutputStream.<init>()",
+            "packageIndex": 2,
+            "language": "java",
+            "type": "KrbOutputStream",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["OutputStream"],
+            "templateArguments": [],
+            "function": "DataOutputStream",
+            "name": "java.io.DataOutputStream#DataOutputStream(OutputStream)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.DataOutputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["EncryptionKey"],
+            "templateArguments": [],
+            "function": "equals",
+            "name": "org.apache.kerby.kerberos.kerb.type.base.EncryptionKey#equals(EncryptionKey)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.kerby.kerberos.kerb.type.base.EncryptionKey",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["PrincipalName"],
+            "templateArguments": [],
+            "function": "equals",
+            "name": "org.apache.kerby.kerberos.kerb.type.base.PrincipalName#equals(PrincipalName)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.kerby.kerberos.kerb.type.base.PrincipalName",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getClass",
+            "name": "java.lang.Object#getClass()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.Object",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["KerberosTime"],
+            "templateArguments": [],
+            "function": "equals",
+            "name": "org.apache.kerby.kerberos.kerb.type.KerberosTime#equals(KerberosTime)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.kerby.kerberos.kerb.type.KerberosTime",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "entrySet",
+            "name": "java.util.Map#entrySet()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getValue",
+            "name": "java.util.Map.Entry#getValue()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map.Entry",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getAbsolutePath",
+            "name": "java.io.File#getAbsolutePath()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.File",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "exists",
+            "name": "java.io.File#exists()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.File",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Path"],
+            "templateArguments": [],
+            "function": "newInputStream",
+            "name": "java.nio.file.Files.newInputStream(Path)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.nio.file.Files",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "canRead",
+            "name": "java.io.File#canRead()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.File",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "readOctetsCount",
+            "name": "org.apache.kerby.kerberos.kerb.ccache.CredCacheInputStream#readOctetsCount()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CredCacheInputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "readOctetsCount",
+            "name": "org.apache.kerby.kerberos.kerb.keytab.KeytabInputStream#readOctetsCount()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "KeytabInputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.apache.kerby.kerberos.kerb.keytab.KeytabInputStream.<init>()",
+            "packageIndex": 1,
+            "language": "java",
+            "type": "KeytabInputStream",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["List<Credential>"],
+            "templateArguments": [],
+            "function": "addCredentials",
+            "name": "org.apache.kerby.kerberos.kerb.ccache.CredentialCache#addCredentials(List)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CredentialCache",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Credential"],
+            "templateArguments": [],
+            "function": "CredentialCache",
+            "name": "org.apache.kerby.kerberos.kerb.ccache.CredentialCache#CredentialCache(Credential)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CredentialCache",
+            "properties": []
+        }
+    ],
+    "calls": [
+        {
+            "callSite": {
+                "filename": "CredentialCache.java",
+                "line": 190,
+                "column": 21,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 0,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "Keytab.java",
+                "line": 197,
+                "column": 33,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/keytab"
+            },
+            "caller": 2,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "Keytab.java",
+                "line": 195,
+                "column": 23,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/keytab"
+            },
+            "caller": 2,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "Keytab.java",
+                "line": 189,
+                "column": 37,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/keytab"
+            },
+            "caller": 2,
+            "callee": 5
+        },
+        {
+            "callSite": {
+                "filename": "Keytab.java",
+                "line": 189,
+                "column": 37,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/keytab"
+            },
+            "caller": 2,
+            "callee": 6
+        },
+        {
+            "callSite": {
+                "filename": "Keytab.java",
+                "line": 198,
+                "column": 13,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/keytab"
+            },
+            "caller": 2,
+            "callee": 7
+        },
+        {
+            "callSite": {
+                "filename": "CredCacheInputStream.java",
+                "line": 79,
+                "column": 16,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 8,
+            "callee": 9
+        },
+        {
+            "callSite": {
+                "filename": "CredCacheInputStream.java",
+                "line": 74,
+                "column": 5,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 8,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "CredCacheInputStream.java",
+                "line": 86,
+                "column": 24,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 11,
+            "callee": 12
+        },
+        {
+            "callSite": {
+                "filename": "CredCacheInputStream.java",
+                "line": 86,
+                "column": 24,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 11,
+            "callee": 13
+        },
+        {
+            "callSite": {
+                "filename": "CredCacheInputStream.java",
+                "line": 43,
+                "column": 9,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 14,
+            "callee": 15
+        },
+        {
+            "callSite": {
+                "filename": "CredCacheInputStream.java",
+                "line": 42,
+                "column": 5,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 14,
+            "callee": 16
+        },
+        {
+            "callSite": {
+                "filename": "CredCacheOutputStream.java",
+                "line": 83,
+                "column": 43,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 17,
+            "callee": 18
+        },
+        {
+            "callSite": {
+                "filename": "CredCacheOutputStream.java",
+                "line": 86,
+                "column": 17,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 17,
+            "callee": 19
+        },
+        {
+            "callSite": {
+                "filename": "CredCacheOutputStream.java",
+                "line": 84,
+                "column": 22,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 17,
+            "callee": 20
+        },
+        {
+            "callSite": {
+                "filename": "CredCacheOutputStream.java",
+                "line": 104,
+                "column": 23,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 21,
+            "callee": 22
+        },
+        {
+            "callSite": {
+                "filename": "CredCacheOutputStream.java",
+                "line": 105,
+                "column": 23,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 21,
+            "callee": 22
+        },
+        {
+            "callSite": {
+                "filename": "CredCacheOutputStream.java",
+                "line": 102,
+                "column": 49,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 21,
+            "callee": 23
+        },
+        {
+            "callSite": {
+                "filename": "CredCacheOutputStream.java",
+                "line": 103,
+                "column": 23,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 21,
+            "callee": 24
+        },
+        {
+            "callSite": {
+                "filename": "CredCacheOutputStream.java",
+                "line": 125,
+                "column": 18,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 25,
+            "callee": 26
+        },
+        {
+            "callSite": {
+                "filename": "CredCacheInputStream.java",
+                "line": 108,
+                "column": 32,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 27,
+            "callee": 28
+        },
+        {
+            "callSite": {
+                "filename": "CredCacheInputStream.java",
+                "line": 108,
+                "column": 32,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 27,
+            "callee": 29
+        },
+        {
+            "callSite": {
+                "filename": "CredCacheInputStream.java",
+                "line": 105,
+                "column": 28,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 27,
+            "callee": 30
+        },
+        {
+            "callSite": {
+                "filename": "CredCacheInputStream.java",
+                "line": 109,
+                "column": 9,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 27,
+            "callee": 31
+        },
+        {
+            "callSite": {
+                "filename": "CredentialCache.java",
+                "line": 228,
+                "column": 33,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 32,
+            "callee": 33
+        },
+        {
+            "callSite": {
+                "filename": "CredentialCache.java",
+                "line": 223,
+                "column": 24,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 32,
+            "callee": 34
+        },
+        {
+            "callSite": {
+                "filename": "CredentialCache.java",
+                "line": 222,
+                "column": 5,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 32,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "CredentialCache.java",
+                "line": 230,
+                "column": 33,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 32,
+            "callee": 35
+        },
+        {
+            "callSite": {
+                "filename": "CredentialCache.java",
+                "line": 230,
+                "column": 9,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 32,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "CredentialCache.java",
+                "line": 225,
+                "column": 25,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 32,
+            "callee": 37
+        },
+        {
+            "callSite": {
+                "filename": "Keytab.java",
+                "line": 79,
+                "column": 9,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/keytab"
+            },
+            "caller": 38,
+            "callee": 39
+        },
+        {
+            "callSite": {
+                "filename": "KrbInputStream.java",
+                "line": 61,
+                "column": 20,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb"
+            },
+            "caller": 40,
+            "callee": 41
+        },
+        {
+            "callSite": {
+                "filename": "KrbInputStream.java",
+                "line": 58,
+                "column": 32,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb"
+            },
+            "caller": 40,
+            "callee": 42
+        },
+        {
+            "callSite": {
+                "filename": "CredCacheOutputStream.java",
+                "line": 38,
+                "column": 5,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 43,
+            "callee": 44
+        },
+        {
+            "callSite": {
+                "filename": "CredCacheOutputStream.java",
+                "line": 39,
+                "column": 9,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 43,
+            "callee": 45
+        },
+        {
+            "callSite": {
+                "filename": "KrbInputStream.java",
+                "line": 48,
+                "column": 26,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb"
+            },
+            "caller": 9,
+            "callee": 42
+        },
+        {
+            "callSite": {
+                "filename": "KrbInputStream.java",
+                "line": 47,
+                "column": 34,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb"
+            },
+            "caller": 9,
+            "callee": 46
+        },
+        {
+            "callSite": {
+                "filename": "KrbInputStream.java",
+                "line": 53,
+                "column": 29,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb"
+            },
+            "caller": 9,
+            "callee": 47
+        },
+        {
+            "callSite": {
+                "filename": "Keytab.java",
+                "line": 234,
+                "column": 5,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/keytab"
+            },
+            "caller": 48,
+            "callee": 49
+        },
+        {
+            "callSite": {
+                "filename": "CredCacheOutputStream.java",
+                "line": 50,
+                "column": 29,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 50,
+            "callee": 20
+        },
+        {
+            "callSite": {
+                "filename": "CredCacheOutputStream.java",
+                "line": 42,
+                "column": 5,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 50,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "CredCacheOutputStream.java",
+                "line": 56,
+                "column": 9,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 50,
+            "callee": 51
+        },
+        {
+            "callSite": {
+                "filename": "CredCacheOutputStream.java",
+                "line": 47,
+                "column": 22,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 50,
+            "callee": 52
+        },
+        {
+            "callSite": {
+                "filename": "CredCacheOutputStream.java",
+                "line": 59,
+                "column": 13,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 50,
+            "callee": 53
+        },
+        {
+            "callSite": {
+                "filename": "CredCacheOutputStream.java",
+                "line": 56,
+                "column": 20,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 50,
+            "callee": 54
+        },
+        {
+            "callSite": {
+                "filename": "CredCacheOutputStream.java",
+                "line": 44,
+                "column": 39,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 50,
+            "callee": 55
+        },
+        {
+            "callSite": {
+                "filename": "CredentialCache.java",
+                "line": 91,
+                "column": 13,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 56,
+            "callee": 57
+        },
+        {
+            "callSite": {
+                "filename": "CredentialCache.java",
+                "line": 90,
+                "column": 42,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 56,
+            "callee": 58
+        },
+        {
+            "callSite": {
+                "filename": "CredentialCache.java",
+                "line": 90,
+                "column": 64,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 56,
+            "callee": 59
+        },
+        {
+            "callSite": {
+                "filename": "Credential.java",
+                "line": 67,
+                "column": 9,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 60,
+            "callee": 61
+        },
+        {
+            "callSite": {
+                "filename": "Credential.java",
+                "line": 66,
+                "column": 5,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 60,
+            "callee": 62
+        },
+        {
+            "callSite": {
+                "filename": "CredCacheInputStream.java",
+                "line": 65,
+                "column": 13,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 33,
+            "callee": 63
+        },
+        {
+            "callSite": {
+                "filename": "CredCacheInputStream.java",
+                "line": 69,
+                "column": 9,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 33,
+            "callee": 64
+        },
+        {
+            "callSite": {
+                "filename": "CredCacheInputStream.java",
+                "line": 59,
+                "column": 24,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 33,
+            "callee": 40
+        },
+        {
+            "callSite": {
+                "filename": "CredCacheInputStream.java",
+                "line": 68,
+                "column": 35,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 33,
+            "callee": 65
+        },
+        {
+            "callSite": {
+                "filename": "CredCacheInputStream.java",
+                "line": 51,
+                "column": 24,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 33,
+            "callee": 66
+        },
+        {
+            "callSite": {
+                "filename": "CredCacheInputStream.java",
+                "line": 61,
+                "column": 36,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 33,
+            "callee": 5
+        },
+        {
+            "callSite": {
+                "filename": "CredCacheInputStream.java",
+                "line": 61,
+                "column": 36,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 33,
+            "callee": 6
+        },
+        {
+            "callSite": {
+                "filename": "CredCacheInputStream.java",
+                "line": 64,
+                "column": 25,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 33,
+            "callee": 40
+        },
+        {
+            "callSite": {
+                "filename": "CredCacheInputStream.java",
+                "line": 46,
+                "column": 5,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 33,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "Keytab.java",
+                "line": 60,
+                "column": 25,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/keytab"
+            },
+            "caller": 67,
+            "callee": 68
+        },
+        {
+            "callSite": {
+                "filename": "Keytab.java",
+                "line": 61,
+                "column": 9,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/keytab"
+            },
+            "caller": 67,
+            "callee": 69
+        },
+        {
+            "callSite": {
+                "filename": "CredCacheInputStream.java",
+                "line": 171,
+                "column": 32,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 70,
+            "callee": 71
+        },
+        {
+            "callSite": {
+                "filename": "Keytab.java",
+                "line": 178,
+                "column": 23,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/keytab"
+            },
+            "caller": 72,
+            "callee": 6
+        },
+        {
+            "callSite": {
+                "filename": "Keytab.java",
+                "line": 178,
+                "column": 23,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/keytab"
+            },
+            "caller": 72,
+            "callee": 5
+        },
+        {
+            "callSite": {
+                "filename": "Keytab.java",
+                "line": 175,
+                "column": 35,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/keytab"
+            },
+            "caller": 72,
+            "callee": 73
+        },
+        {
+            "callSite": {
+                "filename": "Keytab.java",
+                "line": 176,
+                "column": 37,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/keytab"
+            },
+            "caller": 72,
+            "callee": 74
+        },
+        {
+            "callSite": {
+                "filename": "Keytab.java",
+                "line": 181,
+                "column": 9,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/keytab"
+            },
+            "caller": 72,
+            "callee": 7
+        },
+        {
+            "callSite": {
+                "filename": "Keytab.java",
+                "line": 179,
+                "column": 13,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/keytab"
+            },
+            "caller": 72,
+            "callee": 75
+        },
+        {
+            "callSite": {
+                "filename": "Credential.java",
+                "line": 87,
+                "column": 32,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 61,
+            "callee": 76
+        },
+        {
+            "callSite": {
+                "filename": "Credential.java",
+                "line": 79,
+                "column": 20,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 61,
+            "callee": 77
+        },
+        {
+            "callSite": {
+                "filename": "Credential.java",
+                "line": 84,
+                "column": 26,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 61,
+            "callee": 78
+        },
+        {
+            "callSite": {
+                "filename": "Credential.java",
+                "line": 71,
+                "column": 36,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 61,
+            "callee": 79
+        },
+        {
+            "callSite": {
+                "filename": "Credential.java",
+                "line": 82,
+                "column": 24,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 61,
+            "callee": 80
+        },
+        {
+            "callSite": {
+                "filename": "Credential.java",
+                "line": 80,
+                "column": 25,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 61,
+            "callee": 81
+        },
+        {
+            "callSite": {
+                "filename": "Credential.java",
+                "line": 75,
+                "column": 9,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 61,
+            "callee": 64
+        },
+        {
+            "callSite": {
+                "filename": "Credential.java",
+                "line": 91,
+                "column": 28,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 61,
+            "callee": 82
+        },
+        {
+            "callSite": {
+                "filename": "Credential.java",
+                "line": 86,
+                "column": 28,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 61,
+            "callee": 83
+        },
+        {
+            "callSite": {
+                "filename": "Credential.java",
+                "line": 81,
+                "column": 26,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 61,
+            "callee": 84
+        },
+        {
+            "callSite": {
+                "filename": "Credential.java",
+                "line": 89,
+                "column": 23,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 61,
+            "callee": 85
+        },
+        {
+            "callSite": {
+                "filename": "Credential.java",
+                "line": 74,
+                "column": 28,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 61,
+            "callee": 82
+        },
+        {
+            "callSite": {
+                "filename": "Credential.java",
+                "line": 73,
+                "column": 27,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 61,
+            "callee": 86
+        },
+        {
+            "callSite": {
+                "filename": "KrbOutputStream.java",
+                "line": 55,
+                "column": 9,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb"
+            },
+            "caller": 53,
+            "callee": 87
+        },
+        {
+            "callSite": {
+                "filename": "KrbOutputStream.java",
+                "line": 55,
+                "column": 9,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb"
+            },
+            "caller": 53,
+            "callee": 88
+        },
+        {
+            "callSite": {
+                "filename": "Credential.java",
+                "line": 111,
+                "column": 16,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 89,
+            "callee": 90
+        },
+        {
+            "callSite": {
+                "filename": "CredentialCache.java",
+                "line": 54,
+                "column": 9,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 91,
+            "callee": 92
+        },
+        {
+            "callSite": {
+                "filename": "CredentialCache.java",
+                "line": 53,
+                "column": 9,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 91,
+            "callee": 93
+        },
+        {
+            "callSite": {
+                "filename": "CredentialCache.java",
+                "line": 53,
+                "column": 23,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 91,
+            "callee": 94
+        },
+        {
+            "callSite": {
+                "filename": "CredentialCache.java",
+                "line": 52,
+                "column": 9,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 91,
+            "callee": 95
+        },
+        {
+            "callSite": {
+                "filename": "CredentialCache.java",
+                "line": 54,
+                "column": 29,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 91,
+            "callee": 96
+        },
+        {
+            "callSite": {
+                "filename": "Keytab.java",
+                "line": 230,
+                "column": 9,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/keytab"
+            },
+            "caller": 97,
+            "callee": 48
+        },
+        {
+            "callSite": {
+                "filename": "Keytab.java",
+                "line": 228,
+                "column": 34,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/keytab"
+            },
+            "caller": 97,
+            "callee": 98
+        },
+        {
+            "callSite": {
+                "filename": "Keytab.java",
+                "line": 231,
+                "column": 9,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/keytab"
+            },
+            "caller": 97,
+            "callee": 99
+        },
+        {
+            "callSite": {
+                "filename": "Keytab.java",
+                "line": 225,
+                "column": 19,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/keytab"
+            },
+            "caller": 97,
+            "callee": 100
+        },
+        {
+            "callSite": {
+                "filename": "CredentialCache.java",
+                "line": 265,
+                "column": 21,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 37,
+            "callee": 101
+        },
+        {
+            "callSite": {
+                "filename": "CredentialCache.java",
+                "line": 265,
+                "column": 30,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 37,
+            "callee": 102
+        },
+        {
+            "callSite": {
+                "filename": "CredentialCache.java",
+                "line": 253,
+                "column": 5,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 37,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "CredentialCache.java",
+                "line": 255,
+                "column": 26,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 37,
+            "callee": 6
+        },
+        {
+            "callSite": {
+                "filename": "CredentialCache.java",
+                "line": 255,
+                "column": 26,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 37,
+            "callee": 5
+        },
+        {
+            "callSite": {
+                "filename": "CredentialCache.java",
+                "line": 269,
+                "column": 31,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 37,
+            "callee": 103
+        },
+        {
+            "callSite": {
+                "filename": "CredentialCache.java",
+                "line": 269,
+                "column": 31,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 37,
+            "callee": 104
+        },
+        {
+            "callSite": {
+                "filename": "CredCacheOutputStream.java",
+                "line": 70,
+                "column": 28,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 105,
+            "callee": 106
+        },
+        {
+            "callSite": {
+                "filename": "CredCacheOutputStream.java",
+                "line": 65,
+                "column": 20,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 105,
+            "callee": 90
+        },
+        {
+            "callSite": {
+                "filename": "CredCacheOutputStream.java",
+                "line": 63,
+                "column": 5,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 105,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "CredCacheOutputStream.java",
+                "line": 70,
+                "column": 9,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 105,
+            "callee": 87
+        },
+        {
+            "callSite": {
+                "filename": "CredCacheOutputStream.java",
+                "line": 70,
+                "column": 9,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 105,
+            "callee": 88
+        },
+        {
+            "callSite": {
+                "filename": "CredCacheOutputStream.java",
+                "line": 67,
+                "column": 24,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 105,
+            "callee": 90
+        },
+        {
+            "callSite": {
+                "filename": "KrbOutputStream.java",
+                "line": 39,
+                "column": 9,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb"
+            },
+            "caller": 51,
+            "callee": 53
+        },
+        {
+            "callSite": {
+                "filename": "Credential.java",
+                "line": 162,
+                "column": 5,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 107,
+            "callee": 108
+        },
+        {
+            "callSite": {
+                "filename": "Credential.java",
+                "line": 201,
+                "column": 29,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 107,
+            "callee": 109
+        },
+        {
+            "callSite": {
+                "filename": "Credential.java",
+                "line": 188,
+                "column": 28,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 107,
+            "callee": 70
+        },
+        {
+            "callSite": {
+                "filename": "Credential.java",
+                "line": 180,
+                "column": 32,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 107,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "Credential.java",
+                "line": 190,
+                "column": 32,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 107,
+            "callee": 27
+        },
+        {
+            "callSite": {
+                "filename": "Credential.java",
+                "line": 175,
+                "column": 13,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 107,
+            "callee": 54
+        },
+        {
+            "callSite": {
+                "filename": "Credential.java",
+                "line": 168,
+                "column": 27,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 107,
+            "callee": 33
+        },
+        {
+            "callSite": {
+                "filename": "Credential.java",
+                "line": 186,
+                "column": 28,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 107,
+            "callee": 110
+        },
+        {
+            "callSite": {
+                "filename": "Credential.java",
+                "line": 170,
+                "column": 19,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 107,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "Credential.java",
+                "line": 195,
+                "column": 31,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 107,
+            "callee": 42
+        },
+        {
+            "callSite": {
+                "filename": "Credential.java",
+                "line": 163,
+                "column": 27,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 107,
+            "callee": 33
+        },
+        {
+            "callSite": {
+                "filename": "Credential.java",
+                "line": 165,
+                "column": 19,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 107,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "Credential.java",
+                "line": 192,
+                "column": 26,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 107,
+            "callee": 111
+        },
+        {
+            "callSite": {
+                "filename": "Credential.java",
+                "line": 178,
+                "column": 20,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 107,
+            "callee": 8
+        },
+        {
+            "callSite": {
+                "filename": "Credential.java",
+                "line": 198,
+                "column": 27,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 107,
+            "callee": 109
+        },
+        {
+            "callSite": {
+                "filename": "Keytab.java",
+                "line": 84,
+                "column": 37,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/keytab"
+            },
+            "caller": 112,
+            "callee": 113
+        },
+        {
+            "callSite": {
+                "filename": "Keytab.java",
+                "line": 87,
+                "column": 17,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/keytab"
+            },
+            "caller": 112,
+            "callee": 114
+        },
+        {
+            "callSite": {
+                "filename": "Keytab.java",
+                "line": 86,
+                "column": 17,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/keytab"
+            },
+            "caller": 112,
+            "callee": 115
+        },
+        {
+            "callSite": {
+                "filename": "Keytab.java",
+                "line": 1,
+                "column": 1,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/keytab"
+            },
+            "caller": 116,
+            "callee": 49
+        },
+        {
+            "callSite": {
+                "filename": "Keytab.java",
+                "line": 110,
+                "column": 37,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/keytab"
+            },
+            "caller": 113,
+            "callee": 5
+        },
+        {
+            "callSite": {
+                "filename": "Keytab.java",
+                "line": 110,
+                "column": 37,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/keytab"
+            },
+            "caller": 113,
+            "callee": 6
+        },
+        {
+            "callSite": {
+                "filename": "Keytab.java",
+                "line": 112,
+                "column": 38,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/keytab"
+            },
+            "caller": 113,
+            "callee": 74
+        },
+        {
+            "callSite": {
+                "filename": "Keytab.java",
+                "line": 118,
+                "column": 13,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/keytab"
+            },
+            "caller": 113,
+            "callee": 7
+        },
+        {
+            "callSite": {
+                "filename": "CredentialCache.java",
+                "line": 48,
+                "column": 23,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 95,
+            "callee": 5
+        },
+        {
+            "callSite": {
+                "filename": "CredentialCache.java",
+                "line": 48,
+                "column": 23,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 95,
+            "callee": 6
+        },
+        {
+            "callSite": {
+                "filename": "CredentialCache.java",
+                "line": 47,
+                "column": 5,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 95,
+            "callee": 117
+        },
+        {
+            "callSite": {
+                "filename": "CredentialCache.java",
+                "line": 161,
+                "column": 59,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 93,
+            "callee": 118
+        },
+        {
+            "callSite": {
+                "filename": "CredentialCache.java",
+                "line": 161,
+                "column": 21,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 93,
+            "callee": 118
+        },
+        {
+            "callSite": {
+                "filename": "CredentialCache.java",
+                "line": 161,
+                "column": 59,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 93,
+            "callee": 119
+        },
+        {
+            "callSite": {
+                "filename": "CredentialCache.java",
+                "line": 161,
+                "column": 21,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 93,
+            "callee": 119
+        },
+        {
+            "callSite": {
+                "filename": "CredentialCache.java",
+                "line": 165,
+                "column": 13,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 93,
+            "callee": 120
+        },
+        {
+            "callSite": {
+                "filename": "CredentialCache.java",
+                "line": 114,
+                "column": 13,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 121,
+            "callee": 122
+        },
+        {
+            "callSite": {
+                "filename": "CredentialCache.java",
+                "line": 108,
+                "column": 5,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 121,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "CredentialCache.java",
+                "line": 120,
+                "column": 13,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 121,
+            "callee": 123
+        },
+        {
+            "callSite": {
+                "filename": "CredentialCache.java",
+                "line": 117,
+                "column": 9,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 121,
+            "callee": 50
+        },
+        {
+            "callSite": {
+                "filename": "CredentialCache.java",
+                "line": 111,
+                "column": 9,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 121,
+            "callee": 124
+        },
+        {
+            "callSite": {
+                "filename": "KrbInputStream.java",
+                "line": 34,
+                "column": 9,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb"
+            },
+            "caller": 15,
+            "callee": 125
+        },
+        {
+            "callSite": {
+                "filename": "KrbInputStream.java",
+                "line": 33,
+                "column": 5,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb"
+            },
+            "caller": 15,
+            "callee": 126
+        },
+        {
+            "callSite": {
+                "filename": "KeytabOutputStream.java",
+                "line": 32,
+                "column": 9,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/keytab"
+            },
+            "caller": 98,
+            "callee": 45
+        },
+        {
+            "callSite": {
+                "filename": "KeytabOutputStream.java",
+                "line": 31,
+                "column": 5,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/keytab"
+            },
+            "caller": 98,
+            "callee": 127
+        },
+        {
+            "callSite": {
+                "filename": "CredentialCache.java",
+                "line": 242,
+                "column": 13,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 35,
+            "callee": 120
+        },
+        {
+            "callSite": {
+                "filename": "CredentialCache.java",
+                "line": 235,
+                "column": 36,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 35,
+            "callee": 128
+        },
+        {
+            "callSite": {
+                "filename": "CredentialCache.java",
+                "line": 240,
+                "column": 13,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 35,
+            "callee": 107
+        },
+        {
+            "callSite": {
+                "filename": "CredentialCache.java",
+                "line": 239,
+                "column": 20,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 35,
+            "callee": 129
+        },
+        {
+            "callSite": {
+                "filename": "Keytab.java",
+                "line": 167,
+                "column": 24,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/keytab"
+            },
+            "caller": 130,
+            "callee": 131
+        },
+        {
+            "callSite": {
+                "filename": "Keytab.java",
+                "line": 169,
+                "column": 37,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/keytab"
+            },
+            "caller": 130,
+            "callee": 2
+        },
+        {
+            "callSite": {
+                "filename": "Keytab.java",
+                "line": 170,
+                "column": 9,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/keytab"
+            },
+            "caller": 130,
+            "callee": 132
+        },
+        {
+            "callSite": {
+                "filename": "CredentialCache.java",
+                "line": 282,
+                "column": 5,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 122,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "CredentialCache.java",
+                "line": 301,
+                "column": 13,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 122,
+            "callee": 133
+        },
+        {
+            "callSite": {
+                "filename": "KeytabEntry.java",
+                "line": 43,
+                "column": 5,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/keytab"
+            },
+            "caller": 134,
+            "callee": 135
+        },
+        {
+            "callSite": {
+                "filename": "CredCacheOutputStream.java",
+                "line": 114,
+                "column": 28,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 136,
+            "callee": 137
+        },
+        {
+            "callSite": {
+                "filename": "CredentialCache.java",
+                "line": 1,
+                "column": 1,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 117,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "CredCacheOutputStream.java",
+                "line": 94,
+                "column": 15,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 19,
+            "callee": 138
+        },
+        {
+            "callSite": {
+                "filename": "CredCacheOutputStream.java",
+                "line": 92,
+                "column": 15,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 19,
+            "callee": 139
+        },
+        {
+            "callSite": {
+                "filename": "CredCacheOutputStream.java",
+                "line": 93,
+                "column": 15,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 19,
+            "callee": 138
+        },
+        {
+            "callSite": {
+                "filename": "CredCacheOutputStream.java",
+                "line": 95,
+                "column": 15,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 19,
+            "callee": 138
+        },
+        {
+            "callSite": {
+                "filename": "Credential.java",
+                "line": 217,
+                "column": 9,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 123,
+            "callee": 17
+        },
+        {
+            "callSite": {
+                "filename": "Credential.java",
+                "line": 223,
+                "column": 9,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 123,
+            "callee": 136
+        },
+        {
+            "callSite": {
+                "filename": "Credential.java",
+                "line": 213,
+                "column": 9,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 123,
+            "callee": 140
+        },
+        {
+            "callSite": {
+                "filename": "Credential.java",
+                "line": 211,
+                "column": 9,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 123,
+            "callee": 141
+        },
+        {
+            "callSite": {
+                "filename": "Credential.java",
+                "line": 208,
+                "column": 9,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 123,
+            "callee": 50
+        },
+        {
+            "callSite": {
+                "filename": "Credential.java",
+                "line": 221,
+                "column": 9,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 123,
+            "callee": 136
+        },
+        {
+            "callSite": {
+                "filename": "Credential.java",
+                "line": 209,
+                "column": 9,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 123,
+            "callee": 105
+        },
+        {
+            "callSite": {
+                "filename": "Credential.java",
+                "line": 219,
+                "column": 9,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 123,
+            "callee": 21
+        },
+        {
+            "callSite": {
+                "filename": "Credential.java",
+                "line": 215,
+                "column": 9,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 123,
+            "callee": 25
+        },
+        {
+            "callSite": {
+                "filename": "Credential.java",
+                "line": 207,
+                "column": 9,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 123,
+            "callee": 50
+        },
+        {
+            "callSite": {
+                "filename": "CredCacheInputStream.java",
+                "line": 181,
+                "column": 25,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 109,
+            "callee": 142
+        },
+        {
+            "callSite": {
+                "filename": "CredCacheInputStream.java",
+                "line": 181,
+                "column": 25,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 109,
+            "callee": 143
+        },
+        {
+            "callSite": {
+                "filename": "CredCacheInputStream.java",
+                "line": 182,
+                "column": 9,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 109,
+            "callee": 144
+        },
+        {
+            "callSite": {
+                "filename": "CredCacheInputStream.java",
+                "line": 176,
+                "column": 29,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 109,
+            "callee": 42
+        },
+        {
+            "callSite": {
+                "filename": "KrbOutputStream.java",
+                "line": 47,
+                "column": 27,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb"
+            },
+            "caller": 145,
+            "callee": 146
+        },
+        {
+            "callSite": {
+                "filename": "Keytab.java",
+                "line": 210,
+                "column": 29,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/keytab"
+            },
+            "caller": 3,
+            "callee": 134
+        },
+        {
+            "callSite": {
+                "filename": "Keytab.java",
+                "line": 211,
+                "column": 9,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/keytab"
+            },
+            "caller": 3,
+            "callee": 147
+        },
+        {
+            "callSite": {
+                "filename": "KeytabEntry.java",
+                "line": 51,
+                "column": 26,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/keytab"
+            },
+            "caller": 147,
+            "callee": 12
+        },
+        {
+            "callSite": {
+                "filename": "KeytabEntry.java",
+                "line": 49,
+                "column": 26,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/keytab"
+            },
+            "caller": 147,
+            "callee": 148
+        },
+        {
+            "callSite": {
+                "filename": "KeytabEntry.java",
+                "line": 55,
+                "column": 20,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/keytab"
+            },
+            "caller": 147,
+            "callee": 9
+        },
+        {
+            "callSite": {
+                "filename": "KeytabEntry.java",
+                "line": 69,
+                "column": 19,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/keytab"
+            },
+            "caller": 147,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "CredCacheInputStream.java",
+                "line": 142,
+                "column": 9,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 111,
+            "callee": 149
+        },
+        {
+            "callSite": {
+                "filename": "CredCacheInputStream.java",
+                "line": 141,
+                "column": 36,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 111,
+            "callee": 150
+        },
+        {
+            "callSite": {
+                "filename": "CredCacheInputStream.java",
+                "line": 141,
+                "column": 36,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 111,
+            "callee": 151
+        },
+        {
+            "callSite": {
+                "filename": "CredCacheInputStream.java",
+                "line": 138,
+                "column": 28,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 111,
+            "callee": 152
+        },
+        {
+            "callSite": {
+                "filename": "Keytab.java",
+                "line": 49,
+                "column": 5,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/keytab"
+            },
+            "caller": 68,
+            "callee": 116
+        },
+        {
+            "callSite": {
+                "filename": "Keytab.java",
+                "line": 50,
+                "column": 33,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/keytab"
+            },
+            "caller": 68,
+            "callee": 153
+        },
+        {
+            "callSite": {
+                "filename": "Keytab.java",
+                "line": 50,
+                "column": 33,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/keytab"
+            },
+            "caller": 68,
+            "callee": 154
+        },
+        {
+            "callSite": {
+                "filename": "KeytabEntry.java",
+                "line": 35,
+                "column": 5,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/keytab"
+            },
+            "caller": 155,
+            "callee": 135
+        },
+        {
+            "callSite": {
+                "filename": "CredentialCache.java",
+                "line": 58,
+                "column": 9,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 156,
+            "callee": 95
+        },
+        {
+            "callSite": {
+                "filename": "CredentialCache.java",
+                "line": 60,
+                "column": 9,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 156,
+            "callee": 92
+        },
+        {
+            "callSite": {
+                "filename": "CredentialCache.java",
+                "line": 59,
+                "column": 43,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 156,
+            "callee": 157
+        },
+        {
+            "callSite": {
+                "filename": "CredentialCache.java",
+                "line": 59,
+                "column": 23,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 156,
+            "callee": 60
+        },
+        {
+            "callSite": {
+                "filename": "CredentialCache.java",
+                "line": 59,
+                "column": 9,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 156,
+            "callee": 93
+        },
+        {
+            "callSite": {
+                "filename": "CredentialCache.java",
+                "line": 60,
+                "column": 29,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 156,
+            "callee": 157
+        },
+        {
+            "callSite": {
+                "filename": "Keytab.java",
+                "line": 136,
+                "column": 33,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/keytab"
+            },
+            "caller": 158,
+            "callee": 90
+        },
+        {
+            "callSite": {
+                "filename": "Keytab.java",
+                "line": 129,
+                "column": 24,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/keytab"
+            },
+            "caller": 158,
+            "callee": 159
+        },
+        {
+            "callSite": {
+                "filename": "Keytab.java",
+                "line": 126,
+                "column": 37,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/keytab"
+            },
+            "caller": 158,
+            "callee": 113
+        },
+        {
+            "callSite": {
+                "filename": "Keytab.java",
+                "line": 136,
+                "column": 33,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/keytab"
+            },
+            "caller": 158,
+            "callee": 159
+        },
+        {
+            "callSite": {
+                "filename": "Keytab.java",
+                "line": 137,
+                "column": 24,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/keytab"
+            },
+            "caller": 158,
+            "callee": 159
+        },
+        {
+            "callSite": {
+                "filename": "Keytab.java",
+                "line": 134,
+                "column": 28,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/keytab"
+            },
+            "caller": 158,
+            "callee": 160
+        },
+        {
+            "callSite": {
+                "filename": "Keytab.java",
+                "line": 128,
+                "column": 17,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/keytab"
+            },
+            "caller": 158,
+            "callee": 90
+        },
+        {
+            "callSite": {
+                "filename": "Keytab.java",
+                "line": 128,
+                "column": 17,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/keytab"
+            },
+            "caller": 158,
+            "callee": 159
+        },
+        {
+            "callSite": {
+                "filename": "KeytabEntry.java",
+                "line": 106,
+                "column": 9,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/keytab"
+            },
+            "caller": 161,
+            "callee": 162
+        },
+        {
+            "callSite": {
+                "filename": "KeytabEntry.java",
+                "line": 112,
+                "column": 9,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/keytab"
+            },
+            "caller": 161,
+            "callee": 163
+        },
+        {
+            "callSite": {
+                "filename": "KeytabEntry.java",
+                "line": 108,
+                "column": 9,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/keytab"
+            },
+            "caller": 161,
+            "callee": 145
+        },
+        {
+            "callSite": {
+                "filename": "Credential.java",
+                "line": 54,
+                "column": 5,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 129,
+            "callee": 62
+        },
+        {
+            "callSite": {
+                "filename": "Keytab.java",
+                "line": 99,
+                "column": 35,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/keytab"
+            },
+            "caller": 114,
+            "callee": 164
+        },
+        {
+            "callSite": {
+                "filename": "Keytab.java",
+                "line": 97,
+                "column": 42,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/keytab"
+            },
+            "caller": 114,
+            "callee": 165
+        },
+        {
+            "callSite": {
+                "filename": "Keytab.java",
+                "line": 100,
+                "column": 21,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/keytab"
+            },
+            "caller": 114,
+            "callee": 166
+        },
+        {
+            "callSite": {
+                "filename": "Keytab.java",
+                "line": 98,
+                "column": 20,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/keytab"
+            },
+            "caller": 114,
+            "callee": 167
+        },
+        {
+            "callSite": {
+                "filename": "Keytab.java",
+                "line": 94,
+                "column": 35,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/keytab"
+            },
+            "caller": 114,
+            "callee": 73
+        },
+        {
+            "callSite": {
+                "filename": "Keytab.java",
+                "line": 101,
+                "column": 21,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/keytab"
+            },
+            "caller": 114,
+            "callee": 168
+        },
+        {
+            "callSite": {
+                "filename": "Keytab.java",
+                "line": 95,
+                "column": 37,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/keytab"
+            },
+            "caller": 114,
+            "callee": 74
+        },
+        {
+            "callSite": {
+                "filename": "Keytab.java",
+                "line": 161,
+                "column": 33,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/keytab"
+            },
+            "caller": 69,
+            "callee": 169
+        },
+        {
+            "callSite": {
+                "filename": "Keytab.java",
+                "line": 158,
+                "column": 19,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/keytab"
+            },
+            "caller": 69,
+            "callee": 100
+        },
+        {
+            "callSite": {
+                "filename": "Keytab.java",
+                "line": 163,
+                "column": 9,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/keytab"
+            },
+            "caller": 69,
+            "callee": 130
+        },
+        {
+            "callSite": {
+                "filename": "KeytabOutputStream.java",
+                "line": 38,
+                "column": 24,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/keytab"
+            },
+            "caller": 162,
+            "callee": 54
+        },
+        {
+            "callSite": {
+                "filename": "KeytabOutputStream.java",
+                "line": 37,
+                "column": 29,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/keytab"
+            },
+            "caller": 162,
+            "callee": 55
+        },
+        {
+            "callSite": {
+                "filename": "KeytabOutputStream.java",
+                "line": 48,
+                "column": 18,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/keytab"
+            },
+            "caller": 162,
+            "callee": 52
+        },
+        {
+            "callSite": {
+                "filename": "KeytabOutputStream.java",
+                "line": 42,
+                "column": 9,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/keytab"
+            },
+            "caller": 162,
+            "callee": 53
+        },
+        {
+            "callSite": {
+                "filename": "KeytabOutputStream.java",
+                "line": 45,
+                "column": 13,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/keytab"
+            },
+            "caller": 162,
+            "callee": 53
+        },
+        {
+            "callSite": {
+                "filename": "KeytabOutputStream.java",
+                "line": 36,
+                "column": 36,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/keytab"
+            },
+            "caller": 162,
+            "callee": 55
+        },
+        {
+            "callSite": {
+                "filename": "Tag.java",
+                "line": 29,
+                "column": 5,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 102,
+            "callee": 170
+        },
+        {
+            "callSite": {
+                "filename": "KeytabInputStream.java",
+                "line": 39,
+                "column": 29,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/keytab"
+            },
+            "caller": 12,
+            "callee": 171
+        },
+        {
+            "callSite": {
+                "filename": "Credential.java",
+                "line": 63,
+                "column": 9,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 94,
+            "callee": 61
+        },
+        {
+            "callSite": {
+                "filename": "Credential.java",
+                "line": 61,
+                "column": 9,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 94,
+            "callee": 172
+        },
+        {
+            "callSite": {
+                "filename": "Credential.java",
+                "line": 61,
+                "column": 34,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 94,
+            "callee": 173
+        },
+        {
+            "callSite": {
+                "filename": "Credential.java",
+                "line": 59,
+                "column": 41,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 94,
+            "callee": 96
+        },
+        {
+            "callSite": {
+                "filename": "Credential.java",
+                "line": 58,
+                "column": 5,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 94,
+            "callee": 62
+        },
+        {
+            "callSite": {
+                "filename": "KeytabInputStream.java",
+                "line": 55,
+                "column": 13,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/keytab"
+            },
+            "caller": 148,
+            "callee": 63
+        },
+        {
+            "callSite": {
+                "filename": "KeytabInputStream.java",
+                "line": 58,
+                "column": 29,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/keytab"
+            },
+            "caller": 148,
+            "callee": 66
+        },
+        {
+            "callSite": {
+                "filename": "KeytabInputStream.java",
+                "line": 54,
+                "column": 32,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/keytab"
+            },
+            "caller": 148,
+            "callee": 40
+        },
+        {
+            "callSite": {
+                "filename": "KeytabInputStream.java",
+                "line": 43,
+                "column": 5,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/keytab"
+            },
+            "caller": 148,
+            "callee": 49
+        },
+        {
+            "callSite": {
+                "filename": "KeytabInputStream.java",
+                "line": 52,
+                "column": 36,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/keytab"
+            },
+            "caller": 148,
+            "callee": 5
+        },
+        {
+            "callSite": {
+                "filename": "KeytabInputStream.java",
+                "line": 52,
+                "column": 36,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/keytab"
+            },
+            "caller": 148,
+            "callee": 6
+        },
+        {
+            "callSite": {
+                "filename": "KeytabInputStream.java",
+                "line": 60,
+                "column": 9,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/keytab"
+            },
+            "caller": 148,
+            "callee": 64
+        },
+        {
+            "callSite": {
+                "filename": "KeytabInputStream.java",
+                "line": 50,
+                "column": 24,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/keytab"
+            },
+            "caller": 148,
+            "callee": 40
+        },
+        {
+            "callSite": {
+                "filename": "KeytabInputStream.java",
+                "line": 59,
+                "column": 35,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/keytab"
+            },
+            "caller": 148,
+            "callee": 65
+        },
+        {
+            "callSite": {
+                "filename": "CredentialCache.java",
+                "line": 180,
+                "column": 17,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 174,
+            "callee": 0
+        },
+        {
+            "callSite": {
+                "filename": "Keytab.java",
+                "line": 73,
+                "column": 13,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/keytab"
+            },
+            "caller": 132,
+            "callee": 72
+        },
+        {
+            "callSite": {
+                "filename": "Keytab.java",
+                "line": 217,
+                "column": 42,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/keytab"
+            },
+            "caller": 175,
+            "callee": 58
+        },
+        {
+            "callSite": {
+                "filename": "Keytab.java",
+                "line": 218,
+                "column": 13,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/keytab"
+            },
+            "caller": 175,
+            "callee": 97
+        },
+        {
+            "callSite": {
+                "filename": "Keytab.java",
+                "line": 217,
+                "column": 64,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/keytab"
+            },
+            "caller": 175,
+            "callee": 59
+        },
+        {
+            "callSite": {
+                "filename": "KeytabOutputStream.java",
+                "line": 54,
+                "column": 9,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/keytab"
+            },
+            "caller": 163,
+            "callee": 88
+        },
+        {
+            "callSite": {
+                "filename": "KeytabOutputStream.java",
+                "line": 53,
+                "column": 20,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/keytab"
+            },
+            "caller": 163,
+            "callee": 90
+        },
+        {
+            "callSite": {
+                "filename": "KeytabOutputStream.java",
+                "line": 54,
+                "column": 28,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/keytab"
+            },
+            "caller": 163,
+            "callee": 106
+        },
+        {
+            "callSite": {
+                "filename": "CredCacheInputStream.java",
+                "line": 150,
+                "column": 19,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 152,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "CredCacheInputStream.java",
+                "line": 148,
+                "column": 39,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 152,
+            "callee": 176
+        },
+        {
+            "callSite": {
+                "filename": "CredCacheInputStream.java",
+                "line": 157,
+                "column": 45,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 152,
+            "callee": 177
+        },
+        {
+            "callSite": {
+                "filename": "CredCacheInputStream.java",
+                "line": 157,
+                "column": 45,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 152,
+            "callee": 178
+        },
+        {
+            "callSite": {
+                "filename": "CredCacheInputStream.java",
+                "line": 158,
+                "column": 9,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 152,
+            "callee": 179
+        },
+        {
+            "callSite": {
+                "filename": "CredCacheInputStream.java",
+                "line": 159,
+                "column": 9,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 152,
+            "callee": 180
+        },
+        {
+            "callSite": {
+                "filename": "CredCacheInputStream.java",
+                "line": 152,
+                "column": 28,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 152,
+            "callee": 42
+        },
+        {
+            "callSite": {
+                "filename": "CredCacheInputStream.java",
+                "line": 154,
+                "column": 19,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 152,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "CredentialCache.java",
+                "line": 215,
+                "column": 37,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 181,
+            "callee": 14
+        },
+        {
+            "callSite": {
+                "filename": "CredentialCache.java",
+                "line": 212,
+                "column": 19,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 181,
+            "callee": 100
+        },
+        {
+            "callSite": {
+                "filename": "CredentialCache.java",
+                "line": 217,
+                "column": 9,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 181,
+            "callee": 32
+        },
+        {
+            "callSite": {
+                "filename": "KrbInputStream.java",
+                "line": 39,
+                "column": 29,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb"
+            },
+            "caller": 13,
+            "callee": 171
+        },
+        {
+            "callSite": {
+                "filename": "KeytabEntry.java",
+                "line": 147,
+                "column": 32,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/keytab"
+            },
+            "caller": 182,
+            "callee": 183
+        },
+        {
+            "callSite": {
+                "filename": "KeytabEntry.java",
+                "line": 145,
+                "column": 32,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/keytab"
+            },
+            "caller": 182,
+            "callee": 184
+        },
+        {
+            "callSite": {
+                "filename": "KeytabEntry.java",
+                "line": 144,
+                "column": 22,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/keytab"
+            },
+            "caller": 182,
+            "callee": 185
+        },
+        {
+            "callSite": {
+                "filename": "CredCacheInputStream.java",
+                "line": 125,
+                "column": 9,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 30,
+            "callee": 186
+        },
+        {
+            "callSite": {
+                "filename": "CredCacheInputStream.java",
+                "line": 119,
+                "column": 27,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 30,
+            "callee": 42
+        },
+        {
+            "callSite": {
+                "filename": "CredCacheInputStream.java",
+                "line": 121,
+                "column": 19,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 30,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "CredCacheInputStream.java",
+                "line": 124,
+                "column": 9,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 30,
+            "callee": 187
+        },
+        {
+            "callSite": {
+                "filename": "CredCacheInputStream.java",
+                "line": 115,
+                "column": 33,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 30,
+            "callee": 188
+        },
+        {
+            "callSite": {
+                "filename": "CredCacheInputStream.java",
+                "line": 123,
+                "column": 28,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 30,
+            "callee": 189
+        },
+        {
+            "callSite": {
+                "filename": "CredCacheInputStream.java",
+                "line": 123,
+                "column": 28,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 30,
+            "callee": 190
+        },
+        {
+            "callSite": {
+                "filename": "CredCacheInputStream.java",
+                "line": 117,
+                "column": 19,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 30,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "CredentialCache.java",
+                "line": 98,
+                "column": 19,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 57,
+            "callee": 100
+        },
+        {
+            "callSite": {
+                "filename": "CredentialCache.java",
+                "line": 103,
+                "column": 9,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 57,
+            "callee": 121
+        },
+        {
+            "callSite": {
+                "filename": "CredentialCache.java",
+                "line": 101,
+                "column": 38,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 57,
+            "callee": 43
+        },
+        {
+            "callSite": {
+                "filename": "KeytabEntry.java",
+                "line": 80,
+                "column": 37,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/keytab"
+            },
+            "caller": 191,
+            "callee": 98
+        },
+        {
+            "callSite": {
+                "filename": "KeytabEntry.java",
+                "line": 79,
+                "column": 38,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/keytab"
+            },
+            "caller": 191,
+            "callee": 192
+        },
+        {
+            "callSite": {
+                "filename": "KeytabEntry.java",
+                "line": 79,
+                "column": 38,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/keytab"
+            },
+            "caller": 191,
+            "callee": 193
+        },
+        {
+            "callSite": {
+                "filename": "KeytabEntry.java",
+                "line": 81,
+                "column": 9,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/keytab"
+            },
+            "caller": 191,
+            "callee": 161
+        },
+        {
+            "callSite": {
+                "filename": "KeytabEntry.java",
+                "line": 83,
+                "column": 16,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/keytab"
+            },
+            "caller": 191,
+            "callee": 194
+        },
+        {
+            "callSite": {
+                "filename": "Keytab.java",
+                "line": 54,
+                "column": 25,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/keytab"
+            },
+            "caller": 195,
+            "callee": 68
+        },
+        {
+            "callSite": {
+                "filename": "Keytab.java",
+                "line": 55,
+                "column": 9,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/keytab"
+            },
+            "caller": 195,
+            "callee": 196
+        },
+        {
+            "callSite": {
+                "filename": "CredentialCache.java",
+                "line": 84,
+                "column": 13,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 197,
+            "callee": 198
+        },
+        {
+            "callSite": {
+                "filename": "CredentialCache.java",
+                "line": 73,
+                "column": 13,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 197,
+            "callee": 199
+        },
+        {
+            "callSite": {
+                "filename": "CredentialCache.java",
+                "line": 83,
+                "column": 54,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 197,
+            "callee": 200
+        },
+        {
+            "callSite": {
+                "filename": "CredentialCache.java",
+                "line": 71,
+                "column": 13,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 197,
+            "callee": 198
+        },
+        {
+            "callSite": {
+                "filename": "CredentialCache.java",
+                "line": 78,
+                "column": 17,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 197,
+            "callee": 201
+        },
+        {
+            "callSite": {
+                "filename": "CredentialCache.java",
+                "line": 83,
+                "column": 13,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 197,
+            "callee": 198
+        },
+        {
+            "callSite": {
+                "filename": "CredentialCache.java",
+                "line": 83,
+                "column": 54,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 197,
+            "callee": 119
+        },
+        {
+            "callSite": {
+                "filename": "CredentialCache.java",
+                "line": 82,
+                "column": 54,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 197,
+            "callee": 202
+        },
+        {
+            "callSite": {
+                "filename": "CredentialCache.java",
+                "line": 77,
+                "column": 30,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 197,
+            "callee": 95
+        },
+        {
+            "callSite": {
+                "filename": "CredentialCache.java",
+                "line": 80,
+                "column": 32,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 197,
+            "callee": 203
+        },
+        {
+            "callSite": {
+                "filename": "CredentialCache.java",
+                "line": 82,
+                "column": 13,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 197,
+            "callee": 198
+        },
+        {
+            "callSite": {
+                "filename": "CredentialCache.java",
+                "line": 81,
+                "column": 26,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 197,
+            "callee": 204
+        },
+        {
+            "callSite": {
+                "filename": "CredentialCache.java",
+                "line": 78,
+                "column": 9,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 197,
+            "callee": 205
+        },
+        {
+            "callSite": {
+                "filename": "CredentialCache.java",
+                "line": 84,
+                "column": 55,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 197,
+            "callee": 206
+        },
+        {
+            "callSite": {
+                "filename": "CredentialCache.java",
+                "line": 72,
+                "column": 13,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 197,
+            "callee": 198
+        },
+        {
+            "callSite": {
+                "filename": "Keytab.java",
+                "line": 67,
+                "column": 16,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/keytab"
+            },
+            "caller": 207,
+            "callee": 208
+        },
+        {
+            "callSite": {
+                "filename": "Keytab.java",
+                "line": 67,
+                "column": 45,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/keytab"
+            },
+            "caller": 207,
+            "callee": 209
+        },
+        {
+            "callSite": {
+                "filename": "KrbOutputStream.java",
+                "line": 32,
+                "column": 5,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb"
+            },
+            "caller": 45,
+            "callee": 210
+        },
+        {
+            "callSite": {
+                "filename": "KrbOutputStream.java",
+                "line": 33,
+                "column": 9,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb"
+            },
+            "caller": 45,
+            "callee": 211
+        },
+        {
+            "callSite": {
+                "filename": "CredCacheOutputStream.java",
+                "line": 75,
+                "column": 13,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 141,
+            "callee": 145
+        },
+        {
+            "callSite": {
+                "filename": "KeytabEntry.java",
+                "line": 129,
+                "column": 14,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/keytab"
+            },
+            "caller": 166,
+            "callee": 212
+        },
+        {
+            "callSite": {
+                "filename": "KeytabEntry.java",
+                "line": 132,
+                "column": 14,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/keytab"
+            },
+            "caller": 166,
+            "callee": 213
+        },
+        {
+            "callSite": {
+                "filename": "KeytabEntry.java",
+                "line": 120,
+                "column": 40,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/keytab"
+            },
+            "caller": 166,
+            "callee": 214
+        },
+        {
+            "callSite": {
+                "filename": "KeytabEntry.java",
+                "line": 135,
+                "column": 14,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/keytab"
+            },
+            "caller": 166,
+            "callee": 215
+        },
+        {
+            "callSite": {
+                "filename": "Keytab.java",
+                "line": 245,
+                "column": 17,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/keytab"
+            },
+            "caller": 99,
+            "callee": 191
+        },
+        {
+            "callSite": {
+                "filename": "Keytab.java",
+                "line": 243,
+                "column": 70,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/keytab"
+            },
+            "caller": 99,
+            "callee": 216
+        },
+        {
+            "callSite": {
+                "filename": "Keytab.java",
+                "line": 244,
+                "column": 38,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/keytab"
+            },
+            "caller": 99,
+            "callee": 217
+        },
+        {
+            "callSite": {
+                "filename": "Keytab.java",
+                "line": 151,
+                "column": 13,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/keytab"
+            },
+            "caller": 196,
+            "callee": 69
+        },
+        {
+            "callSite": {
+                "filename": "Keytab.java",
+                "line": 150,
+                "column": 52,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/keytab"
+            },
+            "caller": 196,
+            "callee": 59
+        },
+        {
+            "callSite": {
+                "filename": "Keytab.java",
+                "line": 147,
+                "column": 19,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/keytab"
+            },
+            "caller": 196,
+            "callee": 100
+        },
+        {
+            "callSite": {
+                "filename": "Keytab.java",
+                "line": 147,
+                "column": 74,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/keytab"
+            },
+            "caller": 196,
+            "callee": 218
+        },
+        {
+            "callSite": {
+                "filename": "Keytab.java",
+                "line": 146,
+                "column": 14,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/keytab"
+            },
+            "caller": 196,
+            "callee": 219
+        },
+        {
+            "callSite": {
+                "filename": "Keytab.java",
+                "line": 150,
+                "column": 31,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/keytab"
+            },
+            "caller": 196,
+            "callee": 220
+        },
+        {
+            "callSite": {
+                "filename": "Keytab.java",
+                "line": 146,
+                "column": 38,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/keytab"
+            },
+            "caller": 196,
+            "callee": 221
+        },
+        {
+            "callSite": {
+                "filename": "KrbInputStream.java",
+                "line": 67,
+                "column": 19,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb"
+            },
+            "caller": 42,
+            "callee": 222
+        },
+        {
+            "callSite": {
+                "filename": "KrbInputStream.java",
+                "line": 67,
+                "column": 19,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb"
+            },
+            "caller": 42,
+            "callee": 223
+        },
+        {
+            "callSite": {
+                "filename": "KrbInputStream.java",
+                "line": 72,
+                "column": 19,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb"
+            },
+            "caller": 42,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "KeytabInputStream.java",
+                "line": 33,
+                "column": 5,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/keytab"
+            },
+            "caller": 169,
+            "callee": 224
+        },
+        {
+            "callSite": {
+                "filename": "KeytabInputStream.java",
+                "line": 34,
+                "column": 9,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/keytab"
+            },
+            "caller": 169,
+            "callee": 15
+        },
+        {
+            "callSite": {
+                "filename": "CredentialCache.java",
+                "line": 172,
+                "column": 13,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 225,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "CredentialCache.java",
+                "line": 200,
+                "column": 19,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 205,
+            "callee": 100
+        },
+        {
+            "callSite": {
+                "filename": "CredentialCache.java",
+                "line": 199,
+                "column": 14,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 205,
+            "callee": 219
+        },
+        {
+            "callSite": {
+                "filename": "CredentialCache.java",
+                "line": 201,
+                "column": 23,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 205,
+            "callee": 218
+        },
+        {
+            "callSite": {
+                "filename": "CredentialCache.java",
+                "line": 204,
+                "column": 61,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 205,
+            "callee": 59
+        },
+        {
+            "callSite": {
+                "filename": "CredentialCache.java",
+                "line": 205,
+                "column": 13,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 205,
+            "callee": 181
+        },
+        {
+            "callSite": {
+                "filename": "CredentialCache.java",
+                "line": 204,
+                "column": 40,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 205,
+            "callee": 220
+        },
+        {
+            "callSite": {
+                "filename": "CredentialCache.java",
+                "line": 199,
+                "column": 38,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 205,
+            "callee": 221
+        },
+        {
+            "callSite": {
+                "filename": "CredentialCache.java",
+                "line": 66,
+                "column": 9,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 226,
+            "callee": 92
+        },
+        {
+            "callSite": {
+                "filename": "CredentialCache.java",
+                "line": 64,
+                "column": 9,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 226,
+            "callee": 95
+        },
+        {
+            "callSite": {
+                "filename": "CredentialCache.java",
+                "line": 65,
+                "column": 9,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 226,
+            "callee": 93
+        },
+        {
+            "callSite": {
+                "filename": "CredentialCache.java",
+                "line": 66,
+                "column": 29,
+                "directory": "src/main/java/org/apache/kerby/kerberos/kerb/ccache"
+            },
+            "caller": 226,
+            "callee": 200
+        }
+    ],
+    "language": "java",
+    "packages": [
+        {
+            "path": "org.apache.kerby.kerberos.kerb.ccache",
+            "isRoot": false,
+            "module": -1,
+            "name": "ccache",
+            "isStandardLibrary": false
+        },
+        {
+            "path": "org.apache.kerby.kerberos.kerb.keytab",
+            "isRoot": false,
+            "module": -1,
+            "name": "keytab",
+            "isStandardLibrary": false
+        },
+        {
+            "path": "org.apache.kerby.kerberos.kerb",
+            "isRoot": false,
+            "module": -1,
+            "name": "kerb",
+            "isStandardLibrary": false
+        }
+    ],
+    "modules": []
+}
