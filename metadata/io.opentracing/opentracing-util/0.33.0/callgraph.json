@@ -1,0 +1,1088 @@
+{
+    "functions": [
+        {
+            "parameterTypes": ["Tracer"],
+            "templateArguments": [],
+            "function": "registerIfAbsent",
+            "name": "io.opentracing.util.GlobalTracer.registerIfAbsent(Tracer)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GlobalTracer",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.opentracing.util.GlobalTracer.registerIfAbsent(Tracer)$Callable$1.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GlobalTracer.registerIfAbsent(Tracer)$Callable$1",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["Callable<Tracer>"],
+            "templateArguments": [],
+            "function": "registerIfAbsent",
+            "name": "io.opentracing.util.GlobalTracer.registerIfAbsent(Callable)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GlobalTracer",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "T",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "requireNonNull",
+            "name": "io.opentracing.util.GlobalTracer.requireNonNull(T,String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GlobalTracer",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "activeSpan",
+            "name": "io.opentracing.util.GlobalTracer#activeSpan()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GlobalTracer",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "activeSpan",
+            "name": "io.opentracing.Tracer#activeSpan()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentracing.Tracer",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "io.opentracing.util.GlobalTracer.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GlobalTracer",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "close",
+            "name": "io.opentracing.util.ThreadLocalScope#close()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ThreadLocalScope",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "get",
+            "name": "java.lang.ThreadLocal#get()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.ThreadLocal",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["ThreadLocalScope"],
+            "templateArguments": [],
+            "function": "set",
+            "name": "java.lang.ThreadLocal#set(ThreadLocalScope)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.ThreadLocal",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "SpanContext",
+                "Format<C>",
+                "C"
+            ],
+            "templateArguments": [],
+            "function": "inject",
+            "name": "io.opentracing.util.GlobalTracer#inject(SpanContext,Format,C)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GlobalTracer",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "SpanContext",
+                "Format<C>",
+                "C"
+            ],
+            "templateArguments": [],
+            "function": "inject",
+            "name": "io.opentracing.Tracer#inject(SpanContext,Format,C)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentracing.Tracer",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toString",
+            "name": "io.opentracing.util.GlobalTracer#toString()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GlobalTracer",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getSimpleName",
+            "name": "java.lang.Class#getSimpleName()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.Class",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Span"],
+            "templateArguments": [],
+            "function": "activate",
+            "name": "io.opentracing.util.ThreadLocalScopeManager#activate(Span)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ThreadLocalScopeManager",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "ThreadLocalScopeManager",
+                "Span"
+            ],
+            "templateArguments": [],
+            "function": "ThreadLocalScope",
+            "name": "io.opentracing.util.ThreadLocalScope#ThreadLocalScope(ThreadLocalScopeManager,Span)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ThreadLocalScope",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "get",
+            "name": "io.opentracing.util.GlobalTracer.get()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GlobalTracer",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Tracer"],
+            "templateArguments": [],
+            "function": "register",
+            "name": "io.opentracing.util.GlobalTracer.register(Tracer)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GlobalTracer",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Tracer"],
+            "templateArguments": [],
+            "function": "equals",
+            "name": "io.opentracing.Tracer#equals(Tracer)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentracing.Tracer",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "IllegalStateException",
+            "name": "org.springframework.jms.IllegalStateException#IllegalStateException(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.springframework.jms.IllegalStateException",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Tracer"],
+            "templateArguments": [],
+            "function": "provide",
+            "name": "io.opentracing.util.GlobalTracer.provide(Tracer)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GlobalTracer",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.opentracing.util.GlobalTracer.provide(Tracer)$Callable$1.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GlobalTracer.provide(Tracer)$Callable$1",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "NullPointerException",
+            "name": "java.lang.NullPointerException#NullPointerException(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.NullPointerException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Format<C>",
+                "C"
+            ],
+            "templateArguments": [],
+            "function": "extract",
+            "name": "io.opentracing.util.GlobalTracer#extract(Format,C)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GlobalTracer",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Format<C>",
+                "C"
+            ],
+            "templateArguments": [],
+            "function": "extract",
+            "name": "io.opentracing.Tracer#extract(Format,C)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentracing.Tracer",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "create",
+            "name": "io.opentracing.noop.NoopTracerFactory.create()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentracing.noop.NoopTracerFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "GlobalTracer",
+            "name": "io.opentracing.util.GlobalTracer#GlobalTracer()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GlobalTracer",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.opentracing.util.GlobalTracer.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GlobalTracer",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "call",
+            "name": "io.opentracing.util.GlobalTracer.provide(Tracer)$Callable$1#call()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GlobalTracer.provide(Tracer)$Callable$1",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "call",
+            "name": "java.util.concurrent.Callable#call()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.concurrent.Callable",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "call",
+            "name": "io.opentracing.util.GlobalTracer.registerIfAbsent(Tracer)$Callable$1#call()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GlobalTracer.registerIfAbsent(Tracer)$Callable$1",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "isRegistered",
+            "name": "io.opentracing.util.GlobalTracer.isRegistered()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GlobalTracer",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getMessage",
+            "name": "java.lang.Exception#getMessage()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.Exception",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Exception"
+            ],
+            "templateArguments": [],
+            "function": "IllegalStateException",
+            "name": "org.springframework.jms.IllegalStateException#IllegalStateException(String,Exception)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.springframework.jms.IllegalStateException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "scopeManager",
+            "name": "io.opentracing.util.GlobalTracer#scopeManager()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GlobalTracer",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "scopeManager",
+            "name": "io.opentracing.Tracer#scopeManager()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentracing.Tracer",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Span"],
+            "templateArguments": [],
+            "function": "activateSpan",
+            "name": "io.opentracing.util.GlobalTracer#activateSpan(Span)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GlobalTracer",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Span"],
+            "templateArguments": [],
+            "function": "activateSpan",
+            "name": "io.opentracing.Tracer#activateSpan(Span)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentracing.Tracer",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "activeSpan",
+            "name": "io.opentracing.util.ThreadLocalScopeManager#activeSpan()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ThreadLocalScopeManager",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "span",
+            "name": "io.opentracing.util.ThreadLocalScope#span()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ThreadLocalScope",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "buildSpan",
+            "name": "io.opentracing.util.GlobalTracer#buildSpan(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GlobalTracer",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "buildSpan",
+            "name": "io.opentracing.Tracer#buildSpan(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentracing.Tracer",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.opentracing.util.ThreadLocalScope.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ThreadLocalScope",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "close",
+            "name": "io.opentracing.util.GlobalTracer#close()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GlobalTracer",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "close",
+            "name": "io.opentracing.Tracer#close()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.opentracing.Tracer",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.opentracing.util.ThreadLocalScopeManager.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ThreadLocalScopeManager",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "ThreadLocal",
+            "name": "java.lang.ThreadLocal#ThreadLocal()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.ThreadLocal",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "java.lang.ThreadLocal.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.ThreadLocal",
+            "properties": ["default constructor"]
+        }
+    ],
+    "calls": [
+        {
+            "callSite": {
+                "filename": "GlobalTracer.java",
+                "line": 157,
+                "column": 33,
+                "directory": "src/main/java/io/opentracing/util"
+            },
+            "caller": 0,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "GlobalTracer.java",
+                "line": 157,
+                "column": 16,
+                "directory": "src/main/java/io/opentracing/util"
+            },
+            "caller": 0,
+            "callee": 2
+        },
+        {
+            "callSite": {
+                "filename": "GlobalTracer.java",
+                "line": 156,
+                "column": 9,
+                "directory": "src/main/java/io/opentracing/util"
+            },
+            "caller": 0,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "GlobalTracer.java",
+                "line": 209,
+                "column": 16,
+                "directory": "src/main/java/io/opentracing/util"
+            },
+            "caller": 4,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "GlobalTracer.java",
+                "line": 209,
+                "column": 16,
+                "directory": "src/main/java/io/opentracing/util"
+            },
+            "caller": 4,
+            "callee": 5
+        },
+        {
+            "callSite": {
+                "filename": "GlobalTracer.java",
+                "line": 207,
+                "column": 5,
+                "directory": "src/main/java/io/opentracing/util"
+            },
+            "caller": 4,
+            "callee": 6
+        },
+        {
+            "callSite": {
+                "filename": "ThreadLocalScope.java",
+                "line": 40,
+                "column": 13,
+                "directory": "src/main/java/io/opentracing/util"
+            },
+            "caller": 7,
+            "callee": 8
+        },
+        {
+            "callSite": {
+                "filename": "ThreadLocalScope.java",
+                "line": 45,
+                "column": 9,
+                "directory": "src/main/java/io/opentracing/util"
+            },
+            "caller": 7,
+            "callee": 9
+        },
+        {
+            "callSite": {
+                "filename": "GlobalTracer.java",
+                "line": 199,
+                "column": 9,
+                "directory": "src/main/java/io/opentracing/util"
+            },
+            "caller": 10,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "GlobalTracer.java",
+                "line": 199,
+                "column": 9,
+                "directory": "src/main/java/io/opentracing/util"
+            },
+            "caller": 10,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "GlobalTracer.java",
+                "line": 197,
+                "column": 5,
+                "directory": "src/main/java/io/opentracing/util"
+            },
+            "caller": 10,
+            "callee": 6
+        },
+        {
+            "callSite": {
+                "filename": "GlobalTracer.java",
+                "line": 222,
+                "column": 5,
+                "directory": "src/main/java/io/opentracing/util"
+            },
+            "caller": 12,
+            "callee": 6
+        },
+        {
+            "callSite": {
+                "filename": "GlobalTracer.java",
+                "line": 224,
+                "column": 16,
+                "directory": "src/main/java/io/opentracing/util"
+            },
+            "caller": 12,
+            "callee": 13
+        },
+        {
+            "callSite": {
+                "filename": "ThreadLocalScopeManager.java",
+                "line": 30,
+                "column": 16,
+                "directory": "src/main/java/io/opentracing/util"
+            },
+            "caller": 14,
+            "callee": 15
+        },
+        {
+            "callSite": {
+                "filename": "GlobalTracer.java",
+                "line": 74,
+                "column": 5,
+                "directory": "src/main/java/io/opentracing/util"
+            },
+            "caller": 16,
+            "callee": 6
+        },
+        {
+            "callSite": {
+                "filename": "GlobalTracer.java",
+                "line": 181,
+                "column": 21,
+                "directory": "src/main/java/io/opentracing/util"
+            },
+            "caller": 17,
+            "callee": 18
+        },
+        {
+            "callSite": {
+                "filename": "GlobalTracer.java",
+                "line": 165,
+                "column": 5,
+                "directory": "src/main/java/io/opentracing/util"
+            },
+            "caller": 17,
+            "callee": 6
+        },
+        {
+            "callSite": {
+                "filename": "GlobalTracer.java",
+                "line": 183,
+                "column": 19,
+                "directory": "src/main/java/io/opentracing/util"
+            },
+            "caller": 17,
+            "callee": 19
+        },
+        {
+            "callSite": {
+                "filename": "GlobalTracer.java",
+                "line": 180,
+                "column": 31,
+                "directory": "src/main/java/io/opentracing/util"
+            },
+            "caller": 17,
+            "callee": 20
+        },
+        {
+            "callSite": {
+                "filename": "GlobalTracer.java",
+                "line": 180,
+                "column": 14,
+                "directory": "src/main/java/io/opentracing/util"
+            },
+            "caller": 17,
+            "callee": 2
+        },
+        {
+            "callSite": {
+                "filename": "GlobalTracer.java",
+                "line": 228,
+                "column": 16,
+                "directory": "src/main/java/io/opentracing/util"
+            },
+            "caller": 20,
+            "callee": 21
+        },
+        {
+            "callSite": {
+                "filename": "GlobalTracer.java",
+                "line": 237,
+                "column": 19,
+                "directory": "src/main/java/io/opentracing/util"
+            },
+            "caller": 3,
+            "callee": 22
+        },
+        {
+            "callSite": {
+                "filename": "GlobalTracer.java",
+                "line": 204,
+                "column": 16,
+                "directory": "src/main/java/io/opentracing/util"
+            },
+            "caller": 23,
+            "callee": 24
+        },
+        {
+            "callSite": {
+                "filename": "GlobalTracer.java",
+                "line": 204,
+                "column": 16,
+                "directory": "src/main/java/io/opentracing/util"
+            },
+            "caller": 23,
+            "callee": 23
+        },
+        {
+            "callSite": {
+                "filename": "GlobalTracer.java",
+                "line": 202,
+                "column": 5,
+                "directory": "src/main/java/io/opentracing/util"
+            },
+            "caller": 23,
+            "callee": 6
+        },
+        {
+            "callSite": {
+                "filename": "GlobalTracer.java",
+                "line": 67,
+                "column": 45,
+                "directory": "src/main/java/io/opentracing/util"
+            },
+            "caller": 6,
+            "callee": 25
+        },
+        {
+            "callSite": {
+                "filename": "GlobalTracer.java",
+                "line": 61,
+                "column": 50,
+                "directory": "src/main/java/io/opentracing/util"
+            },
+            "caller": 6,
+            "callee": 26
+        },
+        {
+            "callSite": {
+                "filename": "GlobalTracer.java",
+                "line": 71,
+                "column": 5,
+                "directory": "src/main/java/io/opentracing/util"
+            },
+            "caller": 26,
+            "callee": 27
+        },
+        {
+            "callSite": {
+                "filename": "GlobalTracer.java",
+                "line": 118,
+                "column": 9,
+                "directory": "src/main/java/io/opentracing/util"
+            },
+            "caller": 2,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "GlobalTracer.java",
+                "line": 121,
+                "column": 62,
+                "directory": "src/main/java/io/opentracing/util"
+            },
+            "caller": 2,
+            "callee": 28
+        },
+        {
+            "callSite": {
+                "filename": "GlobalTracer.java",
+                "line": 121,
+                "column": 62,
+                "directory": "src/main/java/io/opentracing/util"
+            },
+            "caller": 2,
+            "callee": 29
+        },
+        {
+            "callSite": {
+                "filename": "GlobalTracer.java",
+                "line": 121,
+                "column": 62,
+                "directory": "src/main/java/io/opentracing/util"
+            },
+            "caller": 2,
+            "callee": 30
+        },
+        {
+            "callSite": {
+                "filename": "GlobalTracer.java",
+                "line": 119,
+                "column": 14,
+                "directory": "src/main/java/io/opentracing/util"
+            },
+            "caller": 2,
+            "callee": 31
+        },
+        {
+            "callSite": {
+                "filename": "GlobalTracer.java",
+                "line": 130,
+                "column": 96,
+                "directory": "src/main/java/io/opentracing/util"
+            },
+            "caller": 2,
+            "callee": 32
+        },
+        {
+            "callSite": {
+                "filename": "GlobalTracer.java",
+                "line": 100,
+                "column": 5,
+                "directory": "src/main/java/io/opentracing/util"
+            },
+            "caller": 2,
+            "callee": 6
+        },
+        {
+            "callSite": {
+                "filename": "GlobalTracer.java",
+                "line": 130,
+                "column": 23,
+                "directory": "src/main/java/io/opentracing/util"
+            },
+            "caller": 2,
+            "callee": 33
+        },
+        {
+            "callSite": {
+                "filename": "GlobalTracer.java",
+                "line": 121,
+                "column": 47,
+                "directory": "src/main/java/io/opentracing/util"
+            },
+            "caller": 2,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "GlobalTracer.java",
+                "line": 189,
+                "column": 16,
+                "directory": "src/main/java/io/opentracing/util"
+            },
+            "caller": 34,
+            "callee": 34
+        },
+        {
+            "callSite": {
+                "filename": "GlobalTracer.java",
+                "line": 189,
+                "column": 16,
+                "directory": "src/main/java/io/opentracing/util"
+            },
+            "caller": 34,
+            "callee": 35
+        },
+        {
+            "callSite": {
+                "filename": "GlobalTracer.java",
+                "line": 187,
+                "column": 5,
+                "directory": "src/main/java/io/opentracing/util"
+            },
+            "caller": 34,
+            "callee": 6
+        },
+        {
+            "callSite": {
+                "filename": "GlobalTracer.java",
+                "line": 88,
+                "column": 5,
+                "directory": "src/main/java/io/opentracing/util"
+            },
+            "caller": 31,
+            "callee": 6
+        },
+        {
+            "callSite": {
+                "filename": "GlobalTracer.java",
+                "line": 212,
+                "column": 5,
+                "directory": "src/main/java/io/opentracing/util"
+            },
+            "caller": 36,
+            "callee": 6
+        },
+        {
+            "callSite": {
+                "filename": "GlobalTracer.java",
+                "line": 214,
+                "column": 16,
+                "directory": "src/main/java/io/opentracing/util"
+            },
+            "caller": 36,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "GlobalTracer.java",
+                "line": 214,
+                "column": 16,
+                "directory": "src/main/java/io/opentracing/util"
+            },
+            "caller": 36,
+            "callee": 37
+        },
+        {
+            "callSite": {
+                "filename": "ThreadLocalScopeManager.java",
+                "line": 35,
+                "column": 34,
+                "directory": "src/main/java/io/opentracing/util"
+            },
+            "caller": 38,
+            "callee": 8
+        },
+        {
+            "callSite": {
+                "filename": "ThreadLocalScopeManager.java",
+                "line": 36,
+                "column": 39,
+                "directory": "src/main/java/io/opentracing/util"
+            },
+            "caller": 38,
+            "callee": 39
+        },
+        {
+            "callSite": {
+                "filename": "GlobalTracer.java",
+                "line": 192,
+                "column": 5,
+                "directory": "src/main/java/io/opentracing/util"
+            },
+            "caller": 40,
+            "callee": 6
+        },
+        {
+            "callSite": {
+                "filename": "GlobalTracer.java",
+                "line": 194,
+                "column": 16,
+                "directory": "src/main/java/io/opentracing/util"
+            },
+            "caller": 40,
+            "callee": 41
+        },
+        {
+            "callSite": {
+                "filename": "GlobalTracer.java",
+                "line": 194,
+                "column": 16,
+                "directory": "src/main/java/io/opentracing/util"
+            },
+            "caller": 40,
+            "callee": 40
+        },
+        {
+            "callSite": {
+                "filename": "ThreadLocalScope.java",
+                "line": 34,
+                "column": 26,
+                "directory": "src/main/java/io/opentracing/util"
+            },
+            "caller": 15,
+            "callee": 8
+        },
+        {
+            "callSite": {
+                "filename": "ThreadLocalScope.java",
+                "line": 35,
+                "column": 9,
+                "directory": "src/main/java/io/opentracing/util"
+            },
+            "caller": 15,
+            "callee": 9
+        },
+        {
+            "callSite": {
+                "filename": "ThreadLocalScope.java",
+                "line": 31,
+                "column": 5,
+                "directory": "src/main/java/io/opentracing/util"
+            },
+            "caller": 15,
+            "callee": 42
+        },
+        {
+            "callSite": {
+                "filename": "GlobalTracer.java",
+                "line": 219,
+                "column": 9,
+                "directory": "src/main/java/io/opentracing/util"
+            },
+            "caller": 43,
+            "callee": 44
+        },
+        {
+            "callSite": {
+                "filename": "GlobalTracer.java",
+                "line": 219,
+                "column": 9,
+                "directory": "src/main/java/io/opentracing/util"
+            },
+            "caller": 43,
+            "callee": 43
+        },
+        {
+            "callSite": {
+                "filename": "GlobalTracer.java",
+                "line": 217,
+                "column": 5,
+                "directory": "src/main/java/io/opentracing/util"
+            },
+            "caller": 43,
+            "callee": 6
+        },
+        {
+            "callSite": {
+                "filename": "ThreadLocalScopeManager.java",
+                "line": 26,
+                "column": 52,
+                "directory": "src/main/java/io/opentracing/util"
+            },
+            "caller": 45,
+            "callee": 46
+        },
+        {
+            "callSite": {
+                "filename": "ThreadLocalScopeManager.java",
+                "line": 26,
+                "column": 52,
+                "directory": "src/main/java/io/opentracing/util"
+            },
+            "caller": 45,
+            "callee": 47
+        }
+    ],
+    "language": "java",
+    "packages": [{
+        "path": "io.opentracing.util",
+        "isRoot": false,
+        "module": -1,
+        "name": "util",
+        "isStandardLibrary": false
+    }],
+    "modules": []
+}
