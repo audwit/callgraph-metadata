@@ -1,0 +1,5227 @@
+{
+    "functions": [
+        {
+            "parameterTypes": [
+                "MetricRegistry",
+                "int",
+                "int",
+                "int",
+                "BlockingQueue<Runnable>",
+                "ThreadFactory"
+            ],
+            "templateArguments": [],
+            "function": "InstrumentedQueuedThreadPool",
+            "name": "io.dropwizard.metrics.jetty10.InstrumentedQueuedThreadPool#InstrumentedQueuedThreadPool(MetricRegistry,int,int,int,BlockingQueue,ThreadFactory)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "InstrumentedQueuedThreadPool",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "MetricRegistry",
+                "int",
+                "int",
+                "int",
+                "int",
+                "BlockingQueue<Runnable>",
+                "ThreadGroup",
+                "ThreadFactory"
+            ],
+            "templateArguments": [],
+            "function": "InstrumentedQueuedThreadPool",
+            "name": "io.dropwizard.metrics.jetty10.InstrumentedQueuedThreadPool#InstrumentedQueuedThreadPool(MetricRegistry,int,int,int,int,BlockingQueue,ThreadGroup,ThreadFactory)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "InstrumentedQueuedThreadPool",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Request"],
+            "templateArguments": [],
+            "function": "before",
+            "name": "io.dropwizard.metrics.jetty10.InstrumentedHttpChannelListener#before(Request)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "InstrumentedHttpChannelListener",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "mark",
+            "name": "com.codahale.metrics.Meter#mark()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.codahale.metrics.Meter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "dec",
+            "name": "com.codahale.metrics.Counter#dec()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.codahale.metrics.Counter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "io.dropwizard.metrics.jetty10.InstrumentedHttpChannelListener.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "InstrumentedHttpChannelListener",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "inc",
+            "name": "com.codahale.metrics.Counter#inc()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.codahale.metrics.Counter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getHttpChannelState",
+            "name": "org.eclipse.jetty.server.Request#getHttpChannelState()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.eclipse.jetty.server.Request",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "long"
+            ],
+            "templateArguments": [],
+            "function": "setAttribute",
+            "name": "org.eclipse.jetty.server.Request#setAttribute(String,long)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.eclipse.jetty.server.Request",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "isAsyncStarted",
+            "name": "org.eclipse.jetty.server.HttpChannelState#isAsyncStarted()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.eclipse.jetty.server.HttpChannelState",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "currentTimeMillis",
+            "name": "java.lang.System.currentTimeMillis()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.System",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getTimeStamp",
+            "name": "org.eclipse.jetty.server.Request#getTimeStamp()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.eclipse.jetty.server.Request",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["AsyncListener"],
+            "templateArguments": [],
+            "function": "addListener",
+            "name": "org.eclipse.jetty.server.HttpChannelState#addListener(AsyncListener)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.eclipse.jetty.server.HttpChannelState",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "isInitial",
+            "name": "org.eclipse.jetty.server.HttpChannelState#isInitial()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.eclipse.jetty.server.HttpChannelState",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "getResponseCodeMeter",
+            "name": "io.dropwizard.metrics.jetty10.InstrumentedHttpChannelListener#getResponseCodeMeter(int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "InstrumentedHttpChannelListener",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "sc"
+            ],
+            "templateArguments": [],
+            "function": "format",
+            "name": "java.lang.String.format(String,sc)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.String",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "int",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "computeIfAbsent",
+            "name": "java.util.Map#computeIfAbsent(int,Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "meter",
+            "name": "metricRegistry#meter(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "metricRegistry",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "InstrumentedAsyncListener",
+            "name": "io.dropwizard.metrics.jetty10.InstrumentedHandler.InstrumentedAsyncListener#InstrumentedAsyncListener()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "InstrumentedHandler.InstrumentedAsyncListener",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.dropwizard.metrics.jetty10.InstrumentedHandler.InstrumentedAsyncListener.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "InstrumentedHandler.InstrumentedAsyncListener",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "io.dropwizard.metrics.jetty10.InstrumentedHandler.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "InstrumentedHandler",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [
+                "COARSE",
+                "ALL"
+            ],
+            "templateArguments": [],
+            "function": "of",
+            "name": "java.util.EnumSet.of(COARSE,ALL)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.EnumSet",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "DETAILED",
+                "ALL"
+            ],
+            "templateArguments": [],
+            "function": "of",
+            "name": "java.util.EnumSet.of(DETAILED,ALL)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.EnumSet",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getRatio",
+            "name": "io.dropwizard.metrics.jetty10.InstrumentedHttpChannelListener#InstrumentedHttpChannelListener(MetricRegistry,String,ResponseMeteredLevel)$RatioGauge$3#getRatio()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "InstrumentedHttpChannelListener#InstrumentedHttpChannelListener(MetricRegistry,String,ResponseMeteredLevel)$RatioGauge$3",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getFifteenMinuteRate",
+            "name": "com.codahale.metrics.Meter#getFifteenMinuteRate()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.codahale.metrics.Meter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getFifteenMinuteRate",
+            "name": "com.codahale.metrics.Timer#getFifteenMinuteRate()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.codahale.metrics.Timer",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "get",
+            "name": "java.util.List#get(int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.List",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Object",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "of",
+            "name": "Ratio#of(Object,Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "Ratio",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "requestTimer",
+            "name": "io.dropwizard.metrics.jetty10.InstrumentedHttpChannelListener#requestTimer(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "InstrumentedHttpChannelListener",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "fromString",
+            "name": "org.eclipse.jetty.http.HttpMethod.fromString(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.eclipse.jetty.http.HttpMethod",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getRatio",
+            "name": "io.dropwizard.metrics.jetty10.InstrumentedHttpChannelListener#InstrumentedHttpChannelListener(MetricRegistry,String,ResponseMeteredLevel)$RatioGauge$2#getRatio()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "InstrumentedHttpChannelListener#InstrumentedHttpChannelListener(MetricRegistry,String,ResponseMeteredLevel)$RatioGauge$2",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getFiveMinuteRate",
+            "name": "com.codahale.metrics.Timer#getFiveMinuteRate()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.codahale.metrics.Timer",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getFiveMinuteRate",
+            "name": "com.codahale.metrics.Meter#getFiveMinuteRate()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.codahale.metrics.Meter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "MetricRegistry",
+                "String",
+                "ResponseMeteredLevel"
+            ],
+            "templateArguments": [],
+            "function": "InstrumentedHttpChannelListener",
+            "name": "io.dropwizard.metrics.jetty10.InstrumentedHttpChannelListener#InstrumentedHttpChannelListener(MetricRegistry,String,ResponseMeteredLevel)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "InstrumentedHttpChannelListener",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "counter",
+            "name": "com.codahale.metrics.MetricRegistry#counter(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.codahale.metrics.MetricRegistry",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Object",
+                "ANON__OR__TYPE$RatioGauge"
+            ],
+            "templateArguments": [],
+            "function": "register",
+            "name": "com.codahale.metrics.MetricRegistry#register(Object,ANON__OR__TYPE$RatioGauge)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.codahale.metrics.MetricRegistry",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "timer",
+            "name": "com.codahale.metrics.MetricRegistry#timer(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.codahale.metrics.MetricRegistry",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.dropwizard.metrics.jetty10.InstrumentedHttpChannelListener#InstrumentedHttpChannelListener(MetricRegistry,String,ResponseMeteredLevel)$RatioGauge$6.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "InstrumentedHttpChannelListener#InstrumentedHttpChannelListener(MetricRegistry,String,ResponseMeteredLevel)$RatioGauge$6",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.dropwizard.metrics.jetty10.InstrumentedHttpChannelListener#InstrumentedHttpChannelListener(MetricRegistry,String,ResponseMeteredLevel)$RatioGauge$5.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "InstrumentedHttpChannelListener#InstrumentedHttpChannelListener(MetricRegistry,String,ResponseMeteredLevel)$RatioGauge$5",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "meter",
+            "name": "com.codahale.metrics.MetricRegistry#meter(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.codahale.metrics.MetricRegistry",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.dropwizard.metrics.jetty10.InstrumentedHttpChannelListener#InstrumentedHttpChannelListener(MetricRegistry,String,ResponseMeteredLevel)$RatioGauge$2.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "InstrumentedHttpChannelListener#InstrumentedHttpChannelListener(MetricRegistry,String,ResponseMeteredLevel)$RatioGauge$2",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "unmodifiableList",
+            "name": "java.util.Collections.unmodifiableList(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Collections",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.dropwizard.metrics.jetty10.InstrumentedHttpChannelListener#InstrumentedHttpChannelListener(MetricRegistry,String,ResponseMeteredLevel)$RatioGauge$4.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "InstrumentedHttpChannelListener#InstrumentedHttpChannelListener(MetricRegistry,String,ResponseMeteredLevel)$RatioGauge$4",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.dropwizard.metrics.jetty10.InstrumentedHttpChannelListener#InstrumentedHttpChannelListener(MetricRegistry,String,ResponseMeteredLevel)$RatioGauge$1.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "InstrumentedHttpChannelListener#InstrumentedHttpChannelListener(MetricRegistry,String,ResponseMeteredLevel)$RatioGauge$1",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "Object",
+                "Object",
+                "Object",
+                "Object",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "asList",
+            "name": "java.util.Arrays.asList(Object,Object,Object,Object,Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Arrays",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "ConcurrentHashMap",
+            "name": "java.util.concurrent.ConcurrentHashMap#ConcurrentHashMap()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.concurrent.ConcurrentHashMap",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "java.util.concurrent.ConcurrentHashMap.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.concurrent.ConcurrentHashMap",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "emptyMap",
+            "name": "java.util.Collections.emptyMap()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Collections",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.dropwizard.metrics.jetty10.InstrumentedHttpChannelListener.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "InstrumentedHttpChannelListener",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["ResponseMeteredLevel"],
+            "templateArguments": [],
+            "function": "contains",
+            "name": "java.util.Set#contains(ResponseMeteredLevel)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Set",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.dropwizard.metrics.jetty10.InstrumentedHttpChannelListener#InstrumentedHttpChannelListener(MetricRegistry,String,ResponseMeteredLevel)$RatioGauge$3.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "InstrumentedHttpChannelListener#InstrumentedHttpChannelListener(MetricRegistry,String,ResponseMeteredLevel)$RatioGauge$3",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.dropwizard.metrics.jetty10.InstrumentedHttpChannelListener.AsyncAttachingListener.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "InstrumentedHttpChannelListener.AsyncAttachingListener",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "emptyList",
+            "name": "java.util.Collections.emptyList()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Collections",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Connection"],
+            "templateArguments": [],
+            "function": "onClosed",
+            "name": "io.dropwizard.metrics.jetty10.InstrumentedConnectionFactory#newConnection(Connector,EndPoint)$Listener$1#onClosed(Connection)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "InstrumentedConnectionFactory#newConnection(Connector,EndPoint)$Listener$1",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "stop",
+            "name": "com.codahale.metrics.Timer.Context#stop()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.codahale.metrics.Timer.Context",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getRatio",
+            "name": "io.dropwizard.metrics.jetty10.InstrumentedQueuedThreadPool#doStart()$RatioGauge$1#getRatio()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "InstrumentedQueuedThreadPool#doStart()$RatioGauge$1",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "MetricRegistry",
+                "int",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "InstrumentedQueuedThreadPool",
+            "name": "io.dropwizard.metrics.jetty10.InstrumentedQueuedThreadPool#InstrumentedQueuedThreadPool(MetricRegistry,int,int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "InstrumentedQueuedThreadPool",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "MetricRegistry",
+                "int",
+                "int",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "InstrumentedQueuedThreadPool",
+            "name": "io.dropwizard.metrics.jetty10.InstrumentedQueuedThreadPool#InstrumentedQueuedThreadPool(MetricRegistry,int,int,int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "InstrumentedQueuedThreadPool",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Connection"],
+            "templateArguments": [],
+            "function": "onOpened",
+            "name": "io.dropwizard.metrics.jetty10.InstrumentedConnectionFactory#newConnection(Connector,EndPoint)$Listener$1#onOpened(Connection)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "InstrumentedConnectionFactory#newConnection(Connector,EndPoint)$Listener$1",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "time",
+            "name": "com.codahale.metrics.Timer#time()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.codahale.metrics.Timer",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getRatio",
+            "name": "io.dropwizard.metrics.jetty10.InstrumentedQueuedThreadPool#doStart()$RatioGauge$3#getRatio()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "InstrumentedQueuedThreadPool#doStart()$RatioGauge$3",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "size",
+            "name": "java.util.concurrent.BlockingQueue#size()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.concurrent.BlockingQueue",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "remainingCapacity",
+            "name": "java.util.concurrent.BlockingQueue#remainingCapacity()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.concurrent.BlockingQueue",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Object",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "of",
+            "name": "Ratio#of(Object,int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "Ratio",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "doStart",
+            "name": "io.dropwizard.metrics.jetty10.InstrumentedHandler#doStart()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "InstrumentedHandler",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.dropwizard.metrics.jetty10.InstrumentedHandler#doStart()$RatioGauge$4.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "InstrumentedHandler#doStart()$RatioGauge$4",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.dropwizard.metrics.jetty10.InstrumentedHandler#doStart()$RatioGauge$5.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "InstrumentedHandler#doStart()$RatioGauge$5",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.dropwizard.metrics.jetty10.InstrumentedHandler.AsyncAttachingListener.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "InstrumentedHandler.AsyncAttachingListener",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.dropwizard.metrics.jetty10.InstrumentedHandler#doStart()$RatioGauge$1.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "InstrumentedHandler#doStart()$RatioGauge$1",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "doStart",
+            "name": "org.eclipse.jetty.server.handler.HandlerWrapper#doStart()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.eclipse.jetty.server.handler.HandlerWrapper",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.dropwizard.metrics.jetty10.InstrumentedHandler#doStart()$RatioGauge$2.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "InstrumentedHandler#doStart()$RatioGauge$2",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.dropwizard.metrics.jetty10.InstrumentedHandler#doStart()$RatioGauge$3.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "InstrumentedHandler#doStart()$RatioGauge$3",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.dropwizard.metrics.jetty10.InstrumentedHandler#doStart()$RatioGauge$6.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "InstrumentedHandler#doStart()$RatioGauge$6",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getMetricPrefix",
+            "name": "io.dropwizard.metrics.jetty10.InstrumentedHandler#getMetricPrefix()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "InstrumentedHandler",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Request",
+                "HttpServletRequest",
+                "HttpServletResponse"
+            ],
+            "templateArguments": [],
+            "function": "handle",
+            "name": "io.dropwizard.metrics.jetty10.InstrumentedHandler#handle(String,Request,HttpServletRequest,HttpServletResponse)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "InstrumentedHandler",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "isSuspended",
+            "name": "org.eclipse.jetty.server.HttpChannelState#isSuspended()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.eclipse.jetty.server.HttpChannelState",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getState",
+            "name": "org.eclipse.jetty.server.HttpChannelState#getState()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.eclipse.jetty.server.HttpChannelState",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "HttpServletRequest",
+                "HttpServletResponse",
+                "long",
+                "boolean"
+            ],
+            "templateArguments": [],
+            "function": "updateResponses",
+            "name": "io.dropwizard.metrics.jetty10.InstrumentedHandler#updateResponses(HttpServletRequest,HttpServletResponse,long,boolean)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "InstrumentedHandler",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "isHandled",
+            "name": "org.eclipse.jetty.server.Request#isHandled()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.eclipse.jetty.server.Request",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Request",
+                "HttpServletRequest",
+                "HttpServletResponse"
+            ],
+            "templateArguments": [],
+            "function": "handle",
+            "name": "org.eclipse.jetty.server.handler.HandlerWrapper#handle(String,Request,HttpServletRequest,HttpServletResponse)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.eclipse.jetty.server.handler.HandlerWrapper",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "long",
+                "TimeUnit"
+            ],
+            "templateArguments": [],
+            "function": "update",
+            "name": "com.codahale.metrics.Timer#update(long,TimeUnit)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.codahale.metrics.Timer",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Request"],
+            "templateArguments": [],
+            "function": "after",
+            "name": "io.dropwizard.metrics.jetty10.InstrumentedHttpChannelListener#after(Request)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "InstrumentedHttpChannelListener",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "getAttribute",
+            "name": "org.eclipse.jetty.server.Request#getAttribute(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.eclipse.jetty.server.Request",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "HttpServletRequest",
+                "HttpServletResponse",
+                "long",
+                "boolean"
+            ],
+            "templateArguments": [],
+            "function": "updateResponses",
+            "name": "io.dropwizard.metrics.jetty10.InstrumentedHttpChannelListener#updateResponses(HttpServletRequest,HttpServletResponse,long,boolean)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "InstrumentedHttpChannelListener",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getResponse",
+            "name": "org.eclipse.jetty.server.Request#getResponse()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.eclipse.jetty.server.Request",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "MetricRegistry",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "InstrumentedQueuedThreadPool",
+            "name": "io.dropwizard.metrics.jetty10.InstrumentedQueuedThreadPool#InstrumentedQueuedThreadPool(MetricRegistry,int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "InstrumentedQueuedThreadPool",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "mark",
+            "name": "io.dropwizard.metrics.jetty10.InstrumentedHttpChannelListener#mark(int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "InstrumentedHttpChannelListener",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getRatio",
+            "name": "io.dropwizard.metrics.jetty10.InstrumentedHttpChannelListener#InstrumentedHttpChannelListener(MetricRegistry,String,ResponseMeteredLevel)$RatioGauge$6#getRatio()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "InstrumentedHttpChannelListener#InstrumentedHttpChannelListener(MetricRegistry,String,ResponseMeteredLevel)$RatioGauge$6",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "MetricRegistry",
+                "int",
+                "int",
+                "int",
+                "BlockingQueue<Runnable>"
+            ],
+            "templateArguments": [],
+            "function": "InstrumentedQueuedThreadPool",
+            "name": "io.dropwizard.metrics.jetty10.InstrumentedQueuedThreadPool#InstrumentedQueuedThreadPool(MetricRegistry,int,int,int,BlockingQueue)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "InstrumentedQueuedThreadPool",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "MetricRegistry",
+                "int",
+                "int",
+                "int",
+                "BlockingQueue<Runnable>",
+                "ThreadGroup"
+            ],
+            "templateArguments": [],
+            "function": "InstrumentedQueuedThreadPool",
+            "name": "io.dropwizard.metrics.jetty10.InstrumentedQueuedThreadPool#InstrumentedQueuedThreadPool(MetricRegistry,int,int,int,BlockingQueue,ThreadGroup)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "InstrumentedQueuedThreadPool",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "MetricRegistry",
+                "int",
+                "int",
+                "BlockingQueue<Runnable>"
+            ],
+            "templateArguments": [],
+            "function": "InstrumentedQueuedThreadPool",
+            "name": "io.dropwizard.metrics.jetty10.InstrumentedQueuedThreadPool#InstrumentedQueuedThreadPool(MetricRegistry,int,int,BlockingQueue)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "InstrumentedQueuedThreadPool",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "doStart",
+            "name": "io.dropwizard.metrics.jetty10.InstrumentedQueuedThreadPool#doStart()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "InstrumentedQueuedThreadPool",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getMetricPrefix",
+            "name": "io.dropwizard.metrics.jetty10.InstrumentedQueuedThreadPool#getMetricPrefix()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "InstrumentedQueuedThreadPool",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "doStart",
+            "name": "org.eclipse.jetty.util.thread.QueuedThreadPool#doStart()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.eclipse.jetty.util.thread.QueuedThreadPool",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.dropwizard.metrics.jetty10.InstrumentedQueuedThreadPool#doStart()$RatioGauge$3.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "InstrumentedQueuedThreadPool#doStart()$RatioGauge$3",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.dropwizard.metrics.jetty10.InstrumentedQueuedThreadPool#doStart()$RatioGauge$1.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "InstrumentedQueuedThreadPool#doStart()$RatioGauge$1",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "Object",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "registerGauge",
+            "name": "com.codahale.metrics.MetricRegistry#registerGauge(Object,Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.codahale.metrics.MetricRegistry",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "io.dropwizard.metrics.jetty10.InstrumentedQueuedThreadPool.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "InstrumentedQueuedThreadPool",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.dropwizard.metrics.jetty10.InstrumentedQueuedThreadPool#doStart()$RatioGauge$2.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "InstrumentedQueuedThreadPool#doStart()$RatioGauge$2",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "MetricRegistry",
+                "int",
+                "int",
+                "int",
+                "int",
+                "BlockingQueue<Runnable>",
+                "ThreadGroup"
+            ],
+            "templateArguments": [],
+            "function": "InstrumentedQueuedThreadPool",
+            "name": "io.dropwizard.metrics.jetty10.InstrumentedQueuedThreadPool#InstrumentedQueuedThreadPool(MetricRegistry,int,int,int,int,BlockingQueue,ThreadGroup)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "InstrumentedQueuedThreadPool",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Request"],
+            "templateArguments": [],
+            "function": "onBeforeDispatch",
+            "name": "io.dropwizard.metrics.jetty10.InstrumentedHttpChannelListener#onBeforeDispatch(Request)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "InstrumentedHttpChannelListener",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "MetricRegistry",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "InstrumentedHandler",
+            "name": "io.dropwizard.metrics.jetty10.InstrumentedHandler#InstrumentedHandler(MetricRegistry,String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "InstrumentedHandler",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "MetricRegistry",
+                "String",
+                "ResponseMeteredLevel"
+            ],
+            "templateArguments": [],
+            "function": "InstrumentedHandler",
+            "name": "io.dropwizard.metrics.jetty10.InstrumentedHandler#InstrumentedHandler(MetricRegistry,String,ResponseMeteredLevel)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "InstrumentedHandler",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["AsyncEvent"],
+            "templateArguments": [],
+            "function": "onTimeout",
+            "name": "io.dropwizard.metrics.jetty10.InstrumentedHttpChannelListener.InstrumentedAsyncListener#onTimeout(AsyncEvent)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "InstrumentedHttpChannelListener.InstrumentedAsyncListener",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "getResponseCodeMeter",
+            "name": "io.dropwizard.metrics.jetty10.InstrumentedHandler#getResponseCodeMeter(int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "InstrumentedHandler",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "ConnectionFactory",
+                "Timer",
+                "Counter"
+            ],
+            "templateArguments": [],
+            "function": "InstrumentedConnectionFactory",
+            "name": "io.dropwizard.metrics.jetty10.InstrumentedConnectionFactory#InstrumentedConnectionFactory(ConnectionFactory,Timer,Counter)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "InstrumentedConnectionFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.dropwizard.metrics.jetty10.InstrumentedConnectionFactory.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "InstrumentedConnectionFactory",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "requestTimer",
+            "name": "io.dropwizard.metrics.jetty10.InstrumentedHandler#requestTimer(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "InstrumentedHandler",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["AsyncEvent"],
+            "templateArguments": [],
+            "function": "onComplete",
+            "name": "io.dropwizard.metrics.jetty10.InstrumentedHandler.InstrumentedAsyncListener#onComplete(AsyncEvent)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "InstrumentedHandler.InstrumentedAsyncListener",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getResponse",
+            "name": "org.eclipse.jetty.server.AsyncContextState#getResponse()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.eclipse.jetty.server.AsyncContextState",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getHttpChannelState",
+            "name": "org.eclipse.jetty.server.AsyncContextState#getHttpChannelState()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.eclipse.jetty.server.AsyncContextState",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getAsyncContext",
+            "name": "javax.servlet.AsyncEvent#getAsyncContext()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "javax.servlet.AsyncEvent",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getRequest",
+            "name": "org.eclipse.jetty.server.AsyncContextState#getRequest()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.eclipse.jetty.server.AsyncContextState",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "InstrumentedAsyncListener",
+            "name": "io.dropwizard.metrics.jetty10.InstrumentedHttpChannelListener.InstrumentedAsyncListener#InstrumentedAsyncListener()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "InstrumentedHttpChannelListener.InstrumentedAsyncListener",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.dropwizard.metrics.jetty10.InstrumentedHttpChannelListener.InstrumentedAsyncListener.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "InstrumentedHttpChannelListener.InstrumentedAsyncListener",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getRatio",
+            "name": "io.dropwizard.metrics.jetty10.InstrumentedHttpChannelListener#InstrumentedHttpChannelListener(MetricRegistry,String,ResponseMeteredLevel)$RatioGauge$1#getRatio()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "InstrumentedHttpChannelListener#InstrumentedHttpChannelListener(MetricRegistry,String,ResponseMeteredLevel)$RatioGauge$1",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getOneMinuteRate",
+            "name": "com.codahale.metrics.Meter#getOneMinuteRate()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.codahale.metrics.Meter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getOneMinuteRate",
+            "name": "com.codahale.metrics.Timer#getOneMinuteRate()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.codahale.metrics.Timer",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Request"],
+            "templateArguments": [],
+            "function": "onAfterDispatch",
+            "name": "io.dropwizard.metrics.jetty10.InstrumentedHttpChannelListener#onAfterDispatch(Request)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "InstrumentedHttpChannelListener",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["AsyncEvent"],
+            "templateArguments": [],
+            "function": "onStartAsync",
+            "name": "io.dropwizard.metrics.jetty10.InstrumentedHttpChannelListener.AsyncAttachingListener#onStartAsync(AsyncEvent)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "InstrumentedHttpChannelListener.AsyncAttachingListener",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["AsyncEvent"],
+            "templateArguments": [],
+            "function": "onComplete",
+            "name": "io.dropwizard.metrics.jetty10.InstrumentedHttpChannelListener.InstrumentedAsyncListener#onComplete(AsyncEvent)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "InstrumentedHttpChannelListener.InstrumentedAsyncListener",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "MetricRegistry",
+                "int",
+                "int",
+                "int",
+                "int",
+                "BlockingQueue<Runnable>",
+                "ThreadGroup",
+                "ThreadFactory",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "InstrumentedQueuedThreadPool",
+            "name": "io.dropwizard.metrics.jetty10.InstrumentedQueuedThreadPool#InstrumentedQueuedThreadPool(MetricRegistry,int,int,int,int,BlockingQueue,ThreadGroup,ThreadFactory,String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "InstrumentedQueuedThreadPool",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "int",
+                "int",
+                "int",
+                "int",
+                "BlockingQueue<Runnable>",
+                "ThreadGroup",
+                "ThreadFactory"
+            ],
+            "templateArguments": [],
+            "function": "QueuedThreadPool",
+            "name": "org.eclipse.jetty.util.thread.QueuedThreadPool#QueuedThreadPool(int,int,int,int,BlockingQueue,ThreadGroup,ThreadFactory)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.eclipse.jetty.util.thread.QueuedThreadPool",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.dropwizard.metrics.jetty10.InstrumentedQueuedThreadPool.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "InstrumentedQueuedThreadPool",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getRatio",
+            "name": "io.dropwizard.metrics.jetty10.InstrumentedHandler#doStart()$RatioGauge$3#getRatio()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "InstrumentedHandler#doStart()$RatioGauge$3",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["AsyncEvent"],
+            "templateArguments": [],
+            "function": "onStartAsync",
+            "name": "io.dropwizard.metrics.jetty10.InstrumentedHandler.AsyncAttachingListener#onStartAsync(AsyncEvent)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "InstrumentedHandler.AsyncAttachingListener",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getRatio",
+            "name": "io.dropwizard.metrics.jetty10.InstrumentedHandler#doStart()$RatioGauge$5#getRatio()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "InstrumentedHandler#doStart()$RatioGauge$5",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "MetricRegistry",
+                "int",
+                "int",
+                "int",
+                "BlockingQueue<Runnable>",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "InstrumentedQueuedThreadPool",
+            "name": "io.dropwizard.metrics.jetty10.InstrumentedQueuedThreadPool#InstrumentedQueuedThreadPool(MetricRegistry,int,int,int,BlockingQueue,String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "InstrumentedQueuedThreadPool",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["MetricRegistry"],
+            "templateArguments": [],
+            "function": "InstrumentedQueuedThreadPool",
+            "name": "io.dropwizard.metrics.jetty10.InstrumentedQueuedThreadPool#InstrumentedQueuedThreadPool(MetricRegistry)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "InstrumentedQueuedThreadPool",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getRatio",
+            "name": "io.dropwizard.metrics.jetty10.InstrumentedHandler#doStart()$RatioGauge$4#getRatio()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "InstrumentedHandler#doStart()$RatioGauge$4",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getRatio",
+            "name": "io.dropwizard.metrics.jetty10.InstrumentedHttpChannelListener#InstrumentedHttpChannelListener(MetricRegistry,String,ResponseMeteredLevel)$RatioGauge$5#getRatio()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "InstrumentedHttpChannelListener#InstrumentedHttpChannelListener(MetricRegistry,String,ResponseMeteredLevel)$RatioGauge$5",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getMethod",
+            "name": "javax.servlet.http.HttpServletRequest#getMethod()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "javax.servlet.http.HttpServletRequest",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getStatus",
+            "name": "javax.servlet.http.HttpServletResponse#getStatus()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "javax.servlet.http.HttpServletResponse",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["AsyncEvent"],
+            "templateArguments": [],
+            "function": "onTimeout",
+            "name": "io.dropwizard.metrics.jetty10.InstrumentedHandler.InstrumentedAsyncListener#onTimeout(AsyncEvent)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "InstrumentedHandler.InstrumentedAsyncListener",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getRatio",
+            "name": "io.dropwizard.metrics.jetty10.InstrumentedHandler#doStart()$RatioGauge$1#getRatio()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "InstrumentedHandler#doStart()$RatioGauge$1",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getRatio",
+            "name": "io.dropwizard.metrics.jetty10.InstrumentedHttpChannelListener#InstrumentedHttpChannelListener(MetricRegistry,String,ResponseMeteredLevel)$RatioGauge$4#getRatio()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "InstrumentedHttpChannelListener#InstrumentedHttpChannelListener(MetricRegistry,String,ResponseMeteredLevel)$RatioGauge$4",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Connector",
+                "EndPoint"
+            ],
+            "templateArguments": [],
+            "function": "newConnection",
+            "name": "io.dropwizard.metrics.jetty10.InstrumentedConnectionFactory#newConnection(Connector,EndPoint)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "InstrumentedConnectionFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Connector",
+                "EndPoint"
+            ],
+            "templateArguments": [],
+            "function": "newConnection",
+            "name": "org.eclipse.jetty.server.ConnectionFactory#newConnection(Connector,EndPoint)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.eclipse.jetty.server.ConnectionFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.dropwizard.metrics.jetty10.InstrumentedConnectionFactory#newConnection(Connector,EndPoint)$Listener$1.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "InstrumentedConnectionFactory#newConnection(Connector,EndPoint)$Listener$1",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["ANON__OR__TYPE$Listener"],
+            "templateArguments": [],
+            "function": "addEventListener",
+            "name": "org.eclipse.jetty.io.Connection#addEventListener(ANON__OR__TYPE$Listener)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.eclipse.jetty.io.Connection",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "doStop",
+            "name": "io.dropwizard.metrics.jetty10.InstrumentedQueuedThreadPool#doStop()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "InstrumentedQueuedThreadPool",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "remove",
+            "name": "com.codahale.metrics.MetricRegistry#remove(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.codahale.metrics.MetricRegistry",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "doStop",
+            "name": "org.eclipse.jetty.util.thread.QueuedThreadPool#doStop()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.eclipse.jetty.util.thread.QueuedThreadPool",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "doStop",
+            "name": "io.dropwizard.metrics.jetty10.InstrumentedHandler#doStop()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "InstrumentedHandler",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "keySet",
+            "name": "java.util.Map#keySet()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "doStop",
+            "name": "org.eclipse.jetty.server.handler.HandlerWrapper#doStop()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.eclipse.jetty.server.handler.HandlerWrapper",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "stream",
+            "name": "Set#stream()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "Set",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "mark",
+            "name": "io.dropwizard.metrics.jetty10.InstrumentedHandler#mark(int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "InstrumentedHandler",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.dropwizard.metrics.jetty10.InstrumentedHandler.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "InstrumentedHandler",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getRatio",
+            "name": "io.dropwizard.metrics.jetty10.InstrumentedHandler#doStart()$RatioGauge$6#getRatio()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "InstrumentedHandler#doStart()$RatioGauge$6",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["MetricRegistry"],
+            "templateArguments": [],
+            "function": "InstrumentedHandler",
+            "name": "io.dropwizard.metrics.jetty10.InstrumentedHandler#InstrumentedHandler(MetricRegistry)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "InstrumentedHandler",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getRatio",
+            "name": "io.dropwizard.metrics.jetty10.InstrumentedQueuedThreadPool#doStart()$RatioGauge$2#getRatio()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "InstrumentedQueuedThreadPool#doStart()$RatioGauge$2",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "ConnectionFactory",
+                "Timer"
+            ],
+            "templateArguments": [],
+            "function": "InstrumentedConnectionFactory",
+            "name": "io.dropwizard.metrics.jetty10.InstrumentedConnectionFactory#InstrumentedConnectionFactory(ConnectionFactory,Timer)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "InstrumentedConnectionFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getProtocols",
+            "name": "io.dropwizard.metrics.jetty10.InstrumentedConnectionFactory#getProtocols()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "InstrumentedConnectionFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getProtocols",
+            "name": "org.eclipse.jetty.server.ConnectionFactory#getProtocols()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.eclipse.jetty.server.ConnectionFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getName",
+            "name": "java.lang.Class#getName()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.Class",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["MetricRegistry"],
+            "templateArguments": [],
+            "function": "InstrumentedHttpChannelListener",
+            "name": "io.dropwizard.metrics.jetty10.InstrumentedHttpChannelListener#InstrumentedHttpChannelListener(MetricRegistry)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "InstrumentedHttpChannelListener",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getProtocol",
+            "name": "io.dropwizard.metrics.jetty10.InstrumentedConnectionFactory#getProtocol()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "InstrumentedConnectionFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getProtocol",
+            "name": "org.eclipse.jetty.server.ConnectionFactory#getProtocol()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.eclipse.jetty.server.ConnectionFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getRatio",
+            "name": "io.dropwizard.metrics.jetty10.InstrumentedHandler#doStart()$RatioGauge$2#getRatio()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "InstrumentedHandler#doStart()$RatioGauge$2",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "MetricRegistry",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "InstrumentedHttpChannelListener",
+            "name": "io.dropwizard.metrics.jetty10.InstrumentedHttpChannelListener#InstrumentedHttpChannelListener(MetricRegistry,String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "InstrumentedHttpChannelListener",
+            "properties": []
+        }
+    ],
+    "calls": [
+        {
+            "callSite": {
+                "filename": "InstrumentedQueuedThreadPool.java",
+                "line": 75,
+                "column": 9,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 0,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 292,
+                "column": 17,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 2,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 290,
+                "column": 13,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 2,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 277,
+                "column": 5,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 2,
+            "callee": 5
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 284,
+                "column": 13,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 2,
+            "callee": 6
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 281,
+                "column": 40,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 2,
+            "callee": 7
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 295,
+                "column": 9,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 2,
+            "callee": 8
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 278,
+                "column": 9,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 2,
+            "callee": 6
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 291,
+                "column": 17,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 2,
+            "callee": 9
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 289,
+                "column": 21,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 2,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 285,
+                "column": 21,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 2,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 286,
+                "column": 13,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 2,
+            "callee": 12
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 282,
+                "column": 13,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 2,
+            "callee": 13
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 343,
+                "column": 45,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 14,
+            "callee": 15
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 341,
+                "column": 16,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 14,
+            "callee": 16
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 342,
+                "column": 52,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 14,
+            "callee": 17
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 416,
+                "column": 9,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 18,
+            "callee": 19
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 417,
+                "column": 30,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 18,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 69,
+                "column": 74,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 20,
+            "callee": 21
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 70,
+                "column": 76,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 20,
+            "callee": 22
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 170,
+                "column": 33,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 23,
+            "callee": 24
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 171,
+                "column": 25,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 23,
+            "callee": 25
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 170,
+                "column": 33,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 23,
+            "callee": 26
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 170,
+                "column": 24,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 23,
+            "callee": 27
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 347,
+                "column": 30,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 28,
+            "callee": 29
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 162,
+                "column": 24,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 30,
+            "callee": 27
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 163,
+                "column": 25,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 30,
+            "callee": 31
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 162,
+                "column": 33,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 30,
+            "callee": 26
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 162,
+                "column": 33,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 30,
+            "callee": 32
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 122,
+                "column": 31,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 33,
+            "callee": 34
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 175,
+                "column": 9,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 33,
+            "callee": 35
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 144,
+                "column": 31,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 33,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 191,
+                "column": 66,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 33,
+            "callee": 37
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 151,
+                "column": 9,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 33,
+            "callee": 35
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 183,
+                "column": 65,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 33,
+            "callee": 38
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 136,
+                "column": 25,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 33,
+            "callee": 39
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 145,
+                "column": 32,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 33,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 159,
+                "column": 65,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 33,
+            "callee": 40
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 132,
+                "column": 17,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 33,
+            "callee": 41
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 175,
+                "column": 65,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 33,
+            "callee": 42
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 143,
+                "column": 28,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 33,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 141,
+                "column": 29,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 33,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 119,
+                "column": 25,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 33,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 151,
+                "column": 65,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 33,
+            "callee": 43
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 133,
+                "column": 25,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 33,
+            "callee": 39
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 132,
+                "column": 46,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 33,
+            "callee": 44
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 191,
+                "column": 9,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 33,
+            "callee": 35
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 146,
+                "column": 30,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 33,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 130,
+                "column": 90,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 33,
+            "callee": 45
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 130,
+                "column": 90,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 33,
+            "callee": 46
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 130,
+                "column": 118,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 33,
+            "callee": 47
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 107,
+                "column": 5,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 33,
+            "callee": 48
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 107,
+                "column": 5,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 33,
+            "callee": 5
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 149,
+                "column": 30,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 33,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 127,
+                "column": 30,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 33,
+            "callee": 39
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 137,
+                "column": 25,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 33,
+            "callee": 39
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 142,
+                "column": 29,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 33,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 140,
+                "column": 28,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 33,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 147,
+                "column": 32,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 33,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 131,
+                "column": 26,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 33,
+            "callee": 49
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 134,
+                "column": 25,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 33,
+            "callee": 39
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 167,
+                "column": 66,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 33,
+            "callee": 50
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 130,
+                "column": 35,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 33,
+            "callee": 49
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 123,
+                "column": 33,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 33,
+            "callee": 34
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 120,
+                "column": 27,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 33,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 148,
+                "column": 29,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 33,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 124,
+                "column": 32,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 33,
+            "callee": 34
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 199,
+                "column": 25,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 33,
+            "callee": 51
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 126,
+                "column": 32,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 33,
+            "callee": 39
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 135,
+                "column": 25,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 33,
+            "callee": 39
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 183,
+                "column": 9,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 33,
+            "callee": 35
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 167,
+                "column": 9,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 33,
+            "callee": 35
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 138,
+                "column": 22,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 33,
+            "callee": 52
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 159,
+                "column": 9,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 33,
+            "callee": 35
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedConnectionFactory.java",
+                "line": 55,
+                "column": 17,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 53,
+            "callee": 54
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedConnectionFactory.java",
+                "line": 57,
+                "column": 21,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 53,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedQueuedThreadPool.java",
+                "line": 139,
+                "column": 24,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 55,
+            "callee": 27
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedQueuedThreadPool.java",
+                "line": 35,
+                "column": 9,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 56,
+            "callee": 57
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedConnectionFactory.java",
+                "line": 47,
+                "column": 32,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 58,
+            "callee": 59
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedConnectionFactory.java",
+                "line": 49,
+                "column": 21,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 58,
+            "callee": 6
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedQueuedThreadPool.java",
+                "line": 156,
+                "column": 47,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 60,
+            "callee": 61
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedQueuedThreadPool.java",
+                "line": 156,
+                "column": 62,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 60,
+            "callee": 62
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedQueuedThreadPool.java",
+                "line": 156,
+                "column": 33,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 60,
+            "callee": 61
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedQueuedThreadPool.java",
+                "line": 156,
+                "column": 24,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 60,
+            "callee": 63
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 217,
+                "column": 72,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 64,
+            "callee": 65
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 185,
+                "column": 30,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 64,
+            "callee": 41
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 176,
+                "column": 28,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 64,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 186,
+                "column": 21,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 64,
+            "callee": 39
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 225,
+                "column": 72,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 64,
+            "callee": 66
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 179,
+                "column": 30,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 64,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 241,
+                "column": 30,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 64,
+            "callee": 52
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 168,
+                "column": 32,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 64,
+            "callee": 39
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 173,
+                "column": 28,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 64,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 217,
+                "column": 13,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 64,
+            "callee": 35
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 182,
+                "column": 30,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 64,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 201,
+                "column": 13,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 64,
+            "callee": 35
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 184,
+                "column": 13,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 64,
+            "callee": 49
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 177,
+                "column": 31,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 64,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 174,
+                "column": 29,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 64,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 189,
+                "column": 21,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 64,
+            "callee": 39
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 185,
+                "column": 59,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 64,
+            "callee": 44
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 245,
+                "column": 25,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 64,
+            "callee": 67
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 193,
+                "column": 72,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 64,
+            "callee": 68
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 157,
+                "column": 9,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 64,
+            "callee": 69
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 169,
+                "column": 30,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 64,
+            "callee": 39
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 171,
+                "column": 35,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 64,
+            "callee": 49
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 162,
+                "column": 27,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 64,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 201,
+                "column": 72,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 64,
+            "callee": 70
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 209,
+                "column": 73,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 64,
+            "callee": 71
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 193,
+                "column": 13,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 64,
+            "callee": 35
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 188,
+                "column": 21,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 64,
+            "callee": 39
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 166,
+                "column": 32,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 64,
+            "callee": 34
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 233,
+                "column": 73,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 64,
+            "callee": 72
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 178,
+                "column": 32,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 64,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 165,
+                "column": 33,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 64,
+            "callee": 34
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 225,
+                "column": 13,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 64,
+            "callee": 35
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 175,
+                "column": 29,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 64,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 159,
+                "column": 31,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 64,
+            "callee": 73
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 209,
+                "column": 13,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 64,
+            "callee": 35
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 190,
+                "column": 21,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 64,
+            "callee": 39
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 171,
+                "column": 118,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 64,
+            "callee": 47
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 164,
+                "column": 31,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 64,
+            "callee": 34
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 171,
+                "column": 90,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 64,
+            "callee": 45
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 171,
+                "column": 90,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 64,
+            "callee": 46
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 233,
+                "column": 13,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 64,
+            "callee": 35
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 187,
+                "column": 21,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 64,
+            "callee": 39
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 181,
+                "column": 29,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 64,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 161,
+                "column": 25,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 64,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 155,
+                "column": 5,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 64,
+            "callee": 20
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 180,
+                "column": 32,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 64,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 301,
+                "column": 13,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 74,
+            "callee": 6
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 322,
+                "column": 17,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 74,
+            "callee": 75
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 308,
+                "column": 17,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 74,
+            "callee": 76
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 323,
+                "column": 17,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 74,
+            "callee": 6
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 309,
+                "column": 17,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 74,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 325,
+                "column": 17,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 74,
+            "callee": 77
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 302,
+                "column": 21,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 74,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 303,
+                "column": 13,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 74,
+            "callee": 12
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 299,
+                "column": 13,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 74,
+            "callee": 13
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 306,
+                "column": 21,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 74,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 325,
+                "column": 67,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 74,
+            "callee": 78
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 314,
+                "column": 13,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 74,
+            "callee": 79
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 298,
+                "column": 40,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 74,
+            "callee": 7
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 319,
+                "column": 13,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 74,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 316,
+                "column": 30,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 74,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 324,
+                "column": 24,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 74,
+            "callee": 13
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 307,
+                "column": 13,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 74,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 320,
+                "column": 13,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 74,
+            "callee": 80
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 295,
+                "column": 9,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 74,
+            "callee": 6
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 299,
+                "column": 35,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 81,
+            "callee": 82
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 306,
+                "column": 40,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 81,
+            "callee": 7
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 298,
+                "column": 5,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 81,
+            "callee": 5
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 310,
+                "column": 13,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 81,
+            "callee": 83
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 304,
+                "column": 9,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 81,
+            "callee": 80
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 310,
+                "column": 68,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 81,
+            "callee": 78
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 310,
+                "column": 38,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 81,
+            "callee": 84
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 303,
+                "column": 9,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 81,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 308,
+                "column": 13,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 81,
+            "callee": 6
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 307,
+                "column": 13,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 81,
+            "callee": 75
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 309,
+                "column": 20,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 81,
+            "callee": 13
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 300,
+                "column": 26,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 81,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedQueuedThreadPool.java",
+                "line": 29,
+                "column": 9,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 85,
+            "callee": 56
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 332,
+                "column": 13,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 86,
+            "callee": 49
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 335,
+                "column": 17,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 86,
+            "callee": 26
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 327,
+                "column": 5,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 86,
+            "callee": 5
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 329,
+                "column": 13,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 86,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 328,
+                "column": 13,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 86,
+            "callee": 49
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 335,
+                "column": 17,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 86,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 329,
+                "column": 13,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 86,
+            "callee": 14
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 194,
+                "column": 33,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 87,
+            "callee": 24
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 195,
+                "column": 25,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 87,
+            "callee": 25
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 194,
+                "column": 33,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 87,
+            "callee": 26
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 194,
+                "column": 24,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 87,
+            "callee": 27
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedQueuedThreadPool.java",
+                "line": 57,
+                "column": 9,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 88,
+            "callee": 89
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedQueuedThreadPool.java",
+                "line": 42,
+                "column": 9,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 90,
+            "callee": 88
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedQueuedThreadPool.java",
+                "line": 142,
+                "column": 9,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 91,
+            "callee": 35
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedQueuedThreadPool.java",
+                "line": 134,
+                "column": 31,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 91,
+            "callee": 92
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedQueuedThreadPool.java",
+                "line": 132,
+                "column": 9,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 91,
+            "callee": 93
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedQueuedThreadPool.java",
+                "line": 152,
+                "column": 76,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 91,
+            "callee": 94
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedQueuedThreadPool.java",
+                "line": 136,
+                "column": 65,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 91,
+            "callee": 95
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedQueuedThreadPool.java",
+                "line": 150,
+                "column": 9,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 91,
+            "callee": 96
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedQueuedThreadPool.java",
+                "line": 136,
+                "column": 9,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 91,
+            "callee": 35
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedQueuedThreadPool.java",
+                "line": 152,
+                "column": 9,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 91,
+            "callee": 35
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedQueuedThreadPool.java",
+                "line": 130,
+                "column": 5,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 91,
+            "callee": 97
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedQueuedThreadPool.java",
+                "line": 142,
+                "column": 69,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 91,
+            "callee": 98
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedQueuedThreadPool.java",
+                "line": 151,
+                "column": 9,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 91,
+            "callee": 96
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedQueuedThreadPool.java",
+                "line": 84,
+                "column": 9,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 89,
+            "callee": 99
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 209,
+                "column": 9,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 100,
+            "callee": 2
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 131,
+                "column": 9,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 101,
+            "callee": 102
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 402,
+                "column": 13,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 103,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 389,
+                "column": 37,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 104,
+            "callee": 73
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 389,
+                "column": 56,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 104,
+            "callee": 15
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 388,
+                "column": 52,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 104,
+            "callee": 17
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 387,
+                "column": 16,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 104,
+            "callee": 16
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedConnectionFactory.java",
+                "line": 22,
+                "column": 5,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 105,
+            "callee": 106
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 332,
+                "column": 30,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 107,
+            "callee": 29
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 437,
+                "column": 72,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 108,
+            "callee": 109
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 439,
+                "column": 18,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 108,
+            "callee": 110
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 440,
+                "column": 17,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 108,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 438,
+                "column": 13,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 108,
+            "callee": 77
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 435,
+                "column": 65,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 108,
+            "callee": 111
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 436,
+                "column": 69,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 108,
+            "callee": 112
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 397,
+                "column": 30,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 113,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 396,
+                "column": 9,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 113,
+            "callee": 114
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 154,
+                "column": 33,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 115,
+            "callee": 116
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 154,
+                "column": 24,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 115,
+            "callee": 27
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 155,
+                "column": 25,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 115,
+            "callee": 117
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 154,
+                "column": 33,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 115,
+            "callee": 26
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 219,
+                "column": 9,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 118,
+            "callee": 81
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 383,
+                "column": 13,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 119,
+            "callee": 111
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 383,
+                "column": 49,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 119,
+            "callee": 113
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 420,
+                "column": 17,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 120,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 418,
+                "column": 13,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 120,
+            "callee": 83
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 417,
+                "column": 72,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 120,
+            "callee": 109
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 419,
+                "column": 18,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 120,
+            "callee": 110
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 416,
+                "column": 69,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 120,
+            "callee": 112
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 415,
+                "column": 65,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 120,
+            "callee": 111
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedQueuedThreadPool.java",
+                "line": 117,
+                "column": 9,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 121,
+            "callee": 122
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedQueuedThreadPool.java",
+                "line": 108,
+                "column": 5,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 121,
+            "callee": 123
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 213,
+                "column": 29,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 124,
+            "callee": 25
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 212,
+                "column": 37,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 124,
+            "callee": 24
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 212,
+                "column": 28,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 124,
+            "callee": 27
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 212,
+                "column": 37,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 124,
+            "callee": 26
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 403,
+                "column": 13,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 125,
+            "callee": 111
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 403,
+                "column": 49,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 125,
+            "callee": 18
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 228,
+                "column": 37,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 126,
+            "callee": 32
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 228,
+                "column": 28,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 126,
+            "callee": 27
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 228,
+                "column": 37,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 126,
+            "callee": 26
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 229,
+                "column": 29,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 126,
+            "callee": 31
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedQueuedThreadPool.java",
+                "line": 66,
+                "column": 9,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 127,
+            "callee": 121
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedQueuedThreadPool.java",
+                "line": 24,
+                "column": 9,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 128,
+            "callee": 85
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 221,
+                "column": 29,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 129,
+            "callee": 117
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 220,
+                "column": 37,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 129,
+            "callee": 116
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 220,
+                "column": 37,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 129,
+            "callee": 26
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 220,
+                "column": 28,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 129,
+            "callee": 27
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 186,
+                "column": 24,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 130,
+            "callee": 27
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 187,
+                "column": 25,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 130,
+            "callee": 31
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 186,
+                "column": 33,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 130,
+            "callee": 26
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 186,
+                "column": 33,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 130,
+            "callee": 32
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 321,
+                "column": 9,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 83,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 319,
+                "column": 13,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 83,
+            "callee": 86
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 324,
+                "column": 22,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 83,
+            "callee": 131
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 324,
+                "column": 9,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 83,
+            "callee": 80
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 317,
+                "column": 13,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 83,
+            "callee": 86
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 323,
+                "column": 9,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 83,
+            "callee": 80
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 324,
+                "column": 9,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 83,
+            "callee": 28
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 322,
+                "column": 34,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 83,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 317,
+                "column": 18,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 83,
+            "callee": 132
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 422,
+                "column": 13,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 133,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 197,
+                "column": 29,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 134,
+            "callee": 117
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 196,
+                "column": 37,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 134,
+            "callee": 116
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 196,
+                "column": 37,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 134,
+            "callee": 26
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 196,
+                "column": 28,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 134,
+            "callee": 27
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 178,
+                "column": 24,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 135,
+            "callee": 27
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 179,
+                "column": 25,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 135,
+            "callee": 117
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 178,
+                "column": 33,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 135,
+            "callee": 26
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 178,
+                "column": 33,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 135,
+            "callee": 116
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedConnectionFactory.java",
+                "line": 41,
+                "column": 39,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 136,
+            "callee": 136
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedConnectionFactory.java",
+                "line": 41,
+                "column": 39,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 136,
+            "callee": 137
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedConnectionFactory.java",
+                "line": 42,
+                "column": 37,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 136,
+            "callee": 138
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedConnectionFactory.java",
+                "line": 42,
+                "column": 9,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 136,
+            "callee": 139
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedQueuedThreadPool.java",
+                "line": 169,
+                "column": 9,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 140,
+            "callee": 141
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedQueuedThreadPool.java",
+                "line": 163,
+                "column": 31,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 140,
+            "callee": 92
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedQueuedThreadPool.java",
+                "line": 167,
+                "column": 9,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 140,
+            "callee": 141
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedQueuedThreadPool.java",
+                "line": 171,
+                "column": 9,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 140,
+            "callee": 142
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedQueuedThreadPool.java",
+                "line": 165,
+                "column": 9,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 140,
+            "callee": 141
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedQueuedThreadPool.java",
+                "line": 168,
+                "column": 9,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 140,
+            "callee": 141
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedQueuedThreadPool.java",
+                "line": 166,
+                "column": 9,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 140,
+            "callee": 141
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedQueuedThreadPool.java",
+                "line": 161,
+                "column": 5,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 140,
+            "callee": 97
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 282,
+                "column": 13,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 143,
+            "callee": 144
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 273,
+                "column": 9,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 143,
+            "callee": 141
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 274,
+                "column": 9,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 143,
+            "callee": 141
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 275,
+                "column": 9,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 143,
+            "callee": 141
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 277,
+                "column": 9,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 143,
+            "callee": 141
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 278,
+                "column": 9,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 143,
+            "callee": 141
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 250,
+                "column": 31,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 143,
+            "callee": 73
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 279,
+                "column": 9,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 143,
+            "callee": 141
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 286,
+                "column": 9,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 143,
+            "callee": 145
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 269,
+                "column": 9,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 143,
+            "callee": 141
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 264,
+                "column": 9,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 143,
+            "callee": 141
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 267,
+                "column": 9,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 143,
+            "callee": 141
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 248,
+                "column": 5,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 143,
+            "callee": 20
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 271,
+                "column": 9,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 143,
+            "callee": 141
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 270,
+                "column": 9,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 143,
+            "callee": 141
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 255,
+                "column": 9,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 143,
+            "callee": 141
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 254,
+                "column": 9,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 143,
+            "callee": 141
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 256,
+                "column": 9,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 143,
+            "callee": 141
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 253,
+                "column": 9,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 143,
+            "callee": 141
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 272,
+                "column": 9,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 143,
+            "callee": 141
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 257,
+                "column": 9,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 143,
+            "callee": 141
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 276,
+                "column": 9,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 143,
+            "callee": 141
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 252,
+                "column": 9,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 143,
+            "callee": 141
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 258,
+                "column": 9,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 143,
+            "callee": 141
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 260,
+                "column": 9,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 143,
+            "callee": 141
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 259,
+                "column": 9,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 143,
+            "callee": 141
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 283,
+                "column": 37,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 143,
+            "callee": 73
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 262,
+                "column": 9,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 143,
+            "callee": 141
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 261,
+                "column": 9,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 143,
+            "callee": 141
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 268,
+                "column": 9,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 143,
+            "callee": 141
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 265,
+                "column": 9,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 143,
+            "callee": 141
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 263,
+                "column": 9,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 143,
+            "callee": 141
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 282,
+                "column": 13,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 143,
+            "callee": 146
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 283,
+                "column": 56,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 143,
+            "callee": 15
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 266,
+                "column": 9,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 143,
+            "callee": 141
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 373,
+                "column": 5,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 147,
+            "callee": 20
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 381,
+                "column": 17,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 147,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 374,
+                "column": 13,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 147,
+            "callee": 49
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 375,
+                "column": 13,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 147,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 381,
+                "column": 17,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 147,
+            "callee": 26
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 378,
+                "column": 13,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 147,
+            "callee": 49
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 375,
+                "column": 13,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 147,
+            "callee": 104
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedQueuedThreadPool.java",
+                "line": 49,
+                "column": 9,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 57,
+            "callee": 88
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 134,
+                "column": 5,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 102,
+            "callee": 148
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 237,
+                "column": 29,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 149,
+            "callee": 25
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 236,
+                "column": 37,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 149,
+            "callee": 24
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 236,
+                "column": 28,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 149,
+            "callee": 27
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 236,
+                "column": 37,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 149,
+            "callee": 26
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 121,
+                "column": 9,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 150,
+            "callee": 101
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedQueuedThreadPool.java",
+                "line": 145,
+                "column": 24,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 151,
+            "callee": 27
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedQueuedThreadPool.java",
+                "line": 94,
+                "column": 9,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 99,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedConnectionFactory.java",
+                "line": 19,
+                "column": 9,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 152,
+            "callee": 105
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 363,
+                "column": 13,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 77,
+            "callee": 147
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 369,
+                "column": 9,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 77,
+            "callee": 80
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 370,
+                "column": 9,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 77,
+            "callee": 80
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 365,
+                "column": 13,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 77,
+            "callee": 147
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 370,
+                "column": 22,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 77,
+            "callee": 131
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 368,
+                "column": 34,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 77,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 367,
+                "column": 9,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 77,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 363,
+                "column": 18,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 77,
+            "callee": 132
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 370,
+                "column": 9,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 77,
+            "callee": 107
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedConnectionFactory.java",
+                "line": 36,
+                "column": 16,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 153,
+            "callee": 153
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedConnectionFactory.java",
+                "line": 36,
+                "column": 16,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 153,
+            "callee": 154
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 44,
+                "column": 46,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 5,
+            "callee": 155
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 46,
+                "column": 76,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 5,
+            "callee": 22
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 45,
+                "column": 74,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 5,
+            "callee": 21
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 94,
+                "column": 9,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 156,
+            "callee": 33
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedConnectionFactory.java",
+                "line": 31,
+                "column": 16,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 157,
+            "callee": 158
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedConnectionFactory.java",
+                "line": 31,
+                "column": 16,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 157,
+            "callee": 157
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 204,
+                "column": 37,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 159,
+            "callee": 32
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 204,
+                "column": 28,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 159,
+            "callee": 27
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 204,
+                "column": 37,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 159,
+            "callee": 26
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHandler.java",
+                "line": 205,
+                "column": 29,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 159,
+            "callee": 31
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedHttpChannelListener.java",
+                "line": 104,
+                "column": 9,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 160,
+            "callee": 33
+        },
+        {
+            "callSite": {
+                "filename": "InstrumentedQueuedThreadPool.java",
+                "line": 105,
+                "column": 9,
+                "directory": "src/main/java/io/dropwizard/metrics/jetty10"
+            },
+            "caller": 1,
+            "callee": 121
+        }
+    ],
+    "language": "java",
+    "packages": [{
+        "path": "io.dropwizard.metrics.jetty10",
+        "isRoot": false,
+        "module": -1,
+        "name": "jetty10",
+        "isStandardLibrary": false
+    }],
+    "modules": []
+}
