@@ -1,0 +1,4273 @@
+{
+    "functions": [
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "GarbageCollectorMetricSet",
+            "name": "com.codahale.metrics.jvm.GarbageCollectorMetricSet#GarbageCollectorMetricSet()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GarbageCollectorMetricSet",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Collection<GarbageCollectorMXBean>"],
+            "templateArguments": [],
+            "function": "GarbageCollectorMetricSet",
+            "name": "com.codahale.metrics.jvm.GarbageCollectorMetricSet#GarbageCollectorMetricSet(Collection)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GarbageCollectorMetricSet",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getGarbageCollectorMXBeans",
+            "name": "java.lang.management.ManagementFactory.getGarbageCollectorMXBeans()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.management.ManagementFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "boolean",
+                "boolean",
+                "OutputStream"
+            ],
+            "templateArguments": [],
+            "function": "dump",
+            "name": "com.codahale.metrics.jvm.ThreadDump#dump(boolean,boolean,OutputStream)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ThreadDump",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getLockOwnerId",
+            "name": "java.lang.management.ThreadInfo#getLockOwnerId()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.management.ThreadInfo",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getLockedStackDepth",
+            "name": "java.lang.management.MonitorInfo#getLockedStackDepth()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.management.MonitorInfo",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "StackTraceElement"
+            ],
+            "templateArguments": [],
+            "function": "printf",
+            "name": "java.io.PrintWriter#printf(String,StackTraceElement)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.PrintWriter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "boolean",
+                "boolean"
+            ],
+            "templateArguments": [],
+            "function": "dumpAllThreads",
+            "name": "java.lang.management.ThreadMXBean#dumpAllThreads(boolean,boolean)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.management.ThreadMXBean",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "OutputStream",
+                "Charset"
+            ],
+            "templateArguments": [],
+            "function": "OutputStreamWriter",
+            "name": "java.io.OutputStreamWriter#OutputStreamWriter(OutputStream,Charset)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.OutputStreamWriter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "flush",
+            "name": "java.io.PrintWriter#flush()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.PrintWriter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "int",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "printf",
+            "name": "java.io.PrintWriter#printf(String,int,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.PrintWriter",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["OutputStreamWriter"],
+            "templateArguments": [],
+            "function": "PrintWriter",
+            "name": "java.io.PrintWriter#PrintWriter(OutputStreamWriter)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.PrintWriter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getIdentityHashCode",
+            "name": "java.lang.management.LockInfo#getIdentityHashCode()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.management.LockInfo",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getStackTrace",
+            "name": "java.lang.management.ThreadInfo#getStackTrace()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.management.ThreadInfo",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getThreadState",
+            "name": "java.lang.management.ThreadInfo#getThreadState()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.management.ThreadInfo",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getClassName",
+            "name": "java.lang.management.LockInfo#getClassName()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.management.LockInfo",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getLockedMonitors",
+            "name": "java.lang.management.ThreadInfo#getLockedMonitors()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.management.ThreadInfo",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "println",
+            "name": "java.io.PrintWriter#println()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.PrintWriter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "MonitorInfo"
+            ],
+            "templateArguments": [],
+            "function": "printf",
+            "name": "java.io.PrintWriter#printf(String,MonitorInfo)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.PrintWriter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getThreadId",
+            "name": "java.lang.management.ThreadInfo#getThreadId()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.management.ThreadInfo",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getLockOwnerName",
+            "name": "java.lang.management.ThreadInfo#getLockOwnerName()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.management.ThreadInfo",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String",
+                "long"
+            ],
+            "templateArguments": [],
+            "function": "printf",
+            "name": "java.io.PrintWriter#printf(String,String,long)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.PrintWriter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String",
+                "long",
+                "State"
+            ],
+            "templateArguments": [],
+            "function": "printf",
+            "name": "java.io.PrintWriter#printf(String,String,long,State)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.PrintWriter",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "print",
+            "name": "java.io.PrintWriter#print(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.PrintWriter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "LockInfo"
+            ],
+            "templateArguments": [],
+            "function": "printf",
+            "name": "java.io.PrintWriter#printf(String,LockInfo)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.PrintWriter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "isInNative",
+            "name": "java.lang.management.ThreadInfo#isInNative()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.management.ThreadInfo",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "printf",
+            "name": "java.io.PrintWriter#printf(String,int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.PrintWriter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "isSuspended",
+            "name": "java.lang.management.ThreadInfo#isSuspended()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.management.ThreadInfo",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getLockedSynchronizers",
+            "name": "java.lang.management.ThreadInfo#getLockedSynchronizers()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.management.ThreadInfo",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getLockInfo",
+            "name": "java.lang.management.ThreadInfo#getLockInfo()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.management.ThreadInfo",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getThreadName",
+            "name": "java.lang.management.ThreadInfo#getThreadName()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.management.ThreadInfo",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "ThreadMXBean",
+                "ThreadDeadlockDetector"
+            ],
+            "templateArguments": [],
+            "function": "ThreadStatesGaugeSet",
+            "name": "com.codahale.metrics.jvm.ThreadStatesGaugeSet#ThreadStatesGaugeSet(ThreadMXBean,ThreadDeadlockDetector)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ThreadStatesGaugeSet",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "com.codahale.metrics.jvm.ThreadStatesGaugeSet.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ThreadStatesGaugeSet",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "com.codahale.metrics.jvm.BufferPoolMetricSet.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "BufferPoolMetricSet",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": ["Class<BufferPoolMetricSet>"],
+            "templateArguments": [],
+            "function": "getLogger",
+            "name": "org.slf4j.LoggerFactory.getLogger(Class)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.slf4j.LoggerFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "FileDescriptorRatioGauge",
+            "name": "com.codahale.metrics.jvm.FileDescriptorRatioGauge#FileDescriptorRatioGauge()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "FileDescriptorRatioGauge",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getOperatingSystemMXBean",
+            "name": "java.lang.management.ManagementFactory.getOperatingSystemMXBean()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.management.ManagementFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["OperatingSystemMXBean"],
+            "templateArguments": [],
+            "function": "FileDescriptorRatioGauge",
+            "name": "com.codahale.metrics.jvm.FileDescriptorRatioGauge#FileDescriptorRatioGauge(OperatingSystemMXBean)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "FileDescriptorRatioGauge",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getObjectName",
+            "name": "com.codahale.metrics.jvm.JmxAttributeGauge#getObjectName()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "JmxAttributeGauge",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "ObjectName",
+                "null"
+            ],
+            "templateArguments": [],
+            "function": "queryNames",
+            "name": "javax.management.MBeanServerConnection#queryNames(ObjectName,null)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "javax.management.MBeanServerConnection",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "next",
+            "name": "Iterator#next()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "Iterator",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "isPattern",
+            "name": "javax.management.ObjectName#isPattern()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "javax.management.ObjectName",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "iterator",
+            "name": "java.util.Set#iterator()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Set",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "size",
+            "name": "java.util.Set#size()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Set",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "JvmAttributeGaugeSet",
+            "name": "com.codahale.metrics.jvm.JvmAttributeGaugeSet#JvmAttributeGaugeSet()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "JvmAttributeGaugeSet",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["RuntimeMXBean"],
+            "templateArguments": [],
+            "function": "JvmAttributeGaugeSet",
+            "name": "com.codahale.metrics.jvm.JvmAttributeGaugeSet#JvmAttributeGaugeSet(RuntimeMXBean)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "JvmAttributeGaugeSet",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getRuntimeMXBean",
+            "name": "java.lang.management.ManagementFactory.getRuntimeMXBean()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.management.ManagementFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "ThreadMXBean",
+                "ThreadDeadlockDetector",
+                "long",
+                "TimeUnit"
+            ],
+            "templateArguments": [],
+            "function": "CachedThreadStatesGaugeSet",
+            "name": "com.codahale.metrics.jvm.CachedThreadStatesGaugeSet#CachedThreadStatesGaugeSet(ThreadMXBean,ThreadDeadlockDetector,long,TimeUnit)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CachedThreadStatesGaugeSet",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "com.codahale.metrics.jvm.CachedThreadStatesGaugeSet#CachedThreadStatesGaugeSet(ThreadMXBean,ThreadDeadlockDetector,long,TimeUnit)$CachedGauge$1.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CachedThreadStatesGaugeSet#CachedThreadStatesGaugeSet(ThreadMXBean,ThreadDeadlockDetector,long,TimeUnit)$CachedGauge$1",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "com.codahale.metrics.jvm.CachedThreadStatesGaugeSet.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CachedThreadStatesGaugeSet",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "com.codahale.metrics.jvm.CpuTimeClock.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CpuTimeClock",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getThreadMXBean",
+            "name": "java.lang.management.ManagementFactory.getThreadMXBean()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.management.ManagementFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "com.codahale.metrics.jvm.MemoryUsageGaugeSet.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "MemoryUsageGaugeSet",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "compile",
+            "name": "java.util.regex.Pattern.compile(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.regex.Pattern",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["State"],
+            "templateArguments": [],
+            "function": "getThreadCount",
+            "name": "com.codahale.metrics.jvm.ThreadStatesGaugeSet#getThreadCount(State)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ThreadStatesGaugeSet",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getThreadInfo",
+            "name": "com.codahale.metrics.jvm.ThreadStatesGaugeSet#getThreadInfo()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ThreadStatesGaugeSet",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getThreadInfo",
+            "name": "com.codahale.metrics.jvm.CachedThreadStatesGaugeSet#getThreadInfo()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CachedThreadStatesGaugeSet",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getValue",
+            "name": "com.codahale.metrics.CachedGauge#getValue()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.codahale.metrics.CachedGauge",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "ThreadStatesGaugeSet",
+            "name": "com.codahale.metrics.jvm.ThreadStatesGaugeSet#ThreadStatesGaugeSet()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ThreadStatesGaugeSet",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "ThreadDeadlockDetector",
+            "name": "com.codahale.metrics.jvm.ThreadDeadlockDetector#ThreadDeadlockDetector()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ThreadDeadlockDetector",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["ThreadMXBean"],
+            "templateArguments": [],
+            "function": "ThreadDeadlockDetector",
+            "name": "com.codahale.metrics.jvm.ThreadDeadlockDetector#ThreadDeadlockDetector(ThreadMXBean)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ThreadDeadlockDetector",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "com.codahale.metrics.jvm.ThreadDeadlockDetector.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ThreadDeadlockDetector",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getTick",
+            "name": "com.codahale.metrics.jvm.CpuTimeClock#getTick()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CpuTimeClock",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getCurrentThreadCpuTime",
+            "name": "java.lang.management.ThreadMXBean#getCurrentThreadCpuTime()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.management.ThreadMXBean",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "ClassLoadingGaugeSet",
+            "name": "com.codahale.metrics.jvm.ClassLoadingGaugeSet#ClassLoadingGaugeSet()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ClassLoadingGaugeSet",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["ClassLoadingMXBean"],
+            "templateArguments": [],
+            "function": "ClassLoadingGaugeSet",
+            "name": "com.codahale.metrics.jvm.ClassLoadingGaugeSet#ClassLoadingGaugeSet(ClassLoadingMXBean)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ClassLoadingGaugeSet",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getClassLoadingMXBean",
+            "name": "java.lang.management.ManagementFactory.getClassLoadingMXBean()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.management.ManagementFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "ObjectName",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "JmxAttributeGauge",
+            "name": "com.codahale.metrics.jvm.JmxAttributeGauge#JmxAttributeGauge(ObjectName,String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "JmxAttributeGauge",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getPlatformMBeanServer",
+            "name": "java.lang.management.ManagementFactory.getPlatformMBeanServer()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.management.ManagementFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "MBeanServerConnection",
+                "ObjectName",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "JmxAttributeGauge",
+            "name": "com.codahale.metrics.jvm.JmxAttributeGauge#JmxAttributeGauge(MBeanServerConnection,ObjectName,String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "JmxAttributeGauge",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "loadValue",
+            "name": "com.codahale.metrics.jvm.CachedThreadStatesGaugeSet#CachedThreadStatesGaugeSet(ThreadMXBean,ThreadDeadlockDetector,long,TimeUnit)$CachedGauge$1#loadValue()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CachedThreadStatesGaugeSet#CachedThreadStatesGaugeSet(ThreadMXBean,ThreadDeadlockDetector,long,TimeUnit)$CachedGauge$1",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getMetrics",
+            "name": "com.codahale.metrics.jvm.ThreadStatesGaugeSet#getMetrics()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ThreadStatesGaugeSet",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Gauge<Integer>"
+            ],
+            "templateArguments": [],
+            "function": "put",
+            "name": "java.util.Map#put(String,Gauge)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Map<String, Metric>"],
+            "templateArguments": [],
+            "function": "unmodifiableMap",
+            "name": "java.util.Collections.unmodifiableMap(Map)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Collections",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Gauge<Long>"
+            ],
+            "templateArguments": [],
+            "function": "put",
+            "name": "java.util.Map#put(String,Gauge)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Object",
+                "Gauge<Object>"
+            ],
+            "templateArguments": [],
+            "function": "put",
+            "name": "java.util.Map#put(Object,Gauge)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "values",
+            "name": "State#values()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "State",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getDeadlockedThreads",
+            "name": "deadlockDetector#getDeadlockedThreads()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "deadlockDetector",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toString",
+            "name": "State#toString()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "State",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "HashMap",
+            "name": "java.util.HashMap#HashMap()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.HashMap",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "java.util.HashMap.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.HashMap",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Gauge<Set<String>>"
+            ],
+            "templateArguments": [],
+            "function": "put",
+            "name": "java.util.Map#put(String,Gauge)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "com.codahale.metrics.jvm.ClassLoadingGaugeSet.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ClassLoadingGaugeSet",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "com.codahale.metrics.jvm.JvmAttributeGaugeSet.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "JvmAttributeGaugeSet",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getRatio",
+            "name": "com.codahale.metrics.jvm.MemoryUsageGaugeSet#getMetrics()$RatioGauge$2#getRatio()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "MemoryUsageGaugeSet#getMetrics()$RatioGauge$2",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getNonHeapMemoryUsage",
+            "name": "java.lang.management.MemoryMXBean#getNonHeapMemoryUsage()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.management.MemoryMXBean",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getMax",
+            "name": "java.lang.management.MemoryUsage#getMax()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.management.MemoryUsage",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getCommitted",
+            "name": "java.lang.management.MemoryUsage#getCommitted()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.management.MemoryUsage",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "long",
+                "long"
+            ],
+            "templateArguments": [],
+            "function": "of",
+            "name": "Ratio#of(long,long)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "Ratio",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getUsed",
+            "name": "java.lang.management.MemoryUsage#getUsed()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.management.MemoryUsage",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["ThreadMXBean"],
+            "templateArguments": [],
+            "function": "ThreadDump",
+            "name": "com.codahale.metrics.jvm.ThreadDump#ThreadDump(ThreadMXBean)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ThreadDump",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "com.codahale.metrics.jvm.ThreadDump.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ThreadDump",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "com.codahale.metrics.jvm.FileDescriptorRatioGauge.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "FileDescriptorRatioGauge",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "com.codahale.metrics.jvm.JmxAttributeGauge.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "JmxAttributeGauge",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getMetrics",
+            "name": "com.codahale.metrics.jvm.BufferPoolMetricSet#getMetrics()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "BufferPoolMetricSet",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "debug",
+            "name": "org.slf4j.Logger#debug(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.slf4j.Logger",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "ObjectName",
+            "name": "javax.management.ObjectName#ObjectName(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "javax.management.ObjectName",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["ObjectName"],
+            "templateArguments": [],
+            "function": "getMBeanInfo",
+            "name": "javax.management.MBeanServer#getMBeanInfo(ObjectName)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "javax.management.MBeanServer",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Object",
+                "JmxAttributeGauge"
+            ],
+            "templateArguments": [],
+            "function": "put",
+            "name": "java.util.Map#put(Object,JmxAttributeGauge)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "MemoryMXBean",
+                "Collection<MemoryPoolMXBean>"
+            ],
+            "templateArguments": [],
+            "function": "MemoryUsageGaugeSet",
+            "name": "com.codahale.metrics.jvm.MemoryUsageGaugeSet#MemoryUsageGaugeSet(MemoryMXBean,Collection)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "MemoryUsageGaugeSet",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Collection<MemoryPoolMXBean>"],
+            "templateArguments": [],
+            "function": "ArrayList",
+            "name": "java.util.ArrayList#ArrayList(Collection)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.ArrayList",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "com.codahale.metrics.jvm.MemoryUsageGaugeSet.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "MemoryUsageGaugeSet",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getMetrics",
+            "name": "com.codahale.metrics.jvm.ClassLoadingGaugeSet#getMetrics()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ClassLoadingGaugeSet",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getValue",
+            "name": "com.codahale.metrics.jvm.JmxAttributeGauge#getValue()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "JmxAttributeGauge",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "ObjectName",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "getAttribute",
+            "name": "javax.management.MBeanServerConnection#getAttribute(ObjectName,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "javax.management.MBeanServerConnection",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "MemoryUsageGaugeSet",
+            "name": "com.codahale.metrics.jvm.MemoryUsageGaugeSet#MemoryUsageGaugeSet()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "MemoryUsageGaugeSet",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getMemoryPoolMXBeans",
+            "name": "java.lang.management.ManagementFactory.getMemoryPoolMXBeans()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.management.ManagementFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getMemoryMXBean",
+            "name": "java.lang.management.ManagementFactory.getMemoryMXBean()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.management.ManagementFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["OutputStream"],
+            "templateArguments": [],
+            "function": "dump",
+            "name": "com.codahale.metrics.jvm.ThreadDump#dump(OutputStream)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ThreadDump",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getRatio",
+            "name": "com.codahale.metrics.jvm.FileDescriptorRatioGauge#getRatio()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "FileDescriptorRatioGauge",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getOpenFileDescriptorCount",
+            "name": "UnixOperatingSystemMXBean#getOpenFileDescriptorCount()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "UnixOperatingSystemMXBean",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "double",
+                "double"
+            ],
+            "templateArguments": [],
+            "function": "of",
+            "name": "Ratio#of(double,double)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "Ratio",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "com.codahale.metrics.jvm.FileDescriptorRatioGauge.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "FileDescriptorRatioGauge",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getMaxFileDescriptorCount",
+            "name": "UnixOperatingSystemMXBean#getMaxFileDescriptorCount()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "UnixOperatingSystemMXBean",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Object",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "of",
+            "name": "Ratio#of(Object,Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "Ratio",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getMetrics",
+            "name": "com.codahale.metrics.jvm.GarbageCollectorMetricSet#getMetrics()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GarbageCollectorMetricSet",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "matcher",
+            "name": "java.util.regex.Pattern#matcher(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.regex.Pattern",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "replaceAll",
+            "name": "Matcher#replaceAll(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "Matcher",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Object",
+                "Gauge<Long>"
+            ],
+            "templateArguments": [],
+            "function": "put",
+            "name": "java.util.Map#put(Object,Gauge)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "com.codahale.metrics.jvm.GarbageCollectorMetricSet.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GarbageCollectorMetricSet",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getName",
+            "name": "java.lang.management.GarbageCollectorMXBean#getName()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.management.GarbageCollectorMXBean",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "long",
+                "TimeUnit"
+            ],
+            "templateArguments": [],
+            "function": "CachedThreadStatesGaugeSet",
+            "name": "com.codahale.metrics.jvm.CachedThreadStatesGaugeSet#CachedThreadStatesGaugeSet(long,TimeUnit)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CachedThreadStatesGaugeSet",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["MBeanServer"],
+            "templateArguments": [],
+            "function": "BufferPoolMetricSet",
+            "name": "com.codahale.metrics.jvm.BufferPoolMetricSet#BufferPoolMetricSet(MBeanServer)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "BufferPoolMetricSet",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "com.codahale.metrics.jvm.BufferPoolMetricSet.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "BufferPoolMetricSet",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getAllThreadIds",
+            "name": "java.lang.management.ThreadMXBean#getAllThreadIds()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.management.ThreadMXBean",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "long[]",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "getThreadInfo",
+            "name": "java.lang.management.ThreadMXBean#getThreadInfo(long[],int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.management.ThreadMXBean",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "com.codahale.metrics.jvm.ThreadStatesGaugeSet.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ThreadStatesGaugeSet",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getDeadlockedThreads",
+            "name": "com.codahale.metrics.jvm.ThreadDeadlockDetector#getDeadlockedThreads()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ThreadDeadlockDetector",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "com.codahale.metrics.jvm.ThreadDeadlockDetector.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "ThreadDeadlockDetector",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "StringBuilder",
+            "name": "java.lang.StringBuilder#StringBuilder()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.StringBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "java.lang.StringBuilder.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.StringBuilder",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "emptySet",
+            "name": "java.util.Collections.emptySet()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Collections",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "append",
+            "name": "StringBuilder#append(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "StringBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toString",
+            "name": "java.lang.StringBuilder#toString()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.StringBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Set<String>"],
+            "templateArguments": [],
+            "function": "unmodifiableSet",
+            "name": "java.util.Collections.unmodifiableSet(Set)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Collections",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toString",
+            "name": "java.lang.StackTraceElement#toString()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.StackTraceElement",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "findDeadlockedThreads",
+            "name": "java.lang.management.ThreadMXBean#findDeadlockedThreads()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.management.ThreadMXBean",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getLockName",
+            "name": "java.lang.management.ThreadInfo#getLockName()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.management.ThreadInfo",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "add",
+            "name": "java.util.Set#add(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Set",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "java.util.HashSet.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.HashSet",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "HashSet",
+            "name": "java.util.HashSet#HashSet()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.HashSet",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "append",
+            "name": "java.lang.StringBuilder#append(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.StringBuilder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getMetrics",
+            "name": "com.codahale.metrics.jvm.MemoryUsageGaugeSet#getMetrics()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "MemoryUsageGaugeSet",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getNonHeapMemoryUsage",
+            "name": "mxBean#getNonHeapMemoryUsage()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "mxBean",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "com.codahale.metrics.jvm.MemoryUsageGaugeSet#getMetrics()$RatioGauge$1.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "MemoryUsageGaugeSet#getMetrics()$RatioGauge$1",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "ANON__OR__TYPE$RatioGauge"
+            ],
+            "templateArguments": [],
+            "function": "put",
+            "name": "java.util.Map#put(String,ANON__OR__TYPE$RatioGauge)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getUsage",
+            "name": "java.lang.management.MemoryPoolMXBean#getUsage()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.management.MemoryPoolMXBean",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getHeapMemoryUsage",
+            "name": "mxBean#getHeapMemoryUsage()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "mxBean",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "matcher",
+            "name": "java.util.regex.Pattern#matcher(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.regex.Pattern",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "com.codahale.metrics.jvm.MemoryUsageGaugeSet#getMetrics()$RatioGauge$2.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "MemoryUsageGaugeSet#getMetrics()$RatioGauge$2",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "Object",
+                "ANON__OR__TYPE$RatioGauge"
+            ],
+            "templateArguments": [],
+            "function": "put",
+            "name": "java.util.Map#put(Object,ANON__OR__TYPE$RatioGauge)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getInit",
+            "name": "MemoryUsage#getInit()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "MemoryUsage",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getCollectionUsage",
+            "name": "java.lang.management.MemoryPoolMXBean#getCollectionUsage()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.management.MemoryPoolMXBean",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getName",
+            "name": "java.lang.management.MemoryPoolMXBean#getName()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.management.MemoryPoolMXBean",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getCommitted",
+            "name": "MemoryUsage#getCommitted()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "MemoryUsage",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getUsed",
+            "name": "MemoryUsage#getUsed()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "MemoryUsage",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getMax",
+            "name": "MemoryUsage#getMax()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "MemoryUsage",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "com.codahale.metrics.jvm.MemoryUsageGaugeSet#getMetrics()$RatioGauge$3.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "MemoryUsageGaugeSet#getMetrics()$RatioGauge$3",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "forName",
+            "name": "java.lang.Class.forName(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.Class",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getRatio",
+            "name": "com.codahale.metrics.jvm.MemoryUsageGaugeSet#getMetrics()$RatioGauge$3#getRatio()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "MemoryUsageGaugeSet#getMetrics()$RatioGauge$3",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getRatio",
+            "name": "com.codahale.metrics.jvm.MemoryUsageGaugeSet#getMetrics()$RatioGauge$1#getRatio()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "MemoryUsageGaugeSet#getMetrics()$RatioGauge$1",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getHeapMemoryUsage",
+            "name": "java.lang.management.MemoryMXBean#getHeapMemoryUsage()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.management.MemoryMXBean",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getMetrics",
+            "name": "com.codahale.metrics.jvm.JvmAttributeGaugeSet#getMetrics()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "JvmAttributeGaugeSet",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Gauge<String>"
+            ],
+            "templateArguments": [],
+            "function": "put",
+            "name": "java.util.Map#put(String,Gauge)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getVmVersion",
+            "name": "runtime#getVmVersion()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "runtime",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getVmName",
+            "name": "runtime#getVmName()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "runtime",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Object",
+                "String",
+                "Object",
+                "Object",
+                "Object",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "format",
+            "name": "java.lang.String.format(Object,String,Object,Object,Object,Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.String",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getSpecVersion",
+            "name": "runtime#getSpecVersion()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "runtime",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getVmVendor",
+            "name": "runtime#getVmVendor()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "runtime",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "com.codahale.metrics.jvm.GarbageCollectorMetricSet.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GarbageCollectorMetricSet",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["Collection<GarbageCollectorMXBean>"],
+            "templateArguments": [],
+            "function": "ArrayList",
+            "name": "java.util.ArrayList#ArrayList(Collection)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.ArrayList",
+            "properties": []
+        }
+    ],
+    "calls": [
+        {
+            "callSite": {
+                "filename": "GarbageCollectorMetricSet.java",
+                "line": 31,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 0,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "GarbageCollectorMetricSet.java",
+                "line": 31,
+                "column": 14,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 0,
+            "callee": 2
+        },
+        {
+            "callSite": {
+                "filename": "ThreadDump.java",
+                "line": 81,
+                "column": 81,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 3,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "ThreadDump.java",
+                "line": 92,
+                "column": 25,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 3,
+            "callee": 5
+        },
+        {
+            "callSite": {
+                "filename": "ThreadDump.java",
+                "line": 89,
+                "column": 17,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 3,
+            "callee": 6
+        },
+        {
+            "callSite": {
+                "filename": "ThreadDump.java",
+                "line": 48,
+                "column": 38,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 3,
+            "callee": 7
+        },
+        {
+            "callSite": {
+                "filename": "ThreadDump.java",
+                "line": 49,
+                "column": 52,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 3,
+            "callee": 8
+        },
+        {
+            "callSite": {
+                "filename": "ThreadDump.java",
+                "line": 110,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 3,
+            "callee": 9
+        },
+        {
+            "callSite": {
+                "filename": "ThreadDump.java",
+                "line": 62,
+                "column": 17,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 3,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "ThreadDump.java",
+                "line": 49,
+                "column": 36,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 3,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "ThreadDump.java",
+                "line": 67,
+                "column": 25,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 3,
+            "callee": 12
+        },
+        {
+            "callSite": {
+                "filename": "ThreadDump.java",
+                "line": 63,
+                "column": 25,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 3,
+            "callee": 12
+        },
+        {
+            "callSite": {
+                "filename": "ThreadDump.java",
+                "line": 84,
+                "column": 50,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 3,
+            "callee": 13
+        },
+        {
+            "callSite": {
+                "filename": "ThreadDump.java",
+                "line": 65,
+                "column": 40,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 3,
+            "callee": 14
+        },
+        {
+            "callSite": {
+                "filename": "ThreadDump.java",
+                "line": 61,
+                "column": 25,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 3,
+            "callee": 15
+        },
+        {
+            "callSite": {
+                "filename": "ThreadDump.java",
+                "line": 85,
+                "column": 44,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 3,
+            "callee": 16
+        },
+        {
+            "callSite": {
+                "filename": "ThreadDump.java",
+                "line": 79,
+                "column": 13,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 3,
+            "callee": 17
+        },
+        {
+            "callSite": {
+                "filename": "ThreadDump.java",
+                "line": 56,
+                "column": 21,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 3,
+            "callee": 14
+        },
+        {
+            "callSite": {
+                "filename": "ThreadDump.java",
+                "line": 105,
+                "column": 17,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 3,
+            "callee": 17
+        },
+        {
+            "callSite": {
+                "filename": "ThreadDump.java",
+                "line": 93,
+                "column": 25,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 3,
+            "callee": 18
+        },
+        {
+            "callSite": {
+                "filename": "ThreadDump.java",
+                "line": 55,
+                "column": 21,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 3,
+            "callee": 19
+        },
+        {
+            "callSite": {
+                "filename": "ThreadDump.java",
+                "line": 81,
+                "column": 59,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 3,
+            "callee": 20
+        },
+        {
+            "callSite": {
+                "filename": "ThreadDump.java",
+                "line": 109,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 3,
+            "callee": 17
+        },
+        {
+            "callSite": {
+                "filename": "ThreadDump.java",
+                "line": 81,
+                "column": 17,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 3,
+            "callee": 21
+        },
+        {
+            "callSite": {
+                "filename": "ThreadDump.java",
+                "line": 53,
+                "column": 13,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 3,
+            "callee": 22
+        },
+        {
+            "callSite": {
+                "filename": "ThreadDump.java",
+                "line": 97,
+                "column": 13,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 3,
+            "callee": 17
+        },
+        {
+            "callSite": {
+                "filename": "ThreadDump.java",
+                "line": 76,
+                "column": 17,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 3,
+            "callee": 23
+        },
+        {
+            "callSite": {
+                "filename": "ThreadDump.java",
+                "line": 103,
+                "column": 21,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 3,
+            "callee": 24
+        },
+        {
+            "callSite": {
+                "filename": "ThreadDump.java",
+                "line": 60,
+                "column": 25,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 3,
+            "callee": 12
+        },
+        {
+            "callSite": {
+                "filename": "ThreadDump.java",
+                "line": 58,
+                "column": 33,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 3,
+            "callee": 14
+        },
+        {
+            "callSite": {
+                "filename": "ThreadDump.java",
+                "line": 68,
+                "column": 25,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 3,
+            "callee": 15
+        },
+        {
+            "callSite": {
+                "filename": "ThreadDump.java",
+                "line": 64,
+                "column": 25,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 3,
+            "callee": 15
+        },
+        {
+            "callSite": {
+                "filename": "ThreadDump.java",
+                "line": 59,
+                "column": 17,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 3,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "ThreadDump.java",
+                "line": 75,
+                "column": 17,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 3,
+            "callee": 25
+        },
+        {
+            "callSite": {
+                "filename": "ThreadDump.java",
+                "line": 101,
+                "column": 17,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 3,
+            "callee": 26
+        },
+        {
+            "callSite": {
+                "filename": "ThreadDump.java",
+                "line": 80,
+                "column": 17,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 3,
+            "callee": 20
+        },
+        {
+            "callSite": {
+                "filename": "ThreadDump.java",
+                "line": 71,
+                "column": 17,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 3,
+            "callee": 27
+        },
+        {
+            "callSite": {
+                "filename": "ThreadDump.java",
+                "line": 66,
+                "column": 17,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 3,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "ThreadDump.java",
+                "line": 99,
+                "column": 38,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 3,
+            "callee": 28
+        },
+        {
+            "callSite": {
+                "filename": "ThreadDump.java",
+                "line": 57,
+                "column": 35,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 3,
+            "callee": 29
+        },
+        {
+            "callSite": {
+                "filename": "ThreadDump.java",
+                "line": 72,
+                "column": 17,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 3,
+            "callee": 23
+        },
+        {
+            "callSite": {
+                "filename": "ThreadDump.java",
+                "line": 54,
+                "column": 21,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 3,
+            "callee": 30
+        },
+        {
+            "callSite": {
+                "filename": "ThreadStatesGaugeSet.java",
+                "line": 35,
+                "column": 5,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 31,
+            "callee": 32
+        },
+        {
+            "callSite": {
+                "filename": "BufferPoolMetricSet.java",
+                "line": 23,
+                "column": 42,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 33,
+            "callee": 34
+        },
+        {
+            "callSite": {
+                "filename": "FileDescriptorRatioGauge.java",
+                "line": 29,
+                "column": 14,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 35,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "FileDescriptorRatioGauge.java",
+                "line": 29,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 35,
+            "callee": 37
+        },
+        {
+            "callSite": {
+                "filename": "JmxAttributeGauge.java",
+                "line": 54,
+                "column": 42,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 38,
+            "callee": 39
+        },
+        {
+            "callSite": {
+                "filename": "JmxAttributeGauge.java",
+                "line": 56,
+                "column": 24,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 38,
+            "callee": 40
+        },
+        {
+            "callSite": {
+                "filename": "JmxAttributeGauge.java",
+                "line": 53,
+                "column": 13,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 38,
+            "callee": 41
+        },
+        {
+            "callSite": {
+                "filename": "JmxAttributeGauge.java",
+                "line": 56,
+                "column": 24,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 38,
+            "callee": 42
+        },
+        {
+            "callSite": {
+                "filename": "JmxAttributeGauge.java",
+                "line": 55,
+                "column": 17,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 38,
+            "callee": 43
+        },
+        {
+            "callSite": {
+                "filename": "JvmAttributeGaugeSet.java",
+                "line": 24,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 44,
+            "callee": 45
+        },
+        {
+            "callSite": {
+                "filename": "JvmAttributeGaugeSet.java",
+                "line": 24,
+                "column": 14,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 44,
+            "callee": 46
+        },
+        {
+            "callSite": {
+                "filename": "CachedThreadStatesGaugeSet.java",
+                "line": 30,
+                "column": 22,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 47,
+            "callee": 48
+        },
+        {
+            "callSite": {
+                "filename": "CachedThreadStatesGaugeSet.java",
+                "line": 18,
+                "column": 5,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 47,
+            "callee": 49
+        },
+        {
+            "callSite": {
+                "filename": "CachedThreadStatesGaugeSet.java",
+                "line": 29,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 47,
+            "callee": 31
+        },
+        {
+            "callSite": {
+                "filename": "CpuTimeClock.java",
+                "line": 13,
+                "column": 56,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 50,
+            "callee": 51
+        },
+        {
+            "callSite": {
+                "filename": "MemoryUsageGaugeSet.java",
+                "line": 27,
+                "column": 47,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 52,
+            "callee": 53
+        },
+        {
+            "callSite": {
+                "filename": "ThreadStatesGaugeSet.java",
+                "line": 67,
+                "column": 41,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 54,
+            "callee": 55
+        },
+        {
+            "callSite": {
+                "filename": "ThreadStatesGaugeSet.java",
+                "line": 67,
+                "column": 41,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 54,
+            "callee": 56
+        },
+        {
+            "callSite": {
+                "filename": "ThreadStatesGaugeSet.java",
+                "line": 70,
+                "column": 33,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 54,
+            "callee": 14
+        },
+        {
+            "callSite": {
+                "filename": "CachedThreadStatesGaugeSet.java",
+                "line": 51,
+                "column": 16,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 56,
+            "callee": 57
+        },
+        {
+            "callSite": {
+                "filename": "ThreadStatesGaugeSet.java",
+                "line": 32,
+                "column": 51,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 58,
+            "callee": 59
+        },
+        {
+            "callSite": {
+                "filename": "ThreadStatesGaugeSet.java",
+                "line": 32,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 58,
+            "callee": 31
+        },
+        {
+            "callSite": {
+                "filename": "ThreadStatesGaugeSet.java",
+                "line": 32,
+                "column": 14,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 58,
+            "callee": 51
+        },
+        {
+            "callSite": {
+                "filename": "ThreadDeadlockDetector.java",
+                "line": 25,
+                "column": 5,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 60,
+            "callee": 61
+        },
+        {
+            "callSite": {
+                "filename": "CpuTimeClock.java",
+                "line": 15,
+                "column": 5,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 62,
+            "callee": 50
+        },
+        {
+            "callSite": {
+                "filename": "CpuTimeClock.java",
+                "line": 17,
+                "column": 16,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 62,
+            "callee": 63
+        },
+        {
+            "callSite": {
+                "filename": "ClassLoadingGaugeSet.java",
+                "line": 20,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 64,
+            "callee": 65
+        },
+        {
+            "callSite": {
+                "filename": "ClassLoadingGaugeSet.java",
+                "line": 20,
+                "column": 14,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 64,
+            "callee": 66
+        },
+        {
+            "callSite": {
+                "filename": "JmxAttributeGauge.java",
+                "line": 27,
+                "column": 14,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 67,
+            "callee": 68
+        },
+        {
+            "callSite": {
+                "filename": "JmxAttributeGauge.java",
+                "line": 27,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 67,
+            "callee": 69
+        },
+        {
+            "callSite": {
+                "filename": "ThreadDeadlockDetector.java",
+                "line": 22,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 59,
+            "callee": 60
+        },
+        {
+            "callSite": {
+                "filename": "ThreadDeadlockDetector.java",
+                "line": 22,
+                "column": 14,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 59,
+            "callee": 51
+        },
+        {
+            "callSite": {
+                "filename": "CachedThreadStatesGaugeSet.java",
+                "line": 33,
+                "column": 24,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 70,
+            "callee": 55
+        },
+        {
+            "callSite": {
+                "filename": "ThreadStatesGaugeSet.java",
+                "line": 53,
+                "column": 43,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 71,
+            "callee": 54
+        },
+        {
+            "callSite": {
+                "filename": "ThreadStatesGaugeSet.java",
+                "line": 57,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 71,
+            "callee": 72
+        },
+        {
+            "callSite": {
+                "filename": "ThreadStatesGaugeSet.java",
+                "line": 63,
+                "column": 16,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 71,
+            "callee": 73
+        },
+        {
+            "callSite": {
+                "filename": "ThreadStatesGaugeSet.java",
+                "line": 59,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 71,
+            "callee": 74
+        },
+        {
+            "callSite": {
+                "filename": "ThreadStatesGaugeSet.java",
+                "line": 52,
+                "column": 13,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 71,
+            "callee": 75
+        },
+        {
+            "callSite": {
+                "filename": "ThreadStatesGaugeSet.java",
+                "line": 51,
+                "column": 41,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 71,
+            "callee": 76
+        },
+        {
+            "callSite": {
+                "filename": "ThreadStatesGaugeSet.java",
+                "line": 60,
+                "column": 61,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 71,
+            "callee": 77
+        },
+        {
+            "callSite": {
+                "filename": "ThreadStatesGaugeSet.java",
+                "line": 58,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 71,
+            "callee": 72
+        },
+        {
+            "callSite": {
+                "filename": "ThreadStatesGaugeSet.java",
+                "line": 52,
+                "column": 29,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 71,
+            "callee": 78
+        },
+        {
+            "callSite": {
+                "filename": "ThreadStatesGaugeSet.java",
+                "line": 60,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 71,
+            "callee": 72
+        },
+        {
+            "callSite": {
+                "filename": "ThreadStatesGaugeSet.java",
+                "line": 49,
+                "column": 44,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 71,
+            "callee": 79
+        },
+        {
+            "callSite": {
+                "filename": "ThreadStatesGaugeSet.java",
+                "line": 49,
+                "column": 44,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 71,
+            "callee": 80
+        },
+        {
+            "callSite": {
+                "filename": "ThreadStatesGaugeSet.java",
+                "line": 56,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 71,
+            "callee": 72
+        },
+        {
+            "callSite": {
+                "filename": "ThreadStatesGaugeSet.java",
+                "line": 61,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 71,
+            "callee": 81
+        },
+        {
+            "callSite": {
+                "filename": "ClassLoadingGaugeSet.java",
+                "line": 23,
+                "column": 5,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 65,
+            "callee": 82
+        },
+        {
+            "callSite": {
+                "filename": "JvmAttributeGaugeSet.java",
+                "line": 27,
+                "column": 5,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 45,
+            "callee": 83
+        },
+        {
+            "callSite": {
+                "filename": "MemoryUsageGaugeSet.java",
+                "line": 74,
+                "column": 43,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 84,
+            "callee": 85
+        },
+        {
+            "callSite": {
+                "filename": "MemoryUsageGaugeSet.java",
+                "line": 75,
+                "column": 50,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 84,
+            "callee": 86
+        },
+        {
+            "callSite": {
+                "filename": "MemoryUsageGaugeSet.java",
+                "line": 75,
+                "column": 73,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 84,
+            "callee": 87
+        },
+        {
+            "callSite": {
+                "filename": "MemoryUsageGaugeSet.java",
+                "line": 75,
+                "column": 24,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 84,
+            "callee": 88
+        },
+        {
+            "callSite": {
+                "filename": "MemoryUsageGaugeSet.java",
+                "line": 75,
+                "column": 96,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 84,
+            "callee": 86
+        },
+        {
+            "callSite": {
+                "filename": "MemoryUsageGaugeSet.java",
+                "line": 75,
+                "column": 33,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 84,
+            "callee": 89
+        },
+        {
+            "callSite": {
+                "filename": "ThreadDump.java",
+                "line": 21,
+                "column": 5,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 90,
+            "callee": 91
+        },
+        {
+            "callSite": {
+                "filename": "FileDescriptorRatioGauge.java",
+                "line": 32,
+                "column": 5,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 37,
+            "callee": 92
+        },
+        {
+            "callSite": {
+                "filename": "JmxAttributeGauge.java",
+                "line": 30,
+                "column": 5,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 69,
+            "callee": 93
+        },
+        {
+            "callSite": {
+                "filename": "BufferPoolMetricSet.java",
+                "line": 46,
+                "column": 21,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 94,
+            "callee": 95
+        },
+        {
+            "callSite": {
+                "filename": "BufferPoolMetricSet.java",
+                "line": 42,
+                "column": 43,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 94,
+            "callee": 96
+        },
+        {
+            "callSite": {
+                "filename": "BufferPoolMetricSet.java",
+                "line": 50,
+                "column": 16,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 94,
+            "callee": 73
+        },
+        {
+            "callSite": {
+                "filename": "BufferPoolMetricSet.java",
+                "line": 44,
+                "column": 50,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 94,
+            "callee": 69
+        },
+        {
+            "callSite": {
+                "filename": "BufferPoolMetricSet.java",
+                "line": 34,
+                "column": 5,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 94,
+            "callee": 33
+        },
+        {
+            "callSite": {
+                "filename": "BufferPoolMetricSet.java",
+                "line": 36,
+                "column": 44,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 94,
+            "callee": 80
+        },
+        {
+            "callSite": {
+                "filename": "BufferPoolMetricSet.java",
+                "line": 36,
+                "column": 44,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 94,
+            "callee": 79
+        },
+        {
+            "callSite": {
+                "filename": "BufferPoolMetricSet.java",
+                "line": 43,
+                "column": 21,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 94,
+            "callee": 97
+        },
+        {
+            "callSite": {
+                "filename": "BufferPoolMetricSet.java",
+                "line": 44,
+                "column": 21,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 94,
+            "callee": 98
+        },
+        {
+            "callSite": {
+                "filename": "MemoryUsageGaugeSet.java",
+                "line": 39,
+                "column": 28,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 99,
+            "callee": 100
+        },
+        {
+            "callSite": {
+                "filename": "MemoryUsageGaugeSet.java",
+                "line": 36,
+                "column": 5,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 99,
+            "callee": 101
+        },
+        {
+            "callSite": {
+                "filename": "ClassLoadingGaugeSet.java",
+                "line": 29,
+                "column": 44,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 102,
+            "callee": 79
+        },
+        {
+            "callSite": {
+                "filename": "ClassLoadingGaugeSet.java",
+                "line": 29,
+                "column": 44,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 102,
+            "callee": 80
+        },
+        {
+            "callSite": {
+                "filename": "ClassLoadingGaugeSet.java",
+                "line": 30,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 102,
+            "callee": 74
+        },
+        {
+            "callSite": {
+                "filename": "ClassLoadingGaugeSet.java",
+                "line": 31,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 102,
+            "callee": 74
+        },
+        {
+            "callSite": {
+                "filename": "JmxAttributeGauge.java",
+                "line": 46,
+                "column": 20,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 103,
+            "callee": 104
+        },
+        {
+            "callSite": {
+                "filename": "JmxAttributeGauge.java",
+                "line": 46,
+                "column": 49,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 103,
+            "callee": 38
+        },
+        {
+            "callSite": {
+                "filename": "MemoryUsageGaugeSet.java",
+                "line": 33,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 105,
+            "callee": 99
+        },
+        {
+            "callSite": {
+                "filename": "MemoryUsageGaugeSet.java",
+                "line": 33,
+                "column": 51,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 105,
+            "callee": 106
+        },
+        {
+            "callSite": {
+                "filename": "MemoryUsageGaugeSet.java",
+                "line": 33,
+                "column": 14,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 105,
+            "callee": 107
+        },
+        {
+            "callSite": {
+                "filename": "ThreadDump.java",
+                "line": 31,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 108,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "FileDescriptorRatioGauge.java",
+                "line": 45,
+                "column": 29,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 109,
+            "callee": 110
+        },
+        {
+            "callSite": {
+                "filename": "FileDescriptorRatioGauge.java",
+                "line": 47,
+                "column": 20,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 109,
+            "callee": 111
+        },
+        {
+            "callSite": {
+                "filename": "FileDescriptorRatioGauge.java",
+                "line": 41,
+                "column": 5,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 109,
+            "callee": 112
+        },
+        {
+            "callSite": {
+                "filename": "FileDescriptorRatioGauge.java",
+                "line": 45,
+                "column": 66,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 109,
+            "callee": 113
+        },
+        {
+            "callSite": {
+                "filename": "FileDescriptorRatioGauge.java",
+                "line": 45,
+                "column": 20,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 109,
+            "callee": 114
+        },
+        {
+            "callSite": {
+                "filename": "GarbageCollectorMetricSet.java",
+                "line": 47,
+                "column": 33,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 115,
+            "callee": 116
+        },
+        {
+            "callSite": {
+                "filename": "GarbageCollectorMetricSet.java",
+                "line": 47,
+                "column": 33,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 115,
+            "callee": 117
+        },
+        {
+            "callSite": {
+                "filename": "GarbageCollectorMetricSet.java",
+                "line": 45,
+                "column": 44,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 115,
+            "callee": 79
+        },
+        {
+            "callSite": {
+                "filename": "GarbageCollectorMetricSet.java",
+                "line": 45,
+                "column": 44,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 115,
+            "callee": 80
+        },
+        {
+            "callSite": {
+                "filename": "GarbageCollectorMetricSet.java",
+                "line": 51,
+                "column": 16,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 115,
+            "callee": 73
+        },
+        {
+            "callSite": {
+                "filename": "GarbageCollectorMetricSet.java",
+                "line": 49,
+                "column": 13,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 115,
+            "callee": 118
+        },
+        {
+            "callSite": {
+                "filename": "GarbageCollectorMetricSet.java",
+                "line": 48,
+                "column": 13,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 115,
+            "callee": 118
+        },
+        {
+            "callSite": {
+                "filename": "GarbageCollectorMetricSet.java",
+                "line": 43,
+                "column": 5,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 115,
+            "callee": 119
+        },
+        {
+            "callSite": {
+                "filename": "GarbageCollectorMetricSet.java",
+                "line": 47,
+                "column": 52,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 115,
+            "callee": 120
+        },
+        {
+            "callSite": {
+                "filename": "CachedThreadStatesGaugeSet.java",
+                "line": 46,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 121,
+            "callee": 47
+        },
+        {
+            "callSite": {
+                "filename": "CachedThreadStatesGaugeSet.java",
+                "line": 46,
+                "column": 14,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 121,
+            "callee": 51
+        },
+        {
+            "callSite": {
+                "filename": "CachedThreadStatesGaugeSet.java",
+                "line": 46,
+                "column": 51,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 121,
+            "callee": 59
+        },
+        {
+            "callSite": {
+                "filename": "BufferPoolMetricSet.java",
+                "line": 30,
+                "column": 5,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 122,
+            "callee": 123
+        },
+        {
+            "callSite": {
+                "filename": "ThreadStatesGaugeSet.java",
+                "line": 78,
+                "column": 38,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 55,
+            "callee": 124
+        },
+        {
+            "callSite": {
+                "filename": "ThreadStatesGaugeSet.java",
+                "line": 78,
+                "column": 16,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 55,
+            "callee": 125
+        },
+        {
+            "callSite": {
+                "filename": "ThreadStatesGaugeSet.java",
+                "line": 77,
+                "column": 5,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 55,
+            "callee": 126
+        },
+        {
+            "callSite": {
+                "filename": "ThreadDeadlockDetector.java",
+                "line": 34,
+                "column": 5,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 127,
+            "callee": 128
+        },
+        {
+            "callSite": {
+                "filename": "ThreadDeadlockDetector.java",
+                "line": 45,
+                "column": 50,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 127,
+            "callee": 129
+        },
+        {
+            "callSite": {
+                "filename": "ThreadDeadlockDetector.java",
+                "line": 45,
+                "column": 50,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 127,
+            "callee": 130
+        },
+        {
+            "callSite": {
+                "filename": "ThreadDeadlockDetector.java",
+                "line": 63,
+                "column": 16,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 127,
+            "callee": 131
+        },
+        {
+            "callSite": {
+                "filename": "ThreadDeadlockDetector.java",
+                "line": 56,
+                "column": 33,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 127,
+            "callee": 20
+        },
+        {
+            "callSite": {
+                "filename": "ThreadDeadlockDetector.java",
+                "line": 46,
+                "column": 50,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 127,
+            "callee": 13
+        },
+        {
+            "callSite": {
+                "filename": "ThreadDeadlockDetector.java",
+                "line": 47,
+                "column": 21,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 127,
+            "callee": 132
+        },
+        {
+            "callSite": {
+                "filename": "ThreadDeadlockDetector.java",
+                "line": 44,
+                "column": 36,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 127,
+            "callee": 125
+        },
+        {
+            "callSite": {
+                "filename": "ThreadDeadlockDetector.java",
+                "line": 54,
+                "column": 33,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 127,
+            "callee": 30
+        },
+        {
+            "callSite": {
+                "filename": "ThreadDeadlockDetector.java",
+                "line": 57,
+                "column": 33,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 127,
+            "callee": 133
+        },
+        {
+            "callSite": {
+                "filename": "ThreadDeadlockDetector.java",
+                "line": 61,
+                "column": 20,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 127,
+            "callee": 134
+        },
+        {
+            "callSite": {
+                "filename": "ThreadDeadlockDetector.java",
+                "line": 47,
+                "column": 21,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 127,
+            "callee": 132
+        },
+        {
+            "callSite": {
+                "filename": "ThreadDeadlockDetector.java",
+                "line": 48,
+                "column": 37,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 127,
+            "callee": 135
+        },
+        {
+            "callSite": {
+                "filename": "ThreadDeadlockDetector.java",
+                "line": 41,
+                "column": 28,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 127,
+            "callee": 136
+        },
+        {
+            "callSite": {
+                "filename": "ThreadDeadlockDetector.java",
+                "line": 55,
+                "column": 33,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 127,
+            "callee": 137
+        },
+        {
+            "callSite": {
+                "filename": "ThreadDeadlockDetector.java",
+                "line": 52,
+                "column": 17,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 127,
+            "callee": 138
+        },
+        {
+            "callSite": {
+                "filename": "ThreadDeadlockDetector.java",
+                "line": 43,
+                "column": 43,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 127,
+            "callee": 139
+        },
+        {
+            "callSite": {
+                "filename": "ThreadDeadlockDetector.java",
+                "line": 43,
+                "column": 43,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 127,
+            "callee": 140
+        },
+        {
+            "callSite": {
+                "filename": "ThreadDeadlockDetector.java",
+                "line": 47,
+                "column": 21,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 127,
+            "callee": 141
+        },
+        {
+            "callSite": {
+                "filename": "MemoryUsageGaugeSet.java",
+                "line": 47,
+                "column": 17,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 142,
+            "callee": 143
+        },
+        {
+            "callSite": {
+                "filename": "MemoryUsageGaugeSet.java",
+                "line": 69,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 142,
+            "callee": 74
+        },
+        {
+            "callSite": {
+                "filename": "MemoryUsageGaugeSet.java",
+                "line": 59,
+                "column": 34,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 142,
+            "callee": 144
+        },
+        {
+            "callSite": {
+                "filename": "MemoryUsageGaugeSet.java",
+                "line": 80,
+                "column": 51,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 142,
+            "callee": 117
+        },
+        {
+            "callSite": {
+                "filename": "MemoryUsageGaugeSet.java",
+                "line": 67,
+                "column": 57,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 142,
+            "callee": 143
+        },
+        {
+            "callSite": {
+                "filename": "MemoryUsageGaugeSet.java",
+                "line": 59,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 142,
+            "callee": 145
+        },
+        {
+            "callSite": {
+                "filename": "MemoryUsageGaugeSet.java",
+                "line": 42,
+                "column": 5,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 142,
+            "callee": 52
+        },
+        {
+            "callSite": {
+                "filename": "MemoryUsageGaugeSet.java",
+                "line": 101,
+                "column": 68,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 142,
+            "callee": 146
+        },
+        {
+            "callSite": {
+                "filename": "MemoryUsageGaugeSet.java",
+                "line": 57,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 142,
+            "callee": 74
+        },
+        {
+            "callSite": {
+                "filename": "MemoryUsageGaugeSet.java",
+                "line": 48,
+                "column": 54,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 142,
+            "callee": 147
+        },
+        {
+            "callSite": {
+                "filename": "MemoryUsageGaugeSet.java",
+                "line": 53,
+                "column": 17,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 142,
+            "callee": 143
+        },
+        {
+            "callSite": {
+                "filename": "MemoryUsageGaugeSet.java",
+                "line": 55,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 142,
+            "callee": 74
+        },
+        {
+            "callSite": {
+                "filename": "MemoryUsageGaugeSet.java",
+                "line": 92,
+                "column": 68,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 142,
+            "callee": 146
+        },
+        {
+            "callSite": {
+                "filename": "MemoryUsageGaugeSet.java",
+                "line": 80,
+                "column": 51,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 142,
+            "callee": 148
+        },
+        {
+            "callSite": {
+                "filename": "MemoryUsageGaugeSet.java",
+                "line": 55,
+                "column": 53,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 142,
+            "callee": 147
+        },
+        {
+            "callSite": {
+                "filename": "MemoryUsageGaugeSet.java",
+                "line": 71,
+                "column": 38,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 142,
+            "callee": 149
+        },
+        {
+            "callSite": {
+                "filename": "MemoryUsageGaugeSet.java",
+                "line": 49,
+                "column": 17,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 142,
+            "callee": 143
+        },
+        {
+            "callSite": {
+                "filename": "MemoryUsageGaugeSet.java",
+                "line": 71,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 142,
+            "callee": 145
+        },
+        {
+            "callSite": {
+                "filename": "MemoryUsageGaugeSet.java",
+                "line": 70,
+                "column": 62,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 142,
+            "callee": 143
+        },
+        {
+            "callSite": {
+                "filename": "MemoryUsageGaugeSet.java",
+                "line": 58,
+                "column": 58,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 142,
+            "callee": 147
+        },
+        {
+            "callSite": {
+                "filename": "MemoryUsageGaugeSet.java",
+                "line": 104,
+                "column": 16,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 142,
+            "callee": 73
+        },
+        {
+            "callSite": {
+                "filename": "MemoryUsageGaugeSet.java",
+                "line": 91,
+                "column": 67,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 142,
+            "callee": 146
+        },
+        {
+            "callSite": {
+                "filename": "MemoryUsageGaugeSet.java",
+                "line": 44,
+                "column": 44,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 142,
+            "callee": 80
+        },
+        {
+            "callSite": {
+                "filename": "MemoryUsageGaugeSet.java",
+                "line": 44,
+                "column": 44,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 142,
+            "callee": 79
+        },
+        {
+            "callSite": {
+                "filename": "MemoryUsageGaugeSet.java",
+                "line": 82,
+                "column": 13,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 142,
+            "callee": 150
+        },
+        {
+            "callSite": {
+                "filename": "MemoryUsageGaugeSet.java",
+                "line": 46,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 142,
+            "callee": 74
+        },
+        {
+            "callSite": {
+                "filename": "MemoryUsageGaugeSet.java",
+                "line": 91,
+                "column": 13,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 142,
+            "callee": 118
+        },
+        {
+            "callSite": {
+                "filename": "MemoryUsageGaugeSet.java",
+                "line": 101,
+                "column": 68,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 142,
+            "callee": 151
+        },
+        {
+            "callSite": {
+                "filename": "MemoryUsageGaugeSet.java",
+                "line": 96,
+                "column": 17,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 142,
+            "callee": 152
+        },
+        {
+            "callSite": {
+                "filename": "MemoryUsageGaugeSet.java",
+                "line": 80,
+                "column": 70,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 142,
+            "callee": 153
+        },
+        {
+            "callSite": {
+                "filename": "MemoryUsageGaugeSet.java",
+                "line": 98,
+                "column": 25,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 142,
+            "callee": 152
+        },
+        {
+            "callSite": {
+                "filename": "MemoryUsageGaugeSet.java",
+                "line": 93,
+                "column": 73,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 142,
+            "callee": 154
+        },
+        {
+            "callSite": {
+                "filename": "MemoryUsageGaugeSet.java",
+                "line": 92,
+                "column": 68,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 142,
+            "callee": 155
+        },
+        {
+            "callSite": {
+                "filename": "MemoryUsageGaugeSet.java",
+                "line": 69,
+                "column": 56,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 142,
+            "callee": 143
+        },
+        {
+            "callSite": {
+                "filename": "MemoryUsageGaugeSet.java",
+                "line": 57,
+                "column": 52,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 142,
+            "callee": 147
+        },
+        {
+            "callSite": {
+                "filename": "MemoryUsageGaugeSet.java",
+                "line": 48,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 142,
+            "callee": 74
+        },
+        {
+            "callSite": {
+                "filename": "MemoryUsageGaugeSet.java",
+                "line": 91,
+                "column": 67,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 142,
+            "callee": 156
+        },
+        {
+            "callSite": {
+                "filename": "MemoryUsageGaugeSet.java",
+                "line": 70,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 142,
+            "callee": 74
+        },
+        {
+            "callSite": {
+                "filename": "MemoryUsageGaugeSet.java",
+                "line": 101,
+                "column": 13,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 142,
+            "callee": 118
+        },
+        {
+            "callSite": {
+                "filename": "MemoryUsageGaugeSet.java",
+                "line": 58,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 142,
+            "callee": 74
+        },
+        {
+            "callSite": {
+                "filename": "MemoryUsageGaugeSet.java",
+                "line": 82,
+                "column": 49,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 142,
+            "callee": 157
+        },
+        {
+            "callSite": {
+                "filename": "MemoryUsageGaugeSet.java",
+                "line": 92,
+                "column": 13,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 142,
+            "callee": 118
+        },
+        {
+            "callSite": {
+                "filename": "MemoryUsageGaugeSet.java",
+                "line": 68,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 142,
+            "callee": 74
+        },
+        {
+            "callSite": {
+                "filename": "MemoryUsageGaugeSet.java",
+                "line": 68,
+                "column": 57,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 142,
+            "callee": 143
+        },
+        {
+            "callSite": {
+                "filename": "MemoryUsageGaugeSet.java",
+                "line": 51,
+                "column": 22,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 142,
+            "callee": 147
+        },
+        {
+            "callSite": {
+                "filename": "MemoryUsageGaugeSet.java",
+                "line": 97,
+                "column": 17,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 142,
+            "callee": 118
+        },
+        {
+            "callSite": {
+                "filename": "MemoryUsageGaugeSet.java",
+                "line": 56,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 142,
+            "callee": 74
+        },
+        {
+            "callSite": {
+                "filename": "MemoryUsageGaugeSet.java",
+                "line": 93,
+                "column": 13,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 142,
+            "callee": 118
+        },
+        {
+            "callSite": {
+                "filename": "MemoryUsageGaugeSet.java",
+                "line": 56,
+                "column": 53,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 142,
+            "callee": 147
+        },
+        {
+            "callSite": {
+                "filename": "MemoryUsageGaugeSet.java",
+                "line": 51,
+                "column": 61,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 142,
+            "callee": 143
+        },
+        {
+            "callSite": {
+                "filename": "MemoryUsageGaugeSet.java",
+                "line": 93,
+                "column": 73,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 142,
+            "callee": 146
+        },
+        {
+            "callSite": {
+                "filename": "MemoryUsageGaugeSet.java",
+                "line": 50,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 142,
+            "callee": 74
+        },
+        {
+            "callSite": {
+                "filename": "MemoryUsageGaugeSet.java",
+                "line": 52,
+                "column": 59,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 142,
+            "callee": 147
+        },
+        {
+            "callSite": {
+                "filename": "MemoryUsageGaugeSet.java",
+                "line": 46,
+                "column": 54,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 142,
+            "callee": 147
+        },
+        {
+            "callSite": {
+                "filename": "MemoryUsageGaugeSet.java",
+                "line": 98,
+                "column": 25,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 142,
+            "callee": 155
+        },
+        {
+            "callSite": {
+                "filename": "MemoryUsageGaugeSet.java",
+                "line": 52,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 142,
+            "callee": 74
+        },
+        {
+            "callSite": {
+                "filename": "MemoryUsageGaugeSet.java",
+                "line": 50,
+                "column": 53,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 142,
+            "callee": 143
+        },
+        {
+            "callSite": {
+                "filename": "MemoryUsageGaugeSet.java",
+                "line": 67,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 142,
+            "callee": 74
+        },
+        {
+            "callSite": {
+                "filename": "FileDescriptorRatioGauge.java",
+                "line": 18,
+                "column": 13,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 112,
+            "callee": 158
+        },
+        {
+            "callSite": {
+                "filename": "GarbageCollectorMetricSet.java",
+                "line": 23,
+                "column": 47,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 119,
+            "callee": 53
+        },
+        {
+            "callSite": {
+                "filename": "MemoryUsageGaugeSet.java",
+                "line": 86,
+                "column": 28,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 159,
+            "callee": 88
+        },
+        {
+            "callSite": {
+                "filename": "MemoryUsageGaugeSet.java",
+                "line": 87,
+                "column": 29,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 159,
+            "callee": 86
+        },
+        {
+            "callSite": {
+                "filename": "MemoryUsageGaugeSet.java",
+                "line": 87,
+                "column": 52,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 159,
+            "callee": 87
+        },
+        {
+            "callSite": {
+                "filename": "MemoryUsageGaugeSet.java",
+                "line": 86,
+                "column": 37,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 159,
+            "callee": 89
+        },
+        {
+            "callSite": {
+                "filename": "MemoryUsageGaugeSet.java",
+                "line": 85,
+                "column": 41,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 159,
+            "callee": 146
+        },
+        {
+            "callSite": {
+                "filename": "MemoryUsageGaugeSet.java",
+                "line": 87,
+                "column": 75,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 159,
+            "callee": 86
+        },
+        {
+            "callSite": {
+                "filename": "MemoryUsageGaugeSet.java",
+                "line": 62,
+                "column": 43,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 160,
+            "callee": 161
+        },
+        {
+            "callSite": {
+                "filename": "MemoryUsageGaugeSet.java",
+                "line": 63,
+                "column": 33,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 160,
+            "callee": 89
+        },
+        {
+            "callSite": {
+                "filename": "MemoryUsageGaugeSet.java",
+                "line": 63,
+                "column": 50,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 160,
+            "callee": 86
+        },
+        {
+            "callSite": {
+                "filename": "MemoryUsageGaugeSet.java",
+                "line": 63,
+                "column": 24,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 160,
+            "callee": 88
+        },
+        {
+            "callSite": {
+                "filename": "JvmAttributeGaugeSet.java",
+                "line": 41,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 162,
+            "callee": 163
+        },
+        {
+            "callSite": {
+                "filename": "JvmAttributeGaugeSet.java",
+                "line": 45,
+                "column": 17,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 162,
+            "callee": 164
+        },
+        {
+            "callSite": {
+                "filename": "JvmAttributeGaugeSet.java",
+                "line": 38,
+                "column": 44,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 162,
+            "callee": 79
+        },
+        {
+            "callSite": {
+                "filename": "JvmAttributeGaugeSet.java",
+                "line": 38,
+                "column": 44,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 162,
+            "callee": 80
+        },
+        {
+            "callSite": {
+                "filename": "JvmAttributeGaugeSet.java",
+                "line": 44,
+                "column": 17,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 162,
+            "callee": 165
+        },
+        {
+            "callSite": {
+                "filename": "JvmAttributeGaugeSet.java",
+                "line": 47,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 162,
+            "callee": 74
+        },
+        {
+            "callSite": {
+                "filename": "JvmAttributeGaugeSet.java",
+                "line": 41,
+                "column": 52,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 162,
+            "callee": 166
+        },
+        {
+            "callSite": {
+                "filename": "JvmAttributeGaugeSet.java",
+                "line": 49,
+                "column": 16,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 162,
+            "callee": 73
+        },
+        {
+            "callSite": {
+                "filename": "JvmAttributeGaugeSet.java",
+                "line": 46,
+                "column": 17,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 162,
+            "callee": 167
+        },
+        {
+            "callSite": {
+                "filename": "JvmAttributeGaugeSet.java",
+                "line": 43,
+                "column": 17,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 162,
+            "callee": 168
+        },
+        {
+            "callSite": {
+                "filename": "JvmAttributeGaugeSet.java",
+                "line": 40,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 162,
+            "callee": 163
+        },
+        {
+            "callSite": {
+                "filename": "GarbageCollectorMetricSet.java",
+                "line": 34,
+                "column": 5,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 1,
+            "callee": 169
+        },
+        {
+            "callSite": {
+                "filename": "GarbageCollectorMetricSet.java",
+                "line": 40,
+                "column": 34,
+                "directory": "src/main/java/com/codahale/metrics/jvm"
+            },
+            "caller": 1,
+            "callee": 170
+        }
+    ],
+    "language": "java",
+    "packages": [{
+        "path": "com.codahale.metrics.jvm",
+        "isRoot": false,
+        "module": -1,
+        "name": "jvm",
+        "isStandardLibrary": false
+    }],
+    "modules": []
+}
