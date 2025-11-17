@@ -1,0 +1,4553 @@
+{
+    "functions": [
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "org.gagravarr.tika.FlacParser.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "FlacParser",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": ["MediaType[]"],
+            "templateArguments": [],
+            "function": "asList",
+            "name": "java.util.Arrays.asList(MediaType[])",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Arrays",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "parse",
+            "name": "org.apache.tika.mime.MediaType.parse(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.tika.mime.MediaType",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["OggStreamType"],
+            "templateArguments": [],
+            "function": "toMediaType",
+            "name": "org.gagravarr.tika.OggDetector.toMediaType(OggStreamType)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OggDetector",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "org.gagravarr.tika.OggDetector.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OggDetector",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [
+                "Metadata",
+                "VorbisInfo"
+            ],
+            "templateArguments": [],
+            "function": "extractInfo",
+            "name": "org.gagravarr.tika.VorbisParser#extractInfo(Metadata,VorbisInfo)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "VorbisParser",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "add",
+            "name": "org.apache.tika.metadata.Metadata#add(String,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.tika.metadata.Metadata",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getRate",
+            "name": "org.gagravarr.vorbis.VorbisInfo#getRate()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.gagravarr.vorbis.VorbisInfo",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Metadata",
+                "OggAudioInfoHeader"
+            ],
+            "templateArguments": [],
+            "function": "extractChannelInfo",
+            "name": "org.gagravarr.tika.OggAudioParser.extractChannelInfo(Metadata,OggAudioInfoHeader)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OggAudioParser",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Object",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "set",
+            "name": "org.apache.tika.metadata.Metadata#set(Object,int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.tika.metadata.Metadata",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getVersion",
+            "name": "org.gagravarr.vorbis.VorbisInfo#getVersion()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.gagravarr.vorbis.VorbisInfo",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "org.gagravarr.tika.SpeexParser.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SpeexParser",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": ["ParseContext"],
+            "templateArguments": [],
+            "function": "getSupportedTypes",
+            "name": "org.gagravarr.tika.VorbisParser#getSupportedTypes(ParseContext)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "VorbisParser",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "org.gagravarr.tika.VorbisParser.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "VorbisParser",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": ["List<MediaType>"],
+            "templateArguments": [],
+            "function": "HashSet",
+            "name": "java.util.HashSet#HashSet(List)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.HashSet",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["ParseContext"],
+            "templateArguments": [],
+            "function": "getSupportedTypes",
+            "name": "org.gagravarr.tika.OggParser#getSupportedTypes(ParseContext)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OggParser",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "org.gagravarr.tika.OggParser.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OggParser",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [
+                "InputStream",
+                "ContentHandler",
+                "Metadata",
+                "ParseContext"
+            ],
+            "templateArguments": [],
+            "function": "parse",
+            "name": "org.gagravarr.tika.VorbisParser#parse(InputStream,ContentHandler,Metadata,ParseContext)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "VorbisParser",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Object",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "set",
+            "name": "org.apache.tika.metadata.Metadata#set(Object,Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.tika.metadata.Metadata",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["OggFile"],
+            "templateArguments": [],
+            "function": "VorbisFile",
+            "name": "org.gagravarr.vorbis.VorbisFile#VorbisFile(OggFile)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.gagravarr.vorbis.VorbisFile",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getComment",
+            "name": "org.gagravarr.vorbis.VorbisFile#getComment()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.gagravarr.vorbis.VorbisFile",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "startDocument",
+            "name": "org.apache.tika.sax.XHTMLContentHandler#startDocument()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.tika.sax.XHTMLContentHandler",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getInfo",
+            "name": "org.gagravarr.vorbis.VorbisFile#getInfo()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.gagravarr.vorbis.VorbisFile",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "close",
+            "name": "org.gagravarr.vorbis.VorbisFile#close()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.gagravarr.vorbis.VorbisFile",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "endDocument",
+            "name": "org.apache.tika.sax.XHTMLContentHandler#endDocument()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.tika.sax.XHTMLContentHandler",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Object",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "set",
+            "name": "org.apache.tika.metadata.Metadata#set(Object,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.tika.metadata.Metadata",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["InputStream"],
+            "templateArguments": [],
+            "function": "OggFile",
+            "name": "org.gagravarr.ogg.OggFile#OggFile(InputStream)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.gagravarr.ogg.OggFile",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Metadata",
+                "XHTMLContentHandler",
+                "VorbisStyleComments"
+            ],
+            "templateArguments": [],
+            "function": "extractComments",
+            "name": "org.gagravarr.tika.OggAudioParser.extractComments(Metadata,XHTMLContentHandler,VorbisStyleComments)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OggAudioParser",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "ContentHandler",
+                "Metadata"
+            ],
+            "templateArguments": [],
+            "function": "XHTMLContentHandler",
+            "name": "org.apache.tika.sax.XHTMLContentHandler#XHTMLContentHandler(ContentHandler,Metadata)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.tika.sax.XHTMLContentHandler",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Metadata",
+                "XHTMLContentHandler",
+                "OggAudioHeaders",
+                "OggAudioStream"
+            ],
+            "templateArguments": [],
+            "function": "extractDuration",
+            "name": "org.gagravarr.tika.OggAudioParser.extractDuration(Metadata,XHTMLContentHandler,OggAudioHeaders,OggAudioStream)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OggAudioParser",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toString",
+            "name": "org.apache.tika.mime.MediaType#toString()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.tika.mime.MediaType",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "application",
+            "name": "org.apache.tika.mime.MediaType.application(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.tika.mime.MediaType",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "audio",
+            "name": "org.apache.tika.mime.MediaType.audio(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.tika.mime.MediaType",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "video",
+            "name": "org.apache.tika.mime.MediaType.video(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.tika.mime.MediaType",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["ParseContext"],
+            "templateArguments": [],
+            "function": "getSupportedTypes",
+            "name": "org.gagravarr.tika.FlacParser#getSupportedTypes(ParseContext)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "FlacParser",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["ParseContext"],
+            "templateArguments": [],
+            "function": "getSupportedTypes",
+            "name": "org.gagravarr.tika.SpeexParser#getSupportedTypes(ParseContext)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SpeexParser",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "InputStream",
+                "ContentHandler",
+                "Metadata",
+                "ParseContext"
+            ],
+            "templateArguments": [],
+            "function": "parse",
+            "name": "org.gagravarr.tika.OpusParser#parse(InputStream,ContentHandler,Metadata,ParseContext)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpusParser",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["OggFile"],
+            "templateArguments": [],
+            "function": "OpusFile",
+            "name": "org.gagravarr.opus.OpusFile#OpusFile(OggFile)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.gagravarr.opus.OpusFile",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "org.gagravarr.tika.OpusParser.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpusParser",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getTags",
+            "name": "org.gagravarr.opus.OpusFile#getTags()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.gagravarr.opus.OpusFile",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getInfo",
+            "name": "org.gagravarr.opus.OpusFile#getInfo()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.gagravarr.opus.OpusFile",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "close",
+            "name": "org.gagravarr.opus.OpusFile#close()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.gagravarr.opus.OpusFile",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Metadata",
+                "OpusInfo"
+            ],
+            "templateArguments": [],
+            "function": "extractInfo",
+            "name": "org.gagravarr.tika.OpusParser#extractInfo(Metadata,OpusInfo)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpusParser",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "org.gagravarr.tika.OggAudioParser.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OggAudioParser",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "DecimalFormat",
+            "name": "java.text.DecimalFormat#DecimalFormat(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.text.DecimalFormat",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "InputStream",
+                "ContentHandler",
+                "Metadata",
+                "ParseContext"
+            ],
+            "templateArguments": [],
+            "function": "parse",
+            "name": "org.gagravarr.tika.OggParser#parse(InputStream,ContentHandler,Metadata,ParseContext)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OggParser",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "get",
+            "name": "java.util.Map#get(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "OggStreamType",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "put",
+            "name": "java.util.Map#put(OggStreamType,int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "ArrayList",
+            "name": "java.util.ArrayList#ArrayList()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.ArrayList",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "java.util.ArrayList.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.ArrayList",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "isBeginningOfStream",
+            "name": "org.gagravarr.ogg.OggPacket#isBeginningOfStream()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.gagravarr.ogg.OggPacket",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["OggStreamType"],
+            "templateArguments": [],
+            "function": "get",
+            "name": "java.util.Map#get(OggStreamType)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "keySet",
+            "name": "java.util.Map#keySet()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getSid",
+            "name": "org.gagravarr.ogg.OggPacket#getSid()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.gagravarr.ogg.OggPacket",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["OggPacket"],
+            "templateArguments": [],
+            "function": "identifyType",
+            "name": "org.gagravarr.ogg.OggStreamIdentifier.identifyType(OggPacket)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.gagravarr.ogg.OggStreamIdentifier",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "HashMap",
+            "name": "java.util.HashMap#HashMap()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.HashMap",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "java.util.HashMap.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.HashMap",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["Kind"],
+            "templateArguments": [],
+            "function": "get",
+            "name": "java.util.Map#get(Kind)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "add",
+            "name": "java.util.List#add(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.List",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "close",
+            "name": "org.gagravarr.ogg.OggFile#close()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.gagravarr.ogg.OggFile",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getNextPacket",
+            "name": "org.gagravarr.ogg.OggPacketReader#getNextPacket()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.gagravarr.ogg.OggPacketReader",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getPacketReader",
+            "name": "org.gagravarr.ogg.OggFile#getPacketReader()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.gagravarr.ogg.OggFile",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "name",
+            "name": "org.gagravarr.ogg.OggStreamIdentifier.OggStreamType.Kind#name()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.gagravarr.ogg.OggStreamIdentifier.OggStreamType.Kind",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Object",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "put",
+            "name": "java.util.Map#put(Object,int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getNumChannels",
+            "name": "org.gagravarr.ogg.audio.OggAudioInfoHeader#getNumChannels()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.gagravarr.ogg.audio.OggAudioInfoHeader",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "InputStream",
+                "ContentHandler",
+                "Metadata",
+                "ParseContext"
+            ],
+            "templateArguments": [],
+            "function": "parse",
+            "name": "org.gagravarr.tika.TheoraParser#parse(InputStream,ContentHandler,Metadata,ParseContext)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "TheoraParser",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getComments",
+            "name": "org.gagravarr.theora.TheoraFile#getComments()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.gagravarr.theora.TheoraFile",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Metadata",
+                "TheoraInfo"
+            ],
+            "templateArguments": [],
+            "function": "extractInfo",
+            "name": "org.gagravarr.tika.TheoraParser#extractInfo(Metadata,TheoraInfo)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "TheoraParser",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "org.gagravarr.tika.TheoraParser.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "TheoraParser",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getSoundtracks",
+            "name": "org.gagravarr.theora.TheoraFile#getSoundtracks()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.gagravarr.theora.TheoraFile",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "close",
+            "name": "org.gagravarr.theora.TheoraFile#close()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.gagravarr.theora.TheoraFile",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getInfo",
+            "name": "org.gagravarr.theora.TheoraFile#getInfo()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.gagravarr.theora.TheoraFile",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getSkeleton",
+            "name": "org.gagravarr.theora.TheoraFile#getSkeleton()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.gagravarr.theora.TheoraFile",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["OggFile"],
+            "templateArguments": [],
+            "function": "TheoraFile",
+            "name": "org.gagravarr.theora.TheoraFile#TheoraFile(OggFile)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.gagravarr.theora.TheoraFile",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Metadata",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "extractChannelInfo",
+            "name": "org.gagravarr.tika.OggAudioParser.extractChannelInfo(Metadata,int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OggAudioParser",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.gagravarr.tika.SpeexParser.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SpeexParser",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.gagravarr.tika.OggAudioParser.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OggAudioParser",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getVersion",
+            "name": "org.gagravarr.theora.TheoraInfo#getVersion()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.gagravarr.theora.TheoraInfo",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["ParseContext"],
+            "templateArguments": [],
+            "function": "getSupportedTypes",
+            "name": "org.gagravarr.tika.TheoraParser#getSupportedTypes(ParseContext)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "TheoraParser",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getArtist",
+            "name": "org.gagravarr.vorbis.VorbisStyleComments#getArtist()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.gagravarr.vorbis.VorbisStyleComments",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getAllComments",
+            "name": "org.gagravarr.vorbis.VorbisStyleComments#getAllComments()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.gagravarr.vorbis.VorbisStyleComments",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getAlbum",
+            "name": "org.gagravarr.vorbis.VorbisStyleComments#getAlbum()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.gagravarr.vorbis.VorbisStyleComments",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "element",
+            "name": "org.apache.tika.sax.XHTMLContentHandler#element(String,Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.tika.sax.XHTMLContentHandler",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "element",
+            "name": "org.apache.tika.sax.XHTMLContentHandler#element(String,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.tika.sax.XHTMLContentHandler",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getGenre",
+            "name": "org.gagravarr.vorbis.VorbisStyleComments#getGenre()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.gagravarr.vorbis.VorbisStyleComments",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getTitle",
+            "name": "org.gagravarr.vorbis.VorbisStyleComments#getTitle()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.gagravarr.vorbis.VorbisStyleComments",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "getComments",
+            "name": "org.gagravarr.vorbis.VorbisStyleComments#getComments(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.gagravarr.vorbis.VorbisStyleComments",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getTrackNumber",
+            "name": "org.gagravarr.vorbis.VorbisStyleComments#getTrackNumber()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.gagravarr.vorbis.VorbisStyleComments",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "contains",
+            "name": "java.util.List#contains(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.List",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getDate",
+            "name": "org.gagravarr.vorbis.VorbisStyleComments#getDate()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.gagravarr.vorbis.VorbisStyleComments",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "add",
+            "name": "org.apache.tika.metadata.Metadata#add(String,Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.tika.metadata.Metadata",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Object",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "add",
+            "name": "org.apache.tika.metadata.Metadata#add(Object,Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.tika.metadata.Metadata",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getVendor",
+            "name": "org.gagravarr.vorbis.VorbisStyleComments#getVendor()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.gagravarr.vorbis.VorbisStyleComments",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Object",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "add",
+            "name": "org.apache.tika.metadata.Metadata#add(Object,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.tika.metadata.Metadata",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String[]"],
+            "templateArguments": [],
+            "function": "asList",
+            "name": "java.util.Arrays.asList(String[])",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Arrays",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getMajorVersion",
+            "name": "org.gagravarr.opus.OpusInfo#getMajorVersion()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.gagravarr.opus.OpusInfo",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getMinorVersion",
+            "name": "org.gagravarr.opus.OpusInfo#getMinorVersion()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.gagravarr.opus.OpusInfo",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getRate",
+            "name": "org.gagravarr.opus.OpusInfo#getRate()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.gagravarr.opus.OpusInfo",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "InputStream",
+                "ContentHandler",
+                "Metadata",
+                "ParseContext"
+            ],
+            "templateArguments": [],
+            "function": "parse",
+            "name": "org.gagravarr.tika.SpeexParser#parse(InputStream,ContentHandler,Metadata,ParseContext)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SpeexParser",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Metadata",
+                "SpeexInfo"
+            ],
+            "templateArguments": [],
+            "function": "extractInfo",
+            "name": "org.gagravarr.tika.SpeexParser#extractInfo(Metadata,SpeexInfo)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SpeexParser",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["OggFile"],
+            "templateArguments": [],
+            "function": "SpeexFile",
+            "name": "org.gagravarr.speex.SpeexFile#SpeexFile(OggFile)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.gagravarr.speex.SpeexFile",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "close",
+            "name": "org.gagravarr.speex.SpeexFile#close()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.gagravarr.speex.SpeexFile",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getTags",
+            "name": "org.gagravarr.speex.SpeexFile#getTags()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.gagravarr.speex.SpeexFile",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getInfo",
+            "name": "org.gagravarr.speex.SpeexFile#getInfo()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.gagravarr.speex.SpeexFile",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.gagravarr.tika.OpusParser.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpusParser",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "calculate",
+            "name": "org.gagravarr.ogg.audio.OggAudioStatistics#calculate()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.gagravarr.ogg.audio.OggAudioStatistics",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "OggAudioHeaders",
+                "OggAudioStream"
+            ],
+            "templateArguments": [],
+            "function": "OggAudioStatistics",
+            "name": "org.gagravarr.ogg.audio.OggAudioStatistics#OggAudioStatistics(OggAudioHeaders,OggAudioStream)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.gagravarr.ogg.audio.OggAudioStatistics",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["double"],
+            "templateArguments": [],
+            "function": "format",
+            "name": "java.text.DecimalFormat#format(double)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.text.DecimalFormat",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getDurationSeconds",
+            "name": "org.gagravarr.ogg.audio.OggAudioStatistics#getDurationSeconds()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.gagravarr.ogg.audio.OggAudioStatistics",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getDuration",
+            "name": "org.gagravarr.ogg.audio.OggAudioStatistics#getDuration()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.gagravarr.ogg.audio.OggAudioStatistics",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["ParseContext"],
+            "templateArguments": [],
+            "function": "getSupportedTypes",
+            "name": "org.gagravarr.tika.OpusParser#getSupportedTypes(ParseContext)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OpusParser",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "InputStream",
+                "ContentHandler",
+                "Metadata",
+                "ParseContext"
+            ],
+            "templateArguments": [],
+            "function": "parse",
+            "name": "org.gagravarr.tika.FlacParser#parse(InputStream,ContentHandler,Metadata,ParseContext)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "FlacParser",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getInfo",
+            "name": "org.gagravarr.flac.FlacFile#getInfo()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.gagravarr.flac.FlacFile",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["InputStream"],
+            "templateArguments": [],
+            "function": "open",
+            "name": "org.gagravarr.flac.FlacFile.open(InputStream)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.gagravarr.flac.FlacFile",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getFirstPacket",
+            "name": "org.gagravarr.flac.FlacOggFile#getFirstPacket()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.gagravarr.flac.FlacOggFile",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "close",
+            "name": "org.gagravarr.flac.FlacFile#close()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.gagravarr.flac.FlacFile",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getTags",
+            "name": "org.gagravarr.flac.FlacFile#getTags()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.gagravarr.flac.FlacFile",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Metadata",
+                "FlacInfo"
+            ],
+            "templateArguments": [],
+            "function": "extractInfo",
+            "name": "org.gagravarr.tika.FlacParser#extractInfo(Metadata,FlacInfo)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "FlacParser",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getVersionString",
+            "name": "org.gagravarr.speex.SpeexInfo#getVersionString()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.gagravarr.speex.SpeexInfo",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getRate",
+            "name": "org.gagravarr.speex.SpeexInfo#getRate()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.gagravarr.speex.SpeexInfo",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getVersionId",
+            "name": "org.gagravarr.speex.SpeexInfo#getVersionId()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.gagravarr.speex.SpeexInfo",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "InputStream",
+                "Metadata"
+            ],
+            "templateArguments": [],
+            "function": "detect",
+            "name": "org.gagravarr.tika.OggDetector#detect(InputStream,Metadata)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "OggDetector",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "OggStreamType",
+                "Integer"
+            ],
+            "templateArguments": [],
+            "function": "put",
+            "name": "java.util.Map#put(OggStreamType,Integer)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Integer"],
+            "templateArguments": [],
+            "function": "get",
+            "name": "java.util.Map#get(Integer)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "read",
+            "name": "java.io.InputStream#read()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.InputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "size",
+            "name": "java.util.Set#size()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Set",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["OggPacket"],
+            "templateArguments": [],
+            "function": "create",
+            "name": "org.gagravarr.skeleton.SkeletonPacketFactory.create(OggPacket)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.gagravarr.skeleton.SkeletonPacketFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["InputStream"],
+            "templateArguments": [],
+            "function": "cast",
+            "name": "org.apache.tika.io.TikaInputStream.cast(InputStream)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.tika.io.TikaInputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "java.util.HashSet.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.HashSet",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "HashSet",
+            "name": "java.util.HashSet#HashSet()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.HashSet",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["TikaInputStream"],
+            "templateArguments": [],
+            "function": "OggFile",
+            "name": "org.gagravarr.ogg.OggFile#OggFile(TikaInputStream)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.gagravarr.ogg.OggFile",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "iterator",
+            "name": "java.util.Set#iterator()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Set",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "next",
+            "name": "Iterator#next()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "Iterator",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Integer"],
+            "templateArguments": [],
+            "function": "containsKey",
+            "name": "java.util.Map#containsKey(Integer)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "mark",
+            "name": "java.io.InputStream#mark(int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.InputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getLength",
+            "name": "org.apache.tika.io.TikaInputStream#getLength()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.tika.io.TikaInputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["OggStreamType"],
+            "templateArguments": [],
+            "function": "add",
+            "name": "java.util.Set#add(OggStreamType)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Set",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "markSupported",
+            "name": "java.io.InputStream#markSupported()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.InputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Object",
+                "List<SkeletonPacket>"
+            ],
+            "templateArguments": [],
+            "function": "put",
+            "name": "java.util.Map#put(Object,List)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "iterator",
+            "name": "Set#iterator()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "Set",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "mark",
+            "name": "org.apache.tika.io.TikaInputStream#mark(int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.tika.io.TikaInputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "reset",
+            "name": "org.apache.tika.io.TikaInputStream#reset()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.apache.tika.io.TikaInputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "reset",
+            "name": "java.io.InputStream#reset()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.InputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "org.gagravarr.tika.VorbisParser.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "VorbisParser",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getSampleRate",
+            "name": "org.gagravarr.flac.FlacInfo#getSampleRate()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.gagravarr.flac.FlacInfo",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getNumChannels",
+            "name": "org.gagravarr.flac.FlacInfo#getNumChannels()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.gagravarr.flac.FlacInfo",
+            "properties": []
+        }
+    ],
+    "calls": [
+        {
+            "callSite": {
+                "filename": "FlacParser.java",
+                "line": 45,
+                "column": 43,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 0,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "FlacParser.java",
+                "line": 41,
+                "column": 12,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 0,
+            "callee": 2
+        },
+        {
+            "callSite": {
+                "filename": "FlacParser.java",
+                "line": 43,
+                "column": 12,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 0,
+            "callee": 2
+        },
+        {
+            "callSite": {
+                "filename": "OggDetector.java",
+                "line": 235,
+                "column": 4,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 3,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "OggDetector.java",
+                "line": 244,
+                "column": 19,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 3,
+            "callee": 2
+        },
+        {
+            "callSite": {
+                "filename": "VorbisParser.java",
+                "line": 87,
+                "column": 7,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 5,
+            "callee": 6
+        },
+        {
+            "callSite": {
+                "filename": "VorbisParser.java",
+                "line": 86,
+                "column": 50,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 5,
+            "callee": 7
+        },
+        {
+            "callSite": {
+                "filename": "VorbisParser.java",
+                "line": 89,
+                "column": 7,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 5,
+            "callee": 8
+        },
+        {
+            "callSite": {
+                "filename": "VorbisParser.java",
+                "line": 86,
+                "column": 7,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 5,
+            "callee": 9
+        },
+        {
+            "callSite": {
+                "filename": "VorbisParser.java",
+                "line": 87,
+                "column": 43,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 5,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "SpeexParser.java",
+                "line": 43,
+                "column": 12,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 11,
+            "callee": 2
+        },
+        {
+            "callSite": {
+                "filename": "SpeexParser.java",
+                "line": 47,
+                "column": 43,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 11,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "SpeexParser.java",
+                "line": 45,
+                "column": 12,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 11,
+            "callee": 2
+        },
+        {
+            "callSite": {
+                "filename": "VorbisParser.java",
+                "line": 49,
+                "column": 4,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 12,
+            "callee": 13
+        },
+        {
+            "callSite": {
+                "filename": "VorbisParser.java",
+                "line": 50,
+                "column": 14,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 12,
+            "callee": 14
+        },
+        {
+            "callSite": {
+                "filename": "OggParser.java",
+                "line": 85,
+                "column": 4,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 15,
+            "callee": 16
+        },
+        {
+            "callSite": {
+                "filename": "OggParser.java",
+                "line": 86,
+                "column": 14,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 15,
+            "callee": 14
+        },
+        {
+            "callSite": {
+                "filename": "VorbisParser.java",
+                "line": 57,
+                "column": 7,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 17,
+            "callee": 18
+        },
+        {
+            "callSite": {
+                "filename": "VorbisParser.java",
+                "line": 62,
+                "column": 27,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 17,
+            "callee": 19
+        },
+        {
+            "callSite": {
+                "filename": "VorbisParser.java",
+                "line": 72,
+                "column": 40,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 17,
+            "callee": 20
+        },
+        {
+            "callSite": {
+                "filename": "VorbisParser.java",
+                "line": 66,
+                "column": 7,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 17,
+            "callee": 21
+        },
+        {
+            "callSite": {
+                "filename": "VorbisParser.java",
+                "line": 69,
+                "column": 29,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 17,
+            "callee": 22
+        },
+        {
+            "callSite": {
+                "filename": "VorbisParser.java",
+                "line": 53,
+                "column": 4,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 17,
+            "callee": 13
+        },
+        {
+            "callSite": {
+                "filename": "VorbisParser.java",
+                "line": 82,
+                "column": 7,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 17,
+            "callee": 23
+        },
+        {
+            "callSite": {
+                "filename": "VorbisParser.java",
+                "line": 81,
+                "column": 7,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 17,
+            "callee": 24
+        },
+        {
+            "callSite": {
+                "filename": "VorbisParser.java",
+                "line": 58,
+                "column": 7,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 17,
+            "callee": 25
+        },
+        {
+            "callSite": {
+                "filename": "VorbisParser.java",
+                "line": 69,
+                "column": 7,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 17,
+            "callee": 5
+        },
+        {
+            "callSite": {
+                "filename": "VorbisParser.java",
+                "line": 61,
+                "column": 21,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 17,
+            "callee": 26
+        },
+        {
+            "callSite": {
+                "filename": "VorbisParser.java",
+                "line": 72,
+                "column": 7,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 17,
+            "callee": 27
+        },
+        {
+            "callSite": {
+                "filename": "VorbisParser.java",
+                "line": 65,
+                "column": 35,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 17,
+            "callee": 28
+        },
+        {
+            "callSite": {
+                "filename": "VorbisParser.java",
+                "line": 78,
+                "column": 7,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 17,
+            "callee": 29
+        },
+        {
+            "callSite": {
+                "filename": "VorbisParser.java",
+                "line": 57,
+                "column": 43,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 17,
+            "callee": 30
+        },
+        {
+            "callSite": {
+                "filename": "OggDetector.java",
+                "line": 48,
+                "column": 48,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 4,
+            "callee": 31
+        },
+        {
+            "callSite": {
+                "filename": "OggDetector.java",
+                "line": 49,
+                "column": 49,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 4,
+            "callee": 32
+        },
+        {
+            "callSite": {
+                "filename": "OggDetector.java",
+                "line": 50,
+                "column": 49,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 4,
+            "callee": 33
+        },
+        {
+            "callSite": {
+                "filename": "FlacParser.java",
+                "line": 50,
+                "column": 15,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 34,
+            "callee": 14
+        },
+        {
+            "callSite": {
+                "filename": "FlacParser.java",
+                "line": 49,
+                "column": 4,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 34,
+            "callee": 0
+        },
+        {
+            "callSite": {
+                "filename": "SpeexParser.java",
+                "line": 51,
+                "column": 4,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 35,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "SpeexParser.java",
+                "line": 52,
+                "column": 14,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 35,
+            "callee": 14
+        },
+        {
+            "callSite": {
+                "filename": "OpusParser.java",
+                "line": 64,
+                "column": 23,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 36,
+            "callee": 37
+        },
+        {
+            "callSite": {
+                "filename": "OpusParser.java",
+                "line": 55,
+                "column": 4,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 36,
+            "callee": 38
+        },
+        {
+            "callSite": {
+                "filename": "OpusParser.java",
+                "line": 74,
+                "column": 40,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 36,
+            "callee": 39
+        },
+        {
+            "callSite": {
+                "filename": "OpusParser.java",
+                "line": 71,
+                "column": 29,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 36,
+            "callee": 40
+        },
+        {
+            "callSite": {
+                "filename": "OpusParser.java",
+                "line": 63,
+                "column": 21,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 36,
+            "callee": 26
+        },
+        {
+            "callSite": {
+                "filename": "OpusParser.java",
+                "line": 68,
+                "column": 7,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 36,
+            "callee": 21
+        },
+        {
+            "callSite": {
+                "filename": "OpusParser.java",
+                "line": 60,
+                "column": 7,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 36,
+            "callee": 25
+        },
+        {
+            "callSite": {
+                "filename": "OpusParser.java",
+                "line": 81,
+                "column": 7,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 36,
+            "callee": 41
+        },
+        {
+            "callSite": {
+                "filename": "OpusParser.java",
+                "line": 77,
+                "column": 7,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 36,
+            "callee": 29
+        },
+        {
+            "callSite": {
+                "filename": "OpusParser.java",
+                "line": 74,
+                "column": 7,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 36,
+            "callee": 27
+        },
+        {
+            "callSite": {
+                "filename": "OpusParser.java",
+                "line": 67,
+                "column": 35,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 36,
+            "callee": 28
+        },
+        {
+            "callSite": {
+                "filename": "OpusParser.java",
+                "line": 80,
+                "column": 7,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 36,
+            "callee": 24
+        },
+        {
+            "callSite": {
+                "filename": "OpusParser.java",
+                "line": 59,
+                "column": 43,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 36,
+            "callee": 30
+        },
+        {
+            "callSite": {
+                "filename": "OpusParser.java",
+                "line": 71,
+                "column": 7,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 36,
+            "callee": 42
+        },
+        {
+            "callSite": {
+                "filename": "OpusParser.java",
+                "line": 59,
+                "column": 7,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 36,
+            "callee": 18
+        },
+        {
+            "callSite": {
+                "filename": "OggAudioParser.java",
+                "line": 42,
+                "column": 58,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 43,
+            "callee": 44
+        },
+        {
+            "callSite": {
+                "filename": "OggParser.java",
+                "line": 123,
+                "column": 25,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 45,
+            "callee": 46
+        },
+        {
+            "callSite": {
+                "filename": "OggParser.java",
+                "line": 121,
+                "column": 13,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 45,
+            "callee": 47
+        },
+        {
+            "callSite": {
+                "filename": "OggParser.java",
+                "line": 152,
+                "column": 7,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 45,
+            "callee": 24
+        },
+        {
+            "callSite": {
+                "filename": "OggParser.java",
+                "line": 101,
+                "column": 28,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 45,
+            "callee": 48
+        },
+        {
+            "callSite": {
+                "filename": "OggParser.java",
+                "line": 101,
+                "column": 28,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 45,
+            "callee": 49
+        },
+        {
+            "callSite": {
+                "filename": "OggParser.java",
+                "line": 112,
+                "column": 14,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 45,
+            "callee": 50
+        },
+        {
+            "callSite": {
+                "filename": "OggParser.java",
+                "line": 145,
+                "column": 11,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 45,
+            "callee": 6
+        },
+        {
+            "callSite": {
+                "filename": "OggParser.java",
+                "line": 106,
+                "column": 7,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 45,
+            "callee": 21
+        },
+        {
+            "callSite": {
+                "filename": "OggParser.java",
+                "line": 132,
+                "column": 7,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 45,
+            "callee": 6
+        },
+        {
+            "callSite": {
+                "filename": "OggParser.java",
+                "line": 117,
+                "column": 33,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 45,
+            "callee": 51
+        },
+        {
+            "callSite": {
+                "filename": "OggParser.java",
+                "line": 141,
+                "column": 11,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 45,
+            "callee": 6
+        },
+        {
+            "callSite": {
+                "filename": "OggParser.java",
+                "line": 143,
+                "column": 38,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 45,
+            "callee": 52
+        },
+        {
+            "callSite": {
+                "filename": "OggParser.java",
+                "line": 94,
+                "column": 21,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 45,
+            "callee": 26
+        },
+        {
+            "callSite": {
+                "filename": "OggParser.java",
+                "line": 114,
+                "column": 22,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 45,
+            "callee": 53
+        },
+        {
+            "callSite": {
+                "filename": "OggParser.java",
+                "line": 133,
+                "column": 33,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 45,
+            "callee": 52
+        },
+        {
+            "callSite": {
+                "filename": "OggParser.java",
+                "line": 116,
+                "column": 34,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 45,
+            "callee": 54
+        },
+        {
+            "callSite": {
+                "filename": "OggParser.java",
+                "line": 100,
+                "column": 15,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 45,
+            "callee": 55
+        },
+        {
+            "callSite": {
+                "filename": "OggParser.java",
+                "line": 100,
+                "column": 15,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 45,
+            "callee": 56
+        },
+        {
+            "callSite": {
+                "filename": "OggParser.java",
+                "line": 145,
+                "column": 59,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 45,
+            "callee": 57
+        },
+        {
+            "callSite": {
+                "filename": "OggParser.java",
+                "line": 141,
+                "column": 59,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 45,
+            "callee": 51
+        },
+        {
+            "callSite": {
+                "filename": "OggParser.java",
+                "line": 114,
+                "column": 13,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 45,
+            "callee": 58
+        },
+        {
+            "callSite": {
+                "filename": "OggParser.java",
+                "line": 98,
+                "column": 15,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 45,
+            "callee": 56
+        },
+        {
+            "callSite": {
+                "filename": "OggParser.java",
+                "line": 98,
+                "column": 15,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 45,
+            "callee": 55
+        },
+        {
+            "callSite": {
+                "filename": "OggParser.java",
+                "line": 153,
+                "column": 7,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 45,
+            "callee": 59
+        },
+        {
+            "callSite": {
+                "filename": "OggParser.java",
+                "line": 111,
+                "column": 19,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 45,
+            "callee": 60
+        },
+        {
+            "callSite": {
+                "filename": "OggParser.java",
+                "line": 109,
+                "column": 27,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 45,
+            "callee": 61
+        },
+        {
+            "callSite": {
+                "filename": "OggParser.java",
+                "line": 105,
+                "column": 35,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 45,
+            "callee": 28
+        },
+        {
+            "callSite": {
+                "filename": "OggParser.java",
+                "line": 144,
+                "column": 24,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 45,
+            "callee": 62
+        },
+        {
+            "callSite": {
+                "filename": "OggParser.java",
+                "line": 127,
+                "column": 13,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 45,
+            "callee": 63
+        },
+        {
+            "callSite": {
+                "filename": "OggAudioParser.java",
+                "line": 45,
+                "column": 9,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 8,
+            "callee": 8
+        },
+        {
+            "callSite": {
+                "filename": "OggAudioParser.java",
+                "line": 45,
+                "column": 38,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 8,
+            "callee": 64
+        },
+        {
+            "callSite": {
+                "filename": "TheoraParser.java",
+                "line": 86,
+                "column": 56,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 65,
+            "callee": 66
+        },
+        {
+            "callSite": {
+                "filename": "TheoraParser.java",
+                "line": 82,
+                "column": 8,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 65,
+            "callee": 67
+        },
+        {
+            "callSite": {
+                "filename": "TheoraParser.java",
+                "line": 86,
+                "column": 8,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 65,
+            "callee": 27
+        },
+        {
+            "callSite": {
+                "filename": "TheoraParser.java",
+                "line": 71,
+                "column": 8,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 65,
+            "callee": 21
+        },
+        {
+            "callSite": {
+                "filename": "TheoraParser.java",
+                "line": 62,
+                "column": 8,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 65,
+            "callee": 18
+        },
+        {
+            "callSite": {
+                "filename": "TheoraParser.java",
+                "line": 58,
+                "column": 5,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 65,
+            "callee": 68
+        },
+        {
+            "callSite": {
+                "filename": "TheoraParser.java",
+                "line": 89,
+                "column": 37,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 65,
+            "callee": 69
+        },
+        {
+            "callSite": {
+                "filename": "TheoraParser.java",
+                "line": 70,
+                "column": 36,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 65,
+            "callee": 28
+        },
+        {
+            "callSite": {
+                "filename": "TheoraParser.java",
+                "line": 94,
+                "column": 8,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 65,
+            "callee": 24
+        },
+        {
+            "callSite": {
+                "filename": "TheoraParser.java",
+                "line": 66,
+                "column": 22,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 65,
+            "callee": 26
+        },
+        {
+            "callSite": {
+                "filename": "TheoraParser.java",
+                "line": 95,
+                "column": 8,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 65,
+            "callee": 70
+        },
+        {
+            "callSite": {
+                "filename": "TheoraParser.java",
+                "line": 82,
+                "column": 30,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 65,
+            "callee": 71
+        },
+        {
+            "callSite": {
+                "filename": "TheoraParser.java",
+                "line": 63,
+                "column": 8,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 65,
+            "callee": 25
+        },
+        {
+            "callSite": {
+                "filename": "TheoraParser.java",
+                "line": 74,
+                "column": 12,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 65,
+            "callee": 72
+        },
+        {
+            "callSite": {
+                "filename": "TheoraParser.java",
+                "line": 67,
+                "column": 28,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 65,
+            "callee": 73
+        },
+        {
+            "callSite": {
+                "filename": "TheoraParser.java",
+                "line": 62,
+                "column": 44,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 65,
+            "callee": 30
+        },
+        {
+            "callSite": {
+                "filename": "OggAudioParser.java",
+                "line": 49,
+                "column": 13,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 74,
+            "callee": 25
+        },
+        {
+            "callSite": {
+                "filename": "OggAudioParser.java",
+                "line": 55,
+                "column": 13,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 74,
+            "callee": 25
+        },
+        {
+            "callSite": {
+                "filename": "OggAudioParser.java",
+                "line": 53,
+                "column": 13,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 74,
+            "callee": 25
+        },
+        {
+            "callSite": {
+                "filename": "OggAudioParser.java",
+                "line": 51,
+                "column": 13,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 74,
+            "callee": 25
+        },
+        {
+            "callSite": {
+                "filename": "VorbisParser.java",
+                "line": 45,
+                "column": 43,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 13,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "VorbisParser.java",
+                "line": 43,
+                "column": 12,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 13,
+            "callee": 2
+        },
+        {
+            "callSite": {
+                "filename": "TheoraParser.java",
+                "line": 50,
+                "column": 44,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 68,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "TheoraParser.java",
+                "line": 48,
+                "column": 13,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 68,
+            "callee": 2
+        },
+        {
+            "callSite": {
+                "filename": "SpeexParser.java",
+                "line": 36,
+                "column": 1,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 75,
+            "callee": 76
+        },
+        {
+            "callSite": {
+                "filename": "TheoraParser.java",
+                "line": 99,
+                "column": 44,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 67,
+            "callee": 77
+        },
+        {
+            "callSite": {
+                "filename": "TheoraParser.java",
+                "line": 99,
+                "column": 8,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 67,
+            "callee": 6
+        },
+        {
+            "callSite": {
+                "filename": "TheoraParser.java",
+                "line": 55,
+                "column": 15,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 78,
+            "callee": 14
+        },
+        {
+            "callSite": {
+                "filename": "TheoraParser.java",
+                "line": 54,
+                "column": 5,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 78,
+            "callee": 68
+        },
+        {
+            "callSite": {
+                "filename": "OggAudioParser.java",
+                "line": 92,
+                "column": 28,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 27,
+            "callee": 79
+        },
+        {
+            "callSite": {
+                "filename": "OggAudioParser.java",
+                "line": 82,
+                "column": 26,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 27,
+            "callee": 80
+        },
+        {
+            "callSite": {
+                "filename": "OggAudioParser.java",
+                "line": 65,
+                "column": 35,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 27,
+            "callee": 81
+        },
+        {
+            "callSite": {
+                "filename": "OggAudioParser.java",
+                "line": 99,
+                "column": 13,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 27,
+            "callee": 82
+        },
+        {
+            "callSite": {
+                "filename": "OggAudioParser.java",
+                "line": 96,
+                "column": 13,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 27,
+            "callee": 83
+        },
+        {
+            "callSite": {
+                "filename": "OggAudioParser.java",
+                "line": 62,
+                "column": 9,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 27,
+            "callee": 18
+        },
+        {
+            "callSite": {
+                "filename": "OggAudioParser.java",
+                "line": 66,
+                "column": 35,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 27,
+            "callee": 84
+        },
+        {
+            "callSite": {
+                "filename": "OggAudioParser.java",
+                "line": 107,
+                "column": 9,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 27,
+            "callee": 82
+        },
+        {
+            "callSite": {
+                "filename": "OggAudioParser.java",
+                "line": 103,
+                "column": 9,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 27,
+            "callee": 82
+        },
+        {
+            "callSite": {
+                "filename": "OggAudioParser.java",
+                "line": 91,
+                "column": 29,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 27,
+            "callee": 85
+        },
+        {
+            "callSite": {
+                "filename": "OggAudioParser.java",
+                "line": 64,
+                "column": 9,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 27,
+            "callee": 18
+        },
+        {
+            "callSite": {
+                "filename": "OggAudioParser.java",
+                "line": 84,
+                "column": 36,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 27,
+            "callee": 80
+        },
+        {
+            "callSite": {
+                "filename": "OggAudioParser.java",
+                "line": 65,
+                "column": 9,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 27,
+            "callee": 18
+        },
+        {
+            "callSite": {
+                "filename": "OggAudioParser.java",
+                "line": 63,
+                "column": 50,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 27,
+            "callee": 79
+        },
+        {
+            "callSite": {
+                "filename": "OggAudioParser.java",
+                "line": 96,
+                "column": 32,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 27,
+            "callee": 81
+        },
+        {
+            "callSite": {
+                "filename": "OggAudioParser.java",
+                "line": 91,
+                "column": 9,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 27,
+            "callee": 82
+        },
+        {
+            "callSite": {
+                "filename": "OggAudioParser.java",
+                "line": 64,
+                "column": 36,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 27,
+            "callee": 79
+        },
+        {
+            "callSite": {
+                "filename": "OggAudioParser.java",
+                "line": 66,
+                "column": 9,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 27,
+            "callee": 18
+        },
+        {
+            "callSite": {
+                "filename": "OggAudioParser.java",
+                "line": 99,
+                "column": 32,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 27,
+            "callee": 81
+        },
+        {
+            "callSite": {
+                "filename": "OggAudioParser.java",
+                "line": 104,
+                "column": 30,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 27,
+            "callee": 86
+        },
+        {
+            "callSite": {
+                "filename": "OggAudioParser.java",
+                "line": 95,
+                "column": 13,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 27,
+            "callee": 87
+        },
+        {
+            "callSite": {
+                "filename": "OggAudioParser.java",
+                "line": 107,
+                "column": 28,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 27,
+            "callee": 84
+        },
+        {
+            "callSite": {
+                "filename": "OggAudioParser.java",
+                "line": 83,
+                "column": 18,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 27,
+            "callee": 88
+        },
+        {
+            "callSite": {
+                "filename": "OggAudioParser.java",
+                "line": 103,
+                "column": 28,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 27,
+            "callee": 89
+        },
+        {
+            "callSite": {
+                "filename": "OggAudioParser.java",
+                "line": 69,
+                "column": 9,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 27,
+            "callee": 90
+        },
+        {
+            "callSite": {
+                "filename": "OggAudioParser.java",
+                "line": 63,
+                "column": 9,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 27,
+            "callee": 18
+        },
+        {
+            "callSite": {
+                "filename": "OggAudioParser.java",
+                "line": 92,
+                "column": 9,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 27,
+            "callee": 82
+        },
+        {
+            "callSite": {
+                "filename": "OggAudioParser.java",
+                "line": 67,
+                "column": 42,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 27,
+            "callee": 89
+        },
+        {
+            "callSite": {
+                "filename": "OggAudioParser.java",
+                "line": 67,
+                "column": 9,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 27,
+            "callee": 18
+        },
+        {
+            "callSite": {
+                "filename": "OggAudioParser.java",
+                "line": 105,
+                "column": 13,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 27,
+            "callee": 83
+        },
+        {
+            "callSite": {
+                "filename": "OggAudioParser.java",
+                "line": 68,
+                "column": 9,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 27,
+            "callee": 91
+        },
+        {
+            "callSite": {
+                "filename": "OggAudioParser.java",
+                "line": 71,
+                "column": 30,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 27,
+            "callee": 86
+        },
+        {
+            "callSite": {
+                "filename": "OggAudioParser.java",
+                "line": 68,
+                "column": 40,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 27,
+            "callee": 92
+        },
+        {
+            "callSite": {
+                "filename": "OggAudioParser.java",
+                "line": 97,
+                "column": 46,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 27,
+            "callee": 87
+        },
+        {
+            "callSite": {
+                "filename": "OggAudioParser.java",
+                "line": 97,
+                "column": 13,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 27,
+            "callee": 18
+        },
+        {
+            "callSite": {
+                "filename": "OggAudioParser.java",
+                "line": 72,
+                "column": 13,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 27,
+            "callee": 93
+        },
+        {
+            "callSite": {
+                "filename": "OggAudioParser.java",
+                "line": 85,
+                "column": 21,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 27,
+            "callee": 6
+        },
+        {
+            "callSite": {
+                "filename": "OggAudioParser.java",
+                "line": 96,
+                "column": 67,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 27,
+            "callee": 87
+        },
+        {
+            "callSite": {
+                "filename": "OggAudioParser.java",
+                "line": 69,
+                "column": 32,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 27,
+            "callee": 92
+        },
+        {
+            "callSite": {
+                "filename": "OggAudioParser.java",
+                "line": 62,
+                "column": 48,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 27,
+            "callee": 85
+        },
+        {
+            "callSite": {
+                "filename": "OggAudioParser.java",
+                "line": 76,
+                "column": 29,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 27,
+            "callee": 94
+        },
+        {
+            "callSite": {
+                "filename": "OpusParser.java",
+                "line": 86,
+                "column": 41,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 42,
+            "callee": 95
+        },
+        {
+            "callSite": {
+                "filename": "OpusParser.java",
+                "line": 86,
+                "column": 72,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 42,
+            "callee": 96
+        },
+        {
+            "callSite": {
+                "filename": "OpusParser.java",
+                "line": 85,
+                "column": 50,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 42,
+            "callee": 97
+        },
+        {
+            "callSite": {
+                "filename": "OpusParser.java",
+                "line": 86,
+                "column": 7,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 42,
+            "callee": 6
+        },
+        {
+            "callSite": {
+                "filename": "OpusParser.java",
+                "line": 85,
+                "column": 7,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 42,
+            "callee": 9
+        },
+        {
+            "callSite": {
+                "filename": "OpusParser.java",
+                "line": 88,
+                "column": 7,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 42,
+            "callee": 8
+        },
+        {
+            "callSite": {
+                "filename": "SpeexParser.java",
+                "line": 67,
+                "column": 35,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 98,
+            "callee": 28
+        },
+        {
+            "callSite": {
+                "filename": "SpeexParser.java",
+                "line": 60,
+                "column": 7,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 98,
+            "callee": 25
+        },
+        {
+            "callSite": {
+                "filename": "SpeexParser.java",
+                "line": 77,
+                "column": 7,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 98,
+            "callee": 29
+        },
+        {
+            "callSite": {
+                "filename": "SpeexParser.java",
+                "line": 63,
+                "column": 21,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 98,
+            "callee": 26
+        },
+        {
+            "callSite": {
+                "filename": "SpeexParser.java",
+                "line": 74,
+                "column": 7,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 98,
+            "callee": 27
+        },
+        {
+            "callSite": {
+                "filename": "SpeexParser.java",
+                "line": 59,
+                "column": 43,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 98,
+            "callee": 30
+        },
+        {
+            "callSite": {
+                "filename": "SpeexParser.java",
+                "line": 55,
+                "column": 4,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 98,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "SpeexParser.java",
+                "line": 71,
+                "column": 7,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 98,
+            "callee": 99
+        },
+        {
+            "callSite": {
+                "filename": "SpeexParser.java",
+                "line": 59,
+                "column": 7,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 98,
+            "callee": 18
+        },
+        {
+            "callSite": {
+                "filename": "SpeexParser.java",
+                "line": 64,
+                "column": 25,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 98,
+            "callee": 100
+        },
+        {
+            "callSite": {
+                "filename": "SpeexParser.java",
+                "line": 80,
+                "column": 7,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 98,
+            "callee": 24
+        },
+        {
+            "callSite": {
+                "filename": "SpeexParser.java",
+                "line": 81,
+                "column": 7,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 98,
+            "callee": 101
+        },
+        {
+            "callSite": {
+                "filename": "SpeexParser.java",
+                "line": 74,
+                "column": 40,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 98,
+            "callee": 102
+        },
+        {
+            "callSite": {
+                "filename": "SpeexParser.java",
+                "line": 68,
+                "column": 7,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 98,
+            "callee": 21
+        },
+        {
+            "callSite": {
+                "filename": "SpeexParser.java",
+                "line": 71,
+                "column": 29,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 98,
+            "callee": 103
+        },
+        {
+            "callSite": {
+                "filename": "OpusParser.java",
+                "line": 36,
+                "column": 1,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 104,
+            "callee": 76
+        },
+        {
+            "callSite": {
+                "filename": "OggParser.java",
+                "line": 56,
+                "column": 12,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 16,
+            "callee": 2
+        },
+        {
+            "callSite": {
+                "filename": "OggParser.java",
+                "line": 63,
+                "column": 12,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 16,
+            "callee": 2
+        },
+        {
+            "callSite": {
+                "filename": "OggParser.java",
+                "line": 59,
+                "column": 12,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 16,
+            "callee": 2
+        },
+        {
+            "callSite": {
+                "filename": "OggParser.java",
+                "line": 73,
+                "column": 43,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 16,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "OggParser.java",
+                "line": 71,
+                "column": 12,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 16,
+            "callee": 2
+        },
+        {
+            "callSite": {
+                "filename": "OggParser.java",
+                "line": 69,
+                "column": 12,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 16,
+            "callee": 2
+        },
+        {
+            "callSite": {
+                "filename": "OggParser.java",
+                "line": 67,
+                "column": 12,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 16,
+            "callee": 2
+        },
+        {
+            "callSite": {
+                "filename": "OggParser.java",
+                "line": 65,
+                "column": 12,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 16,
+            "callee": 2
+        },
+        {
+            "callSite": {
+                "filename": "OggParser.java",
+                "line": 61,
+                "column": 12,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 16,
+            "callee": 2
+        },
+        {
+            "callSite": {
+                "filename": "OggParser.java",
+                "line": 1,
+                "column": 1,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 16,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "OggAudioParser.java",
+                "line": 114,
+                "column": 9,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 29,
+            "callee": 105
+        },
+        {
+            "callSite": {
+                "filename": "OggAudioParser.java",
+                "line": 123,
+                "column": 13,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 29,
+            "callee": 82
+        },
+        {
+            "callSite": {
+                "filename": "OggAudioParser.java",
+                "line": 120,
+                "column": 13,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 29,
+            "callee": 91
+        },
+        {
+            "callSite": {
+                "filename": "OggAudioParser.java",
+                "line": 113,
+                "column": 36,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 29,
+            "callee": 106
+        },
+        {
+            "callSite": {
+                "filename": "OggAudioParser.java",
+                "line": 120,
+                "column": 42,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 29,
+            "callee": 107
+        },
+        {
+            "callSite": {
+                "filename": "OggAudioParser.java",
+                "line": 110,
+                "column": 5,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 29,
+            "callee": 43
+        },
+        {
+            "callSite": {
+                "filename": "OggAudioParser.java",
+                "line": 117,
+                "column": 27,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 29,
+            "callee": 108
+        },
+        {
+            "callSite": {
+                "filename": "OggAudioParser.java",
+                "line": 123,
+                "column": 32,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 29,
+            "callee": 109
+        },
+        {
+            "callSite": {
+                "filename": "OpusParser.java",
+                "line": 51,
+                "column": 4,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 110,
+            "callee": 38
+        },
+        {
+            "callSite": {
+                "filename": "OpusParser.java",
+                "line": 52,
+                "column": 14,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 110,
+            "callee": 14
+        },
+        {
+            "callSite": {
+                "filename": "FlacParser.java",
+                "line": 70,
+                "column": 10,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 111,
+            "callee": 6
+        },
+        {
+            "callSite": {
+                "filename": "FlacParser.java",
+                "line": 67,
+                "column": 29,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 111,
+            "callee": 112
+        },
+        {
+            "callSite": {
+                "filename": "FlacParser.java",
+                "line": 64,
+                "column": 7,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 111,
+            "callee": 21
+        },
+        {
+            "callSite": {
+                "filename": "FlacParser.java",
+                "line": 57,
+                "column": 7,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 111,
+            "callee": 25
+        },
+        {
+            "callSite": {
+                "filename": "FlacParser.java",
+                "line": 74,
+                "column": 47,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 111,
+            "callee": 30
+        },
+        {
+            "callSite": {
+                "filename": "FlacParser.java",
+                "line": 74,
+                "column": 11,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 111,
+            "callee": 18
+        },
+        {
+            "callSite": {
+                "filename": "FlacParser.java",
+                "line": 84,
+                "column": 7,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 111,
+            "callee": 24
+        },
+        {
+            "callSite": {
+                "filename": "FlacParser.java",
+                "line": 63,
+                "column": 35,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 111,
+            "callee": 28
+        },
+        {
+            "callSite": {
+                "filename": "FlacParser.java",
+                "line": 60,
+                "column": 23,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 111,
+            "callee": 113
+        },
+        {
+            "callSite": {
+                "filename": "FlacParser.java",
+                "line": 71,
+                "column": 40,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 111,
+            "callee": 114
+        },
+        {
+            "callSite": {
+                "filename": "FlacParser.java",
+                "line": 85,
+                "column": 7,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 111,
+            "callee": 115
+        },
+        {
+            "callSite": {
+                "filename": "FlacParser.java",
+                "line": 53,
+                "column": 4,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 111,
+            "callee": 0
+        },
+        {
+            "callSite": {
+                "filename": "FlacParser.java",
+                "line": 78,
+                "column": 55,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 111,
+            "callee": 116
+        },
+        {
+            "callSite": {
+                "filename": "FlacParser.java",
+                "line": 78,
+                "column": 7,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 111,
+            "callee": 27
+        },
+        {
+            "callSite": {
+                "filename": "FlacParser.java",
+                "line": 72,
+                "column": 46,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 111,
+            "callee": 30
+        },
+        {
+            "callSite": {
+                "filename": "FlacParser.java",
+                "line": 67,
+                "column": 7,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 111,
+            "callee": 117
+        },
+        {
+            "callSite": {
+                "filename": "FlacParser.java",
+                "line": 72,
+                "column": 10,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 111,
+            "callee": 18
+        },
+        {
+            "callSite": {
+                "filename": "FlacParser.java",
+                "line": 70,
+                "column": 44,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 111,
+            "callee": 114
+        },
+        {
+            "callSite": {
+                "filename": "SpeexParser.java",
+                "line": 88,
+                "column": 7,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 99,
+            "callee": 8
+        },
+        {
+            "callSite": {
+                "filename": "SpeexParser.java",
+                "line": 85,
+                "column": 7,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 99,
+            "callee": 9
+        },
+        {
+            "callSite": {
+                "filename": "SpeexParser.java",
+                "line": 86,
+                "column": 7,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 99,
+            "callee": 6
+        },
+        {
+            "callSite": {
+                "filename": "SpeexParser.java",
+                "line": 86,
+                "column": 72,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 99,
+            "callee": 118
+        },
+        {
+            "callSite": {
+                "filename": "SpeexParser.java",
+                "line": 85,
+                "column": 50,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 99,
+            "callee": 119
+        },
+        {
+            "callSite": {
+                "filename": "SpeexParser.java",
+                "line": 86,
+                "column": 42,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 99,
+            "callee": 120
+        },
+        {
+            "callSite": {
+                "filename": "OggDetector.java",
+                "line": 120,
+                "column": 16,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 121,
+            "callee": 122
+        },
+        {
+            "callSite": {
+                "filename": "OggDetector.java",
+                "line": 126,
+                "column": 21,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 121,
+            "callee": 58
+        },
+        {
+            "callSite": {
+                "filename": "OggDetector.java",
+                "line": 215,
+                "column": 25,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 121,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "OggDetector.java",
+                "line": 202,
+                "column": 25,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 121,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "OggDetector.java",
+                "line": 153,
+                "column": 40,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 121,
+            "callee": 51
+        },
+        {
+            "callSite": {
+                "filename": "OggDetector.java",
+                "line": 126,
+                "column": 21,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 121,
+            "callee": 123
+        },
+        {
+            "callSite": {
+                "filename": "OggDetector.java",
+                "line": 89,
+                "column": 31,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 121,
+            "callee": 49
+        },
+        {
+            "callSite": {
+                "filename": "OggDetector.java",
+                "line": 89,
+                "column": 31,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 121,
+            "callee": 48
+        },
+        {
+            "callSite": {
+                "filename": "OggDetector.java",
+                "line": 146,
+                "column": 21,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 121,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "OggDetector.java",
+                "line": 151,
+                "column": 36,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 121,
+            "callee": 52
+        },
+        {
+            "callSite": {
+                "filename": "OggDetector.java",
+                "line": 96,
+                "column": 30,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 121,
+            "callee": 61
+        },
+        {
+            "callSite": {
+                "filename": "OggDetector.java",
+                "line": 110,
+                "column": 40,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 121,
+            "callee": 53
+        },
+        {
+            "callSite": {
+                "filename": "OggDetector.java",
+                "line": 102,
+                "column": 25,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 121,
+            "callee": 53
+        },
+        {
+            "callSite": {
+                "filename": "OggDetector.java",
+                "line": 68,
+                "column": 44,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 121,
+            "callee": 124
+        },
+        {
+            "callSite": {
+                "filename": "OggDetector.java",
+                "line": 200,
+                "column": 18,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 121,
+            "callee": 125
+        },
+        {
+            "callSite": {
+                "filename": "OggDetector.java",
+                "line": 91,
+                "column": 18,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 121,
+            "callee": 56
+        },
+        {
+            "callSite": {
+                "filename": "OggDetector.java",
+                "line": 91,
+                "column": 18,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 121,
+            "callee": 55
+        },
+        {
+            "callSite": {
+                "filename": "OggDetector.java",
+                "line": 108,
+                "column": 46,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 121,
+            "callee": 49
+        },
+        {
+            "callSite": {
+                "filename": "OggDetector.java",
+                "line": 108,
+                "column": 46,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 121,
+            "callee": 48
+        },
+        {
+            "callSite": {
+                "filename": "OggDetector.java",
+                "line": 126,
+                "column": 50,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 121,
+            "callee": 126
+        },
+        {
+            "callSite": {
+                "filename": "OggDetector.java",
+                "line": 77,
+                "column": 29,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 121,
+            "callee": 127
+        },
+        {
+            "callSite": {
+                "filename": "OggDetector.java",
+                "line": 164,
+                "column": 40,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 121,
+            "callee": 52
+        },
+        {
+            "callSite": {
+                "filename": "OggDetector.java",
+                "line": 102,
+                "column": 16,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 121,
+            "callee": 58
+        },
+        {
+            "callSite": {
+                "filename": "OggDetector.java",
+                "line": 69,
+                "column": 22,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 121,
+            "callee": 124
+        },
+        {
+            "callSite": {
+                "filename": "OggDetector.java",
+                "line": 178,
+                "column": 36,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 121,
+            "callee": 52
+        },
+        {
+            "callSite": {
+                "filename": "OggDetector.java",
+                "line": 109,
+                "column": 20,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 121,
+            "callee": 58
+        },
+        {
+            "callSite": {
+                "filename": "OggDetector.java",
+                "line": 104,
+                "column": 37,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 121,
+            "callee": 54
+        },
+        {
+            "callSite": {
+                "filename": "OggDetector.java",
+                "line": 176,
+                "column": 42,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 121,
+            "callee": 128
+        },
+        {
+            "callSite": {
+                "filename": "OggDetector.java",
+                "line": 176,
+                "column": 42,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 121,
+            "callee": 129
+        },
+        {
+            "callSite": {
+                "filename": "OggDetector.java",
+                "line": 85,
+                "column": 24,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 121,
+            "callee": 130
+        },
+        {
+            "callSite": {
+                "filename": "OggDetector.java",
+                "line": 193,
+                "column": 34,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 121,
+            "callee": 131
+        },
+        {
+            "callSite": {
+                "filename": "OggDetector.java",
+                "line": 145,
+                "column": 35,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 121,
+            "callee": 52
+        },
+        {
+            "callSite": {
+                "filename": "OggDetector.java",
+                "line": 215,
+                "column": 38,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 121,
+            "callee": 132
+        },
+        {
+            "callSite": {
+                "filename": "OggDetector.java",
+                "line": 69,
+                "column": 51,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 121,
+            "callee": 124
+        },
+        {
+            "callSite": {
+                "filename": "OggDetector.java",
+                "line": 202,
+                "column": 38,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 121,
+            "callee": 132
+        },
+        {
+            "callSite": {
+                "filename": "OggDetector.java",
+                "line": 145,
+                "column": 35,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 121,
+            "callee": 132
+        },
+        {
+            "callSite": {
+                "filename": "OggDetector.java",
+                "line": 93,
+                "column": 18,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 121,
+            "callee": 56
+        },
+        {
+            "callSite": {
+                "filename": "OggDetector.java",
+                "line": 93,
+                "column": 18,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 121,
+            "callee": 55
+        },
+        {
+            "callSite": {
+                "filename": "OggDetector.java",
+                "line": 125,
+                "column": 21,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 121,
+            "callee": 133
+        },
+        {
+            "callSite": {
+                "filename": "OggDetector.java",
+                "line": 225,
+                "column": 21,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 121,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "OggDetector.java",
+                "line": 99,
+                "column": 22,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 121,
+            "callee": 60
+        },
+        {
+            "callSite": {
+                "filename": "OggDetector.java",
+                "line": 66,
+                "column": 7,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 121,
+            "callee": 134
+        },
+        {
+            "callSite": {
+                "filename": "OggDetector.java",
+                "line": 81,
+                "column": 24,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 121,
+            "callee": 135
+        },
+        {
+            "callSite": {
+                "filename": "OggDetector.java",
+                "line": 180,
+                "column": 32,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 121,
+            "callee": 51
+        },
+        {
+            "callSite": {
+                "filename": "OggDetector.java",
+                "line": 166,
+                "column": 29,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 121,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "OggDetector.java",
+                "line": 212,
+                "column": 18,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 121,
+            "callee": 125
+        },
+        {
+            "callSite": {
+                "filename": "OggDetector.java",
+                "line": 181,
+                "column": 18,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 121,
+            "callee": 136
+        },
+        {
+            "callSite": {
+                "filename": "OggDetector.java",
+                "line": 193,
+                "column": 21,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 121,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "OggDetector.java",
+                "line": 100,
+                "column": 16,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 121,
+            "callee": 50
+        },
+        {
+            "callSite": {
+                "filename": "OggDetector.java",
+                "line": 109,
+                "column": 27,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 121,
+            "callee": 126
+        },
+        {
+            "callSite": {
+                "filename": "OggDetector.java",
+                "line": 61,
+                "column": 12,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 121,
+            "callee": 137
+        },
+        {
+            "callSite": {
+                "filename": "OggDetector.java",
+                "line": 114,
+                "column": 30,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 121,
+            "callee": 51
+        },
+        {
+            "callSite": {
+                "filename": "OggDetector.java",
+                "line": 215,
+                "column": 38,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 121,
+            "callee": 131
+        },
+        {
+            "callSite": {
+                "filename": "OggDetector.java",
+                "line": 110,
+                "column": 20,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 121,
+            "callee": 138
+        },
+        {
+            "callSite": {
+                "filename": "OggDetector.java",
+                "line": 202,
+                "column": 38,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 121,
+            "callee": 131
+        },
+        {
+            "callSite": {
+                "filename": "OggDetector.java",
+                "line": 52,
+                "column": 4,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 121,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "OggDetector.java",
+                "line": 145,
+                "column": 35,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 121,
+            "callee": 139
+        },
+        {
+            "callSite": {
+                "filename": "OggDetector.java",
+                "line": 193,
+                "column": 34,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 121,
+            "callee": 132
+        },
+        {
+            "callSite": {
+                "filename": "OggDetector.java",
+                "line": 81,
+                "column": 10,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 121,
+            "callee": 140
+        },
+        {
+            "callSite": {
+                "filename": "OggDetector.java",
+                "line": 135,
+                "column": 10,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 121,
+            "callee": 141
+        },
+        {
+            "callSite": {
+                "filename": "OggDetector.java",
+                "line": 122,
+                "column": 23,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 121,
+            "callee": 53
+        },
+        {
+            "callSite": {
+                "filename": "OggDetector.java",
+                "line": 73,
+                "column": 11,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 121,
+            "callee": 142
+        },
+        {
+            "callSite": {
+                "filename": "OggDetector.java",
+                "line": 177,
+                "column": 42,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 121,
+            "callee": 129
+        },
+        {
+            "callSite": {
+                "filename": "OggDetector.java",
+                "line": 177,
+                "column": 42,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 121,
+            "callee": 128
+        },
+        {
+            "callSite": {
+                "filename": "OggDetector.java",
+                "line": 184,
+                "column": 32,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 121,
+            "callee": 51
+        },
+        {
+            "callSite": {
+                "filename": "OggDetector.java",
+                "line": 68,
+                "column": 15,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 121,
+            "callee": 124
+        },
+        {
+            "callSite": {
+                "filename": "OggDetector.java",
+                "line": 185,
+                "column": 18,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 121,
+            "callee": 136
+        },
+        {
+            "callSite": {
+                "filename": "OpusParser.java",
+                "line": 47,
+                "column": 43,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 38,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "OpusParser.java",
+                "line": 43,
+                "column": 12,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 38,
+            "callee": 2
+        },
+        {
+            "callSite": {
+                "filename": "OpusParser.java",
+                "line": 45,
+                "column": 12,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 38,
+            "callee": 2
+        },
+        {
+            "callSite": {
+                "filename": "VorbisParser.java",
+                "line": 36,
+                "column": 1,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 143,
+            "callee": 76
+        },
+        {
+            "callSite": {
+                "filename": "FlacParser.java",
+                "line": 89,
+                "column": 50,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 117,
+            "callee": 144
+        },
+        {
+            "callSite": {
+                "filename": "FlacParser.java",
+                "line": 92,
+                "column": 7,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 117,
+            "callee": 8
+        },
+        {
+            "callSite": {
+                "filename": "FlacParser.java",
+                "line": 92,
+                "column": 49,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 117,
+            "callee": 145
+        },
+        {
+            "callSite": {
+                "filename": "FlacParser.java",
+                "line": 89,
+                "column": 7,
+                "directory": "src/main/java/org/gagravarr/tika"
+            },
+            "caller": 117,
+            "callee": 9
+        }
+    ],
+    "language": "java",
+    "packages": [{
+        "path": "org.gagravarr.tika",
+        "isRoot": false,
+        "module": -1,
+        "name": "tika",
+        "isStandardLibrary": false
+    }],
+    "modules": []
+}
