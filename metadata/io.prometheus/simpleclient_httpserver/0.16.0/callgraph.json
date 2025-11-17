@@ -1,0 +1,2401 @@
+{
+    "functions": [
+        {
+            "parameterTypes": [
+                "HttpServer",
+                "CollectorRegistry",
+                "boolean"
+            ],
+            "templateArguments": [],
+            "function": "HTTPServer",
+            "name": "io.prometheus.client.exporter.HTTPServer#HTTPServer(HttpServer,CollectorRegistry,boolean)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HTTPServer",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "ExecutorService",
+                "HttpServer",
+                "CollectorRegistry",
+                "boolean",
+                "Supplier<Predicate<String>>",
+                "Authenticator"
+            ],
+            "templateArguments": [],
+            "function": "HTTPServer",
+            "name": "io.prometheus.client.exporter.HTTPServer#HTTPServer(ExecutorService,HttpServer,CollectorRegistry,boolean,Supplier,Authenticator)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HTTPServer",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "int",
+                "boolean"
+            ],
+            "templateArguments": [],
+            "function": "HTTPServer",
+            "name": "io.prometheus.client.exporter.HTTPServer#HTTPServer(String,int,boolean)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HTTPServer",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "InetSocketAddress",
+                "CollectorRegistry",
+                "boolean"
+            ],
+            "templateArguments": [],
+            "function": "HTTPServer",
+            "name": "io.prometheus.client.exporter.HTTPServer#HTTPServer(InetSocketAddress,CollectorRegistry,boolean)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HTTPServer",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "InetSocketAddress",
+            "name": "java.net.InetSocketAddress#InetSocketAddress(String,int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.net.InetSocketAddress",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "stop",
+            "name": "io.prometheus.client.exporter.HTTPServer#stop()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HTTPServer",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "close",
+            "name": "io.prometheus.client.exporter.HTTPServer#close()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HTTPServer",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Object",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "assertNull",
+            "name": "io.prometheus.client.exporter.HTTPServer.Builder#assertNull(Object,String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HTTPServer.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "IllegalStateException",
+            "name": "org.springframework.jms.IllegalStateException#IllegalStateException(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.springframework.jms.IllegalStateException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.prometheus.client.exporter.HTTPServer.HTTPMetricHandler.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HTTPServer.HTTPMetricHandler",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.prometheus.client.exporter.HTTPServer.LocalByteArray.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HTTPServer.LocalByteArray",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["Predicate<String>"],
+            "templateArguments": [],
+            "function": "SampleNameFilterSupplier",
+            "name": "io.prometheus.client.exporter.SampleNameFilterSupplier#SampleNameFilterSupplier(Predicate)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SampleNameFilterSupplier",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.prometheus.client.exporter.SampleNameFilterSupplier.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SampleNameFilterSupplier",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "io.prometheus.client.exporter.HTTPServer.NamedDaemonThreadFactory.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HTTPServer.NamedDaemonThreadFactory",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "AtomicInteger",
+            "name": "java.util.concurrent.atomic.AtomicInteger#AtomicInteger(int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.concurrent.atomic.AtomicInteger",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "run",
+            "name": "io.prometheus.client.exporter.HTTPServer#start(boolean)$Runnable$1#run()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HTTPServer#start(boolean)$Runnable$1",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "start",
+            "name": "com.sun.net.httpserver.HttpServer#start()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.sun.net.httpserver.HttpServer",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.prometheus.client.exporter.HTTPServer.NamedDaemonThreadFactory.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HTTPServer.NamedDaemonThreadFactory",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getAndIncrement",
+            "name": "java.util.concurrent.atomic.AtomicInteger#getAndIncrement()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.concurrent.atomic.AtomicInteger",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["boolean"],
+            "templateArguments": [],
+            "function": "defaultThreadFactory",
+            "name": "io.prometheus.client.exporter.HTTPServer.NamedDaemonThreadFactory.defaultThreadFactory(boolean)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HTTPServer.NamedDaemonThreadFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "ThreadFactory",
+                "boolean"
+            ],
+            "templateArguments": [],
+            "function": "NamedDaemonThreadFactory",
+            "name": "io.prometheus.client.exporter.HTTPServer.NamedDaemonThreadFactory#NamedDaemonThreadFactory(ThreadFactory,boolean)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HTTPServer.NamedDaemonThreadFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "defaultThreadFactory",
+            "name": "java.util.concurrent.Executors.defaultThreadFactory()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.concurrent.Executors",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "initialValue",
+            "name": "io.prometheus.client.exporter.HTTPServer.LocalByteArray#initialValue()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HTTPServer.LocalByteArray",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "ByteArrayOutputStream",
+            "name": "java.io.ByteArrayOutputStream#ByteArrayOutputStream(int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.ByteArrayOutputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Runnable"],
+            "templateArguments": [],
+            "function": "newThread",
+            "name": "io.prometheus.client.exporter.HTTPServer.NamedDaemonThreadFactory#newThread(Runnable)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HTTPServer.NamedDaemonThreadFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "setName",
+            "name": "java.lang.Thread#setName(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.Thread",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["boolean"],
+            "templateArguments": [],
+            "function": "setDaemon",
+            "name": "java.lang.Thread#setDaemon(boolean)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.Thread",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Runnable"],
+            "templateArguments": [],
+            "function": "newThread",
+            "name": "java.util.concurrent.ThreadFactory#newThread(Runnable)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.concurrent.ThreadFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "build",
+            "name": "io.prometheus.client.exporter.HTTPServer.Builder#build()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HTTPServer.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "InetSocketAddress",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "create",
+            "name": "com.sun.net.httpserver.HttpsServer.create(InetSocketAddress,int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.sun.net.httpserver.HttpsServer",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Predicate<String>"],
+            "templateArguments": [],
+            "function": "of",
+            "name": "io.prometheus.client.exporter.SampleNameFilterSupplier.of(Predicate)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SampleNameFilterSupplier",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "int",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "assertZero",
+            "name": "io.prometheus.client.exporter.HTTPServer.Builder#assertZero(int,String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HTTPServer.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "InetSocketAddress",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "create",
+            "name": "com.sun.net.httpserver.HttpServer.create(InetSocketAddress,int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.sun.net.httpserver.HttpServer",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "InetSocketAddress",
+            "name": "java.net.InetSocketAddress#InetSocketAddress(int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.net.InetSocketAddress",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["HttpsConfigurator"],
+            "templateArguments": [],
+            "function": "setHttpsConfigurator",
+            "name": "com.sun.net.httpserver.HttpsServer#setHttpsConfigurator(HttpsConfigurator)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.sun.net.httpserver.HttpsServer",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "InetAddress",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "InetSocketAddress",
+            "name": "java.net.InetSocketAddress#InetSocketAddress(InetAddress,int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.net.InetSocketAddress",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "int",
+                "boolean"
+            ],
+            "templateArguments": [],
+            "function": "HTTPServer",
+            "name": "io.prometheus.client.exporter.HTTPServer#HTTPServer(int,boolean)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HTTPServer",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["CollectorRegistry"],
+            "templateArguments": [],
+            "function": "HTTPMetricHandler",
+            "name": "io.prometheus.client.exporter.HTTPServer.HTTPMetricHandler#HTTPMetricHandler(CollectorRegistry)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HTTPServer.HTTPMetricHandler",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "CollectorRegistry",
+                "Supplier<Predicate<String>>"
+            ],
+            "templateArguments": [],
+            "function": "HTTPMetricHandler",
+            "name": "io.prometheus.client.exporter.HTTPServer.HTTPMetricHandler#HTTPMetricHandler(CollectorRegistry,Supplier)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HTTPServer.HTTPMetricHandler",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "InetSocketAddress",
+                "CollectorRegistry"
+            ],
+            "templateArguments": [],
+            "function": "HTTPServer",
+            "name": "io.prometheus.client.exporter.HTTPServer#HTTPServer(InetSocketAddress,CollectorRegistry)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HTTPServer",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["boolean"],
+            "templateArguments": [],
+            "function": "start",
+            "name": "io.prometheus.client.exporter.HTTPServer#start(boolean)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HTTPServer",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "start",
+            "name": "Thread#start()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "Thread",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "currentThread",
+            "name": "java.lang.Thread.currentThread()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.Thread",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "interrupt",
+            "name": "Thread#interrupt()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "Thread",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "ANON__OR__TYPE$Runnable",
+                "null"
+            ],
+            "templateArguments": [],
+            "function": "FutureTask",
+            "name": "java.util.concurrent.FutureTask#FutureTask(ANON__OR__TYPE$Runnable,null)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.concurrent.FutureTask",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["FutureTask<Void>"],
+            "templateArguments": [],
+            "function": "newThread",
+            "name": "java.util.concurrent.ThreadFactory#newThread(FutureTask)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.concurrent.ThreadFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "ExecutionException"
+            ],
+            "templateArguments": [],
+            "function": "RuntimeException",
+            "name": "java.lang.RuntimeException#RuntimeException(String,ExecutionException)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.RuntimeException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "isDaemon",
+            "name": "Thread#isDaemon()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "Thread",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.prometheus.client.exporter.HTTPServer#start(boolean)$Runnable$1.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HTTPServer#start(boolean)$Runnable$1",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "get",
+            "name": "java.util.concurrent.FutureTask#get()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.concurrent.FutureTask",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "shutdown",
+            "name": "java.util.concurrent.ExecutorService#shutdown()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.concurrent.ExecutorService",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "stop",
+            "name": "com.sun.net.httpserver.HttpServer#stop(int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.sun.net.httpserver.HttpServer",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "HTTPServer",
+            "name": "io.prometheus.client.exporter.HTTPServer#HTTPServer(String,int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HTTPServer",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["HttpExchange"],
+            "templateArguments": [],
+            "function": "shouldUseCompression",
+            "name": "io.prometheus.client.exporter.HTTPServer.shouldUseCompression(HttpExchange)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HTTPServer",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getRequestHeaders",
+            "name": "com.sun.net.httpserver.HttpExchange#getRequestHeaders()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.sun.net.httpserver.HttpExchange",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "get",
+            "name": "Map#get(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "parseQuery",
+            "name": "io.prometheus.client.exporter.HTTPServer.parseQuery(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HTTPServer",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "decode",
+            "name": "java.net.URLDecoder.decode(String,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.net.URLDecoder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "add",
+            "name": "java.util.Set#add(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Set",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "HashSet",
+            "name": "java.util.HashSet#HashSet()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.HashSet",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "java.util.HashSet.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.HashSet",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["HttpExchange"],
+            "templateArguments": [],
+            "function": "handle",
+            "name": "io.prometheus.client.exporter.HTTPServer.HTTPMetricHandler#handle(HttpExchange)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HTTPServer.HTTPMetricHandler",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "set",
+            "name": "Map#set(String,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "OutputStreamWriter",
+                "Object"
+            ],
+            "templateArguments": [],
+            "function": "writeFormat",
+            "name": "io.prometheus.client.exporter.common.TextFormat.writeFormat(String,OutputStreamWriter,Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.prometheus.client.exporter.common.TextFormat",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["OutputStream"],
+            "templateArguments": [],
+            "function": "GZIPOutputStream",
+            "name": "java.util.zip.GZIPOutputStream#GZIPOutputStream(OutputStream)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.zip.GZIPOutputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getResponseHeaders",
+            "name": "com.sun.net.httpserver.HttpExchange#getResponseHeaders()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.sun.net.httpserver.HttpExchange",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["OutputStream"],
+            "templateArguments": [],
+            "function": "writeTo",
+            "name": "java.io.ByteArrayOutputStream#writeTo(OutputStream)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.ByteArrayOutputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "chooseContentType",
+            "name": "io.prometheus.client.exporter.common.TextFormat.chooseContentType(Object)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.prometheus.client.exporter.common.TextFormat",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "int",
+                "long"
+            ],
+            "templateArguments": [],
+            "function": "sendResponseHeaders",
+            "name": "com.sun.net.httpserver.HttpExchange#sendResponseHeaders(int,long)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.sun.net.httpserver.HttpExchange",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Predicate<String>"],
+            "templateArguments": [],
+            "function": "filteredMetricFamilySamples",
+            "name": "io.prometheus.client.CollectorRegistry#filteredMetricFamilySamples(Predicate)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.prometheus.client.CollectorRegistry",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "size",
+            "name": "java.io.ByteArrayOutputStream#size()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.ByteArrayOutputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getRequestURI",
+            "name": "com.sun.net.httpserver.HttpExchange#getRequestURI()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.sun.net.httpserver.HttpExchange",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "get",
+            "name": "io.prometheus.client.Supplier#get()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.prometheus.client.Supplier",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "get",
+            "name": "io.prometheus.client.exporter.SampleNameFilterSupplier#get()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "SampleNameFilterSupplier",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["GZIPOutputStream"],
+            "templateArguments": [],
+            "function": "writeTo",
+            "name": "java.io.ByteArrayOutputStream#writeTo(GZIPOutputStream)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.ByteArrayOutputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "io.prometheus.client.exporter.HTTPServer.HTTPMetricHandler.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HTTPServer.HTTPMetricHandler",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getResponseBody",
+            "name": "com.sun.net.httpserver.HttpExchange#getResponseBody()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.sun.net.httpserver.HttpExchange",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "reset",
+            "name": "java.io.ByteArrayOutputStream#reset()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.ByteArrayOutputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "close",
+            "name": "com.sun.net.httpserver.HttpExchange#close()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.sun.net.httpserver.HttpExchange",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "int",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "sendResponseHeaders",
+            "name": "com.sun.net.httpserver.HttpExchange#sendResponseHeaders(int,int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.sun.net.httpserver.HttpExchange",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "Predicate<String>",
+                "Set<String>"
+            ],
+            "templateArguments": [],
+            "function": "restrictToNamesEqualTo",
+            "name": "io.prometheus.client.SampleNameFilter.restrictToNamesEqualTo(Predicate,Set)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.prometheus.client.SampleNameFilter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "close",
+            "name": "java.util.zip.GZIPOutputStream#close()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.zip.GZIPOutputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "ByteArrayOutputStream",
+                "Charset"
+            ],
+            "templateArguments": [],
+            "function": "OutputStreamWriter",
+            "name": "java.io.OutputStreamWriter#OutputStreamWriter(ByteArrayOutputStream,Charset)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.OutputStreamWriter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "close",
+            "name": "java.io.OutputStreamWriter#close()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.OutputStreamWriter",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "write",
+            "name": "java.io.OutputStreamWriter#write(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.OutputStreamWriter",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "getFirst",
+            "name": "Map#getFirst(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "Map",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getHttpContext",
+            "name": "com.sun.net.httpserver.HttpExchange#getHttpContext()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.sun.net.httpserver.HttpExchange",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "forName",
+            "name": "java.nio.charset.Charset.forName(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.nio.charset.Charset",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "metricFamilySamples",
+            "name": "io.prometheus.client.CollectorRegistry#metricFamilySamples()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "io.prometheus.client.CollectorRegistry",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getRequestMethod",
+            "name": "com.sun.net.httpserver.HttpExchange#getRequestMethod()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.sun.net.httpserver.HttpExchange",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getPath",
+            "name": "HttpContext#getPath()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "HttpContext",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getPort",
+            "name": "io.prometheus.client.exporter.HTTPServer#getPort()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HTTPServer",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getAddress",
+            "name": "com.sun.net.httpserver.HttpServer#getAddress()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.sun.net.httpserver.HttpServer",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "HTTPServer",
+            "name": "io.prometheus.client.exporter.HTTPServer#HTTPServer(int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HTTPServer",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "HttpHandler"
+            ],
+            "templateArguments": [],
+            "function": "createContext",
+            "name": "com.sun.net.httpserver.HttpServer#createContext(String,HttpHandler)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.sun.net.httpserver.HttpServer",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "io.prometheus.client.exporter.HTTPServer.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "HTTPServer",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "IllegalArgumentException",
+            "name": "java.lang.IllegalArgumentException#IllegalArgumentException(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.IllegalArgumentException",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Authenticator"],
+            "templateArguments": [],
+            "function": "setAuthenticator",
+            "name": "com.sun.net.httpserver.HttpContext#setAuthenticator(Authenticator)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.sun.net.httpserver.HttpContext",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["ExecutorService"],
+            "templateArguments": [],
+            "function": "setExecutor",
+            "name": "com.sun.net.httpserver.HttpServer#setExecutor(ExecutorService)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.sun.net.httpserver.HttpServer",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "int",
+                "ThreadFactory"
+            ],
+            "templateArguments": [],
+            "function": "newFixedThreadPool",
+            "name": "java.util.concurrent.Executors.newFixedThreadPool(int,ThreadFactory)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.concurrent.Executors",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "setCorePoolSize",
+            "name": "java.util.concurrent.ThreadPoolExecutor#setCorePoolSize(int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.concurrent.ThreadPoolExecutor",
+            "properties": []
+        }
+    ],
+    "calls": [
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 389,
+                "column": 9,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 0,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 424,
+                "column": 9,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 2,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 424,
+                "column": 14,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 2,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 495,
+                "column": 9,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 5,
+            "callee": 6
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 373,
+                "column": 23,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 7,
+            "callee": 8
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 72,
+                "column": 49,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 9,
+            "callee": 10
+        },
+        {
+            "callSite": {
+                "filename": "SampleNameFilterSupplier.java",
+                "line": 18,
+                "column": 5,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 11,
+            "callee": 12
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 163,
+                "column": 58,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 13,
+            "callee": 14
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 473,
+                "column": 21,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 15,
+            "callee": 16
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 166,
+                "column": 52,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 17,
+            "callee": 14
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 1,
+                "column": 1,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 17,
+            "callee": 13
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 165,
+                "column": 40,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 17,
+            "callee": 18
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 184,
+                "column": 20,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 19,
+            "callee": 20
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 184,
+                "column": 49,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 19,
+            "callee": 21
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 63,
+                "column": 20,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 22,
+            "callee": 23
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 178,
+                "column": 13,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 24,
+            "callee": 25
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 179,
+                "column": 13,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 24,
+            "callee": 26
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 177,
+                "column": 24,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 24,
+            "callee": 27
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 177,
+                "column": 24,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 24,
+            "callee": 24
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 178,
+                "column": 74,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 24,
+            "callee": 18
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 368,
+                "column": 20,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 28,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 362,
+                "column": 30,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 28,
+            "callee": 29
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 336,
+                "column": 44,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 28,
+            "callee": 30
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 352,
+                "column": 17,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 28,
+            "callee": 7
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 344,
+                "column": 17,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 28,
+            "callee": 7
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 341,
+                "column": 17,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 28,
+            "callee": 31
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 346,
+                "column": 24,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 28,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 345,
+                "column": 17,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 28,
+            "callee": 7
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 335,
+                "column": 17,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 28,
+            "callee": 7
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 348,
+                "column": 17,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 28,
+            "callee": 31
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 365,
+                "column": 30,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 28,
+            "callee": 32
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 343,
+                "column": 17,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 28,
+            "callee": 7
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 350,
+                "column": 17,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 28,
+            "callee": 7
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 342,
+                "column": 17,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 28,
+            "callee": 7
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 340,
+                "column": 17,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 28,
+            "callee": 7
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 357,
+                "column": 37,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 28,
+            "callee": 33
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 355,
+                "column": 37,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 28,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 363,
+                "column": 17,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 28,
+            "callee": 34
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 353,
+                "column": 37,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 28,
+            "callee": 35
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 349,
+                "column": 17,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 28,
+            "callee": 7
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 410,
+                "column": 9,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 36,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 410,
+                "column": 14,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 36,
+            "callee": 33
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 77,
+                "column": 13,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 37,
+            "callee": 38
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 403,
+                "column": 9,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 39,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 476,
+                "column": 13,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 40,
+            "callee": 41
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 485,
+                "column": 17,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 40,
+            "callee": 42
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 468,
+                "column": 13,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 40,
+            "callee": 16
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 476,
+                "column": 13,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 40,
+            "callee": 19
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 485,
+                "column": 17,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 40,
+            "callee": 43
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 470,
+                "column": 42,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 40,
+            "callee": 44
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 476,
+                "column": 13,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 40,
+            "callee": 45
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 476,
+                "column": 13,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 40,
+            "callee": 24
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 480,
+                "column": 23,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 40,
+            "callee": 46
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 467,
+                "column": 23,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 40,
+            "callee": 42
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 467,
+                "column": 23,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 40,
+            "callee": 47
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 470,
+                "column": 63,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 40,
+            "callee": 48
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 478,
+                "column": 17,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 40,
+            "callee": 49
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 80,
+                "column": 9,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 38,
+            "callee": 9
+        },
+        {
+            "callSite": {
+                "filename": "SampleNameFilterSupplier.java",
+                "line": 15,
+                "column": 16,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 30,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 504,
+                "column": 9,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 6,
+            "callee": 50
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 503,
+                "column": 9,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 6,
+            "callee": 51
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 431,
+                "column": 9,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 52,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 431,
+                "column": 14,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 52,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 170,
+                "column": 9,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 20,
+            "callee": 17
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 396,
+                "column": 9,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 3,
+            "callee": 0
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 396,
+                "column": 14,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 3,
+            "callee": 32
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 133,
+                "column": 40,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 53,
+            "callee": 54
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 133,
+                "column": 40,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 53,
+            "callee": 55
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 153,
+                "column": 34,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 56,
+            "callee": 57
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 154,
+                "column": 21,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 56,
+            "callee": 58
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 148,
+                "column": 29,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 56,
+            "callee": 59
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 148,
+                "column": 29,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 56,
+            "callee": 60
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 154,
+                "column": 31,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 56,
+            "callee": 57
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 96,
+                "column": 17,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 61,
+            "callee": 62
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 108,
+                "column": 17,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 61,
+            "callee": 53
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 102,
+                "column": 21,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 61,
+            "callee": 63
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 111,
+                "column": 45,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 61,
+            "callee": 64
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 96,
+                "column": 17,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 61,
+            "callee": 65
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 120,
+                "column": 21,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 61,
+            "callee": 65
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 126,
+                "column": 17,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 61,
+            "callee": 66
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 95,
+                "column": 38,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 61,
+            "callee": 67
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 125,
+                "column": 17,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 61,
+            "callee": 68
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 102,
+                "column": 62,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 61,
+            "callee": 69
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 118,
+                "column": 38,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 61,
+            "callee": 70
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 100,
+                "column": 21,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 61,
+            "callee": 63
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 87,
+                "column": 28,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 61,
+            "callee": 71
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 97,
+                "column": 86,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 61,
+            "callee": 72
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 97,
+                "column": 86,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 61,
+            "callee": 73
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 113,
+                "column": 21,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 61,
+            "callee": 74
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 109,
+                "column": 17,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 61,
+            "callee": 65
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 85,
+                "column": 9,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 61,
+            "callee": 75
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 120,
+                "column": 21,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 61,
+            "callee": 62
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 126,
+                "column": 34,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 61,
+            "callee": 76
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 98,
+                "column": 74,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 61,
+            "callee": 56
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 90,
+                "column": 13,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 61,
+            "callee": 77
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 128,
+                "column": 13,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 61,
+            "callee": 78
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 110,
+                "column": 17,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 61,
+            "callee": 79
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 98,
+                "column": 26,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 61,
+            "callee": 80
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 115,
+                "column": 21,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 61,
+            "callee": 81
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 91,
+                "column": 38,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 61,
+            "callee": 82
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 106,
+                "column": 13,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 61,
+            "callee": 83
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 93,
+                "column": 17,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 61,
+            "callee": 84
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 95,
+                "column": 67,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 61,
+            "callee": 85
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 88,
+                "column": 34,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 61,
+            "callee": 86
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 91,
+                "column": 71,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 61,
+            "callee": 87
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 100,
+                "column": 62,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 61,
+            "callee": 88
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 95,
+                "column": 67,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 61,
+            "callee": 54
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 111,
+                "column": 66,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 61,
+            "callee": 76
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 109,
+                "column": 17,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 61,
+            "callee": 62
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 122,
+                "column": 21,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 61,
+            "callee": 89
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 88,
+                "column": 34,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 61,
+            "callee": 90
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 379,
+                "column": 23,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 31,
+            "callee": 8
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 511,
+                "column": 16,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 91,
+            "callee": 92
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 417,
+                "column": 9,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 93,
+            "callee": 36
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 440,
+                "column": 32,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 1,
+            "callee": 94
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 434,
+                "column": 5,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 1,
+            "callee": 95
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 448,
+                "column": 20,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 1,
+            "callee": 94
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 436,
+                "column": 19,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 1,
+            "callee": 96
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 444,
+                "column": 20,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 1,
+            "callee": 94
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 435,
+                "column": 13,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 1,
+            "callee": 92
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 446,
+                "column": 13,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 1,
+            "callee": 97
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 450,
+                "column": 13,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 1,
+            "callee": 97
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 459,
+                "column": 9,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 1,
+            "callee": 98
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 439,
+                "column": 32,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 1,
+            "callee": 38
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 455,
+                "column": 96,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 1,
+            "callee": 19
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 442,
+                "column": 13,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 1,
+            "callee": 97
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 460,
+                "column": 9,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 1,
+            "callee": 40
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 455,
+                "column": 64,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 1,
+            "callee": 99
+        },
+        {
+            "callSite": {
+                "filename": "HTTPServer.java",
+                "line": 456,
+                "column": 13,
+                "directory": "src/main/java/io/prometheus/client/exporter"
+            },
+            "caller": 1,
+            "callee": 100
+        }
+    ],
+    "language": "java",
+    "packages": [{
+        "path": "io.prometheus.client.exporter",
+        "isRoot": false,
+        "module": -1,
+        "name": "exporter",
+        "isStandardLibrary": false
+    }],
+    "modules": []
+}
