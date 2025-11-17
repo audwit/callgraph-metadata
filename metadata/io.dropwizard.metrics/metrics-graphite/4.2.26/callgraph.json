@@ -1,0 +1,5229 @@
+{
+    "functions": [
+        {
+            "parameterTypes": ["InetSocketAddress"],
+            "templateArguments": [],
+            "function": "PickledGraphite",
+            "name": "com.codahale.metrics.graphite.PickledGraphite#PickledGraphite(InetSocketAddress)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "PickledGraphite",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "com.codahale.metrics.graphite.PickledGraphite.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "PickledGraphite",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [
+                "InetSocketAddress",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "PickledGraphite",
+            "name": "com.codahale.metrics.graphite.PickledGraphite#PickledGraphite(InetSocketAddress,int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "PickledGraphite",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String",
+                "long"
+            ],
+            "templateArguments": [],
+            "function": "send",
+            "name": "com.codahale.metrics.graphite.GraphiteUDP#send(String,String,long)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GraphiteUDP",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "sanitize",
+            "name": "com.codahale.metrics.graphite.GraphiteUDP#sanitize(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GraphiteUDP",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["byte[]"],
+            "templateArguments": [],
+            "function": "wrap",
+            "name": "java.nio.ByteBuffer.wrap(byte[])",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.nio.ByteBuffer",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "ByteBuffer",
+                "InetSocketAddress"
+            ],
+            "templateArguments": [],
+            "function": "send",
+            "name": "java.nio.channels.DatagramChannel#send(ByteBuffer,InetSocketAddress)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.nio.channels.DatagramChannel",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["MetricRegistry"],
+            "templateArguments": [],
+            "function": "forRegistry",
+            "name": "com.codahale.metrics.graphite.GraphiteReporter.forRegistry(MetricRegistry)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GraphiteReporter",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["MetricRegistry"],
+            "templateArguments": [],
+            "function": "Builder",
+            "name": "com.codahale.metrics.graphite.GraphiteReporter.Builder#Builder(MetricRegistry)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GraphiteReporter.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Class<PickledGraphite>"],
+            "templateArguments": [],
+            "function": "getLogger",
+            "name": "org.slf4j.LoggerFactory.getLogger(Class)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.slf4j.LoggerFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "MetricAttribute",
+                "String",
+                "long",
+                "long"
+            ],
+            "templateArguments": [],
+            "function": "sendIfEnabled",
+            "name": "com.codahale.metrics.graphite.GraphiteReporter#sendIfEnabled(MetricAttribute,String,long,long)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GraphiteReporter",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "prefix",
+            "name": "com.codahale.metrics.graphite.GraphiteReporter#prefix(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GraphiteReporter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "appendMetricAttribute",
+            "name": "com.codahale.metrics.graphite.GraphiteReporter#appendMetricAttribute(String,String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GraphiteReporter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String",
+                "long"
+            ],
+            "templateArguments": [],
+            "function": "send",
+            "name": "com.codahale.metrics.graphite.PickledGraphite#send(String,String,long)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "PickledGraphite",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String",
+                "long"
+            ],
+            "templateArguments": [],
+            "function": "send",
+            "name": "com.codahale.metrics.graphite.Graphite#send(String,String,long)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Graphite",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String",
+                "long"
+            ],
+            "templateArguments": [],
+            "function": "send",
+            "name": "com.codahale.metrics.graphite.GraphiteRabbitMQ#send(String,String,long)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GraphiteRabbitMQ",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["long"],
+            "templateArguments": [],
+            "function": "format",
+            "name": "com.codahale.metrics.graphite.GraphiteReporter#format(long)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GraphiteReporter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getCode",
+            "name": "com.codahale.metrics.MetricAttribute#getCode()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.codahale.metrics.MetricAttribute",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "emptySet",
+            "name": "java.util.Collections.emptySet()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Collections",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "defaultClock",
+            "name": "com.codahale.metrics.Clock.defaultClock()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.codahale.metrics.Clock",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "com.codahale.metrics.graphite.GraphiteReporter.Builder.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GraphiteReporter.Builder",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "com.codahale.metrics.graphite.GraphiteReporter.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GraphiteReporter",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "int",
+                "SocketFactory",
+                "Charset"
+            ],
+            "templateArguments": [],
+            "function": "Graphite",
+            "name": "com.codahale.metrics.graphite.Graphite#Graphite(String,int,SocketFactory,Charset)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Graphite",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "com.codahale.metrics.graphite.Graphite.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Graphite",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "IllegalArgumentException",
+            "name": "java.lang.IllegalArgumentException#IllegalArgumentException(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.lang.IllegalArgumentException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String",
+                "null",
+                "byte[]"
+            ],
+            "templateArguments": [],
+            "function": "basicPublish",
+            "name": "com.rabbitmq.client.Channel#basicPublish(String,String,null,byte[])",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.rabbitmq.client.Channel",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "sanitize",
+            "name": "com.codahale.metrics.graphite.GraphiteRabbitMQ#sanitize(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GraphiteRabbitMQ",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "isConnected",
+            "name": "com.codahale.metrics.graphite.GraphiteRabbitMQ#isConnected()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GraphiteRabbitMQ",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "isOpen",
+            "name": "com.rabbitmq.client.Connection#isOpen()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.rabbitmq.client.Connection",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "InetSocketAddress",
+                "SocketFactory",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "PickledGraphite",
+            "name": "com.codahale.metrics.graphite.PickledGraphite#PickledGraphite(InetSocketAddress,SocketFactory,int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "PickledGraphite",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "InetSocketAddress",
+                "SocketFactory",
+                "Charset",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "PickledGraphite",
+            "name": "com.codahale.metrics.graphite.PickledGraphite#PickledGraphite(InetSocketAddress,SocketFactory,Charset,int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "PickledGraphite",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["char"],
+            "templateArguments": [],
+            "function": "write",
+            "name": "java.io.Writer#write(char)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.Writer",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "write",
+            "name": "java.io.Writer#write(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.Writer",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "sanitize",
+            "name": "com.codahale.metrics.graphite.Graphite#sanitize(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Graphite",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["double"],
+            "templateArguments": [],
+            "function": "format",
+            "name": "com.codahale.metrics.graphite.GraphiteReporter#format(double)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GraphiteReporter",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["double"],
+            "templateArguments": [],
+            "function": "apply",
+            "name": "java.util.function.DoubleFunction#apply(double)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.function.DoubleFunction",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "close",
+            "name": "com.codahale.metrics.graphite.GraphiteUDP#close()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GraphiteUDP",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "close",
+            "name": "java.nio.channels.DatagramChannel#close()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.nio.channels.DatagramChannel",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "com.codahale.metrics.graphite.PickledGraphite.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "PickledGraphite",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "java.util.ArrayList.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.ArrayList",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "ArrayList",
+            "name": "java.util.ArrayList#ArrayList()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.ArrayList",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "close",
+            "name": "com.codahale.metrics.graphite.PickledGraphite#close()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "PickledGraphite",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "close",
+            "name": "java.net.Socket#close()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.net.Socket",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "flush",
+            "name": "com.codahale.metrics.graphite.PickledGraphite#flush()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "PickledGraphite",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "close",
+            "name": "java.io.Writer#close()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.Writer",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "connect",
+            "name": "com.codahale.metrics.graphite.GraphiteUDP#connect()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GraphiteUDP",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "getByName",
+            "name": "java.net.InetAddress.getByName(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.net.InetAddress",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "InetAddress",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "InetSocketAddress",
+            "name": "java.net.InetSocketAddress#InetSocketAddress(InetAddress,int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.net.InetSocketAddress",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "IllegalStateException",
+            "name": "org.springframework.jms.IllegalStateException#IllegalStateException(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.springframework.jms.IllegalStateException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "open",
+            "name": "java.nio.channels.DatagramChannel.open()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.nio.channels.DatagramChannel",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "isConnected",
+            "name": "com.codahale.metrics.graphite.GraphiteUDP#isConnected()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GraphiteUDP",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "sanitize",
+            "name": "com.codahale.metrics.graphite.PickledGraphite#sanitize(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "PickledGraphite",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["MetricTuple"],
+            "templateArguments": [],
+            "function": "add",
+            "name": "java.util.List#add(MetricTuple)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.List",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "size",
+            "name": "java.util.List#size()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.List",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "long",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "MetricTuple",
+            "name": "com.codahale.metrics.graphite.PickledGraphite.MetricTuple#MetricTuple(String,long,String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "PickledGraphite.MetricTuple",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "writeMetrics",
+            "name": "com.codahale.metrics.graphite.PickledGraphite#writeMetrics()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "PickledGraphite",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "close",
+            "name": "com.codahale.metrics.graphite.Graphite#close()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Graphite",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "IOException"
+            ],
+            "templateArguments": [],
+            "function": "debug",
+            "name": "org.slf4j.Logger#debug(String,IOException)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.slf4j.Logger",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "com.codahale.metrics.graphite.Graphite.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Graphite",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "sanitize",
+            "name": "com.codahale.metrics.graphite.GraphiteSanitize.sanitize(String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GraphiteSanitize",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "com.codahale.metrics.graphite.GraphiteSanitize.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GraphiteSanitize",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "matcher",
+            "name": "java.util.regex.Pattern#matcher(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.regex.Pattern",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "replaceAll",
+            "name": "Matcher#replaceAll(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "Matcher",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "ConnectionFactory",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "GraphiteRabbitMQ",
+            "name": "com.codahale.metrics.graphite.GraphiteRabbitMQ#GraphiteRabbitMQ(ConnectionFactory,String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GraphiteRabbitMQ",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "com.codahale.metrics.graphite.GraphiteRabbitMQ.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GraphiteRabbitMQ",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "InetSocketAddress",
+                "SocketFactory"
+            ],
+            "templateArguments": [],
+            "function": "Graphite",
+            "name": "com.codahale.metrics.graphite.Graphite#Graphite(InetSocketAddress,SocketFactory)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Graphite",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "InetSocketAddress",
+                "SocketFactory",
+                "Charset"
+            ],
+            "templateArguments": [],
+            "function": "Graphite",
+            "name": "com.codahale.metrics.graphite.Graphite#Graphite(InetSocketAddress,SocketFactory,Charset)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Graphite",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Counter",
+                "long"
+            ],
+            "templateArguments": [],
+            "function": "reportCounter",
+            "name": "com.codahale.metrics.graphite.GraphiteReporter#reportCounter(String,Counter,long)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GraphiteReporter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getCount",
+            "name": "com.codahale.metrics.Counter#getCount()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.codahale.metrics.Counter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getCode",
+            "name": "com.codahale.metrics.MetricAttribute.COUNT.getCode()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.codahale.metrics.MetricAttribute.COUNT",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "SortedMap<String, Gauge>",
+                "SortedMap<String, Counter>",
+                "SortedMap<String, Histogram>",
+                "SortedMap<String, Meter>",
+                "SortedMap<String, Timer>"
+            ],
+            "templateArguments": [],
+            "function": "report",
+            "name": "com.codahale.metrics.graphite.GraphiteReporter#report(SortedMap,SortedMap,SortedMap,SortedMap,SortedMap)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GraphiteReporter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getKey",
+            "name": "java.util.Map.Entry#getKey()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map.Entry",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Histogram",
+                "long"
+            ],
+            "templateArguments": [],
+            "function": "reportHistogram",
+            "name": "com.codahale.metrics.graphite.GraphiteReporter#reportHistogram(String,Histogram,long)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GraphiteReporter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getValue",
+            "name": "java.util.Map.Entry#getValue()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.Map.Entry",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "GraphiteSender",
+                "IOException"
+            ],
+            "templateArguments": [],
+            "function": "warn",
+            "name": "org.slf4j.Logger#warn(String,GraphiteSender,IOException)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.slf4j.Logger",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "flush",
+            "name": "com.codahale.metrics.graphite.Graphite#flush()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Graphite",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "flush",
+            "name": "com.codahale.metrics.graphite.GraphiteRabbitMQ#flush()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GraphiteRabbitMQ",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "flush",
+            "name": "com.codahale.metrics.graphite.GraphiteUDP#flush()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GraphiteUDP",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Timer",
+                "long"
+            ],
+            "templateArguments": [],
+            "function": "reportTimer",
+            "name": "com.codahale.metrics.graphite.GraphiteReporter#reportTimer(String,Timer,long)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GraphiteReporter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "entrySet",
+            "name": "java.util.SortedMap#entrySet()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.SortedMap",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Metered",
+                "long"
+            ],
+            "templateArguments": [],
+            "function": "reportMetered",
+            "name": "com.codahale.metrics.graphite.GraphiteReporter#reportMetered(String,Metered,long)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GraphiteReporter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "connect",
+            "name": "com.codahale.metrics.graphite.Graphite#connect()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Graphite",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "connect",
+            "name": "com.codahale.metrics.graphite.GraphiteRabbitMQ#connect()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GraphiteRabbitMQ",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "connect",
+            "name": "com.codahale.metrics.graphite.PickledGraphite#connect()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "PickledGraphite",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getTime",
+            "name": "com.codahale.metrics.Clock#getTime()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.codahale.metrics.Clock",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Gauge<?>",
+                "long"
+            ],
+            "templateArguments": [],
+            "function": "reportGauge",
+            "name": "com.codahale.metrics.graphite.GraphiteReporter#reportGauge(String,Gauge,long)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GraphiteReporter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "clear",
+            "name": "java.util.List#clear()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.List",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getOutputStream",
+            "name": "java.net.Socket#getOutputStream()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.net.Socket",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "debug",
+            "name": "org.slf4j.Logger#debug(String,int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.slf4j.Logger",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "flush",
+            "name": "java.io.OutputStream#flush()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.OutputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["byte[]"],
+            "templateArguments": [],
+            "function": "write",
+            "name": "java.io.OutputStream#write(byte[])",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.OutputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "isDebugEnabled",
+            "name": "org.slf4j.Logger#isDebugEnabled()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.slf4j.Logger",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "array",
+            "name": "ByteBuffer#array()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "ByteBuffer",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "allocate",
+            "name": "java.nio.ByteBuffer.allocate(int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.nio.ByteBuffer",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "putInt",
+            "name": "ByteBuffer#putInt(int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "ByteBuffer",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["List<MetricTuple>"],
+            "templateArguments": [],
+            "function": "pickleMetrics",
+            "name": "com.codahale.metrics.graphite.PickledGraphite#pickleMetrics(List)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "PickledGraphite",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "int",
+                "SocketFactory",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "PickledGraphite",
+            "name": "com.codahale.metrics.graphite.PickledGraphite#PickledGraphite(String,int,SocketFactory,int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "PickledGraphite",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "int",
+                "SocketFactory",
+                "Charset",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "PickledGraphite",
+            "name": "com.codahale.metrics.graphite.PickledGraphite#PickledGraphite(String,int,SocketFactory,Charset,int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "PickledGraphite",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "OutputStream",
+                "Charset"
+            ],
+            "templateArguments": [],
+            "function": "OutputStreamWriter",
+            "name": "java.io.OutputStreamWriter#OutputStreamWriter(OutputStream,Charset)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.OutputStreamWriter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getAddress",
+            "name": "java.net.InetSocketAddress#getAddress()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.net.InetSocketAddress",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "isConnected",
+            "name": "com.codahale.metrics.graphite.Graphite#isConnected()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Graphite",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "InetSocketAddress",
+            "name": "java.net.InetSocketAddress#InetSocketAddress(String,int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.net.InetSocketAddress",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["OutputStreamWriter"],
+            "templateArguments": [],
+            "function": "BufferedWriter",
+            "name": "java.io.BufferedWriter#BufferedWriter(OutputStreamWriter)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.BufferedWriter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getHostName",
+            "name": "java.net.InetSocketAddress#getHostName()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.net.InetSocketAddress",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "InetAddress",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "createSocket",
+            "name": "javax.net.SocketFactory#createSocket(InetAddress,int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "javax.net.SocketFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getPort",
+            "name": "java.net.InetSocketAddress#getPort()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.net.InetSocketAddress",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "UnknownHostException",
+            "name": "java.net.UnknownHostException#UnknownHostException(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.net.UnknownHostException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "MetricAttribute",
+                "String",
+                "double",
+                "long"
+            ],
+            "templateArguments": [],
+            "function": "sendIfEnabled",
+            "name": "com.codahale.metrics.graphite.GraphiteReporter#sendIfEnabled(MetricAttribute,String,double,long)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GraphiteReporter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getFifteenMinuteRate",
+            "name": "com.codahale.metrics.Metered#getFifteenMinuteRate()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.codahale.metrics.Metered",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getOneMinuteRate",
+            "name": "com.codahale.metrics.Metered#getOneMinuteRate()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.codahale.metrics.Metered",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getCount",
+            "name": "com.codahale.metrics.Metered#getCount()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.codahale.metrics.Metered",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getMeanRate",
+            "name": "com.codahale.metrics.Metered#getMeanRate()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.codahale.metrics.Metered",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getFiveMinuteRate",
+            "name": "com.codahale.metrics.Metered#getFiveMinuteRate()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.codahale.metrics.Metered",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "isClosed",
+            "name": "java.net.Socket#isClosed()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.net.Socket",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "isConnected",
+            "name": "java.net.Socket#isConnected()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.net.Socket",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "MetricRegistry",
+                "GraphiteSender",
+                "Clock",
+                "String",
+                "TimeUnit",
+                "TimeUnit",
+                "MetricFilter",
+                "ScheduledExecutorService",
+                "boolean",
+                "Set<MetricAttribute>",
+                "boolean",
+                "DoubleFunction<String>"
+            ],
+            "templateArguments": [],
+            "function": "GraphiteReporter",
+            "name": "com.codahale.metrics.graphite.GraphiteReporter#GraphiteReporter(MetricRegistry,GraphiteSender,Clock,String,TimeUnit,TimeUnit,MetricFilter,ScheduledExecutorService,boolean,Set,boolean,DoubleFunction)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GraphiteReporter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "MetricRegistry",
+                "String",
+                "MetricFilter",
+                "TimeUnit",
+                "TimeUnit",
+                "ScheduledExecutorService",
+                "boolean",
+                "Set<MetricAttribute>"
+            ],
+            "templateArguments": [],
+            "function": "ScheduledReporter",
+            "name": "com.codahale.metrics.ScheduledReporter#ScheduledReporter(MetricRegistry,String,MetricFilter,TimeUnit,TimeUnit,ScheduledExecutorService,boolean,Set)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.codahale.metrics.ScheduledReporter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "com.codahale.metrics.graphite.GraphiteReporter.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GraphiteReporter",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "int",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "PickledGraphite",
+            "name": "com.codahale.metrics.graphite.PickledGraphite#PickledGraphite(String,int,int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "PickledGraphite",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getDefault",
+            "name": "javax.net.SocketFactory.getDefault()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "javax.net.SocketFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["char"],
+            "templateArguments": [],
+            "function": "append",
+            "name": "java.io.Writer#append(char)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.Writer",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "append",
+            "name": "java.io.Writer#append(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.Writer",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "toByteArray",
+            "name": "java.io.ByteArrayOutputStream#toByteArray()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.ByteArrayOutputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "ByteArrayOutputStream",
+            "name": "java.io.ByteArrayOutputStream#ByteArrayOutputStream(int)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.ByteArrayOutputStream",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "ByteArrayOutputStream",
+                "Charset"
+            ],
+            "templateArguments": [],
+            "function": "OutputStreamWriter",
+            "name": "java.io.OutputStreamWriter#OutputStreamWriter(ByteArrayOutputStream,Charset)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.OutputStreamWriter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "flush",
+            "name": "java.io.Writer#flush()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.io.Writer",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Class<Graphite>"],
+            "templateArguments": [],
+            "function": "getLogger",
+            "name": "org.slf4j.LoggerFactory.getLogger(Class)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.slf4j.LoggerFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Integer",
+                "String",
+                "String",
+                "String",
+                "Integer",
+                "Integer",
+                "Integer"
+            ],
+            "templateArguments": [],
+            "function": "GraphiteRabbitMQ",
+            "name": "com.codahale.metrics.graphite.GraphiteRabbitMQ#GraphiteRabbitMQ(String,Integer,String,String,String,Integer,Integer,Integer)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GraphiteRabbitMQ",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Integer"],
+            "templateArguments": [],
+            "function": "setRequestedHeartbeat",
+            "name": "com.rabbitmq.client.ConnectionFactory#setRequestedHeartbeat(Integer)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.rabbitmq.client.ConnectionFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "com.codahale.metrics.graphite.GraphiteRabbitMQ#GraphiteRabbitMQ(String,Integer,String,String,String,Integer,Integer,Integer)$DefaultSocketConfigurator$1.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GraphiteRabbitMQ#GraphiteRabbitMQ(String,Integer,String,String,String,Integer,Integer,Integer)$DefaultSocketConfigurator$1",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "setUsername",
+            "name": "com.rabbitmq.client.ConnectionFactory#setUsername(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.rabbitmq.client.ConnectionFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "setPassword",
+            "name": "com.rabbitmq.client.ConnectionFactory#setPassword(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.rabbitmq.client.ConnectionFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "setHost",
+            "name": "com.rabbitmq.client.ConnectionFactory#setHost(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.rabbitmq.client.ConnectionFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "ConnectionFactory",
+            "name": "com.rabbitmq.client.ConnectionFactory#ConnectionFactory()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.rabbitmq.client.ConnectionFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "com.rabbitmq.client.ConnectionFactory.<init>()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.rabbitmq.client.ConnectionFactory",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["Integer"],
+            "templateArguments": [],
+            "function": "setPort",
+            "name": "com.rabbitmq.client.ConnectionFactory#setPort(Integer)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.rabbitmq.client.ConnectionFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Integer"],
+            "templateArguments": [],
+            "function": "setConnectionTimeout",
+            "name": "com.rabbitmq.client.ConnectionFactory#setConnectionTimeout(Integer)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.rabbitmq.client.ConnectionFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["ANON__OR__TYPE$DefaultSocketConfigurator"],
+            "templateArguments": [],
+            "function": "setSocketConfigurator",
+            "name": "com.rabbitmq.client.ConnectionFactory#setSocketConfigurator(ANON__OR__TYPE$DefaultSocketConfigurator)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.rabbitmq.client.ConnectionFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Socket"],
+            "templateArguments": [],
+            "function": "configure",
+            "name": "com.codahale.metrics.graphite.GraphiteRabbitMQ#GraphiteRabbitMQ(String,Integer,String,String,String,Integer,Integer,Integer)$DefaultSocketConfigurator$1#configure(Socket)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GraphiteRabbitMQ#GraphiteRabbitMQ(String,Integer,String,String,String,Integer,Integer,Integer)$DefaultSocketConfigurator$1",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Socket"],
+            "templateArguments": [],
+            "function": "configure",
+            "name": "com.rabbitmq.client.DefaultSocketConfigurator#configure(Socket)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.rabbitmq.client.DefaultSocketConfigurator",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Integer"],
+            "templateArguments": [],
+            "function": "setSoTimeout",
+            "name": "java.net.Socket#setSoTimeout(Integer)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.net.Socket",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "get98thPercentile",
+            "name": "com.codahale.metrics.Snapshot#get98thPercentile()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.codahale.metrics.Snapshot",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getSnapshot",
+            "name": "com.codahale.metrics.Histogram#getSnapshot()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.codahale.metrics.Histogram",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getCount",
+            "name": "com.codahale.metrics.Histogram#getCount()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.codahale.metrics.Histogram",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getMedian",
+            "name": "com.codahale.metrics.Snapshot#getMedian()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.codahale.metrics.Snapshot",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "get99thPercentile",
+            "name": "com.codahale.metrics.Snapshot#get99thPercentile()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.codahale.metrics.Snapshot",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "get75thPercentile",
+            "name": "com.codahale.metrics.Snapshot#get75thPercentile()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.codahale.metrics.Snapshot",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getMean",
+            "name": "com.codahale.metrics.Snapshot#getMean()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.codahale.metrics.Snapshot",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getMax",
+            "name": "com.codahale.metrics.Snapshot#getMax()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.codahale.metrics.Snapshot",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getStdDev",
+            "name": "com.codahale.metrics.Snapshot#getStdDev()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.codahale.metrics.Snapshot",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getMin",
+            "name": "com.codahale.metrics.Snapshot#getMin()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.codahale.metrics.Snapshot",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "get999thPercentile",
+            "name": "com.codahale.metrics.Snapshot#get999thPercentile()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.codahale.metrics.Snapshot",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "get95thPercentile",
+            "name": "com.codahale.metrics.Snapshot#get95thPercentile()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.codahale.metrics.Snapshot",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["GraphiteSender"],
+            "templateArguments": [],
+            "function": "build",
+            "name": "com.codahale.metrics.graphite.GraphiteReporter.Builder#build(GraphiteSender)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GraphiteReporter.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getSnapshot",
+            "name": "com.codahale.metrics.Timer#getSnapshot()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.codahale.metrics.Timer",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "GraphiteUDP",
+            "name": "com.codahale.metrics.graphite.GraphiteUDP#GraphiteUDP(String,int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GraphiteUDP",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "com.codahale.metrics.graphite.GraphiteUDP.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GraphiteUDP",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["InetSocketAddress"],
+            "templateArguments": [],
+            "function": "GraphiteUDP",
+            "name": "com.codahale.metrics.graphite.GraphiteUDP#GraphiteUDP(InetSocketAddress)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GraphiteUDP",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["InetSocketAddress"],
+            "templateArguments": [],
+            "function": "Graphite",
+            "name": "com.codahale.metrics.graphite.Graphite#Graphite(InetSocketAddress)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Graphite",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "name",
+            "name": "com.codahale.metrics.MetricRegistry.name(String,String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.codahale.metrics.MetricRegistry",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Class<GraphiteReporter>"],
+            "templateArguments": [],
+            "function": "getLogger",
+            "name": "org.slf4j.LoggerFactory.getLogger(Class)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.slf4j.LoggerFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Graphite"],
+            "templateArguments": [],
+            "function": "build",
+            "name": "com.codahale.metrics.graphite.GraphiteReporter.Builder#build(Graphite)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GraphiteReporter.Builder",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "Graphite",
+            "name": "com.codahale.metrics.graphite.Graphite#Graphite(String,int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Graphite",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "int",
+                "SocketFactory"
+            ],
+            "templateArguments": [],
+            "function": "Graphite",
+            "name": "com.codahale.metrics.graphite.Graphite#Graphite(String,int,SocketFactory)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "Graphite",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "Integer",
+                "String",
+                "String",
+                "String"
+            ],
+            "templateArguments": [],
+            "function": "GraphiteRabbitMQ",
+            "name": "com.codahale.metrics.graphite.GraphiteRabbitMQ#GraphiteRabbitMQ(String,Integer,String,String,String)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GraphiteRabbitMQ",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<staticinit>",
+            "name": "com.codahale.metrics.graphite.GraphiteRabbitMQ.<staticinit>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GraphiteRabbitMQ",
+            "properties": ["static initializer"]
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "createChannel",
+            "name": "com.rabbitmq.client.Connection#createChannel()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.rabbitmq.client.Connection",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["TimeoutException"],
+            "templateArguments": [],
+            "function": "IllegalStateException",
+            "name": "org.springframework.jms.IllegalStateException#IllegalStateException(TimeoutException)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.springframework.jms.IllegalStateException",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "newConnection",
+            "name": "com.rabbitmq.client.ConnectionFactory#newConnection()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.rabbitmq.client.ConnectionFactory",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "format",
+            "name": "com.codahale.metrics.graphite.GraphiteReporter#format(Object)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GraphiteReporter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "<init>",
+            "name": "com.codahale.metrics.graphite.PickledGraphite.MetricTuple.<init>()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "PickledGraphite.MetricTuple",
+            "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": ["String"],
+            "templateArguments": [],
+            "function": "compile",
+            "name": "java.util.regex.Pattern.compile(String)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.util.regex.Pattern",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "isConnected",
+            "name": "com.codahale.metrics.graphite.PickledGraphite#isConnected()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "PickledGraphite",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "MetricRegistry",
+                "GraphiteSender",
+                "Clock",
+                "String",
+                "TimeUnit",
+                "TimeUnit",
+                "MetricFilter",
+                "ScheduledExecutorService",
+                "boolean",
+                "Set<MetricAttribute>",
+                "boolean"
+            ],
+            "templateArguments": [],
+            "function": "GraphiteReporter",
+            "name": "com.codahale.metrics.graphite.GraphiteReporter#GraphiteReporter(MetricRegistry,GraphiteSender,Clock,String,TimeUnit,TimeUnit,MetricFilter,ScheduledExecutorService,boolean,Set,boolean)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GraphiteReporter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "PickledGraphite",
+            "name": "com.codahale.metrics.graphite.PickledGraphite#PickledGraphite(String,int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "PickledGraphite",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "stop",
+            "name": "com.codahale.metrics.graphite.GraphiteReporter#stop()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GraphiteReporter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "stop",
+            "name": "com.codahale.metrics.ScheduledReporter#stop()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.codahale.metrics.ScheduledReporter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "String",
+                "GraphiteSender",
+                "IOException"
+            ],
+            "templateArguments": [],
+            "function": "debug",
+            "name": "org.slf4j.Logger#debug(String,GraphiteSender,IOException)",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "org.slf4j.Logger",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "close",
+            "name": "com.codahale.metrics.graphite.GraphiteRabbitMQ#close()",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GraphiteRabbitMQ",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "close",
+            "name": "com.rabbitmq.client.Connection#close()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.rabbitmq.client.Connection",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "MetricRegistry",
+                "GraphiteSender",
+                "Clock",
+                "String",
+                "TimeUnit",
+                "TimeUnit",
+                "MetricFilter",
+                "ScheduledExecutorService",
+                "boolean",
+                "Set<MetricAttribute>"
+            ],
+            "templateArguments": [],
+            "function": "GraphiteReporter",
+            "name": "com.codahale.metrics.graphite.GraphiteReporter#GraphiteReporter(MetricRegistry,GraphiteSender,Clock,String,TimeUnit,TimeUnit,MetricFilter,ScheduledExecutorService,boolean,Set)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "GraphiteReporter",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "getValue",
+            "name": "com.codahale.metrics.Gauge#getValue()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "com.codahale.metrics.Gauge",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "socket",
+            "name": "java.nio.channels.DatagramChannel#socket()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "java.nio.channels.DatagramChannel",
+            "properties": []
+        },
+        {
+            "parameterTypes": [],
+            "templateArguments": [],
+            "function": "isClosed",
+            "name": "DatagramSocket#isClosed()",
+            "packageIndex": -1,
+            "language": "java",
+            "type": "DatagramSocket",
+            "properties": []
+        }
+    ],
+    "calls": [
+        {
+            "callSite": {
+                "filename": "PickledGraphite.java",
+                "line": 72,
+                "column": 5,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 0,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "PickledGraphite.java",
+                "line": 79,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 0,
+            "callee": 2
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteUDP.java",
+                "line": 68,
+                "column": 26,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 3,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteUDP.java",
+                "line": 69,
+                "column": 37,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 3,
+            "callee": 5
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteUDP.java",
+                "line": 68,
+                "column": 49,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 3,
+            "callee": 4
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteUDP.java",
+                "line": 70,
+                "column": 13,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 3,
+            "callee": 6
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 57,
+                "column": 16,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 7,
+            "callee": 8
+        },
+        {
+            "callSite": {
+                "filename": "PickledGraphite.java",
+                "line": 55,
+                "column": 42,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 1,
+            "callee": 9
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 469,
+                "column": 23,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 10,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 469,
+                "column": 30,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 10,
+            "callee": 12
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 469,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 10,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 469,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 10,
+            "callee": 13
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 469,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 10,
+            "callee": 14
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 469,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 10,
+            "callee": 15
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 469,
+                "column": 76,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 10,
+            "callee": 16
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 469,
+                "column": 58,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 10,
+            "callee": 17
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 87,
+                "column": 45,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 8,
+            "callee": 18
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 80,
+                "column": 26,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 8,
+            "callee": 19
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 78,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 8,
+            "callee": 20
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 78,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 8,
+            "callee": 21
+        },
+        {
+            "callSite": {
+                "filename": "Graphite.java",
+                "line": 59,
+                "column": 5,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 22,
+            "callee": 23
+        },
+        {
+            "callSite": {
+                "filename": "Graphite.java",
+                "line": 70,
+                "column": 19,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 22,
+            "callee": 24
+        },
+        {
+            "callSite": {
+                "filename": "Graphite.java",
+                "line": 74,
+                "column": 19,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 22,
+            "callee": 24
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteRabbitMQ.java",
+                "line": 135,
+                "column": 13,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 15,
+            "callee": 25
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteRabbitMQ.java",
+                "line": 131,
+                "column": 42,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 15,
+            "callee": 26
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteRabbitMQ.java",
+                "line": 132,
+                "column": 43,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 15,
+            "callee": 26
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteRabbitMQ.java",
+                "line": 125,
+                "column": 38,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 27,
+            "callee": 28
+        },
+        {
+            "callSite": {
+                "filename": "PickledGraphite.java",
+                "line": 100,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 29,
+            "callee": 30
+        },
+        {
+            "callSite": {
+                "filename": "Graphite.java",
+                "line": 153,
+                "column": 13,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 14,
+            "callee": 31
+        },
+        {
+            "callSite": {
+                "filename": "Graphite.java",
+                "line": 155,
+                "column": 13,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 14,
+            "callee": 31
+        },
+        {
+            "callSite": {
+                "filename": "Graphite.java",
+                "line": 150,
+                "column": 13,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 14,
+            "callee": 32
+        },
+        {
+            "callSite": {
+                "filename": "Graphite.java",
+                "line": 152,
+                "column": 26,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 14,
+            "callee": 33
+        },
+        {
+            "callSite": {
+                "filename": "Graphite.java",
+                "line": 151,
+                "column": 13,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 14,
+            "callee": 31
+        },
+        {
+            "callSite": {
+                "filename": "Graphite.java",
+                "line": 154,
+                "column": 13,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 14,
+            "callee": 32
+        },
+        {
+            "callSite": {
+                "filename": "Graphite.java",
+                "line": 152,
+                "column": 13,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 14,
+            "callee": 32
+        },
+        {
+            "callSite": {
+                "filename": "Graphite.java",
+                "line": 150,
+                "column": 26,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 14,
+            "callee": 33
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 520,
+                "column": 16,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 34,
+            "callee": 35
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteUDP.java",
+                "line": 92,
+                "column": 17,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 36,
+            "callee": 37
+        },
+        {
+            "callSite": {
+                "filename": "PickledGraphite.java",
+                "line": 60,
+                "column": 41,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 38,
+            "callee": 39
+        },
+        {
+            "callSite": {
+                "filename": "PickledGraphite.java",
+                "line": 60,
+                "column": 41,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 38,
+            "callee": 40
+        },
+        {
+            "callSite": {
+                "filename": "PickledGraphite.java",
+                "line": 232,
+                "column": 17,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 41,
+            "callee": 42
+        },
+        {
+            "callSite": {
+                "filename": "PickledGraphite.java",
+                "line": 226,
+                "column": 13,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 41,
+            "callee": 43
+        },
+        {
+            "callSite": {
+                "filename": "PickledGraphite.java",
+                "line": 228,
+                "column": 17,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 41,
+            "callee": 44
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteUDP.java",
+                "line": 54,
+                "column": 45,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 45,
+            "callee": 46
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteUDP.java",
+                "line": 54,
+                "column": 23,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 45,
+            "callee": 47
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteUDP.java",
+                "line": 49,
+                "column": 19,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 45,
+            "callee": 48
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteUDP.java",
+                "line": 57,
+                "column": 27,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 45,
+            "callee": 49
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteUDP.java",
+                "line": 48,
+                "column": 13,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 45,
+            "callee": 50
+        },
+        {
+            "callSite": {
+                "filename": "PickledGraphite.java",
+                "line": 208,
+                "column": 64,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 13,
+            "callee": 51
+        },
+        {
+            "callSite": {
+                "filename": "PickledGraphite.java",
+                "line": 208,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 13,
+            "callee": 52
+        },
+        {
+            "callSite": {
+                "filename": "PickledGraphite.java",
+                "line": 210,
+                "column": 13,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 13,
+            "callee": 53
+        },
+        {
+            "callSite": {
+                "filename": "PickledGraphite.java",
+                "line": 208,
+                "column": 37,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 13,
+            "callee": 51
+        },
+        {
+            "callSite": {
+                "filename": "PickledGraphite.java",
+                "line": 208,
+                "column": 21,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 13,
+            "callee": 54
+        },
+        {
+            "callSite": {
+                "filename": "PickledGraphite.java",
+                "line": 211,
+                "column": 13,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 13,
+            "callee": 55
+        },
+        {
+            "callSite": {
+                "filename": "Graphite.java",
+                "line": 189,
+                "column": 17,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 56,
+            "callee": 42
+        },
+        {
+            "callSite": {
+                "filename": "Graphite.java",
+                "line": 192,
+                "column": 13,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 56,
+            "callee": 57
+        },
+        {
+            "callSite": {
+                "filename": "Graphite.java",
+                "line": 175,
+                "column": 5,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 56,
+            "callee": 58
+        },
+        {
+            "callSite": {
+                "filename": "Graphite.java",
+                "line": 179,
+                "column": 17,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 56,
+            "callee": 44
+        },
+        {
+            "callSite": {
+                "filename": "Graphite.java",
+                "line": 182,
+                "column": 13,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 56,
+            "callee": 57
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteSanitize.java",
+                "line": 10,
+                "column": 5,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 59,
+            "callee": 60
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteSanitize.java",
+                "line": 14,
+                "column": 16,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 59,
+            "callee": 61
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteSanitize.java",
+                "line": 14,
+                "column": 16,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 59,
+            "callee": 62
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteRabbitMQ.java",
+                "line": 30,
+                "column": 5,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 63,
+            "callee": 64
+        },
+        {
+            "callSite": {
+                "filename": "Graphite.java",
+                "line": 101,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 65,
+            "callee": 66
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 473,
+                "column": 77,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 67,
+            "callee": 16
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 473,
+                "column": 23,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 67,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 473,
+                "column": 84,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 67,
+            "callee": 68
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 473,
+                "column": 30,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 67,
+            "callee": 12
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 473,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 67,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 473,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 67,
+            "callee": 13
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 473,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 67,
+            "callee": 14
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 473,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 67,
+            "callee": 15
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 473,
+                "column": 58,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 67,
+            "callee": 69
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 385,
+                "column": 33,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 70,
+            "callee": 71
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 393,
+                "column": 29,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 70,
+            "callee": 71
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 385,
+                "column": 17,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 70,
+            "callee": 72
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 377,
+                "column": 45,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 70,
+            "callee": 73
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 402,
+                "column": 17,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 70,
+            "callee": 74
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 395,
+                "column": 13,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 70,
+            "callee": 43
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 395,
+                "column": 13,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 70,
+            "callee": 75
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 395,
+                "column": 13,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 70,
+            "callee": 76
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 395,
+                "column": 13,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 70,
+            "callee": 77
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 393,
+                "column": 45,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 70,
+            "callee": 73
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 393,
+                "column": 17,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 70,
+            "callee": 78
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 388,
+                "column": 51,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 70,
+            "callee": 79
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 385,
+                "column": 49,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 70,
+            "callee": 73
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 381,
+                "column": 17,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 70,
+            "callee": 67
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 376,
+                "column": 51,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 70,
+            "callee": 79
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 381,
+                "column": 31,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 70,
+            "callee": 71
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 397,
+                "column": 13,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 70,
+            "callee": 74
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 384,
+                "column": 55,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 70,
+            "callee": 79
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 389,
+                "column": 31,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 70,
+            "callee": 71
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 381,
+                "column": 47,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 70,
+            "callee": 73
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 363,
+                "column": 5,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 70,
+            "callee": 21
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 389,
+                "column": 17,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 70,
+            "callee": 80
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 389,
+                "column": 47,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 70,
+            "callee": 73
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 374,
+                "column": 13,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 70,
+            "callee": 81
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 374,
+                "column": 13,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 70,
+            "callee": 45
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 374,
+                "column": 13,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 70,
+            "callee": 82
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 374,
+                "column": 13,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 70,
+            "callee": 83
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 370,
+                "column": 32,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 70,
+            "callee": 84
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 392,
+                "column": 51,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 70,
+            "callee": 79
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 377,
+                "column": 29,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 70,
+            "callee": 71
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 377,
+                "column": 17,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 70,
+            "callee": 85
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 380,
+                "column": 53,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 70,
+            "callee": 79
+        },
+        {
+            "callSite": {
+                "filename": "PickledGraphite.java",
+                "line": 271,
+                "column": 17,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 55,
+            "callee": 86
+        },
+        {
+            "callSite": {
+                "filename": "PickledGraphite.java",
+                "line": 257,
+                "column": 45,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 55,
+            "callee": 87
+        },
+        {
+            "callSite": {
+                "filename": "PickledGraphite.java",
+                "line": 245,
+                "column": 5,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 55,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "PickledGraphite.java",
+                "line": 263,
+                "column": 21,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 55,
+            "callee": 88
+        },
+        {
+            "callSite": {
+                "filename": "PickledGraphite.java",
+                "line": 260,
+                "column": 17,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 55,
+            "callee": 89
+        },
+        {
+            "callSite": {
+                "filename": "PickledGraphite.java",
+                "line": 263,
+                "column": 54,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 55,
+            "callee": 53
+        },
+        {
+            "callSite": {
+                "filename": "PickledGraphite.java",
+                "line": 258,
+                "column": 17,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 55,
+            "callee": 90
+        },
+        {
+            "callSite": {
+                "filename": "PickledGraphite.java",
+                "line": 262,
+                "column": 21,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 55,
+            "callee": 91
+        },
+        {
+            "callSite": {
+                "filename": "PickledGraphite.java",
+                "line": 254,
+                "column": 33,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 55,
+            "callee": 92
+        },
+        {
+            "callSite": {
+                "filename": "PickledGraphite.java",
+                "line": 254,
+                "column": 33,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 55,
+            "callee": 93
+        },
+        {
+            "callSite": {
+                "filename": "PickledGraphite.java",
+                "line": 259,
+                "column": 17,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 55,
+            "callee": 90
+        },
+        {
+            "callSite": {
+                "filename": "PickledGraphite.java",
+                "line": 251,
+                "column": 13,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 55,
+            "callee": 53
+        },
+        {
+            "callSite": {
+                "filename": "PickledGraphite.java",
+                "line": 254,
+                "column": 33,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 55,
+            "callee": 94
+        },
+        {
+            "callSite": {
+                "filename": "PickledGraphite.java",
+                "line": 253,
+                "column": 34,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 55,
+            "callee": 95
+        },
+        {
+            "callSite": {
+                "filename": "PickledGraphite.java",
+                "line": 151,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 96,
+            "callee": 97
+        },
+        {
+            "callSite": {
+                "filename": "Graphite.java",
+                "line": 139,
+                "column": 42,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 81,
+            "callee": 98
+        },
+        {
+            "callSite": {
+                "filename": "Graphite.java",
+                "line": 134,
+                "column": 13,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 81,
+            "callee": 99
+        },
+        {
+            "callSite": {
+                "filename": "Graphite.java",
+                "line": 138,
+                "column": 50,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 81,
+            "callee": 99
+        },
+        {
+            "callSite": {
+                "filename": "Graphite.java",
+                "line": 122,
+                "column": 13,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 81,
+            "callee": 100
+        },
+        {
+            "callSite": {
+                "filename": "Graphite.java",
+                "line": 131,
+                "column": 23,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 81,
+            "callee": 101
+        },
+        {
+            "callSite": {
+                "filename": "Graphite.java",
+                "line": 123,
+                "column": 19,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 81,
+            "callee": 48
+        },
+        {
+            "callSite": {
+                "filename": "Graphite.java",
+                "line": 139,
+                "column": 23,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 81,
+            "callee": 102
+        },
+        {
+            "callSite": {
+                "filename": "Graphite.java",
+                "line": 130,
+                "column": 32,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 81,
+            "callee": 103
+        },
+        {
+            "callSite": {
+                "filename": "Graphite.java",
+                "line": 139,
+                "column": 65,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 81,
+            "callee": 87
+        },
+        {
+            "callSite": {
+                "filename": "Graphite.java",
+                "line": 138,
+                "column": 23,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 81,
+            "callee": 104
+        },
+        {
+            "callSite": {
+                "filename": "Graphite.java",
+                "line": 138,
+                "column": 72,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 81,
+            "callee": 105
+        },
+        {
+            "callSite": {
+                "filename": "Graphite.java",
+                "line": 135,
+                "column": 19,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 81,
+            "callee": 106
+        },
+        {
+            "callSite": {
+                "filename": "Graphite.java",
+                "line": 135,
+                "column": 44,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 81,
+            "callee": 103
+        },
+        {
+            "callSite": {
+                "filename": "PickledGraphite.java",
+                "line": 334,
+                "column": 16,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 51,
+            "callee": 59
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 462,
+                "column": 58,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 107,
+            "callee": 17
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 462,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 107,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 462,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 107,
+            "callee": 13
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 462,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 107,
+            "callee": 14
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 462,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 107,
+            "callee": 15
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 462,
+                "column": 23,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 107,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 462,
+                "column": 30,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 107,
+            "callee": 12
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 462,
+                "column": 76,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 107,
+            "callee": 34
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 439,
+                "column": 51,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 80,
+            "callee": 108
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 439,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 80,
+            "callee": 107
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 437,
+                "column": 50,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 80,
+            "callee": 109
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 436,
+                "column": 36,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 80,
+            "callee": 110
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 440,
+                "column": 52,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 80,
+            "callee": 111
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 438,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 80,
+            "callee": 107
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 438,
+                "column": 50,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 80,
+            "callee": 112
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 436,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 80,
+            "callee": 107
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 440,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 80,
+            "callee": 107
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 437,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 80,
+            "callee": 107
+        },
+        {
+            "callSite": {
+                "filename": "Graphite.java",
+                "line": 144,
+                "column": 59,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 100,
+            "callee": 113
+        },
+        {
+            "callSite": {
+                "filename": "Graphite.java",
+                "line": 144,
+                "column": 34,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 100,
+            "callee": 114
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 354,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 115,
+            "callee": 116
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 324,
+                "column": 5,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 115,
+            "callee": 117
+        },
+        {
+            "callSite": {
+                "filename": "PickledGraphite.java",
+                "line": 154,
+                "column": 5,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 97,
+            "callee": 38
+        },
+        {
+            "callSite": {
+                "filename": "Graphite.java",
+                "line": 199,
+                "column": 16,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 33,
+            "callee": 59
+        },
+        {
+            "callSite": {
+                "filename": "PickledGraphite.java",
+                "line": 139,
+                "column": 30,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 118,
+            "callee": 119
+        },
+        {
+            "callSite": {
+                "filename": "PickledGraphite.java",
+                "line": 139,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 118,
+            "callee": 96
+        },
+        {
+            "callSite": {
+                "filename": "PickledGraphite.java",
+                "line": 310,
+                "column": 13,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 95,
+            "callee": 120
+        },
+        {
+            "callSite": {
+                "filename": "PickledGraphite.java",
+                "line": 307,
+                "column": 13,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 95,
+            "callee": 121
+        },
+        {
+            "callSite": {
+                "filename": "PickledGraphite.java",
+                "line": 277,
+                "column": 5,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 95,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "PickledGraphite.java",
+                "line": 313,
+                "column": 13,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 95,
+            "callee": 120
+        },
+        {
+            "callSite": {
+                "filename": "PickledGraphite.java",
+                "line": 292,
+                "column": 13,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 95,
+            "callee": 120
+        },
+        {
+            "callSite": {
+                "filename": "PickledGraphite.java",
+                "line": 314,
+                "column": 13,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 95,
+            "callee": 120
+        },
+        {
+            "callSite": {
+                "filename": "PickledGraphite.java",
+                "line": 320,
+                "column": 13,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 95,
+            "callee": 120
+        },
+        {
+            "callSite": {
+                "filename": "PickledGraphite.java",
+                "line": 295,
+                "column": 13,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 95,
+            "callee": 120
+        },
+        {
+            "callSite": {
+                "filename": "PickledGraphite.java",
+                "line": 288,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 95,
+            "callee": 120
+        },
+        {
+            "callSite": {
+                "filename": "PickledGraphite.java",
+                "line": 316,
+                "column": 13,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 95,
+            "callee": 120
+        },
+        {
+            "callSite": {
+                "filename": "PickledGraphite.java",
+                "line": 330,
+                "column": 16,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 95,
+            "callee": 122
+        },
+        {
+            "callSite": {
+                "filename": "PickledGraphite.java",
+                "line": 319,
+                "column": 13,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 95,
+            "callee": 120
+        },
+        {
+            "callSite": {
+                "filename": "PickledGraphite.java",
+                "line": 309,
+                "column": 13,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 95,
+            "callee": 120
+        },
+        {
+            "callSite": {
+                "filename": "PickledGraphite.java",
+                "line": 317,
+                "column": 13,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 95,
+            "callee": 120
+        },
+        {
+            "callSite": {
+                "filename": "PickledGraphite.java",
+                "line": 298,
+                "column": 13,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 95,
+            "callee": 121
+        },
+        {
+            "callSite": {
+                "filename": "PickledGraphite.java",
+                "line": 322,
+                "column": 13,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 95,
+            "callee": 120
+        },
+        {
+            "callSite": {
+                "filename": "PickledGraphite.java",
+                "line": 297,
+                "column": 13,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 95,
+            "callee": 120
+        },
+        {
+            "callSite": {
+                "filename": "PickledGraphite.java",
+                "line": 284,
+                "column": 63,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 95,
+            "callee": 53
+        },
+        {
+            "callSite": {
+                "filename": "PickledGraphite.java",
+                "line": 284,
+                "column": 37,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 95,
+            "callee": 123
+        },
+        {
+            "callSite": {
+                "filename": "PickledGraphite.java",
+                "line": 299,
+                "column": 13,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 95,
+            "callee": 120
+        },
+        {
+            "callSite": {
+                "filename": "PickledGraphite.java",
+                "line": 315,
+                "column": 13,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 95,
+            "callee": 121
+        },
+        {
+            "callSite": {
+                "filename": "PickledGraphite.java",
+                "line": 300,
+                "column": 13,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 95,
+            "callee": 120
+        },
+        {
+            "callSite": {
+                "filename": "PickledGraphite.java",
+                "line": 326,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 95,
+            "callee": 120
+        },
+        {
+            "callSite": {
+                "filename": "PickledGraphite.java",
+                "line": 303,
+                "column": 13,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 95,
+            "callee": 120
+        },
+        {
+            "callSite": {
+                "filename": "PickledGraphite.java",
+                "line": 285,
+                "column": 26,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 95,
+            "callee": 124
+        },
+        {
+            "callSite": {
+                "filename": "PickledGraphite.java",
+                "line": 328,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 95,
+            "callee": 125
+        },
+        {
+            "callSite": {
+                "filename": "PickledGraphite.java",
+                "line": 287,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 95,
+            "callee": 120
+        },
+        {
+            "callSite": {
+                "filename": "PickledGraphite.java",
+                "line": 306,
+                "column": 13,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 95,
+            "callee": 120
+        },
+        {
+            "callSite": {
+                "filename": "Graphite.java",
+                "line": 35,
+                "column": 42,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 58,
+            "callee": 126
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteRabbitMQ.java",
+                "line": 102,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 127,
+            "callee": 128
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteRabbitMQ.java",
+                "line": 67,
+                "column": 5,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 127,
+            "callee": 64
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteRabbitMQ.java",
+                "line": 93,
+                "column": 49,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 127,
+            "callee": 129
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteRabbitMQ.java",
+                "line": 105,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 127,
+            "callee": 130
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteRabbitMQ.java",
+                "line": 106,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 127,
+            "callee": 131
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteRabbitMQ.java",
+                "line": 103,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 127,
+            "callee": 132
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteRabbitMQ.java",
+                "line": 91,
+                "column": 34,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 127,
+            "callee": 133
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteRabbitMQ.java",
+                "line": 91,
+                "column": 34,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 127,
+            "callee": 134
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteRabbitMQ.java",
+                "line": 104,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 127,
+            "callee": 135
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteRabbitMQ.java",
+                "line": 101,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 127,
+            "callee": 136
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteRabbitMQ.java",
+                "line": 93,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 127,
+            "callee": 137
+        },
+        {
+            "callSite": {
+                "filename": "PickledGraphite.java",
+                "line": 217,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 43,
+            "callee": 55
+        },
+        {
+            "callSite": {
+                "filename": "PickledGraphite.java",
+                "line": 219,
+                "column": 13,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 43,
+            "callee": 125
+        },
+        {
+            "callSite": {
+                "filename": "Graphite.java",
+                "line": 171,
+                "column": 13,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 75,
+            "callee": 125
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteRabbitMQ.java",
+                "line": 96,
+                "column": 17,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 138,
+            "callee": 139
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteRabbitMQ.java",
+                "line": 97,
+                "column": 17,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 138,
+            "callee": 140
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 453,
+                "column": 34,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 72,
+            "callee": 141
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 449,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 72,
+            "callee": 107
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 453,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 72,
+            "callee": 107
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 445,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 72,
+            "callee": 107
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 444,
+                "column": 35,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 72,
+            "callee": 142
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 445,
+                "column": 36,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 72,
+            "callee": 143
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 450,
+                "column": 34,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 72,
+            "callee": 144
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 448,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 72,
+            "callee": 107
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 450,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 72,
+            "callee": 107
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 454,
+                "column": 34,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 72,
+            "callee": 145
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 451,
+                "column": 34,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 72,
+            "callee": 146
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 447,
+                "column": 35,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 72,
+            "callee": 147
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 447,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 72,
+            "callee": 107
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 446,
+                "column": 34,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 72,
+            "callee": 148
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 454,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 72,
+            "callee": 107
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 451,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 72,
+            "callee": 107
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 449,
+                "column": 37,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 72,
+            "callee": 149
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 448,
+                "column": 34,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 72,
+            "callee": 150
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 446,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 72,
+            "callee": 107
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 452,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 72,
+            "callee": 107
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 455,
+                "column": 35,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 72,
+            "callee": 151
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 455,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 72,
+            "callee": 107
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 452,
+                "column": 34,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 72,
+            "callee": 152
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 235,
+                "column": 20,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 153,
+            "callee": 115
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 421,
+                "column": 35,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 78,
+            "callee": 154
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 431,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 78,
+            "callee": 107
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 424,
+                "column": 50,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 78,
+            "callee": 150
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 431,
+                "column": 51,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 78,
+            "callee": 151
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 424,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 78,
+            "callee": 107
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 422,
+                "column": 50,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 78,
+            "callee": 148
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 422,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 78,
+            "callee": 107
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 429,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 78,
+            "callee": 107
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 429,
+                "column": 50,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 78,
+            "callee": 141
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 430,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 78,
+            "callee": 107
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 426,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 78,
+            "callee": 107
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 430,
+                "column": 50,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 78,
+            "callee": 145
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 426,
+                "column": 50,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 78,
+            "callee": 144
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 427,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 78,
+            "callee": 107
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 427,
+                "column": 50,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 78,
+            "callee": 146
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 425,
+                "column": 53,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 78,
+            "callee": 149
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 425,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 78,
+            "callee": 107
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 423,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 78,
+            "callee": 107
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 428,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 78,
+            "callee": 107
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 432,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 78,
+            "callee": 80
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 428,
+                "column": 50,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 78,
+            "callee": 152
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 423,
+                "column": 51,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 78,
+            "callee": 147
+        },
+        {
+            "callSite": {
+                "filename": "Graphite.java",
+                "line": 104,
+                "column": 5,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 66,
+            "callee": 23
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteUDP.java",
+                "line": 23,
+                "column": 5,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 155,
+            "callee": 156
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteUDP.java",
+                "line": 35,
+                "column": 5,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 157,
+            "callee": 156
+        },
+        {
+            "callSite": {
+                "filename": "PickledGraphite.java",
+                "line": 89,
+                "column": 23,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 2,
+            "callee": 119
+        },
+        {
+            "callSite": {
+                "filename": "PickledGraphite.java",
+                "line": 89,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 2,
+            "callee": 29
+        },
+        {
+            "callSite": {
+                "filename": "Graphite.java",
+                "line": 91,
+                "column": 23,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 158,
+            "callee": 119
+        },
+        {
+            "callSite": {
+                "filename": "Graphite.java",
+                "line": 91,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 158,
+            "callee": 65
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 505,
+                "column": 16,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 11,
+            "callee": 159
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 250,
+                "column": 42,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 21,
+            "callee": 160
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 224,
+                "column": 20,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 161,
+            "callee": 153
+        },
+        {
+            "callSite": {
+                "filename": "Graphite.java",
+                "line": 45,
+                "column": 30,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 162,
+            "callee": 119
+        },
+        {
+            "callSite": {
+                "filename": "Graphite.java",
+                "line": 45,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 162,
+            "callee": 163
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteRabbitMQ.java",
+                "line": 41,
+                "column": 5,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 164,
+            "callee": 165
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteRabbitMQ.java",
+                "line": 57,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 164,
+            "callee": 127
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteRabbitMQ.java",
+                "line": 120,
+                "column": 19,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 82,
+            "callee": 166
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteRabbitMQ.java",
+                "line": 118,
+                "column": 19,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 82,
+            "callee": 167
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteRabbitMQ.java",
+                "line": 112,
+                "column": 19,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 82,
+            "callee": 48
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteRabbitMQ.java",
+                "line": 116,
+                "column": 26,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 82,
+            "callee": 168
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteRabbitMQ.java",
+                "line": 111,
+                "column": 13,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 82,
+            "callee": 27
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteRabbitMQ.java",
+                "line": 160,
+                "column": 16,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 26,
+            "callee": 59
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 491,
+                "column": 20,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 169,
+            "callee": 16
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 485,
+                "column": 20,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 169,
+            "callee": 16
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 487,
+                "column": 20,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 169,
+            "callee": 16
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 493,
+                "column": 20,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 169,
+            "callee": 16
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 499,
+                "column": 20,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 169,
+            "callee": 16
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 495,
+                "column": 20,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 169,
+            "callee": 16
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 489,
+                "column": 20,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 169,
+            "callee": 16
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 497,
+                "column": 20,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 169,
+            "callee": 34
+        },
+        {
+            "callSite": {
+                "filename": "PickledGraphite.java",
+                "line": 34,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 54,
+            "callee": 170
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteUDP.java",
+                "line": 100,
+                "column": 16,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 4,
+            "callee": 59
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteSanitize.java",
+                "line": 7,
+                "column": 47,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 60,
+            "callee": 171
+        },
+        {
+            "callSite": {
+                "filename": "Graphite.java",
+                "line": 56,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 163,
+            "callee": 22
+        },
+        {
+            "callSite": {
+                "filename": "PickledGraphite.java",
+                "line": 186,
+                "column": 23,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 83,
+            "callee": 102
+        },
+        {
+            "callSite": {
+                "filename": "PickledGraphite.java",
+                "line": 174,
+                "column": 13,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 83,
+            "callee": 172
+        },
+        {
+            "callSite": {
+                "filename": "PickledGraphite.java",
+                "line": 186,
+                "column": 65,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 83,
+            "callee": 87
+        },
+        {
+            "callSite": {
+                "filename": "PickledGraphite.java",
+                "line": 185,
+                "column": 23,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 83,
+            "callee": 104
+        },
+        {
+            "callSite": {
+                "filename": "PickledGraphite.java",
+                "line": 175,
+                "column": 19,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 83,
+            "callee": 48
+        },
+        {
+            "callSite": {
+                "filename": "PickledGraphite.java",
+                "line": 185,
+                "column": 72,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 83,
+            "callee": 105
+        },
+        {
+            "callSite": {
+                "filename": "PickledGraphite.java",
+                "line": 182,
+                "column": 19,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 83,
+            "callee": 106
+        },
+        {
+            "callSite": {
+                "filename": "PickledGraphite.java",
+                "line": 182,
+                "column": 44,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 83,
+            "callee": 103
+        },
+        {
+            "callSite": {
+                "filename": "PickledGraphite.java",
+                "line": 186,
+                "column": 42,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 83,
+            "callee": 98
+        },
+        {
+            "callSite": {
+                "filename": "PickledGraphite.java",
+                "line": 181,
+                "column": 13,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 83,
+            "callee": 99
+        },
+        {
+            "callSite": {
+                "filename": "PickledGraphite.java",
+                "line": 185,
+                "column": 50,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 83,
+            "callee": 99
+        },
+        {
+            "callSite": {
+                "filename": "PickledGraphite.java",
+                "line": 179,
+                "column": 23,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 83,
+            "callee": 101
+        },
+        {
+            "callSite": {
+                "filename": "PickledGraphite.java",
+                "line": 191,
+                "column": 59,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 172,
+            "callee": 113
+        },
+        {
+            "callSite": {
+                "filename": "PickledGraphite.java",
+                "line": 191,
+                "column": 34,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 172,
+            "callee": 114
+        },
+        {
+            "callSite": {
+                "filename": "PickledGraphite.java",
+                "line": 103,
+                "column": 5,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 30,
+            "callee": 38
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 320,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 173,
+            "callee": 115
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 292,
+                "column": 5,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 173,
+            "callee": 21
+        },
+        {
+            "callSite": {
+                "filename": "PickledGraphite.java",
+                "line": 120,
+                "column": 5,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 174,
+            "callee": 1
+        },
+        {
+            "callSite": {
+                "filename": "PickledGraphite.java",
+                "line": 128,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 174,
+            "callee": 118
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 410,
+                "column": 13,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 175,
+            "callee": 176
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 415,
+                "column": 17,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 175,
+            "callee": 177
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 407,
+                "column": 5,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 175,
+            "callee": 21
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteRabbitMQ.java",
+                "line": 150,
+                "column": 13,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 178,
+            "callee": 179
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 287,
+                "column": 9,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 180,
+            "callee": 173
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 477,
+                "column": 37,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 85,
+            "callee": 181
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 479,
+                "column": 13,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 85,
+            "callee": 3
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 479,
+                "column": 13,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 85,
+            "callee": 13
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 479,
+                "column": 13,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 85,
+            "callee": 14
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 479,
+                "column": 13,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 85,
+            "callee": 15
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 477,
+                "column": 30,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 85,
+            "callee": 16
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteReporter.java",
+                "line": 479,
+                "column": 27,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 85,
+            "callee": 11
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteUDP.java",
+                "line": 62,
+                "column": 44,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 50,
+            "callee": 182
+        },
+        {
+            "callSite": {
+                "filename": "GraphiteUDP.java",
+                "line": 62,
+                "column": 44,
+                "directory": "src/main/java/com/codahale/metrics/graphite"
+            },
+            "caller": 50,
+            "callee": 183
+        }
+    ],
+    "language": "java",
+    "packages": [{
+        "path": "com.codahale.metrics.graphite",
+        "isRoot": false,
+        "module": -1,
+        "name": "graphite",
+        "isStandardLibrary": false
+    }],
+    "modules": []
+}
