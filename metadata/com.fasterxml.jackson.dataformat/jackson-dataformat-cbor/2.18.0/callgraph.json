@@ -1373,6 +1373,26 @@
             "properties": []
         },
         {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "setCurrentValue",
+            "name": "com.fasterxml.jackson.dataformat.cbor.CBORGenerator#setCurrentValue(Object)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CBORGenerator",
+            "properties": []
+        },
+        {
+            "parameterTypes": ["Object"],
+            "templateArguments": [],
+            "function": "assignCurrentValue",
+            "name": "com.fasterxml.jackson.dataformat.cbor.CBORGenerator#assignCurrentValue(Object)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CBORGenerator",
+            "properties": []
+        },
+        {
             "parameterTypes": [
                 "Reader",
                 "IOContext"
@@ -1393,26 +1413,6 @@
             "packageIndex": 0,
             "language": "java",
             "type": "CBORFactory",
-            "properties": []
-        },
-        {
-            "parameterTypes": ["Object"],
-            "templateArguments": [],
-            "function": "setCurrentValue",
-            "name": "com.fasterxml.jackson.dataformat.cbor.CBORGenerator#setCurrentValue(Object)",
-            "packageIndex": 0,
-            "language": "java",
-            "type": "CBORGenerator",
-            "properties": []
-        },
-        {
-            "parameterTypes": ["Object"],
-            "templateArguments": [],
-            "function": "assignCurrentValue",
-            "name": "com.fasterxml.jackson.dataformat.cbor.CBORGenerator#assignCurrentValue(Object)",
-            "packageIndex": 0,
-            "language": "java",
-            "type": "CBORGenerator",
             "properties": []
         },
         {
@@ -3190,34 +3190,6 @@
             "properties": []
         },
         {
-            "parameterTypes": [
-                "byte[]",
-                "int",
-                "int"
-            ],
-            "templateArguments": [],
-            "function": "writeUTF8String",
-            "name": "com.fasterxml.jackson.dataformat.cbor.CBORGenerator#writeUTF8String(byte[],int,int)",
-            "packageIndex": 0,
-            "language": "java",
-            "type": "CBORGenerator",
-            "properties": []
-        },
-        {
-            "parameterTypes": [
-                "byte[]",
-                "int",
-                "int"
-            ],
-            "templateArguments": [],
-            "function": "writeRawUTF8String",
-            "name": "com.fasterxml.jackson.dataformat.cbor.CBORGenerator#writeRawUTF8String(byte[],int,int)",
-            "packageIndex": 0,
-            "language": "java",
-            "type": "CBORGenerator",
-            "properties": []
-        },
-        {
             "parameterTypes": ["CBORFactory"],
             "templateArguments": [],
             "function": "CBORFactoryBuilder",
@@ -3246,6 +3218,34 @@
             "language": "java",
             "type": "CBORFactoryBuilder",
             "properties": ["default constructor"]
+        },
+        {
+            "parameterTypes": [
+                "byte[]",
+                "int",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "writeUTF8String",
+            "name": "com.fasterxml.jackson.dataformat.cbor.CBORGenerator#writeUTF8String(byte[],int,int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CBORGenerator",
+            "properties": []
+        },
+        {
+            "parameterTypes": [
+                "byte[]",
+                "int",
+                "int"
+            ],
+            "templateArguments": [],
+            "function": "writeRawUTF8String",
+            "name": "com.fasterxml.jackson.dataformat.cbor.CBORGenerator#writeRawUTF8String(byte[],int,int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CBORGenerator",
+            "properties": []
         },
         {
             "parameterTypes": [
@@ -3378,6 +3378,16 @@
             "properties": ["default constructor"]
         },
         {
+            "parameterTypes": ["int"],
+            "templateArguments": [],
+            "function": "writeStartArray",
+            "name": "com.fasterxml.jackson.dataformat.cbor.CBORGenerator#writeStartArray(int)",
+            "packageIndex": 0,
+            "language": "java",
+            "type": "CBORGenerator",
+            "properties": []
+        },
+        {
             "parameterTypes": ["CBORMapper"],
             "templateArguments": [],
             "function": "CBORMapper",
@@ -3395,16 +3405,6 @@
             "packageIndex": -1,
             "language": "java",
             "type": "com.fasterxml.jackson.databind.ObjectMapper",
-            "properties": []
-        },
-        {
-            "parameterTypes": ["int"],
-            "templateArguments": [],
-            "function": "writeStartArray",
-            "name": "com.fasterxml.jackson.dataformat.cbor.CBORGenerator#writeStartArray(int)",
-            "packageIndex": 0,
-            "language": "java",
-            "type": "CBORGenerator",
             "properties": []
         },
         {
@@ -7030,9 +7030,9 @@
         },
         {
             "callSite": {
-                "filename": "CBORFactory.java",
-                "line": 411,
-                "column": 16,
+                "filename": "CBORGenerator.java",
+                "line": 474,
+                "column": 45,
                 "directory": "src/main/java/com/fasterxml/jackson/dataformat/cbor"
             },
             "caller": 126,
@@ -7040,9 +7040,9 @@
         },
         {
             "callSite": {
-                "filename": "CBORGenerator.java",
-                "line": 474,
-                "column": 45,
+                "filename": "CBORFactory.java",
+                "line": 411,
+                "column": 16,
                 "directory": "src/main/java/com/fasterxml/jackson/dataformat/cbor"
             },
             "caller": 128,
@@ -9526,7 +9526,7 @@
                 "directory": "src/main/java/com/fasterxml/jackson/dataformat/cbor"
             },
             "caller": 255,
-            "callee": 127
+            "callee": 129
         },
         {
             "callSite": {
@@ -9625,7 +9625,7 @@
                 "column": 9,
                 "directory": "src/main/java/com/fasterxml/jackson/dataformat/cbor"
             },
-            "caller": 129,
+            "caller": 127,
             "callee": 264
         },
         {
@@ -10350,8 +10350,8 @@
         },
         {
             "callSite": {
-                "filename": "CBORGenerator.java",
-                "line": 969,
+                "filename": "CBORFactoryBuilder.java",
+                "line": 42,
                 "column": 9,
                 "directory": "src/main/java/com/fasterxml/jackson/dataformat/cbor"
             },
@@ -10361,21 +10361,21 @@
         {
             "callSite": {
                 "filename": "CBORFactoryBuilder.java",
-                "line": 42,
-                "column": 9,
-                "directory": "src/main/java/com/fasterxml/jackson/dataformat/cbor"
-            },
-            "caller": 298,
-            "callee": 299
-        },
-        {
-            "callSite": {
-                "filename": "CBORFactoryBuilder.java",
                 "line": 41,
                 "column": 5,
                 "directory": "src/main/java/com/fasterxml/jackson/dataformat/cbor"
             },
-            "caller": 298,
+            "caller": 296,
+            "callee": 298
+        },
+        {
+            "callSite": {
+                "filename": "CBORGenerator.java",
+                "line": 969,
+                "column": 9,
+                "directory": "src/main/java/com/fasterxml/jackson/dataformat/cbor"
+            },
+            "caller": 299,
             "callee": 300
         },
         {
@@ -10900,32 +10900,12 @@
         },
         {
             "callSite": {
-                "filename": "CBORMapper.java",
-                "line": 91,
-                "column": 5,
-                "directory": "src/main/java/com/fasterxml/jackson/dataformat/cbor/databind"
-            },
-            "caller": 312,
-            "callee": 105
-        },
-        {
-            "callSite": {
-                "filename": "CBORMapper.java",
-                "line": 92,
-                "column": 9,
-                "directory": "src/main/java/com/fasterxml/jackson/dataformat/cbor/databind"
-            },
-            "caller": 312,
-            "callee": 313
-        },
-        {
-            "callSite": {
                 "filename": "CBORGenerator.java",
                 "line": 617,
                 "column": 31,
                 "directory": "src/main/java/com/fasterxml/jackson/dataformat/cbor"
             },
-            "caller": 314,
+            "caller": 312,
             "callee": 203
         },
         {
@@ -10935,7 +10915,7 @@
                 "column": 9,
                 "directory": "src/main/java/com/fasterxml/jackson/dataformat/cbor"
             },
-            "caller": 314,
+            "caller": 312,
             "callee": 65
         },
         {
@@ -10945,7 +10925,7 @@
                 "column": 9,
                 "directory": "src/main/java/com/fasterxml/jackson/dataformat/cbor"
             },
-            "caller": 314,
+            "caller": 312,
             "callee": 67
         },
         {
@@ -10955,7 +10935,7 @@
                 "column": 9,
                 "directory": "src/main/java/com/fasterxml/jackson/dataformat/cbor"
             },
-            "caller": 314,
+            "caller": 312,
             "callee": 62
         },
         {
@@ -10965,7 +10945,7 @@
                 "column": 9,
                 "directory": "src/main/java/com/fasterxml/jackson/dataformat/cbor"
             },
-            "caller": 314,
+            "caller": 312,
             "callee": 119
         },
         {
@@ -10975,7 +10955,7 @@
                 "column": 9,
                 "directory": "src/main/java/com/fasterxml/jackson/dataformat/cbor"
             },
-            "caller": 314,
+            "caller": 312,
             "callee": 66
         },
         {
@@ -10985,8 +10965,28 @@
                 "column": 5,
                 "directory": "src/main/java/com/fasterxml/jackson/dataformat/cbor"
             },
-            "caller": 314,
+            "caller": 312,
             "callee": 48
+        },
+        {
+            "callSite": {
+                "filename": "CBORMapper.java",
+                "line": 91,
+                "column": 5,
+                "directory": "src/main/java/com/fasterxml/jackson/dataformat/cbor/databind"
+            },
+            "caller": 313,
+            "callee": 105
+        },
+        {
+            "callSite": {
+                "filename": "CBORMapper.java",
+                "line": 92,
+                "column": 9,
+                "directory": "src/main/java/com/fasterxml/jackson/dataformat/cbor/databind"
+            },
+            "caller": 313,
+            "callee": 314
         },
         {
             "callSite": {
@@ -11126,7 +11126,7 @@
                 "directory": "src/main/java/com/fasterxml/jackson/dataformat/cbor"
             },
             "caller": 324,
-            "callee": 300
+            "callee": 298
         },
         {
             "callSite": {
@@ -12586,7 +12586,7 @@
                 "directory": "src/main/java/com/fasterxml/jackson/dataformat/cbor"
             },
             "caller": 408,
-            "callee": 298
+            "callee": 296
         },
         {
             "callSite": {
@@ -14145,7 +14145,7 @@
                 "column": 15,
                 "directory": "src/main/java/com/fasterxml/jackson/dataformat/cbor"
             },
-            "caller": 127,
+            "caller": 129,
             "callee": 302
         },
         {
@@ -15546,7 +15546,7 @@
                 "directory": "src/main/java/com/fasterxml/jackson/dataformat/cbor/databind"
             },
             "caller": 474,
-            "callee": 312
+            "callee": 313
         },
         {
             "callSite": {
@@ -17225,7 +17225,7 @@
                 "column": 9,
                 "directory": "src/main/java/com/fasterxml/jackson/dataformat/cbor"
             },
-            "caller": 297,
+            "caller": 300,
             "callee": 145
         },
         {
@@ -17235,7 +17235,7 @@
                 "column": 46,
                 "directory": "src/main/java/com/fasterxml/jackson/dataformat/cbor"
             },
-            "caller": 297,
+            "caller": 300,
             "callee": 75
         },
         {
@@ -17245,7 +17245,7 @@
                 "column": 5,
                 "directory": "src/main/java/com/fasterxml/jackson/dataformat/cbor"
             },
-            "caller": 297,
+            "caller": 300,
             "callee": 48
         },
         {
@@ -17255,7 +17255,7 @@
                 "column": 9,
                 "directory": "src/main/java/com/fasterxml/jackson/dataformat/cbor"
             },
-            "caller": 297,
+            "caller": 300,
             "callee": 119
         },
         {
@@ -17265,7 +17265,7 @@
                 "column": 38,
                 "directory": "src/main/java/com/fasterxml/jackson/dataformat/cbor"
             },
-            "caller": 297,
+            "caller": 300,
             "callee": 75
         },
         {
@@ -17275,7 +17275,7 @@
                 "column": 17,
                 "directory": "src/main/java/com/fasterxml/jackson/dataformat/cbor"
             },
-            "caller": 297,
+            "caller": 300,
             "callee": 74
         },
         {
@@ -17285,7 +17285,7 @@
                 "column": 9,
                 "directory": "src/main/java/com/fasterxml/jackson/dataformat/cbor"
             },
-            "caller": 297,
+            "caller": 300,
             "callee": 66
         },
         {
@@ -17295,7 +17295,7 @@
                 "column": 26,
                 "directory": "src/main/java/com/fasterxml/jackson/dataformat/cbor"
             },
-            "caller": 297,
+            "caller": 300,
             "callee": 516
         },
         {
@@ -17305,7 +17305,7 @@
                 "column": 17,
                 "directory": "src/main/java/com/fasterxml/jackson/dataformat/cbor"
             },
-            "caller": 297,
+            "caller": 300,
             "callee": 77
         },
         {
@@ -17315,7 +17315,7 @@
                 "column": 29,
                 "directory": "src/main/java/com/fasterxml/jackson/dataformat/cbor"
             },
-            "caller": 297,
+            "caller": 300,
             "callee": 79
         },
         {
@@ -17325,7 +17325,7 @@
                 "column": 13,
                 "directory": "src/main/java/com/fasterxml/jackson/dataformat/cbor"
             },
-            "caller": 297,
+            "caller": 300,
             "callee": 64
         },
         {
@@ -17335,7 +17335,7 @@
                 "column": 17,
                 "directory": "src/main/java/com/fasterxml/jackson/dataformat/cbor"
             },
-            "caller": 297,
+            "caller": 300,
             "callee": 78
         },
         {
