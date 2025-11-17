@@ -18,7 +18,7 @@ run-name: Generate Root Cause for ${{ inputs.cve }} in ${{ inputs.artifact }}
 permissions: { }
 
 jobs:
-  generate-call-graph:
+  generate-root-cause:
     runs-on: ubuntu-latest
     permissions:
       contents: write
