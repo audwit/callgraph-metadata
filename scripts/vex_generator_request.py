@@ -56,9 +56,16 @@ def __reverse_graph(dependencies: Iterable[Dependency], root_ref: BomRef) -> Dep
     return root
 
 
+def __all_components(sbom: Bom) -> Iterable:
+    """Yield the root component (if any) followed by all listed components."""
+    if sbom.metadata and sbom.metadata.component:
+        yield sbom.metadata.component
+    yield from sbom.components
+
+
 def __chains_by_ref(sbom: Bom) -> dict[BomRef, Chain]:
     chains: dict[BomRef, Chain] = {}
-    for comp in sbom.components:
+    for comp in __all_components(sbom):
         purl = comp.purl
         if not purl:
             continue
@@ -111,7 +118,7 @@ def generate_vex_request(sbom_path: str, artifact: MavenArtifact, cve: str) -> s
     sbom = Bom.from_json(data=json.loads(data))
 
     bom_ref: BomRef | None = None
-    for comp in sbom.components:
+    for comp in __all_components(sbom):
         if artifact.matches(comp.purl):
             bom_ref = comp.bom_ref
             break

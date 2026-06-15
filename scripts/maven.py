@@ -27,6 +27,9 @@ class MavenArtifact:
 
     @staticmethod
     def from_string(s: str) -> 'MavenArtifact':
+        if s.startswith("pkg:"):
+            return MavenArtifact.from_purl(PackageURL.from_string(s))
+
         parts = s.split(":")
         if len(parts) != 3:
             raise ValueError(f"Invalid Maven coordinate string: {s!r}")
