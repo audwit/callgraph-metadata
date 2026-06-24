@@ -59,7 +59,7 @@ jobs:
       - name: Checkout Root Cause Service
         uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # 5.0.0
         with:
-          repository: vex-generation-toolset/root-cause-service
+          repository: audwit/root-cause-service
           ref: main
           path: root-cause-service
 

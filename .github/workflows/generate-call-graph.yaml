@@ -85,7 +85,7 @@ jobs:
           mkdir -p "$dest_dir"
           
           # Pull and run the call graph generator
-          IMAGE="ghcr.io/vex-generation-toolset/java-callgraph:latest"
+          IMAGE="ghcr.io/audwit/java-callgraph:latest"
           docker pull $IMAGE
           docker run --rm \
             -v "${GITHUB_WORKSPACE}/${INPUT_DIR}:/workspace/source" \
