@@ -116,7 +116,8 @@ jobs:
                 --title "Add call graph for ${ARTIFACT}" \
                 --body "This PR adds the generated call graph for the artifact ${ARTIFACT}." \
                 --head "$BRANCH_NAME" \
-                --base main
+                --base main \
+                --repo audwit/callgraph-metadata
           else
             echo "No changes to commit; skipping PR creation"
           fi
