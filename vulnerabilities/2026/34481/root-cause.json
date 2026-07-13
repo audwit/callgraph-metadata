@@ -1,0 +1,117 @@
+{
+  "cve": "CVE-2026-34481",
+  "package": "pkg:maven/org.apache.logging.log4j/log4j-layout-template-json@2.25.3",
+  "root_cause_functions": [],
+  "vex": {
+    "sources": [
+      {
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34481"
+        }
+      },
+      {
+        "source": {
+          "name": "OSV DEV",
+          "url": "https://osv.dev/vulnerability/CVE-2026-34481"
+        }
+      },
+      {
+        "source": {
+          "name": "Debian Security Tracker",
+          "url": "https://security-tracker.debian.org/tracker/CVE-2026-34481"
+        }
+      }
+    ],
+    "ratings": [
+      {
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34481"
+        },
+        "score": "7.5",
+        "severity": "high",
+        "vector": "AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+        "method": "CVSS:3.1"
+      }
+    ],
+    "cwes": [
+      116
+    ],
+    "description": "Apache Log4j's  JsonTemplateLayout https://logging.apache.org/log4j/2.x/manual/json-template-layout.html , in versions up to and including 2.25.3, produces invalid JSON output when log events contain non-finite floating-point values (NaN, Infinity, or -Infinity), which are prohibited by RFC 8259. This may cause downstream log processing systems to reject or fail to index affected records.\n\nAn attacker can exploit this issue only if both of the following conditions are met:\n\n  *  The application uses JsonTemplateLayout.\n  *  The application logs a MapMessage, or logs an object directly (e.g., via Logger.info(Object), which wraps it in an ObjectMessage), where the message contains an attacker-controlled floating-point value.\n\n\nUsers are advised to upgrade to Apache Log4j JSON Template Layout 2.25.4, which corrects this issue.\n\nNote: The fix released in version 2.25.4 did not cover all affected code paths. CVE-2026-49844 was assigned to the remaining issue, which concerns the MapMessage.asJson() serialization in Apache Log4j API and is fixed in versions 2.25.5 and 2.26.1.",
+    "detail": "Apache Log4j's  JsonTemplateLayout https://logging.apache.org/log4j/2.x/manual/json-template-layout.html , in versions up to and including 2.25.3, produces invalid JSON output when log events contain non-finite floating-point values (NaN, Infinity, or -Infinity), which are prohibited by RFC 8259. This may cause downstream log processing systems to reject or fail to index affected records.\n\nAn attacker can exploit this issue only if both of the following conditions are met:\n\n  *  The application uses JsonTemplateLayout.\n  *  The application logs a MapMessage, or logs an object directly (e.g., via Logger.info(Object), which wraps it in an ObjectMessage), where the message contains an attacker-controlled floating-point value.\n\n\nUsers are advised to upgrade to Apache Log4j JSON Template Layout 2.25.4, which corrects this issue.\n\nNote: The fix released in version 2.25.4 did not cover all affected code paths. CVE-2026-49844 was assigned to the remaining issue, which concerns the MapMessage.asJson() serialization in Apache Log4j API and is fixed in versions 2.25.5 and 2.26.1.",
+    "recommendation": "",
+    "references": [
+      {
+        "id": "",
+        "source": {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34481"
+        }
+      },
+      {
+        "id": "",
+        "source": {
+          "name": "OSV DEV",
+          "url": "https://osv.dev/vulnerability/CVE-2026-34481"
+        }
+      },
+      {
+        "source": {
+          "name": "Debian Security Tracker",
+          "url": "https://security-tracker.debian.org/tracker/CVE-2026-34481"
+        }
+      }
+    ],
+    "advisories": [
+      {
+        "title": [
+          "Issue Tracking"
+        ],
+        "url": "https://github.com/apache/logging-log4j2/pull/4080"
+      },
+      {
+        "title": [
+          "Mailing List",
+          "Vendor Advisory"
+        ],
+        "url": "https://lists.apache.org/thread/n34zdv00gbkdbzt2rx9rf5mqz6lhopcv"
+      },
+      {
+        "title": [
+          "Product"
+        ],
+        "url": "https://logging.apache.org/cyclonedx/vdr.xml"
+      },
+      {
+        "title": [
+          "Technical Description"
+        ],
+        "url": "https://logging.apache.org/log4j/2.x/manual/json-template-layout.html"
+      },
+      {
+        "title": [
+          "Vendor Advisory"
+        ],
+        "url": "https://logging.apache.org/security.html#CVE-2026-34481"
+      },
+      {
+        "title": [
+          "Mailing List",
+          "Third Party Advisory"
+        ],
+        "url": "http://www.openwall.com/lists/oss-security/2026/04/10/10"
+      }
+    ],
+    "created": "2026-07-11T06:16:10.317Z",
+    "published": "2026-04-10T16:16:31.663Z",
+    "updated": "2026-07-11T06:16:10.317Z",
+    "credits": {
+      "individuals": [
+        {
+          "name": ""
+        }
+      ]
+    }
+  }
+}
